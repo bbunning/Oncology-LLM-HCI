@@ -1,0 +1,273 @@
+{
+"analysis_unit": {
+"subset_type": "report_type",
+"subset_label": "Pink",
+"notes": "Pooled corpus of positive and negative free-text comments about the Pink report style across multiple oncology scenarios; treated as an aggregated report-type subset rather than a single speaker narrative."
+},
+"summary": {
+"overall_impression": "This subset was viewed as evidence-rich and often appreciated for its top-line summary, explicit recommendation, and attempt to organize supporting studies by evidence level. At the same time, the dominant criticism was that the report was too long, too table-heavy, and poorly matched to point-of-care decision-making. Many comments suggest that clinicians saw value in the underlying content, but felt the presentation diluted usability by overwhelming them with dense tables, excessive citation material, and insufficient synthesis around the specific patient question. The strongest improvement signal was not to remove evidence, but to condense, better vet, and more clearly interpret it for clinical use.",
+"dominant_positive_themes": [
+"Clear top-line summary and recommendations",
+"Strong evidence orientation with study details and ranking",
+"Comprehensive literature coverage"
+],
+"dominant_negative_themes": [
+"Overly long, dense, and table-heavy presentation",
+"Poor workflow fit and limited synthesis for the clinical question",
+"Citation and evidence-quality problems"
+],
+"dominant_improvement_requests": [
+"Condense the table and simplify the format",
+"Provide stronger synthesis tied to the patient-specific clinical question",
+"Improve citation usability and vet evidence quality more carefully"
+]
+},
+"positive_features": [
+{
+"feature_label": "Clear introductory summary",
+"description": "Many comments praised the opening summary paragraph or top-line section for quickly conveying the main point before the detailed evidence listing.",
+"representative_examples": [
+"strong summary section",
+"clear introductory summary",
+"good top line summary"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Evidence-rich and comprehensive",
+"description": "Clinicians often valued that the report pulled together substantial literature and presented a broad overview of the evidence base.",
+"representative_examples": [
+"fairly comprehensive summary of the data",
+"great summary of evidence",
+"comprehensive literature review"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Evidence ranking and level-of-evidence framing",
+"description": "A recurring positive feature was the attempt to rank or label evidence strength, which helped some readers orient to study quality.",
+"representative_examples": [
+"liked ranking of citations",
+"ranking level of evidence",
+"order of evidence strength"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Direct recommendation backed by supporting data",
+"description": "Several comments appreciated that the report took a stance or offered a recommendation while still presenting supporting references.",
+"representative_examples": [
+"clear recommendations, trial data faithfully represented",
+"liked level of evidence and direct conclusions made from reference",
+"supporting data present to back up this stance"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Table can aid quick evidence lookup for some users",
+"description": "Although the table format was the most criticized element overall, a subset of respondents found it useful as a structured reference when reviewing studies.",
+"representative_examples": [
+"table format makes review of data easier",
+"chart with evidence is a good idea",
+"lists the data itself and the results, super helpful"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Concrete study details and quoted evidence",
+"description": "Some comments valued the inclusion of specific study numbers, primary sources, and quoted evidence rather than vague narrative statements alone.",
+"representative_examples": [
+"included specific numbers from the studies",
+"includes primary sources",
+"like the evidence quoted"
+],
+"relative_salience": "medium"
+}
+],
+"negative_features": [
+{
+"feature_label": "Excessive length and information overload",
+"description": "The most consistent criticism was that the report was too long, too dense, and overloaded with material, making it hard to use in practice.",
+"representative_examples": [
+"giant table is awful",
+"too long",
+"overwhelming amount of information"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Unwieldy table structure",
+"description": "The tabular presentation was repeatedly described as visually unappealing, cluttered, and difficult to skim because of too many rows, columns, and sections.",
+"representative_examples": [
+"really dislike this tabular format",
+"too many rows/columns",
+"reference table appears messy"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Insufficient synthesis for clinical decision-making",
+"description": "Many respondents felt the report assembled evidence but did not synthesize it enough into a practical answer to the actual clinical question.",
+"representative_examples": [
+"misses the clinical question entirely",
+"doesn't synthesize the information to help with clinical decision making",
+"just provide evidence but doesn't help summarizing the recommendations"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Weak patient-specific nuance and actionability",
+"description": "Some comments noted that the report did not adequately address patient-specific factors, clinical nuance, next steps, or uncertainty relevant to the case.",
+"representative_examples": [
+"no individualized patient approach",
+"not enough discussion about nuances and next steps",
+"does not consider the patient nuances as much"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Citation usability problems",
+"description": "Respondents often wanted more usable citations, including clearer linkage, more specific references, and less cumbersome reference presentation.",
+"representative_examples": [
+"needs specific citations for later reference",
+"sources not hyperlinked",
+"prefer links to ensure accurate citations"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Questionable evidence selection or labeling",
+"description": "A subset of comments raised concerns about inclusion of low-quality or irrelevant studies and inaccurate labeling of evidence strength.",
+"representative_examples": [
+"inclusion of probably lower quality studies",
+"irrelevant animal model study",
+"narrative review isn't really a meta analysis"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Readability and visual organization issues",
+"description": "Beyond length alone, clinicians described the report as hard to read, poorly organized, and not well designed for rapid comprehension.",
+"representative_examples": [
+"not well organized or visually appealing",
+"difficult to read",
+"too many columns to skim through"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Overconfident or insufficiently qualified conclusions",
+"description": "Some respondents were uneasy with the decisiveness of the recommendation or felt uncertainty was not adequately expressed.",
+"representative_examples": [
+"questioned the definitive conclusion",
+"underreport the uncertainties of treatment",
+"need confidence when recommending"
+],
+"relative_salience": "medium"
+}
+],
+"improvement_requests": [
+{
+"request_label": "Condense and simplify the table format",
+"description": "Clinicians wanted a shorter, cleaner structure with fewer columns, fewer unnecessary fields, and less visual clutter.",
+"representative_examples": [
+"too long, table too long, too many columns",
+"simple table helps but this has too many rows/columns",
+"would benefit from better structure"
+],
+"targeted_problem": "Information overload, poor readability, and weak workflow fit caused by the current table-heavy presentation.",
+"relative_salience": "high"
+},
+{
+"request_label": "Prioritize synthesis over exhaustive listing",
+"description": "Respondents wanted the report to more clearly answer the case-specific question, summarize implications, and state what the evidence means clinically.",
+"representative_examples": [
+"there should be a summarizing statement toward the end",
+"needed to synthesize data after table",
+"help summarizing the recommendations"
+],
+"targeted_problem": "The report presents evidence but often fails to translate it into a concise, decision-supportive interpretation.",
+"relative_salience": "high"
+},
+{
+"request_label": "Improve citation linkage and specificity",
+"description": "A common request was to make citations easier to use by hyperlinking, numbering, or otherwise linking in-text claims directly to references.",
+"representative_examples": [
+"change citations to hyperlink numbers",
+"citations not linked",
+"would be helpful if citations in text linked directly"
+],
+"targeted_problem": "Citations are cumbersome to navigate and do not adequately support quick reference or verification.",
+"relative_salience": "high"
+},
+{
+"request_label": "Vet and rank evidence more rigorously",
+"description": "Participants wanted more careful source selection, clearer ordering by trial quality, and less inclusion of low-value or irrelevant evidence.",
+"representative_examples": [
+"ordering should reflect the quality of the evidence",
+"would be more beneficial if there was more vetting of the actual sources",
+"RCTs would be presented first"
+],
+"targeted_problem": "Concerns about evidence quality, relevance, and accuracy of evidence-level labeling.",
+"relative_salience": "medium"
+},
+{
+"request_label": "Tailor the report more to the patient and decision context",
+"description": "Some comments asked for greater attention to patient-specific nuance, practical next steps, and uncertainties affecting management.",
+"representative_examples": [
+"no individualized patient approach",
+"needed discussion of nuances and next steps",
+"express uncertainty for clinical decision making"
+],
+"targeted_problem": "The report can feel generic and insufficiently adapted to real-world clinical decision needs.",
+"relative_salience": "medium"
+},
+{
+"request_label": "Preserve the top summary but trim the back-end detail",
+"description": "The preferred direction was often not to discard the summary-plus-evidence concept, but to keep the concise opening and substantially reduce the volume of supporting material.",
+"representative_examples": [
+"only helpful part is the one paragraph at the beginning",
+"starting out with a summary is ideal, but five pages of references is unnecessary",
+"summary paragraph at the top is concise"
+],
+"targeted_problem": "The current balance between overview and supporting detail is skewed too heavily toward exhaustive documentation.",
+"relative_salience": "high"
+}
+],
+"mixed_or_tradeoff_comments": [
+{
+"theme_label": "Helpful evidence table versus unusable bulk",
+"description": "The table format generated a clear split: some found it useful for structured evidence review, while many felt the same feature became overwhelming when expanded too far.",
+"representative_examples": [
+"table is helpful but has to be used appropriately"
+]
+},
+{
+"theme_label": "Appreciated decisiveness versus discomfort with over-direction",
+"description": "Some clinicians liked that the report took a stance, but others were uneasy when the recommendation seemed too definitive or directive.",
+"representative_examples": [
+"like that there was a stance, but not sure I like when the report tells me exactly what to do"
+]
+},
+{
+"theme_label": "Comprehensive review versus poor point-of-care fit",
+"description": "A number of comments imply the report may be useful for deeper review, research preparation, or refresher reading, but less suited to in-the-moment clinical workflow.",
+"representative_examples": [
+"useful if I wanted to explore the data in more depth"
+]
+}
+],
+"analytic_memos": {
+"interpretive_notes": [
+"The corpus suggests a recurring pattern of liking the underlying evidentiary ambition but rejecting the current delivery format.",
+"Praise often focused on the opening summary, evidence ranking, and presence of supporting studies, while criticism concentrated on length, clutter, and inadequate synthesis.",
+"This subset appears to be strongest when functioning as a literature repository and weakest when functioning as a concise clinical decision-support output.",
+"The most actionable design implication is to preserve the summary-plus-evidence architecture while sharply reducing visual and citation burden and strengthening case-specific interpretation."
+],
+"data_quality_notes": [
+"Comments are brief, fragmented, and sometimes combine praise with criticism in the same sentence.",
+"There is redundancy around length and table-format complaints, which strengthens salience but limits conceptual breadth.",
+"A small number of rows contain minimal or null content, and some positive comments still include embedded criticism."
+]
+}
+}

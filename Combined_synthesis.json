@@ -1,0 +1,835 @@
+{
+"synthesis_metadata": {
+"study_focus": "AI-generated literature review report generation for oncology care workflows",
+"num_interviews_synthesized": 20,
+"num_interviews_with_usable_data": 20,
+"notes_on_input_quality": "All 20 interview-summary JSONs contained usable material across segments, themes, likes/dislikes, requirements, workflow, and trust/safety fields. Input quality was generally strong but uneven in granularity: some interviews were richly coded while others were more concise; transcript_id values were not unique across files and had to be disambiguated at synthesis; some interviews appeared to reflect group discussion context; and preferences for specific report colors/formats were not always fully consistent across scenarios."
+},
+"executive_summary": {
+"summary_paragraph": "Across interviews, participants consistently positioned AI literature-review reports as support tools for speed, orientation, and evidence retrieval rather than as autonomous decision-makers. The most recurrent request was for shorter, more scannable outputs that fit between-patient workflow, often described as a one-page or top-loaded summary with the bottom line first. Clinicians valued reports that made evidence easy to verify, especially when they included recognizable guidelines, visible study type, direct links, and concrete trial outcomes such as PFS, OS, toxicity, and subgroup-relevant details. Trust was strengthened when reports surfaced high-yield evidence clearly, but weakened quickly by citation mismatch, buried provenance, inaccurate evidence labeling, overconfident tone, or prose that appeared to interpret beyond the source material. Participants repeatedly preferred AI to organize, filter, and contextualize evidence while leaving final clinical judgment with the clinician. Many participants wanted patient-specific framing, but only when grounded in the actual scenario rather than presented as generic or overly decisive recommendations. Formatting mattered substantially: sectioned reports, concise bullets, and selective tables were often welcomed, whereas long paragraphs, crowded reference dumps, and visually noisy tables increased cognitive load. At the same time, there was no single universally preferred format; several participants explicitly wanted a hybrid or customizable output that could adapt to the task, time available, and user familiarity. Less common but important concerns included medico-legal risk, PHI/compliance, the danger of junior users overtrusting polished summaries, and the possibility that AI could confidently answer despite missing critical patient context.",
+"top_line_findings": [
+"Clinicians most often wanted brief, scannable, workflow-fit summaries rather than long literature dumps.",
+"Trust depended heavily on traceable evidence: guideline anchoring, accurate citations, direct links, and study-level quantitative outcomes.",
+"Participants generally accepted AI as an efficiency and evidence-retrieval aid, not as a standalone clinical decision-maker.",
+"Overconfidence, citation mismatch, poor uncertainty handling, and interpretive overreach were major trust eroders.",
+"No single format satisfied everyone; users wanted outputs that could adapt to task, familiarity, and desired depth.",
+"Patient-specific usefulness was valued, but only when the report remained transparent about evidence limits and missing context."
+],
+"overall_interpretation": "Taken together, the interviews suggest that oncology clinicians see value in AI literature-review tools when they reduce search burden and improve evidence accessibility without obscuring provenance or overstepping into unsupported decision-making. The most acceptable designs appear to be those that pair concise clinical relevance with transparent, checkable evidence and preserve clinician control over interpretation."
+},
+"cross_interview_themes": [
+{
+"synth_theme_id": "ST1",
+"theme_name": "Brevity and scannability are prerequisites for clinical workflow fit",
+"theme_definition": "Across interviews, participants repeatedly described time pressure as a defining constraint on usability. Reports were preferred when they were concise, top-loaded, and easy to scan, often with a brief answer or bottom line followed by optional deeper evidence. Long paragraphs, repeated phrasing, and multi-page outputs were frequently described as reducing attention, increasing cognitive burden, and making the report less likely to be used in real clinic workflow. Even participants who liked richer evidence wanted it presented in a format that minimized reading burden.",
+"contributing_interviews": ["INT01", "INT02", "INT03", "INT05", "INT06", "INT07", "INT09", "INT10", "INT11", "INT12", "INT13", "INT14", "INT15", "INT16", "INT18", "INT19", "INT20"],
+"num_interviews_supporting": 17,
+"supporting_evidence": {
+"supporting_theme_ids": ["INT03:T1", "INT06:T1", "INT10:T1", "INT14:T2", "INT15:T1", "INT16:T1", "INT19:T2", "INT20:T1"],
+"supporting_segment_ids": ["INT06:S1", "INT10:S1", "INT12:S2", "INT16:S4", "INT15:S8"],
+"supporting_like_ids": ["INT01:L1", "INT12:L1", "INT16:L1"],
+"supporting_dislike_ids": ["INT01:D1", "INT02:D2", "INT18:D1"],
+"supporting_requirement_ids": ["INT01:R1", "INT06:R1", "INT16:R1"]
+},
+"representative_quotes": [
+{
+"transcript_id": "INT06",
+"segment_id": "S1",
+"quote": "one page max. So it's bite-sized, easy to digest, and then we keep going."
+},
+{
+"transcript_id": "INT16",
+"segment_id": "S4",
+"quote": "the bottom line of all those references just provided in a couple of sentences."
+}
+],
+"direction_of_sentiment": "positive",
+"prevalence": "high",
+"importance": "high",
+"rationale_for_importance": "This theme recurred across most interviews and directly affects whether the tool can be used at point of care. It also shaped many other preferences, including citation display, table use, and recommendation style.",
+"variation_or_disagreement": "A minority of participants tolerated or even valued more detail for unfamiliar topics, pre-clinic preparation, or academic use, but still distinguished those contexts from fast clinic use.",
+"confidence": "high",
+"confidence_basis": "Strongly supported by repeated interview-level themes, likes/dislikes, requirements, and direct segment language across a large majority of interviews."
+},
+{
+"synth_theme_id": "ST2",
+"theme_name": "Trust depends on visible, high-quality, and clinically interpretable evidence",
+"theme_definition": "Participants consistently linked trust to seeing where claims came from and how strong the supporting evidence was. They valued recognizable guidelines, study type, evidence hierarchy, direct links, and concrete numerical outcomes such as PFS, OS, toxicity, and subgroup-relevant details. Trust was not created by citation volume alone; rather, participants wanted a filtered set of meaningful sources with enough context to evaluate quality quickly. Evidence display was most valued when it helped clinicians inspect the basis for a claim without redoing the entire search themselves.",
+"contributing_interviews": ["INT01", "INT02", "INT03", "INT04", "INT05", "INT06", "INT07", "INT08", "INT09", "INT10", "INT11", "INT12", "INT14", "INT15", "INT16", "INT18", "INT19", "INT20"],
+"num_interviews_supporting": 18,
+"supporting_evidence": {
+"supporting_theme_ids": ["INT01:T3", "INT05:T2", "INT07:T3", "INT09:T4", "INT10:T2", "INT11:T3", "INT15:T2", "INT18:T2", "INT19:T1", "INT20:T2"],
+"supporting_segment_ids": ["INT20:S2", "INT07:S3", "INT06:S4", "INT10:S4", "INT18:S4"],
+"supporting_like_ids": ["INT01:L2", "INT02:L4", "INT07:L2"],
+"supporting_dislike_ids": ["INT03:D2", "INT10:D1", "INT20:D2"],
+"supporting_requirement_ids": ["INT02:R3", "INT06:R2", "INT18:R2"]
+},
+"representative_quotes": [
+{
+"transcript_id": "INT20",
+"segment_id": "S2",
+"quote": "the hard part is... knowing which one's credible and which one's not."
+},
+{
+"transcript_id": "INT06",
+"segment_id": "S4",
+"quote": "I want to know the outcomes... the percentages, like, PFS benefit."
+}
+],
+"direction_of_sentiment": "positive",
+"prevalence": "high",
+"importance": "high",
+"rationale_for_importance": "This theme was both frequent and design-critical because evidence traceability was the main route to trust, verification, and clinical adoption.",
+"variation_or_disagreement": "Participants differed on the best format for evidence display: some preferred compact tables or ranked evidence, while others found large evidence tables arbitrary or space-inefficient. The shared underlying demand, however, was visible evidence quality and quick interpretability.",
+"confidence": "high",
+"confidence_basis": "Broad convergence across interviews with rich support in themes, trust drivers, requirements, and multiple concrete segment examples."
+},
+{
+"synth_theme_id": "ST3",
+"theme_name": "AI is acceptable as support and efficiency help, not as the final decision-maker",
+"theme_definition": "Participants commonly described using AI to orient themselves, retrieve literature, validate a plan, or prepare for a clinical conversation, while explicitly reserving final judgment for themselves or colleagues. They often wanted reports to help them think faster, not to dictate management. Recommendation-style output was acceptable to some when clearly grounded and limited, but many participants drew a boundary against unsupported or overly directive advice. Across interviews, the more the report appeared to replace judgment rather than support it, the less comfortable clinicians became.",
+"contributing_interviews": ["INT02", "INT04", "INT07", "INT08", "INT09", "INT10", "INT11", "INT12", "INT13", "INT14", "INT15", "INT16", "INT19", "INT20"],
+"num_interviews_supporting": 14,
+"supporting_evidence": {
+"supporting_theme_ids": ["INT04:T3", "INT08:T1", "INT10:T3", "INT11:T1", "INT12:T3", "INT13:T3", "INT15:T3", "INT16:T2", "INT19:T3", "INT20:T4"],
+"supporting_segment_ids": ["INT10:S1", "INT11:S3", "INT08:S4", "INT16:S2", "INT02:S2"],
+"supporting_like_ids": ["INT08:L1", "INT10:L1"],
+"supporting_dislike_ids": ["INT08:D2", "INT16:D3"],
+"supporting_requirement_ids": ["INT01:R5", "INT12:R3", "INT20:R4"]
+},
+"representative_quotes": [
+{
+"transcript_id": "INT10",
+"segment_id": "S1",
+"quote": "quick additional information... that I want to, of course, verify."
+},
+{
+"transcript_id": "INT11",
+"segment_id": "S3",
+"quote": "you can be the clinical experience and then use it... to pull references."
+}
+],
+"direction_of_sentiment": "mixed",
+"prevalence": "high",
+"importance": "high",
+"rationale_for_importance": "This was central to intended use, safety boundaries, and adoption. It shaped expectations for summary style, recommendation language, and verification behavior.",
+"variation_or_disagreement": "Some participants explicitly wanted a direct answer first, while others preferred options or neutral evidence presentation. The tension was usually about how much synthesis was appropriate, not whether clinician oversight was needed.",
+"confidence": "high",
+"confidence_basis": "Strongly recurring across theme statements, workflow descriptions, verification behaviors, and trust concerns."
+},
+{
+"synth_theme_id": "ST4",
+"theme_name": "Usefulness increases when reports are tailored to the patient, task, and user",
+"theme_definition": "Participants often contrasted generic literature summaries with outputs that helped reason toward a particular patient scenario or immediate clinical question. They wanted reports to match the task at hand, whether that meant a quick between-patient answer, pre-visit preparation, literature scouting, patient counseling, or note support. Several interviews explicitly stated that no single report format satisfied all needs and proposed hybrid or customizable outputs. Tailoring was valued not only to patient specifics but also to user familiarity and time available.",
+"contributing_interviews": ["INT02", "INT03", "INT04", "INT05", "INT08", "INT09", "INT12", "INT13", "INT14", "INT17", "INT18", "INT19", "INT20"],
+"num_interviews_supporting": 13,
+"supporting_evidence": {
+"supporting_theme_ids": ["INT02:T3", "INT03:T5", "INT05:T4", "INT08:T3", "INT09:T5", "INT12:T4", "INT13:T4", "INT14:T1", "INT17:T3", "INT19:T4", "INT20:T3"],
+"supporting_segment_ids": ["INT14:S1", "INT03:S11", "INT20:S3", "INT09:S3", "INT02:S1"],
+"supporting_like_ids": ["INT03:L2", "INT14:L1", "INT19:L4"],
+"supporting_dislike_ids": ["INT09:D4", "INT19:D3"],
+"supporting_requirement_ids": ["INT03:R2", "INT09:R5", "INT20:R3"]
+},
+"representative_quotes": [
+{
+"transcript_id": "INT14",
+"segment_id": "S1",
+"quote": "going beyond the step of extraction and reasoning it to the actual patient case."
+},
+{
+"transcript_id": "INT09",
+"segment_id": "S3",
+"quote": "the optimal one for me would be giving me a direct answer... then a small summary table."
+}
+],
+"direction_of_sentiment": "positive",
+"prevalence": "moderate",
+"importance": "high",
+"rationale_for_importance": "Although less universal than brevity and provenance, this theme matters because it distinguishes merely informative output from clinically usable output.",
+"variation_or_disagreement": "Participants diverged on how much tailoring they wanted. Some wanted explicit next steps and patient-specific guidance, while others worried that recommendation-style tailoring could overreach if critical context was missing.",
+"confidence": "medium",
+"confidence_basis": "Supported across many interviews, but the desired degree and form of tailoring varied more than for brevity or evidence traceability."
+},
+{
+"synth_theme_id": "ST5",
+"theme_name": "Readable structure matters, but preferred formats differ",
+"theme_definition": "Participants broadly agreed that structure should reduce cognitive load by using sections, bullets, and clearly separated clinical domains such as efficacy, toxicity, regimen comparison, and references. At the same time, there was substantial heterogeneity in preferred presentation style. Some participants strongly preferred tables, ranked evidence, or compact study matrices, while others found large tables confusing, arbitrary, or space-inefficient. The common pattern was not one preferred layout, but a demand for structure that highlights signal without creating extra parsing work.",
+"contributing_interviews": ["INT01", "INT02", "INT04", "INT05", "INT07", "INT09", "INT12", "INT14", "INT15", "INT16", "INT18", "INT19", "INT20"],
+"num_interviews_supporting": 13,
+"supporting_evidence": {
+"supporting_theme_ids": ["INT02:T1", "INT04:T1", "INT10:T1", "INT14:T2", "INT16:T4", "INT18:T3", "INT19:T4"],
+"supporting_segment_ids": ["INT02:S3", "INT05:S4", "INT16:S3", "INT18:S3", "INT19:S2"],
+"supporting_like_ids": ["INT02:L1", "INT05:L1", "INT18:L1"],
+"supporting_dislike_ids": ["INT01:D2", "INT02:D3", "INT19:D2"],
+"supporting_requirement_ids": ["INT02:R1", "INT16:R4", "INT18:R3"]
+},
+"representative_quotes": [
+{
+"transcript_id": "INT02",
+"segment_id": "S3",
+"quote": "definitely putting things into different sections is helpful."
+},
+{
+"transcript_id": "INT19",
+"segment_id": "S2",
+"quote": "I did not like that at all. It seemed to take up... a lot of space."
+}
+],
+"direction_of_sentiment": "mixed",
+"prevalence": "moderate",
+"importance": "moderate",
+"rationale_for_importance": "Structure repeatedly affected adoption and perceived clarity, but specific layout preferences were not uniform across participants.",
+"variation_or_disagreement": "This theme contained clear disagreement: ranked evidence tables were highly valued by some and strongly rejected by others; similarly, some wanted direct-answer prose while others preferred table-plus-summary formats.",
+"confidence": "medium",
+"confidence_basis": "Consistent agreement that layout matters, but heterogeneous preferences about which specific structure works best."
+},
+{
+"synth_theme_id": "ST6",
+"theme_name": "Trust is fragile when reports are overconfident, inaccurate, or weak on uncertainty",
+"theme_definition": "Many participants described trust as easy to lose when the report sounded too certain, misclassified evidence, cited nonexistent or mismatched references, or made claims that were technically true but not applicable to the case. Poor handling of uncertainty was especially concerning in nuanced decisions. Several interviews suggested that a report should be explicit about what is unknown, what is extrapolated, and how certain the system is. In this dataset, trustworthy AI was not defined by polish alone, but by calibrated humility and accurate representation of evidence limits.",
+"contributing_interviews": ["INT05", "INT07", "INT08", "INT10", "INT11", "INT13", "INT14", "INT15", "INT16", "INT17", "INT18", "INT19", "INT20"],
+"num_interviews_supporting": 13,
+"supporting_evidence": {
+"supporting_theme_ids": ["INT06:T4", "INT07:T5", "INT11:T5", "INT13:T1", "INT14:T3", "INT15:T3", "INT17:T5", "INT18:T2", "INT19:T2"],
+"supporting_segment_ids": ["INT14:S2", "INT13:S2", "INT13:S3", "INT17:S14", "INT05:S4"],
+"supporting_like_ids": ["INT13:L3"],
+"supporting_dislike_ids": ["INT13:D4", "INT14:D2", "INT18:D4"],
+"supporting_requirement_ids": ["INT13:R4", "INT17:R5", "INT18:R4"]
+},
+"representative_quotes": [
+{
+"transcript_id": "INT14",
+"segment_id": "S2",
+"quote": "you ask it for a reference... and you realize it's not even a PubMed link."
+},
+{
+"transcript_id": "INT17",
+"segment_id": "S14",
+"quote": "I'd rather have less information than made-up information."
+}
+],
+"direction_of_sentiment": "negative",
+"prevalence": "moderate",
+"importance": "high",
+"rationale_for_importance": "Even when less frequent than formatting complaints, these issues were treated as safety-critical and capable of undermining adoption entirely.",
+"variation_or_disagreement": "Minimal disagreement observed. Participants varied in how much risk they would tolerate, but there was broad concern about overconfidence, poor evidence calibration, and fabricated or mismatched citations.",
+"confidence": "high",
+"confidence_basis": "Strong support from trust/safety sections, theme definitions, and concrete failure examples involving citation mismatch, evidence mislabeling, and poor uncertainty handling."
+}
+],
+"synthesized_likes": [
+{
+"s_like_id": "SL1",
+"statement": "Participants valued concise reports that deliver the bottom line quickly and minimize fluff.",
+"contributing_interviews": ["INT01", "INT03", "INT06", "INT09", "INT12", "INT15", "INT16", "INT19", "INT20"],
+"num_interviews_supporting": 9,
+"example_quotes": [
+{
+"transcript_id": "INT12",
+"segment_id": "S2",
+"quote": "it also had some good summary statements... a bottom line statement."
+},
+{
+"transcript_id": "INT06",
+"segment_id": "S1",
+"quote": "one page max... bite-sized, easy to digest."
+}
+]
+},
+{
+"s_like_id": "SL2",
+"statement": "Participants valued visible study-level evidence, especially quantitative outcomes such as PFS, OS, toxicity, and trial phase/type.",
+"contributing_interviews": ["INT01", "INT03", "INT04", "INT06", "INT07", "INT09", "INT16", "INT18", "INT19"],
+"num_interviews_supporting": 9,
+"example_quotes": [
+{
+"transcript_id": "INT07",
+"segment_id": "S4",
+"quote": "the PFS, the OS, which I think it's helpful to kind of come to your own conclusion"
+},
+{
+"transcript_id": "INT19",
+"segment_id": "S4",
+"quote": "it gave you the PFS data... the OS data... and the toxicity data."
+}
+]
+},
+{
+"s_like_id": "SL3",
+"statement": "Participants valued guideline anchoring, evidence hierarchy, and recognizable source names as trust builders.",
+"contributing_interviews": ["INT01", "INT03", "INT07", "INT09", "INT11", "INT15", "INT18", "INT20"],
+"num_interviews_supporting": 8,
+"example_quotes": [
+{
+"transcript_id": "INT07",
+"segment_id": "S3",
+"quote": "you have ASCO, JACO, NCCN... these are... the ones that we want to... read"
+},
+{
+"transcript_id": "INT20",
+"segment_id": "S2",
+"quote": "the pink report... has all the different rankings of citations"
+}
+]
+},
+{
+"s_like_id": "SL4",
+"statement": "Participants valued sectioned organization that separated efficacy, toxicity, comparisons, and references into an easy-to-follow flow.",
+"contributing_interviews": ["INT02", "INT07", "INT14", "INT18"],
+"num_interviews_supporting": 4,
+"example_quotes": [
+{
+"transcript_id": "INT02",
+"segment_id": "S3",
+"quote": "definitely putting things into different sections is helpful."
+},
+{
+"transcript_id": "INT14",
+"segment_id": "S3",
+"quote": "clinical summary, and then a reference section, where it organizes it in a just helpful flow."
+}
+]
+},
+{
+"s_like_id": "SL5",
+"statement": "Participants valued patient-specific or practically framed outputs when they felt grounded in the actual case and useful for next-step thinking.",
+"contributing_interviews": ["INT03", "INT08", "INT14", "INT20"],
+"num_interviews_supporting": 4,
+"example_quotes": [
+{
+"transcript_id": "INT14",
+"segment_id": "S1",
+"quote": "reasoning it to the actual patient case"
+},
+{
+"transcript_id": "INT03",
+"segment_id": "S11",
+"quote": "it kind of gave you more patient-specific considerations."
+}
+]
+}
+],
+"synthesized_dislikes": [
+{
+"s_dislike_id": "SD1",
+"statement": "Participants disliked reports that were too long, repetitive, or paragraph-heavy for real clinical workflow.",
+"contributing_interviews": ["INT01", "INT02", "INT05", "INT06", "INT10", "INT13", "INT15", "INT18", "INT19"],
+"num_interviews_supporting": 9,
+"example_quotes": [
+{
+"transcript_id": "INT01",
+"segment_id": "S1",
+"quote": "I thought all of them were too long."
+},
+{
+"transcript_id": "INT13",
+"segment_id": "S2",
+"quote": "it was just repeated over and over, it could have been just... more concise."
+}
+]
+},
+{
+"s_dislike_id": "SD2",
+"statement": "Participants disliked crowded reference dumps, visually noisy layouts, and tables that added parsing burden instead of clarity.",
+"contributing_interviews": ["INT01", "INT02", "INT05", "INT18", "INT19"],
+"num_interviews_supporting": 5,
+"example_quotes": [
+{
+"transcript_id": "INT18",
+"segment_id": "S2",
+"quote": "visually, how it's laid out makes a big difference."
+},
+{
+"transcript_id": "INT19",
+"segment_id": "S2",
+"quote": "I did not like that at all. It seemed... arbitrary."
+}
+]
+},
+{
+"s_dislike_id": "SD3",
+"statement": "Participants disliked AI-sounding, conversational, or editorialized tone that made the report feel less professional or trustworthy.",
+"contributing_interviews": ["INT01", "INT11", "INT16", "INT19"],
+"num_interviews_supporting": 4,
+"example_quotes": [
+{
+"transcript_id": "INT19",
+"segment_id": "S3",
+"quote": "the writing style was very AI-focused, which is... a big turnoff."
+},
+{
+"transcript_id": "INT16",
+"segment_id": "S2",
+"quote": "I would prefer to just... have the information presented neutrally."
+}
+]
+},
+{
+"s_dislike_id": "SD4",
+"statement": "Participants disliked overconfident or overly directive recommendations that appeared to substitute for clinician judgment.",
+"contributing_interviews": ["INT08", "INT13", "INT15", "INT16"],
+"num_interviews_supporting": 4,
+"example_quotes": [
+{
+"transcript_id": "INT16",
+"segment_id": "S2",
+"quote": "I do not really look to these tools for recommendations about what to do."
+},
+{
+"transcript_id": "INT13",
+"segment_id": "S3",
+"quote": "they seemed a little too confident."
+}
+]
+},
+{
+"s_dislike_id": "SD5",
+"statement": "Participants disliked citation mismatch, weak source traceability, and inaccurate evidence labeling because these failures quickly undermined trust.",
+"contributing_interviews": ["INT05", "INT10", "INT14", "INT18"],
+"num_interviews_supporting": 4,
+"example_quotes": [
+{
+"transcript_id": "INT14",
+"segment_id": "S2",
+"quote": "you realize it's not even a PubMed link."
+},
+{
+"transcript_id": "INT18",
+"segment_id": "S4",
+"quote": "I, like, can't find what it said in the citation."
+}
+]
+}
+],
+"design_requirements": [
+{
+"design_req_id": "DR1",
+"priority": "must_have",
+"requirement": "Lead with a brief, top-loaded clinical summary or bottom line that can be read in seconds, with deeper evidence available underneath.",
+"why_it_matters": "Participants repeatedly described between-patient use, clinic time pressure, and low tolerance for long reading. A front-loaded summary was one of the clearest adoption conditions across interviews.",
+"contributing_interviews": ["INT03", "INT06", "INT09", "INT12", "INT15", "INT16", "INT20"],
+"num_interviews_supporting": 7,
+"risk_if_ignored": "The tool is likely to be skipped in live workflow because the reading burden will exceed perceived benefit.",
+"supporting_evidence": ["INT06:R1", "INT12:R1", "INT16:S9", "INT20:S4"]
+},
+{
+"design_req_id": "DR2",
+"priority": "must_have",
+"requirement": "Show clinically relevant study-level evidence directly in the report, including trial phase/type, patient population, key outcomes, and toxicity or adverse-event data where relevant.",
+"why_it_matters": "Participants did not want conclusions alone; they wanted enough quantitative detail to judge whether the evidence actually supported the answer.",
+"contributing_interviews": ["INT01", "INT04", "INT06", "INT07", "INT18", "INT19"],
+"num_interviews_supporting": 6,
+"risk_if_ignored": "Clinicians may view the output as superficial or untrustworthy and revert to manual literature search.",
+"supporting_evidence": ["INT01:R2", "INT06:S4", "INT07:S3", "INT18:S2", "INT19:S4"]
+},
+{
+"design_req_id": "DR3",
+"priority": "must_have",
+"requirement": "Provide direct, accurate, and well-labeled source traceability, ideally with clickable links to the exact guideline, paper, paragraph, table, or figure supporting each claim.",
+"why_it_matters": "Traceability was a core trust driver and a common verification behavior. Participants wanted to inspect source support quickly without repeating the entire search process.",
+"contributing_interviews": ["INT02", "INT05", "INT10", "INT15", "INT18"],
+"num_interviews_supporting": 5,
+"risk_if_ignored": "Trust will erode quickly, especially after even a small number of citation mismatches or unlabeled links.",
+"supporting_evidence": ["INT02:R3", "INT05:S6", "INT10:S4", "INT15:R2", "INT18:T2"]
+},
+{
+"design_req_id": "DR4",
+"priority": "must_have",
+"requirement": "Separate evidence presentation from recommendation language and communicate uncertainty explicitly when the evidence is limited, mixed, or context-dependent.",
+"why_it_matters": "Participants were often comfortable with summarized evidence but much less comfortable with unsupported decisiveness. Calibrated uncertainty was treated as a safety feature.",
+"contributing_interviews": ["INT08", "INT13", "INT16", "INT17", "INT20"],
+"num_interviews_supporting": 5,
+"risk_if_ignored": "Overconfident summaries may mislead clinicians, especially in nuanced cases, and can poison trust in the entire report.",
+"supporting_evidence": ["INT13:S2", "INT13:S4", "INT16:S2", "INT17:S14", "INT20:R4"]
+},
+{
+"design_req_id": "DR5",
+"priority": "should_have",
+"requirement": "Use sectioned, scannable formatting with bullets and selective tables, but avoid dense paragraph blocks, crowded reference dumps, and tables that consume space without adding signal.",
+"why_it_matters": "Participants agreed that structure matters, but table preferences varied. The cross-case pattern favored readability over any one fixed layout.",
+"contributing_interviews": ["INT02", "INT05", "INT16", "INT18", "INT19"],
+"num_interviews_supporting": 5,
+"risk_if_ignored": "Even accurate content may be ignored if clinicians must work too hard to parse it.",
+"supporting_evidence": ["INT02:R2", "INT05:D1", "INT16:T4", "INT18:S2", "INT19:D2"]
+},
+{
+"design_req_id": "DR6",
+"priority": "should_have",
+"requirement": "Allow output depth or format to adapt to task and user, such as quick clinic view versus deeper pre-visit or academic view.",
+"why_it_matters": "Participants described different needs for clinic, studying, note support, literature scouting, and unfamiliar topics. Several explicitly said that one report was not enough or that the ideal output would combine multiple styles.",
+"contributing_interviews": ["INT02", "INT03", "INT09", "INT12", "INT19"],
+"num_interviews_supporting": 5,
+"risk_if_ignored": "A fixed format may fit one workflow moment while failing another, limiting adoption breadth.",
+"supporting_evidence": ["INT02:T3", "INT03:T5", "INT09:T5", "INT12:T4", "INT19:T4"]
+},
+{
+"design_req_id": "DR7",
+"priority": "avoid",
+"requirement": "Avoid chatty AI tone, decorative parentheticals, and interpretive prose that sounds more like generated commentary than clinical evidence support.",
+"why_it_matters": "Tone itself affected acceptance and credibility for several participants, independent of the underlying content.",
+"contributing_interviews": ["INT01", "INT16", "INT19"],
+"num_interviews_supporting": 3,
+"risk_if_ignored": "The report may be dismissed as unserious or less trustworthy even when it contains relevant information.",
+"supporting_evidence": ["INT01:R4", "INT16:S2", "INT19:S3"]
+}
+],
+"workflow_synthesis": {
+"intended_use_cases": [
+{
+"use_case": "Rapid orientation to gray-area, uncommon, or not-quite-guideline cases.",
+"contributing_interviews": ["INT02", "INT03", "INT10", "INT11", "INT14", "INT17"],
+"num_interviews_supporting": 6
+},
+{
+"use_case": "Pre-visit preparation or between-patient review of evidence relevant to a specific patient question.",
+"contributing_interviews": ["INT06", "INT14", "INT15", "INT17", "INT20"],
+"num_interviews_supporting": 5
+},
+{
+"use_case": "Literature scouting, staying current, or finding recent publications and guidelines quickly.",
+"contributing_interviews": ["INT07", "INT11", "INT18"],
+"num_interviews_supporting": 3
+},
+{
+"use_case": "Supporting patient counseling by summarizing benefit, toxicity, and regimen comparisons.",
+"contributing_interviews": ["INT01", "INT07", "INT18", "INT19"],
+"num_interviews_supporting": 4
+},
+{
+"use_case": "Ancillary work such as note framing, presentations, troubleshooting, or insurance-related evidence support.",
+"contributing_interviews": ["INT02", "INT10", "INT11", "INT19"],
+"num_interviews_supporting": 4
+}
+],
+"workflow_constraints": [
+{
+"constraint": "Busy clinic time pressure leaves little tolerance for long reading or complex navigation.",
+"contributing_interviews": ["INT01", "INT03", "INT06", "INT11", "INT15", "INT16", "INT19"],
+"num_interviews_supporting": 7
+},
+{
+"constraint": "Clinicians still feel compelled to verify citations, source relevance, and evidence applicability themselves.",
+"contributing_interviews": ["INT02", "INT10", "INT11", "INT18", "INT20"],
+"num_interviews_supporting": 5
+},
+{
+"constraint": "Information needs vary by topic familiarity, clinical urgency, and whether the question is clinical, educational, or administrative.",
+"contributing_interviews": ["INT02", "INT03", "INT11", "INT12"],
+"num_interviews_supporting": 4
+},
+{
+"constraint": "Reports may lack key patient context, goals, institutional norms, or longitudinal information needed for final decision-making.",
+"contributing_interviews": ["INT08", "INT12", "INT17"],
+"num_interviews_supporting": 3
+},
+{
+"constraint": "PHI, HIPAA, and institutional policy uncertainty can limit willingness to integrate the tool more deeply.",
+"contributing_interviews": ["INT14", "INT17"],
+"num_interviews_supporting": 2
+}
+],
+"format_preferences": [
+{
+"preference": "Bottom line or direct answer first, with deeper evidence available below.",
+"contributing_interviews": ["INT06", "INT09", "INT12", "INT16", "INT20"],
+"num_interviews_supporting": 5
+},
+{
+"preference": "Clearly sectioned reports separating efficacy, toxicity, regimen comparison, and references.",
+"contributing_interviews": ["INT02", "INT07", "INT18"],
+"num_interviews_supporting": 3
+},
+{
+"preference": "Quantitative study details in compact tables or columns when they remain concise and high signal.",
+"contributing_interviews": ["INT04", "INT06", "INT18"],
+"num_interviews_supporting": 3
+},
+{
+"preference": "Clickable or labeled citations near the relevant claim rather than long numeric lists at the end.",
+"contributing_interviews": ["INT05", "INT10", "INT15", "INT20"],
+"num_interviews_supporting": 4
+},
+{
+"preference": "One-page or one-and-a-half-page maximum for real clinic use.",
+"contributing_interviews": ["INT06", "INT15", "INT16"],
+"num_interviews_supporting": 3
+}
+],
+"current_workarounds": [
+{
+"workaround": "Use AI as an augmented search engine to locate studies, then read the actual paper, abstract, or guideline directly.",
+"contributing_interviews": ["INT04", "INT07", "INT11", "INT18"],
+"num_interviews_supporting": 4
+},
+{
+"workaround": "Compare outputs across multiple tools rather than relying on one model.",
+"contributing_interviews": ["INT10", "INT15"],
+"num_interviews_supporting": 2
+},
+{
+"workaround": "Verify AI output against NCCN, PubMed, colleagues, or personal clinical knowledge.",
+"contributing_interviews": ["INT10", "INT11", "INT12", "INT20"],
+"num_interviews_supporting": 4
+},
+{
+"workaround": "Reserve AI for prep, study, or support tasks when live clinical trust is not yet sufficient.",
+"contributing_interviews": ["INT11", "INT17"],
+"num_interviews_supporting": 2
+}
+]
+},
+"trust_and_safety_synthesis": {
+"trust_drivers": [
+{
+"driver": "Recognizable guideline anchors such as NCCN, ASCO, ESMO, or other major sources.",
+"contributing_interviews": ["INT01", "INT03", "INT07", "INT15", "INT20"],
+"num_interviews_supporting": 5
+},
+{
+"driver": "Concrete numerical study outcomes and visible evidence hierarchy.",
+"contributing_interviews": ["INT01", "INT06", "INT07", "INT18", "INT19"],
+"num_interviews_supporting": 5
+},
+{
+"driver": "Accurate, clickable, and nearby citations that make source checking fast.",
+"contributing_interviews": ["INT02", "INT05", "INT10", "INT15", "INT18"],
+"num_interviews_supporting": 5
+},
+{
+"driver": "Neutral presentation that helps clinicians form their own conclusion rather than pushing one.",
+"contributing_interviews": ["INT07", "INT16", "INT19"],
+"num_interviews_supporting": 3
+}
+],
+"trust_erosions": [
+{
+"erosion": "Citation mismatch, fabricated references, or links that do not support the claim.",
+"contributing_interviews": ["INT05", "INT14", "INT18"],
+"num_interviews_supporting": 3
+},
+{
+"erosion": "Overconfident tone, poor uncertainty handling, or recommendations that exceed the available evidence.",
+"contributing_interviews": ["INT08", "INT13", "INT17"],
+"num_interviews_supporting": 3
+},
+{
+"erosion": "Evidence misclassification or mixing strong guidance with weak, irrelevant, or lower-quality studies.",
+"contributing_interviews": ["INT07", "INT18", "INT20"],
+"num_interviews_supporting": 3
+},
+{
+"erosion": "AI-sounding or editorialized language that makes the report feel less credible.",
+"contributing_interviews": ["INT01", "INT16", "INT19"],
+"num_interviews_supporting": 3
+}
+],
+"verification_behaviors": [
+{
+"behavior": "Clicking through references or searching for the cited paper directly.",
+"contributing_interviews": ["INT04", "INT10", "INT18"],
+"num_interviews_supporting": 3
+},
+{
+"behavior": "Checking AI summaries against NCCN or other guideline sources.",
+"contributing_interviews": ["INT01", "INT10", "INT20"],
+"num_interviews_supporting": 3
+},
+{
+"behavior": "Using personal clinical knowledge, colleagues, or existing workflow references as a backstop.",
+"contributing_interviews": ["INT10", "INT11", "INT12"],
+"num_interviews_supporting": 3
+},
+{
+"behavior": "Inspecting whether the cited study population and outcomes truly match the patient scenario.",
+"contributing_interviews": ["INT04", "INT18"],
+"num_interviews_supporting": 2
+}
+],
+"medico_legal_or_policy_concerns": [
+{
+"concern": "Risk that less experienced users may overtrust confident but incomplete or incorrect output.",
+"contributing_interviews": ["INT07", "INT17"],
+"num_interviews_supporting": 2
+},
+{
+"concern": "Need to preserve clinician responsibility for final decisions rather than delegating judgment to AI.",
+"contributing_interviews": ["INT08", "INT20"],
+"num_interviews_supporting": 2
+},
+{
+"concern": "PHI, HIPAA, and institutional-compliance uncertainty around entering patient information into tools.",
+"contributing_interviews": ["INT14", "INT17"],
+"num_interviews_supporting": 2
+},
+{
+"concern": "Documentation and insurance justification may require explicit evidence support and clear guideline stance.",
+"contributing_interviews": ["INT01", "INT17"],
+"num_interviews_supporting": 2
+}
+]
+},
+"tensions_and_tradeoffs": [
+{
+"tradeoff_id": "TT1",
+"tradeoff": "Brevity versus completeness",
+"side_a": "Short, one-page, high-yield reports for clinic speed",
+"side_b": "More comprehensive reports for unfamiliar topics, note support, or academic preparation",
+"contributing_interviews": ["INT02", "INT03", "INT11", "INT15"],
+"interpretation": "Participants broadly wanted brevity, but some also wanted optional depth when the topic was unfamiliar or the use case was not time-pressured. This suggests layered output rather than a single fixed length."
+},
+{
+"tradeoff_id": "TT2",
+"tradeoff": "Direct answer versus calibrated uncertainty",
+"side_a": "A clear bottom line or recommendation up front",
+"side_b": "Explicit acknowledgement of uncertainty, options, and missing patient context",
+"contributing_interviews": ["INT09", "INT12", "INT13", "INT17"],
+"interpretation": "Some participants wanted the report to say what it would do, while others worried that decisive wording becomes unsafe in nuanced cases. The tension was not whether synthesis is useful, but how assertive it should be."
+},
+{
+"tradeoff_id": "TT3",
+"tradeoff": "Synthesis versus traceability",
+"side_a": "Filtered, clinician-ready interpretation that saves search time",
+"side_b": "Transparent access to original sources so the clinician can inspect the basis for each claim",
+"contributing_interviews": ["INT02", "INT05", "INT10", "INT15"],
+"interpretation": "Participants wanted AI to reduce search burden, but not by hiding the path back to the evidence. Useful synthesis therefore had to remain inspectable."
+},
+{
+"tradeoff_id": "TT4",
+"tradeoff": "Patient-specific usefulness versus overreach risk",
+"side_a": "Reasoning toward the actual patient and surfacing practical next-step considerations",
+"side_b": "Avoiding recommendations that ignore goals, context, institutional norms, or other missing variables",
+"contributing_interviews": ["INT08", "INT14", "INT20"],
+"interpretation": "Patient-specific framing was one of the most attractive features, yet it also increased concern when the system sounded more certain than the available context justified."
+}
+],
+"publication_ready_synthesized_statements": [
+{
+"statement_id": "P1",
+"type": "results",
+"statement": "Across interviews, clinicians consistently favored brief, scannable reports that foregrounded a bottom-line summary and minimized paragraph-level redundancy, particularly for use in time-constrained clinic workflows.",
+"support_level": "strong",
+"basis": "Supported by broad convergence across interview-level themes, dislikes, requirements, and direct comments about one-page limits, bottom-line summaries, and time pressure."
+},
+{
+"statement_id": "P2",
+"type": "results",
+"statement": "Trust in AI-generated literature reports was driven less by the number of citations than by the visibility, relevance, and interpretability of evidence, including recognizable guidelines, study type, direct links, and concrete outcome data.",
+"support_level": "strong",
+"basis": "Strong support across trust-driver fields, multiple evidence-display themes, and repeated requests for PFS, OS, toxicity, trial phase, and clickable citations."
+},
+{
+"statement_id": "P3",
+"type": "results",
+"statement": "Participants generally described AI literature tools as acceptable for orientation, retrieval, and efficiency support, but not as substitutes for clinician judgment or independent clinical decision-making.",
+"support_level": "strong",
+"basis": "Repeatedly supported across workflow, trust, and requirement sections, with many participants explicitly describing AI as a check, helper, or literature scout rather than a final authority."
+},
+{
+"statement_id": "P4",
+"type": "discussion",
+"statement": "The interviews suggest that clinically acceptable AI support in oncology depends on calibrated synthesis: the tool must reduce search burden while preserving source traceability, uncertainty, and clinician control over interpretation.",
+"support_level": "moderate",
+"basis": "Supported by consistent cross-case tension between efficiency and verification, with especially rich evidence in trust and tradeoff-related comments."
+},
+{
+"statement_id": "P5",
+"type": "implication",
+"statement": "A layered design may best align with oncology workflow needs, pairing a concise patient- or question-specific summary with optional access to structured, checkable evidence and deeper linked source material.",
+"support_level": "moderate",
+"basis": "Derived from repeated requests for concise summaries plus optional tables, links, or customizable depth, though exact preferred layout varied across participants."
+}
+],
+"minority_or_divergent_views": [
+{
+"view_id": "MV1",
+"statement": "Some participants preferred more comprehensive reports and were willing to tolerate greater length when using the tool for unfamiliar topics, study preparation, or broader differential thinking.",
+"contributing_interviews": ["INT02", "INT11", "INT12"],
+"why_it_should_be_retained": "This view complicates a simplistic 'shorter is always better' conclusion and points to the importance of context-sensitive depth."
+},
+{
+"view_id": "MV2",
+"statement": "Evidence-ranking or table-based displays were polarizing: some participants strongly preferred ranked evidence tables, while others found them arbitrary, clunky, or inefficient.",
+"contributing_interviews": ["INT04", "INT19", "INT20"],
+"why_it_should_be_retained": "This divergence has direct product implications and shows that evidence transparency does not imply a single universally preferred visual format."
+},
+{
+"view_id": "MV3",
+"statement": "A subset of participants explicitly wanted a direct answer first and appeared relatively comfortable with recommendation-forward output if supporting evidence was also shown.",
+"contributing_interviews": ["INT09", "INT12"],
+"why_it_should_be_retained": "This viewpoint highlights that some clinicians value decisiveness and may accept stronger synthesis when it remains evidence-backed and easy to verify."
+}
+],
+"evidence_map": {
+"most_salient_synthesized_codes_or_concepts": [
+{
+"concept": "Concise, scannable workflow-fit output",
+"approx_num_interviews": 17,
+"related_interview_codes": ["prefers_short_reports", "needs_one_page_output", "wants_bottom_line_summary", "time_pressure_in_clinic"]
+},
+{
+"concept": "Traceable evidence and source transparency",
+"approx_num_interviews": 18,
+"related_interview_codes": ["prefers_inline_source_links", "citation_based_trust", "source_traceability_is_buried", "hyperlinks_support_deeper_review"]
+},
+{
+"concept": "Quantitative study outcomes as trust drivers",
+"approx_num_interviews": 9,
+"related_interview_codes": ["wants_quantitative_results", "wants_trial_phase_and_outcomes", "trusts_quantitative_detail", "key_trial_outcomes_needed"]
+},
+{
+"concept": "Guideline anchoring and evidence hierarchy",
+"approx_num_interviews": 8,
+"related_interview_codes": ["guideline_anchoring_builds_trust", "prefers_strength_of_evidence_ordering", "wants_evidence_quality_visible", "good_citation_quality"]
+},
+{
+"concept": "AI as support rather than replacement",
+"approx_num_interviews": 14,
+"related_interview_codes": ["ai_as_second_check", "expert_in_the_loop", "supports_clinician_own_conclusion", "evidence_should_inform_not_replace_judgment"]
+},
+{
+"concept": "Patient-specific usefulness and task fit",
+"approx_num_interviews": 13,
+"related_interview_codes": ["patient_specific_reasoning", "patient_specificity", "audience_specific_use", "supports_shared_decision_making"]
+},
+{
+"concept": "Formatting affects cognitive load",
+"approx_num_interviews": 13,
+"related_interview_codes": ["values_clear_sectioned_organization", "preference_for_sectioned_reports", "poor_visual_layout", "table_feels_arbitrary"]
+},
+{
+"concept": "Overconfidence and poor uncertainty handling as safety risks",
+"approx_num_interviews": 13,
+"related_interview_codes": ["overconfident_tone", "poor_uncertainty_handling", "misclassification_of_evidence", "reference_fabrication_concern"]
+}
+],
+"notes": "Counts are approximate and based on interview-level JSON outputs rather than re-coding full transcripts."
+},
+"methodological_memo": {
+"cross_case_summary": "The cross-case pattern was defined less by enthusiasm for any single report style than by a consistent set of evaluative criteria. Participants repeatedly assessed reports in terms of reading burden, evidence visibility, traceability, and whether the tool respected clinician judgment. The strongest convergence concerned the need for concise, high-yield outputs and the central role of trustworthy evidence display. A second major pattern was that participants did not reject AI outright; rather, they accepted it within a bounded role as a search, orientation, and efficiency aid. Variation emerged mainly around preferred formatting, how direct the answer should be, and whether ranked tables clarified or cluttered the output. Patient-specific reasoning was often seen as a major advantage, but only when paired with enough humility about missing context and uncertainty. Safety concerns were not abstract: participants named specific failure modes such as fabricated or mismatched citations, evidence misclassification, and confident but inapplicable reasoning. Overall, the interviews support a view of clinical AI literature support as conditionally valuable when it is concise, evidence-transparent, and explicitly subordinate to clinician interpretation.",
+"areas_of_strong_convergence": [
+"Need for concise, scannable reports that fit busy clinic workflow",
+"Need for visible, high-quality, and easily verifiable evidence",
+"Preference for AI as support or efficiency aid rather than final decision-maker",
+"Trust erosion from inaccurate citations, buried provenance, or overconfident language"
+],
+"areas_of_partial_convergence": [
+"Preference for direct-answer-first outputs versus more neutral option-framing",
+"Usefulness of tables, charts, or ranked evidence displays",
+"Degree of desired patient-specific guidance",
+"How much depth is appropriate in clinic versus pre-visit or academic contexts"
+],
+"areas_of_disagreement_or_heterogeneity": [
+"Whether evidence-ranking tables improve or reduce usability",
+"Whether recommendation-forward phrasing is helpful or unsafe",
+"How much comprehensiveness should be tolerated when the topic is unfamiliar",
+"Whether current example reports were shorter than existing tools or still too long"
+],
+"limitations_of_this_synthesis": [
+"The synthesis is based on interview-summary JSONs rather than full transcript re-coding, so nuance is limited by upstream summarization choices.",
+"Coding density and specificity varied across interviews, which may affect apparent prevalence.",
+"Some interviews reflected group discussion context, potentially blending or compressing multiple lines of opinion into a single participant-level summary.",
+"Report-style labels such as colors were not always directly comparable across scenarios and were not treated as stable product categories in the synthesis.",
+"Because transcript_id values were duplicated across files, interview identifiers were reconstructed for synthesis rather than inherited directly from the source JSONs."
+]
+}
+}

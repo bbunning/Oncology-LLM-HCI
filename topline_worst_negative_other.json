@@ -1,0 +1,261 @@
+{
+"analysis_unit": {
+"subset_type": "other",
+"subset_label": "Pooled negative and extra feedback on AI-generated oncology reports",
+"notes": "This corpus appears to aggregate worst aspects, other negative aspects, and extra feedback from multiple oncologists commenting on AI-generated report outputs used in oncology workflows. Source text drawn from the uploaded file corpus  and analysis instructions from the companion prompt file ."
+},
+"summary": {
+"overall_impression": "The strongest and most repeated criticism was excessive length: oncologists repeatedly described reports as too long, too wordy, redundant, and unrealistic to read in practice. A second major concern was trustworthiness, including lack of confidence in accuracy, insufficient validation, and summaries or claims that were not clearly supported by the cited data. Participants also objected to stylistic features that felt AI-generated, condescending, or overly conversational, and they wanted more concise, clinically relevant, evidence-specific outputs with clearer recommendations.",
+"dominant_positive_themes": [
+"Interest in AI tools for clinical workflow",
+"Value of concise evidence summaries with clear reference type",
+"Appreciation for outputs that provide an opinion or combine strengths of multiple styles"
+],
+"dominant_negative_themes": [
+"Excessive length and verbosity",
+"Low trust in accuracy, validation, and evidence grounding",
+"Poor workflow fit due to redundant, irrelevant, or hard-to-read content"
+],
+"dominant_improvement_requests": [
+"Shorten reports substantially",
+"Make evidence support more specific and clinically relevant",
+"Provide clearer recommendations without unnecessary conversational or patient-facing language"
+]
+},
+"positive_features": [
+{
+"feature_label": "General enthusiasm for AI support tools",
+"description": "A minority of comments expressed strong support for AI as a useful clinical aid and praised the overall initiative.",
+"representative_examples": [
+"“we need AI tools in the clinic 100%”",
+"“AI will be a helpful tool in our daily work life”"
+],
+"relative_salience": "low"
+},
+{
+"feature_label": "Preference for concise evidence-oriented summaries",
+"description": "Participants valued reports that succinctly state what references support the answer and what type of study or trial the evidence comes from.",
+"representative_examples": [
+"“Most value being concise”",
+"“what the references are and the type of data/trial”"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Usefulness of interpretive stance when well executed",
+"description": "Some clinicians appreciated when the report gave an opinion or recommendation, even if they might ultimately disagree, because it aided interpretation and decision framing.",
+"representative_examples": [
+"“I personally like when it gives an opinion”",
+"lack of a clear recommendation was criticized elsewhere"
+],
+"relative_salience": "low"
+},
+{
+"feature_label": "Perceived value in combining complementary report styles",
+"description": "At least one comment suggested that the best output might combine strengths from more than one report format rather than relying on a single style.",
+"representative_examples": [
+"“Like red and pink both”",
+"“Wish there was a way to combine these two”"
+],
+"relative_salience": "low"
+}
+],
+"negative_features": [
+{
+"feature_label": "Excessive length and verbosity",
+"description": "The most salient complaint was that reports were too long, too text-heavy, and too time-consuming to read, making them impractical for routine oncology workflow.",
+"representative_examples": [
+"“Too much text to go through”",
+"“Most of the reports were too long and I realistically wouldn’t read through all of it”"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Redundancy and unnecessary content",
+"description": "Comments frequently described outputs as redundant or padded with unnecessary sections, excess writing, and irrelevant details that diluted the useful information.",
+"representative_examples": [
+"“redundant, some unnecessary info”",
+"“too much excess unnecessary information”"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Low trust in accuracy and validation",
+"description": "Clinicians expressed persistent distrust of AI-generated summaries, especially without expert review, double-checking, or confidence that the literature was represented accurately.",
+"representative_examples": [
+"“Lack of trust in the data AI generates”",
+"“Just don’t feel like I can be totally confident without double checking data or with another expert”"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Weak evidence grounding and data specificity",
+"description": "Participants objected when statements were not clearly backed by cited data, when details were too vague, or when references seemed non-applicable to the clinical conclusion.",
+"representative_examples": [
+"“weren’t backed up by data represented in the summary”",
+"“Providing non-applicable reference to make a conclusion”"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Hard-to-read presentation",
+"description": "Some comments described the language and citation presentation as difficult to read, including too many references, long citations, and awkward wording.",
+"representative_examples": [
+"“hard to read language, too many references”",
+"“Long citations are hard to follow”"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "AI-sounding or condescending tone",
+"description": "A subset of comments disliked the style and tone, especially when the output felt obviously AI-generated, conversational in a ChatGPT-like way, or condescending to clinicians.",
+"representative_examples": [
+"“language feels very AI generated”",
+"“I want the information not how I might be able to say this to the patient”"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Insufficient actionability or recommendation clarity",
+"description": "Some reports were seen as lacking practical advice or a clear recommendation, reducing usefulness for clinical decision support.",
+"representative_examples": [
+"“lack of a clear recommendation”",
+"“lack of practical advice”"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Poor workflow fit and usability barriers",
+"description": "Beyond content quality, clinicians noted barriers related to access, unfamiliarity with systems, prompt burden, and inefficient time-to-information relative to self-lookup.",
+"representative_examples": [
+"“ease of ability to access”",
+"“Providing enough clinical context to write an effective prompt”"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Risk around clinical decision use",
+"description": "A few comments raised broader concerns about relying on AI for risky clinical decisions and the stigma of using AI in medical decision-making.",
+"representative_examples": [
+"“risky clinical decisions”",
+"“Stigma in medical community in using AI to make medical decisions”"
+],
+"relative_salience": "low"
+},
+{
+"feature_label": "Overloaded formatting in some styles",
+"description": "One comment specifically rejected a table-heavy format, suggesting that some structured presentations may become visually burdensome.",
+"representative_examples": [
+"“The table one is too much table”"
+],
+"relative_salience": "low"
+}
+],
+"improvement_requests": [
+{
+"request_label": "Reduce report length to a brief, skimmable format",
+"description": "Participants wanted much shorter outputs, with some explicitly suggesting a target around 1 to 1.5 pages and rejecting reports longer than about 3 pages.",
+"representative_examples": [
+"“do not want length >3 pgs”",
+"“Length should be 1-1.5 pages”"
+],
+"targeted_problem": "Excessive length, verbosity, and low likelihood of full reading in clinic",
+"relative_salience": "high"
+},
+{
+"request_label": "Remove redundant and nonessential sections",
+"description": "Clinicians wanted the report stripped of unnecessary background, repeated content, extraneous follow-up suggestions, and other material not directly needed for the question at hand.",
+"representative_examples": [
+"“follow-up protocols should not be included unless asked”",
+"“Inclusion of unnecessary sections”"
+],
+"targeted_problem": "Redundancy, clutter, and poor workflow fit",
+"relative_salience": "high"
+},
+{
+"request_label": "Strengthen evidence specificity and applicability",
+"description": "Participants wanted claims tied more directly to relevant studies and concrete data, with better matching between cited evidence and the clinical scenario.",
+"representative_examples": [
+"“Lack of specific data”",
+"“what the references are and the type of data/trial”"
+],
+"targeted_problem": "Distrust, vague support, and non-applicable references",
+"relative_salience": "high"
+},
+{
+"request_label": "Provide clear clinical recommendations or opinions",
+"description": "Several comments imply that outputs should culminate in a clearer take-home recommendation or interpretive stance, rather than merely listing information.",
+"representative_examples": [
+"“lack of a clear recommendation”",
+"“I personally like when it gives an opinion”"
+],
+"targeted_problem": "Low actionability and weak decision support value",
+"relative_salience": "medium"
+},
+{
+"request_label": "Use a more professional, less AI-like tone",
+"description": "Participants wanted direct professional communication aimed at clinicians, without condescending patient-communication language or a chatbot-like conversational style.",
+"representative_examples": [
+"“I want the information”",
+"“felt like chatgpt”"
+],
+"targeted_problem": "Tone mismatch, reduced trust, and perceived lack of professional fit",
+"relative_salience": "medium"
+},
+{
+"request_label": "Simplify citation presentation",
+"description": "Comments suggest citations should be easier to follow and more selective, avoiding overly long citation strings and possibly omitting lower-value details such as listed authors or animal studies unless needed.",
+"representative_examples": [
+"“Long citations are hard to follow”",
+"“listed authors or animal studies is not necessary”"
+],
+"targeted_problem": "Readability burden and evidence overload",
+"relative_salience": "medium"
+},
+{
+"request_label": "Combine strengths of complementary report formats",
+"description": "One suggestion pointed toward hybridizing report styles to preserve the most valued aspects of more than one output type.",
+"representative_examples": [
+"“Wish there was a way to combine these two”"
+],
+"targeted_problem": "No single format fully meets clinician preferences",
+"relative_salience": "low"
+}
+],
+"mixed_or_tradeoff_comments": [
+{
+"theme_label": "Interpretation versus overreach",
+"description": "Clinicians appeared to want some degree of opinion or recommendation, but only if it is well grounded in the evidence and not presented with unjustified confidence.",
+"representative_examples": [
+"liked when it “gives an opinion,” yet others criticized lack of confidence and unsupported conclusions"
+]
+},
+{
+"theme_label": "Completeness versus brevity",
+"description": "The corpus suggests a recurring tension between wanting enough evidence detail to trust the report and wanting the output short enough to fit clinical workflow.",
+"representative_examples": [
+"desire for “specific data” and study type alongside repeated demands for much shorter reports"
+]
+},
+{
+"theme_label": "Conversational helpfulness versus professional tone",
+"description": "Some AI-generated explanatory style may aim to be helpful, but participants often experienced this as condescending or too chatbot-like for expert users.",
+"representative_examples": [
+"“I want the information not how I might be able to say this to the patient”"
+]
+}
+],
+"analytic_memos": {
+"interpretive_notes": [
+"Length was not a minor formatting complaint; it functioned as a core usability and workflow-fit issue, often linked to clinicians saying they would not realistically read the report.",
+"Trust concerns were multifactorial: participants questioned both factual accuracy and whether the cited evidence truly supported the summary or recommendation.",
+"The corpus implies that clinicians want AI outputs to behave more like expert decision-support briefs than like general-purpose chatbot responses.",
+"Although positive sentiment exists, it is mostly about the promise of AI as a tool, not unqualified endorsement of the current report outputs."
+],
+"data_quality_notes": [
+"The corpus is fragmented and includes many short phrases rather than full narrative comments, so some categories are inferred from repeated wording patterns rather than fully elaborated explanations.",
+"Several entries are NA or minimal, and the dataset appears skewed toward elicited negative feedback fields, which may amplify weaknesses relative to strengths.",
+"Some comments refer to particular report styles or colors indirectly, but the subset as provided does not support reliable comparison across report types."
+]
+}
+}

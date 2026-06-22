@@ -1,0 +1,296 @@
+{
+"analysis_unit": {
+"subset_type": "report_type",
+"subset_label": "Blue",
+"notes": "Pooled positive and negative free-text comments about the Blue report style across multiple vignettes and participants."
+},
+"summary": {
+"overall_impression": "This subset was generally seen as clinically useful, well organized, and strongly referenced, especially when it gave a clear recommendation, highlighted key points, and tied evidence to the patient scenario. The main weakness was excess length: many comments said it felt too much like reading a paper rather than a quick clinic-facing tool. Participants also wanted more selective and interpretable citation practices, less visually overwhelming text and figures, and more direct, practice-oriented language that made the key answer easier to find and use.",
+"dominant_positive_themes": [
+"Clear recommendations and clinically grounded summaries",
+"Strong organization, headings, and readable structure",
+"Use of citations, data, and guideline-based evidence"
+],
+"dominant_negative_themes": [
+"Too long, wordy, and repetitive for clinic use",
+"Citation overload or poor citation usability",
+"Overly dense formatting, visuals, or detail that obscured the key answer"
+],
+"dominant_improvement_requests": [
+"Shorten and streamline the report for rapid point-of-care reading",
+"Make citations more interpretable and more clearly tied to the relevant claim",
+"Use more practical, patient-facing, and decisive language with cleaner formatting"
+]
+},
+"positive_features": [
+{
+"feature_label": "Clear clinical recommendation",
+"description": "Many comments praised the report when it stated the recommendation explicitly, especially at the top or in a summary section, and when it translated the evidence into a practical next step.",
+"representative_examples": [
+"clear recommendation on top",
+"definitive recommendation",
+"recommended approach was clear"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Strong organization and flow",
+"description": "Participants often liked the report’s structure, including headings, subheadings, numbered sections, bullet points, and logical breakdown of questions or regimen comparisons.",
+"representative_examples": [
+"logical flow, clear language",
+"organized in subheadings/headings",
+"separate questions clearly marked"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Evidence-rich and well cited",
+"description": "The report was frequently valued for including guideline references, trial data, exact numbers, primary study details, and reference lists or hyperlinks that supported the reasoning.",
+"representative_examples": [
+"good references",
+"specific numbers and data in the trials section",
+"hyperlinked citations"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Concise synthesis when successful",
+"description": "Although length was also a common criticism, many participants praised the report when it felt concise relative to the complexity of the question and when summaries distilled the core takeaway.",
+"representative_examples": [
+"short and concise",
+"clear, short, gets at the key question",
+"succinct first paragraph"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Patient-specific applicability",
+"description": "Comments positively noted when the report tailored the discussion to the vignette, individualized treatment considerations, and practical decision making for the specific patient.",
+"representative_examples": [
+"clinical recommendations personalized to the question",
+"specific to the patient vignette",
+"applicable to patient"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Balanced uncertainty and nuance",
+"description": "Some participants appreciated when the report gave a recommendation while still acknowledging uncertainty, showing both sides of an argument, or noting guideline nuance.",
+"representative_examples": [
+"expressed the uncertainty",
+"appreciate both sides of argument",
+"acknowledging nuances of national guidelines"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Helpful formatting and visual emphasis",
+"description": "Bolded text, bullet points, clear section headers, and selected figures were seen as helping users locate the key message and supporting data more easily.",
+"representative_examples": [
+"bold text helps center in on key aspects",
+"bullet pointed sequenced approach was helpful",
+"nice inclusion of graph"
+],
+"relative_salience": "medium"
+}
+],
+"negative_features": [
+{
+"feature_label": "Excessive length for workflow needs",
+"description": "The most consistent criticism was that the report was too long, too wordy, or too detailed for between-patient use in clinic, making it hard to extract the answer quickly.",
+"representative_examples": [
+"too long to read while in clinic",
+"felt like reading a paper",
+"too much info, not guiding the reader to get the answer they need on the spot"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Citation overload and weak citation usability",
+"description": "Participants often felt there were too many citations, that citations were disconnected from the key claim, or that numeric citation style made it hard to know which source mattered without scrolling.",
+"representative_examples": [
+"too many citations",
+"want to know which citation is pertinent",
+"didn’t like citations as numbers"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Dense or inconsistent formatting",
+"description": "Long introductory paragraphs, inconsistent switches between prose and bullets, extra spacing, and visually busy layouts were seen as making the report harder to scan quickly.",
+"representative_examples": [
+"paragraph format in the beginning can be visually overwhelming",
+"too much space after the section headers",
+"switched to bulleted points which doesn't seem consistent"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Irrelevant or insufficiently targeted detail",
+"description": "Some comments felt the report included extraneous clinical facts, minimally relevant subsections, or evidence not tightly matched to the actual decision question, which diluted usefulness.",
+"representative_examples": [
+"answers unasked questions",
+"irrelevant information",
+"real world studies that confounds interpretation"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Figures and tables not always helpful",
+"description": "Visuals were sometimes criticized as too large, too busy, insufficiently explained, or unnecessary for a high-level clinical summary.",
+"representative_examples": [
+"large forest plot is not necessary",
+"hard to follow plots",
+"did not seem to attempt to explain the results of the figures"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Insufficient decisiveness or practical language",
+"description": "Some participants wanted a more definitive recommendation and more direct language for patient discussion, while others felt the report was too prescriptive without addressing the real patient motivation question.",
+"representative_examples": [
+"lack of one definitive recommendation",
+"lack of practical language to be shared with patient",
+"very prescriptive, doesn't get at core patient motivation question"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Trust concerns from logic or source selection",
+"description": "A smaller but important set of comments questioned the reasoning, source choice, or factual/logical accuracy in parts of the report, which undermined trust.",
+"representative_examples": [
+"different clinical scenario",
+"at least one logical error",
+"hesitant to believe the graph"
+],
+"relative_salience": "medium"
+}
+],
+"improvement_requests": [
+{
+"request_label": "Shorten for rapid clinical scanning",
+"description": "Participants wanted a leaner report with less repetition and fewer low-yield details so the core answer could be absorbed quickly during clinic.",
+"representative_examples": [
+"could be shortened",
+"too long to read while in clinic",
+"faster to read through"
+],
+"targeted_problem": "Excessive length and poor workflow fit",
+"relative_salience": "high"
+},
+{
+"request_label": "Use more bullet-based and scan-friendly formatting",
+"description": "Several comments asked for key evidence and trial outcomes to be presented in bullets or otherwise reformatted to make rapid review easier.",
+"representative_examples": [
+"bullet format with each key point",
+"put outcomes in a bulleted format",
+"make it easy to read quickly"
+],
+"targeted_problem": "Dense paragraphs and visually overwhelming structure",
+"relative_salience": "high"
+},
+{
+"request_label": "Improve citation labeling and linkage to claims",
+"description": "Participants wanted citation names, years, and more direct referencing so they could judge source relevance without scrolling through a long numbered list.",
+"representative_examples": [
+"sources with names rather than number in-line",
+"year of the publication included",
+"want to know which citation is pertinent"
+],
+"targeted_problem": "Citation overload and poor citation usability",
+"relative_salience": "high"
+},
+{
+"request_label": "Be more selective about included evidence",
+"description": "Comments suggested trimming duplicative, indirect, confounded, or low-value evidence and prioritizing the most decision-relevant studies and claims.",
+"representative_examples": [
+"too many citations - some are duplicative",
+"quotes from other review articles",
+"citation of not useful data"
+],
+"targeted_problem": "Information overload and diluted clinical relevance",
+"relative_salience": "medium"
+},
+{
+"request_label": "Strengthen practical, patient-facing language",
+"description": "Some participants wanted wording that better supported real patient conversations and translated evidence into usable counseling language.",
+"representative_examples": [
+"lack of practical language to be shared with patient",
+"how to discuss this with patient",
+"practical clinical next steps"
+],
+"targeted_problem": "Weak clinical actionability and communication fit",
+"relative_salience": "medium"
+},
+{
+"request_label": "Give a clearer and more consistent final stance",
+"description": "Participants wanted the recommendation to be more decisive and internally consistent, without hedging that created ambiguity or conflicting summaries.",
+"representative_examples": [
+"either recommend or dont",
+"lack of confidence for a definitive action",
+"upfront and conclusion recommendation conflict slightly"
+],
+"targeted_problem": "Ambiguity in recommendation strength and confidence",
+"relative_salience": "medium"
+},
+{
+"request_label": "Use visuals only when they clarify the point",
+"description": "Comments suggested using smaller, simpler, better-explained figures only when they directly help the reader understand the key conclusion.",
+"representative_examples": [
+"forest plot is too busy",
+"figure on second page was unnecessary",
+"did not explain the results of the figures"
+],
+"targeted_problem": "Visual clutter and limited interpretability of figures",
+"relative_salience": "medium"
+}
+],
+"mixed_or_tradeoff_comments": [
+{
+"theme_label": "Thoroughness versus brevity",
+"description": "The same evidence depth that some participants valued was experienced by others as too long, too paper-like, and poorly suited for fast clinical use.",
+"representative_examples": [
+"in depth, citations thorough" ,
+"felt like reading a paper"
+]
+},
+{
+"theme_label": "Decisiveness versus nuance",
+"description": "Participants wanted a clear recommendation, but there was tension between being definitive and acknowledging uncertainty or preserving physician judgment.",
+"representative_examples": [
+"expressed the uncertainty",
+"lack of one definitive recommendation",
+"more physician autonomy"
+]
+},
+{
+"theme_label": "Visual support versus visual overload",
+"description": "Figures and formatting helped some readers orient quickly, but others found large plots, spacing, and dense layouts distracting or unnecessary.",
+"representative_examples": [
+"nice inclusion of graph",
+"large forest plot is not necessary"
+]
+},
+{
+"theme_label": "Comprehensiveness versus relevance",
+"description": "Including more background, side details, and broader evidence could feel thorough, but also risked drifting away from the actual patient-specific decision.",
+"representative_examples": [
+"comprehensive",
+"answers unasked questions"
+]
+}
+],
+"analytic_memos": {
+"interpretive_notes": [
+"The strongest positive signal was not just generic clarity but clarity tied to a concrete recommendation, structured presentation, and clinically relevant evidence.",
+"The strongest negative signal was mismatch between report length and point-of-care workflow expectations; many comments evaluated the report as a clinic tool rather than a literature product.",
+"Citations were not simply liked or disliked: participants valued strong sourcing, but wanted citations to be more selective, legible, and clearly connected to the key point.",
+"Requests for practicality, directness, and patient-facing language suggest that usefulness was judged partly by whether the report could support an immediate clinical conversation, not only by evidentiary rigor."
+],
+"data_quality_notes": [
+"The corpus contains fragmented and highly telegraphic comments, including occasional incomplete entries such as 'Not,' which limits interpretability.",
+"Some comments refer to specific vignette content, figures, or disease contexts that vary across cases, so the synthesis emphasizes recurring evaluative patterns rather than disease-specific content.",
+"A few sentiments are mixed within the same comment, especially around recommendation strength, visual aids, and thoroughness versus usability."
+]
+}
+}

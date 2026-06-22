@@ -1,0 +1,311 @@
+{
+"analysis_unit": {
+"subset_type": "report_type",
+"subset_label": "Yellow report style across pooled oncology comments",
+"notes": "This corpus appears to pool positive and negative comments about the Yellow AI-generated report format across multiple oncology vignettes/scenarios rather than a single participant or single case."
+},
+"summary": {
+"overall_impression": "The Yellow report style was commonly valued for being concise, well organized, easy to scan, and clinically practical. Participants repeatedly praised its headings, bolding, tables, and patient-specific framing, especially when it translated evidence into actionable recommendations or monitoring steps. The main weaknesses were insufficient visibility and specificity of evidence, especially when citations were numeric, grouped at the end, or lacked hard data from studies. A recurrent tension was that the report was often seen as appropriately concise, yet some respondents still found it too long, too text-dense, or not sufficiently nuanced in how it connected data to recommendations.",
+"dominant_positive_themes": [
+"Concise and readable presentation",
+"Clear organization and formatting",
+"Useful practical and patient-specific guidance"
+],
+"dominant_negative_themes": [
+"Citations and evidence support were not transparent enough",
+"Insufficient hard data or study detail",
+"At times too long, dense, or overly definitive"
+],
+"dominant_improvement_requests": [
+"Make evidence support more explicit in-line with named sources and key results",
+"Add more concrete trial data, study details, and evidence hierarchy",
+"Improve practical linkage between data, recommendation, and patient application"
+]
+},
+"positive_features": [
+{
+"feature_label": "Concise readable length",
+"description": "Many comments described the report as short, to the point, and appropriately sized for clinical review, with concise language that reduced friction in reading.",
+"representative_examples": [
+"Concise, clear, referenced guidelines",
+"perfect length",
+"easy to read, short and concise"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Strong organization and sectioning",
+"description": "Respondents frequently praised the structure, including headings, subsections, logical flow, and section-by-section breakdown that made the report easy to navigate.",
+"representative_examples": [
+"great section-by-section breakdown with logical flow",
+"clear sub sections",
+"the information flow makes sense"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Effective formatting and visual layout",
+"description": "Formatting elements such as bullets, bolding, line separation, and tables were often seen as improving scanability and emphasis of key concepts.",
+"representative_examples": [
+"bullet format with bold text to highlight key concepts",
+"bolded key words",
+"table was very helpful to draw a visual comparison"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Clear language and digestibility",
+"description": "The writing style was often described as plain, clear, and easy to digest without feeling condescending or visually distracting.",
+"representative_examples": [
+"clear language",
+"easily digestible",
+"not condescending"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Practical clinical usefulness",
+"description": "Participants liked when the report translated evidence into practical treatment, monitoring, dosing, or follow-up guidance relevant to actual patient care.",
+"representative_examples": [
+"clear practical guidelines",
+"specific clinical follow up",
+"lists monitoring strategies which is helpful"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Patient-specific application",
+"description": "Comments valued the inclusion of patient factors, preferences, alternative strategies, and framing that made recommendations feel individualized rather than generic.",
+"representative_examples": [
+"patient-specific factors to consider",
+"gives treatment options based on patient preference",
+"the application to the patient is helpful"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Helpful summaries and comparison elements",
+"description": "Some respondents appreciated summary paragraphs, evidence summaries, risk-benefit framing, and comparison tables that condensed complex options.",
+"representative_examples": [
+"good summary of evidence",
+"good risk, benefits table",
+"compared the regimens at the end"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Perceived use of credible sources",
+"description": "Several comments noted the presence of guidelines, NCCN references, and seemingly strong or reputable source material.",
+"representative_examples": [
+"referenced guidelines",
+"easy to read, cited NCCN",
+"high quality sources from major organizations"
+],
+"relative_salience": "medium"
+}
+],
+"negative_features": [
+{
+"feature_label": "Opaque citation linkage",
+"description": "A dominant criticism was that citations were hard to use in real time because they were numeric, placed at the end, not hyperlinked, or not clearly tied to specific claims.",
+"representative_examples": [
+"No hyperlink to access citations",
+"have to jump back and forth",
+"sources aren’t written out after each fact it’s just a number"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Insufficient hard data from studies",
+"description": "Many respondents wanted more numerical results, direct study details, named trials, and clearer presentation of primary data rather than general statements.",
+"representative_examples": [
+"lack of specific numbers/data from clinical trials",
+"No hard data from citations",
+"Should discuss studies and data more"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Too long or text-dense for some users",
+"description": "Although others praised its brevity, a substantial subset still experienced the report as too long, wordy, repetitive, or composed of dense text blocks.",
+"representative_examples": [
+"too long",
+"Too wordy compared to amount of primary data",
+"Long blocks of text"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Weak connection between evidence and recommendation",
+"description": "Some comments suggested the report did not adequately show how evidence supported the final recommendation or did not get quickly enough to the core clinical question.",
+"representative_examples": [
+"does not get at core clinical question until the risk / benefits table",
+"unclear where the evidence is coming from",
+"Could use a bit more improvement connecting the data to the recommendations"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Overly definitive or insufficiently nuanced language",
+"description": "Several respondents were concerned that the report sometimes sounded too confident, insufficiently uncertain, or too one-directional in settings where nuance mattered.",
+"representative_examples": [
+"Definitive language",
+"Too definitive/lack of nuance",
+"Gives 'most appropriate' recommendation when multiple are appropriate"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Gaps in completeness or relevance of evidence",
+"description": "Some criticism focused on missing guidelines, sparse citations, unclear evidence strength, irrelevant references, or incomplete discussion of the most clinically relevant population.",
+"representative_examples": [
+"wish it had NCCN guidelines",
+"citation list is on the shorter side",
+"Citations seem to be for patients with follicular lymphoma"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Variable usefulness of tables and summaries",
+"description": "While some liked tables, others found summary tables poorly organized, redundant, pointless, or difficult to interpret.",
+"representative_examples": [
+"Summary section poorly organized as a table",
+"summary table is pointless",
+"table still not useful"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Potential factual or reasoning concerns",
+"description": "A few comments raised worries about unsafe recommendations, logical errors, hallucinated patient problems, or ambiguity in dosing recommendations.",
+"representative_examples": [
+"dangerous recommendation",
+"hallucinating patient problems",
+"at least one logical error"
+],
+"relative_salience": "low"
+}
+],
+"improvement_requests": [
+{
+"request_label": "Use clearer in-line source attribution",
+"description": "Participants wanted citations to be embedded more transparently in the text, with named sources or clearer claim-to-source linkage rather than end lists or bare numbers.",
+"representative_examples": [
+"Prefer named sources in-line w/ text rather than numbers",
+"would like direct text from references",
+"standard citation format would be better"
+],
+"targeted_problem": "Opaque citation linkage and difficulty assessing source credibility while reading",
+"relative_salience": "high"
+},
+{
+"request_label": "Add more hard data and trial specifics",
+"description": "Respondents wanted concrete numbers, study outcomes, named trials, and more explicit discussion of what the cited evidence actually showed.",
+"representative_examples": [
+"lack of specific numbers/data from clinical trials",
+"would prefer to have outcomes of quoted studies presented as well",
+"provide more information regarding the most relevant citations"
+],
+"targeted_problem": "Insufficient primary data and limited trust in evidence summaries",
+"relative_salience": "high"
+},
+{
+"request_label": "Clarify evidence strength and hierarchy",
+"description": "Several comments asked for better indication of whether evidence came from guidelines, randomized studies, or weaker literature, and for clearer ranking of citation strength.",
+"representative_examples": [
+"details on if evidence is randomized or not would be appreciated",
+"lack of ranking of citations",
+"helpful to know what level of confidence, evidence the AUA is citing"
+],
+"targeted_problem": "Unclear strength and relevance of supporting evidence",
+"relative_salience": "high"
+},
+{
+"request_label": "Link recommendations more directly to patient care",
+"description": "Participants wanted clearer explanation of how evidence translates into a practical recommendation for the actual patient, including shared decision-making and patient-facing language.",
+"representative_examples": [
+"lack of a practical approach for how this info can be directly used for your patient",
+"lack of practical language to share with patient",
+"focus on population of patients who are relevant"
+],
+"targeted_problem": "Weak evidence-to-action bridge and limited workflow usefulness in some reports",
+"relative_salience": "high"
+},
+{
+"request_label": "Reduce text density while preserving substance",
+"description": "Some respondents wanted the report tightened or reformatted to avoid long blocks of text, repetition, and unnecessary sections while retaining core evidence.",
+"representative_examples": [
+"Too long",
+"a little long, repeats itself",
+"Graphically text was a bit dense"
+],
+"targeted_problem": "Perceived verbosity and cognitive burden during review",
+"relative_salience": "medium"
+},
+{
+"request_label": "Refine tables and visual summaries",
+"description": "Comments suggested improving table design, adding separating lines, or using graphics more selectively so summaries add value rather than confusion.",
+"representative_examples": [
+"should have separating lines",
+"could use tables",
+"lack of figures"
+],
+"targeted_problem": "Inconsistent usefulness of current summary tables and visual presentation",
+"relative_salience": "medium"
+},
+{
+"request_label": "Increase nuance and acknowledge uncertainty",
+"description": "Participants wanted more balanced language in situations with multiple acceptable options, uncertainty, or risk-sensitive recommendations.",
+"representative_examples": [
+"Too definitive/lack of nuance",
+"not very clear in any one direction",
+"not enough discussion of uncertainty"
+],
+"targeted_problem": "Overconfident tone and reduced trust in complex decisions",
+"relative_salience": "medium"
+}
+],
+"mixed_or_tradeoff_comments": [
+{
+"theme_label": "Concise for some, too long for others",
+"description": "The same report style was described by many as ideal in length and by others as too long or text-heavy, suggesting differing thresholds for acceptable detail.",
+"representative_examples": [
+"Good length"
+]
+},
+{
+"theme_label": "Tables as both strength and weakness",
+"description": "Tables and summaries improved scanability for some readers but felt redundant, poorly organized, or unhelpful to others.",
+"representative_examples": [
+"table was very helpful to draw a visual comparison"
+]
+},
+{
+"theme_label": "Concise summaries can aid workflow but weaken evidentiary trust",
+"description": "Brevity and readability were appreciated, yet some readers felt this came at the cost of study detail, hard data, or nuanced evidence interpretation.",
+"representative_examples": [
+"Vague and a bit too concise"
+]
+},
+{
+"theme_label": "Structured recommendations valued, but risk of sounding overconfident",
+"description": "Respondents liked direct recommendations and practical plans, but some felt the report occasionally exceeded the underlying certainty of the evidence.",
+"representative_examples": [
+"clear recommendations"
+]
+}
+],
+"analytic_memos": {
+"interpretive_notes": [
+"The strongest positive signal centers on workflow-friendly presentation: concise writing, visible structure, and practical organization appear to be central to the Yellow format’s appeal.",
+"The strongest negative signal is not simple dislike of citations but dissatisfaction with how evidence is surfaced, linked, and quantified; respondents seem to want faster verification and more direct evidentiary grounding.",
+"A key design tension in this corpus is that participants appear to want both brevity and richer study-level detail, implying a need for layered presentation rather than only more or less content.",
+"Several comments suggest that trust depends not just on having citations, but on seeing what kind of source is being cited, what result it reported, and how that result justifies the recommendation."
+],
+"data_quality_notes": [
+"The corpus is fragmented and pooled across scenarios, so themes reflect repeated sentiments across short comments rather than a unified narrative.",
+"Some rows are non-informative or contradictory (for example, 'no data,' 'NONE YET,' 'perfect, no critiques'), and a few comments mix praise and criticism within the same fragment.",
+"The subset appears to aggregate multiple disease contexts, so certain criticisms may reflect scenario-specific relevance issues rather than a universal property of the report style."
+]
+}
+}

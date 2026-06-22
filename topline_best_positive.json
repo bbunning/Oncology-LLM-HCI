@@ -1,0 +1,274 @@
+{
+"analysis_unit": {
+"subset_type": "closeout",
+"subset_label": "Pooled cross-respondent comments on desired report features and key improvements",
+"notes": "This corpus appears to combine open-ended positive comments and most important improvement suggestions from multiple oncologists reflecting on AI-generated oncology reports across the study."
+},
+"summary": {
+"overall_impression": "Across this pooled corpus, oncologists responded most favorably to reports that were easy to scan, clinically grounded, and transparently linked to source evidence. Hyperlinks, embedded journal or study details, tables, bolded or bulleted formatting, and inclusion of concrete trial data were repeatedly valued because they made reports more usable and trustworthy. The most salient weaknesses were excessive length, inconsistent formatting, insufficient transparency about where claims came from, and a tendency for some outputs to overstate or flatten nuance. Improvement requests centered on making reports shorter, more explicitly evidence-linked, better organized visually, and more clinically actionable with clear bottom lines and guideline-prioritized recommendations."
+,
+"dominant_positive_themes": [
+"Transparent citation linking and evidence traceability",
+"Structured, scannable formatting with tables and bullets",
+"Concrete clinical detail tied to the specific scenario"
+],
+"dominant_negative_themes": [
+"Excessive length and verbosity",
+"Limited transparency or specificity in sourcing",
+"Inconsistent style, nuance handling, and organization"
+],
+"dominant_improvement_requests": [
+"Make reports shorter and more concise",
+"Show exactly where claims come from with clearer evidence labeling",
+"Improve visual organization while preserving clinically useful detail"
+]
+},
+"positive_features": [
+{
+"feature_label": "Hyperlinked references and easy source access",
+"description": "Many comments valued being able to move directly from report claims to underlying sources. Hyperlinks were seen as supporting verification, deeper review, and trust.",
+"representative_examples": [
+"hyperlinks to references",
+"links to references with compiled list at the end"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Citation specificity within the text",
+"description": "Respondents appreciated reports that embedded author names, journal names, PMIDs, article titles, study type, or trial year rather than relying on generic or numbered references alone.",
+"representative_examples": [
+"end of sentence author hyperlinks",
+"journal name embedded, type of study, year of the trial"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Structured visual formatting",
+"description": "Tables, bullet points, bolded text, summary sections, and mixed visual styles were praised for improving readability and helping clinicians navigate dense material.",
+"representative_examples": [
+"bolded language, bullet points as opposed to full sentences",
+"table was easy to read and helpful"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Concrete data presentation",
+"description": "Oncologists liked reports that included actual statistics, dosage details, OS/PFS information, trial sample sizes, and data inline rather than vague directional statements.",
+"representative_examples": [
+"specific dosage recommendations, OS and number of patients",
+"actual statistics rather than 'higher' or 'lower'"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Top-line summaries with supporting detail",
+"description": "Brief top-level summaries were appreciated when paired with additional descriptive study information that could be accessed as needed.",
+"representative_examples": [
+"good top line level summaries",
+"more descriptive information about the studies"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Clinical applicability to the case",
+"description": "Reports were valued when they appeared guided by the clinical question and tailored to the specific patient scenario rather than remaining generic.",
+"representative_examples": [
+"responses felt guided",
+"application to the specific clinical scenario"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Evidence hierarchy cues",
+"description": "Some comments specifically appreciated or requested visibility into guidelines and level of evidence, suggesting that hierarchy signals increased perceived usefulness.",
+"representative_examples": [
+"NCCN/ESMO guidelines",
+"stating what level of evidence the reference is"
+],
+"relative_salience": "medium"
+}
+],
+"negative_features": [
+{
+"feature_label": "Excessive length",
+"description": "The strongest recurring criticism was that reports were too long and needed to be shortened to fit real clinical use.",
+"representative_examples": [
+"making them shorter",
+"make it short and to the point"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Insufficient source transparency",
+"description": "Some comments imply concern that claims were not always clearly tied to verifiable source text or deterministic extraction, raising concern about hallucination or unsupported synthesis.",
+"representative_examples": [
+"clear notation where the data is pulled from",
+"making sure it pulls deterministic data from references"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Weak visual consistency and organization",
+"description": "Respondents pointed to problems with inconsistent formatting, style variability, and tables or layouts that could be better organized.",
+"representative_examples": [
+"better visual organization",
+"large variability in length of reports and styles"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Overly generic or insufficiently prioritized recommendations",
+"description": "Some comments suggest that recommendation sections did not always provide a streamlined bottom line, practical next step, or clear prioritization of the most important evidence.",
+"representative_examples": [
+"have a clear next step/bottom line",
+"optimizing the clinical recommendation section"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Inadequate handling of nuance",
+"description": "Respondents expressed concern when reports sounded too definitive, did not surface weak evidence, or failed to handle ambiguity and clinical nuance appropriately.",
+"representative_examples": [
+"better handling of nuance",
+"avoid definitive wording in nuanced situations"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Editorializing beyond the available context",
+"description": "At least some comments objected when reports appeared to infer patient factors or make interpretive leaps without enough clinical context.",
+"representative_examples": [
+"avoidance of editorializing without sufficient clinical context",
+"assuming comorbidities based on age"
+],
+"relative_salience": "low"
+}
+],
+"improvement_requests": [
+{
+"request_label": "Condense the reports",
+"description": "The most repeated request was to reduce length, keep content focused, and make the output easier to use quickly in practice.",
+"representative_examples": [
+"shorter",
+"being concise"
+],
+"targeted_problem": "Excessive verbosity and poor workflow fit",
+"relative_salience": "high"
+},
+{
+"request_label": "Make evidence provenance explicit",
+"description": "Participants wanted every claim to be visibly tied to its source, with labeled hyperlinks and clearer notation of where specific data originated.",
+"representative_examples": [
+"clear notation where the data is pulled from",
+"transparent about the source with a labeled hyperlink"
+],
+"targeted_problem": "Trust concerns and risk of hallucinated or unsupported statements",
+"relative_salience": "high"
+},
+{
+"request_label": "Prioritize guidelines and stronger prospective evidence",
+"description": "Several comments asked for guidelines and higher-quality evidence to be shown first, with clearer indication of evidence strength.",
+"representative_examples": [
+"showing the guidelines and prospective data first",
+"clear suggestion from ESMO or NCCN guidelines as paramount"
+],
+"targeted_problem": "Difficulty judging evidence hierarchy and recommendation credibility",
+"relative_salience": "high"
+},
+{
+"request_label": "Improve visual design and formatting consistency",
+"description": "Respondents wanted more polished, visually appealing, and consistent formatting, including cleaner tables and standardized presentation.",
+"representative_examples": [
+"more lines within the tables",
+"visually appealing with similar formatting"
+],
+"targeted_problem": "Readability issues and inconsistency across outputs",
+"relative_salience": "medium"
+},
+{
+"request_label": "Balance detail with big-picture synthesis",
+"description": "Participants wanted reports to preserve specific data while still surfacing the main takeaway without overwhelming the reader.",
+"representative_examples": [
+"including data without losing the big picture",
+"summary of recommendation"
+],
+"targeted_problem": "Tension between completeness and brevity",
+"relative_salience": "medium"
+},
+{
+"request_label": "Strengthen clinical actionability",
+"description": "Some comments asked for more practical recommendations, clearer next steps, patient-facing language where appropriate, and better integration into clinical workflow.",
+"representative_examples": [
+"patient language, practical recommendations",
+"have a clear next step/bottom line"
+],
+"targeted_problem": "Reports not always translating evidence into usable clinical action",
+"relative_salience": "medium"
+},
+{
+"request_label": "Surface nuance and weak evidence more clearly",
+"description": "Respondents wanted uncertainty, limited evidence, and contextual caveats to be stated directly rather than smoothing them over.",
+"representative_examples": [
+"better handling of nuance",
+"call out any weak evidence"
+],
+"targeted_problem": "Overconfident tone and insufficient acknowledgment of ambiguity",
+"relative_salience": "medium"
+},
+{
+"request_label": "Support richer evidence inspection",
+"description": "A more advanced request was to let users preview the quoted or snapshot source passage behind each hyperlink to speed validation.",
+"representative_examples": [
+"hover over the link and it shows a quote",
+"snapshot of the paper it was sourced from"
+],
+"targeted_problem": "High effort required to verify evidence claims",
+"relative_salience": "low"
+},
+{
+"request_label": "Allow personalization to clinician preference",
+"description": "At least one response suggested that users should be able to adapt report style to their own preferred format.",
+"representative_examples": [
+"users can ultimately personalize it to their own styles"
+],
+"targeted_problem": "Variation in clinician preferences for layout and presentation",
+"relative_salience": "low"
+}
+],
+"mixed_or_tradeoff_comments": [
+{
+"theme_label": "Helpful detail versus excessive length",
+"description": "Participants valued descriptive study information, tables, and concrete data, but often only so long as the report remained concise and easy to scan.",
+"representative_examples": [
+"easy tables, but if too long, less helpful"
+]
+},
+{
+"theme_label": "Data richness versus big-picture clarity",
+"description": "Respondents wanted specific statistics and evidence details while also asking that the report preserve a clear summary recommendation and main point.",
+"representative_examples": [
+"including data without losing the big picture"
+]
+},
+{
+"theme_label": "Guided recommendations versus overreach",
+"description": "Clinicians appreciated clinically guided, scenario-specific outputs, but not when the report editorialized or made assumptions beyond available context.",
+"representative_examples": [
+"guided responses were liked, but editorializing without context was not"
+]
+}
+],
+"analytic_memos": {
+"interpretive_notes": [
+"Evidence traceability appears to function as both a usability feature and a trust mechanism in this corpus.",
+"Requests for concision do not reflect a desire for less evidence; rather, they suggest a preference for tightly organized evidence with optional drill-down access.",
+"The desired report seems to combine a brief top-line recommendation with transparent links to detailed, high-quality supporting evidence.",
+"Guideline-first presentation and explicit evidence grading appear to be especially important for clinical confidence in recommendations."
+],
+"data_quality_notes": [
+"The corpus combines positive aspects and improvement requests but contains little explicit standalone negative commentary, so some negative features are inferred conservatively from the requested changes.",
+"Comments are brief, fragmented, and sometimes telegraphic, with repeated mention of similar concepts such as hyperlinks, journal names, and concision.",
+"A few entries reference specific visual exemplars such as 'the pink table/chart,' which indicates salience of a format but leaves some ambiguity about the exact design element being praised."
+]
+}
+}

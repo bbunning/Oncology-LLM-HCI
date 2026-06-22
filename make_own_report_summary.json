@@ -1,0 +1,258 @@
+{
+"analysis_unit": {
+"subset_type": "other",
+"subset_label": "Best hypothetical organization of a report",
+"notes": "This corpus represents pooled oncologist comments describing an ideal or preferred hybrid report structure assembled from components seen across report types in the study. Source text drawn from the uploaded prompt/instructions and concatenated comments.  "
+},
+"summary": {
+"overall_impression": "Across this subset, oncologists converged on a report structure that begins with the clinical question and a short bottom-line recommendation, then moves into clearly organized evidence and patient-specific interpretation. The most valued elements were concise summaries, transparent presentation of trial data and evidence strength, and explicit personalization to the patient scenario. Weaknesses were usually framed indirectly, as things to avoid: over-synthesis without supporting data, biased framing, vague or numeric-only citations, and formats that bury the recommendation or make the evidence hard to scan. Overall, the preferred design is a structured, readable, evidence-forward report that balances brevity with enough detail to justify the conclusion."
+,
+"dominant_positive_themes": [
+"Clear upfront summary or bottom-line recommendation",
+"Structured evidence presentation with tables and explicit evidence hierarchy",
+"Patient-specific interpretation and practical clinical guidance"
+],
+"dominant_negative_themes": [
+"Overly synthesized conclusions without visible supporting data",
+"Insufficient citation transparency or unclear source labeling",
+"Potential bias or lack of balanced presentation"
+],
+"dominant_improvement_requests": [
+"Lead with the clinical question and concise executive summary",
+"Show trial data, evidence level, and key references more explicitly",
+"Add patient-specific recommendations, counseling points, and practical next steps"
+]
+},
+"positive_features": [
+{
+"feature_label": "Upfront summary and bottom line",
+"description": "Participants repeatedly favored a report that starts with a concise answer, executive summary, or recommendation so the main takeaway is immediately visible.",
+"representative_examples": [
+""bottom line" recommendations at the top",
+"upfront executive summary",
+"summary or recommendation"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Restatement of the clinical question",
+"description": "Many comments valued restating the question and key case details before answering, which appears to anchor the report and clarify relevance to the patient scenario.",
+"representative_examples": [
+"restate question with key info",
+"summarize the key question before answering",
+"summary of clinical case"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Transparent evidence display",
+"description": "Respondents liked reports that visibly show where conclusions come from, including specific trial data, evidence tables, and the type or level of evidence.",
+"representative_examples": [
+"table with where the evidence came from is helpful",
+"high-quality clinical trials with explicit data",
+"summary table with a few references with the strongest study designs"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Evidence hierarchy and organization by strength",
+"description": "Comments praised organizing literature by evidence level, such as guidelines, meta-analyses, and phase 3 trials, rather than presenting sources as an undifferentiated list.",
+"representative_examples": [
+"organization of evidence by level",
+"pink list of order of strength",
+"references with name of source and evidence type"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Patient-specific personalization",
+"description": "A strong positive feature was tailoring the report to the actual patient prompt, including individualized analysis and context-specific recommendations.",
+"representative_examples": [
+"personalized response with summary of my patient prompt",
+"succinct recommendation based on your specific patient",
+"individualized analysis for my specific patient"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Practical clinical usefulness",
+"description": "Participants valued inclusion of practical treatment approaches, counseling language, follow-up questions, and concrete next steps that support real oncology workflow.",
+"representative_examples": [
+"practical treatment approaches",
+"language for how to talk to patients",
+"important follow up questions to ask"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Readable and scannable formatting",
+"description": "The preferred organization emphasized concise, visually clear presentation using bullets, charts, bolding, and sectioned structure to make the report easy to scan.",
+"representative_examples": [
+"bullet point",
+"chart form if there are many clinical trials",
+"All with bold text on key concepts"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Balanced discussion of pros, cons, and uncertainty",
+"description": "Some comments highlighted the value of presenting arguments for and against treatment, caveats, unknowns, and areas needing clinician judgment.",
+"representative_examples": [
+"arguments for the treatment, arguments against the treatment",
+"caveats to consider",
+"areas of unknown, key areas for clinician intervention"
+],
+"relative_salience": "medium"
+}
+],
+"negative_features": [
+{
+"feature_label": "Over-synthesized reporting without enough raw evidence",
+"description": "A recurring concern was that reports should not rely mainly on narrative synthesis if the underlying trial data are not shown clearly enough.",
+"representative_examples": [
+"focus on pulling representative trial data instead of synthesizing",
+"include the data table ... with some prose afterwards"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Opaque or weak citation style",
+"description": "Participants signaled dissatisfaction with citation formats that are hard to interpret, especially numeric references without journal names, evidence type, or clear linkage to claims.",
+"representative_examples": [
+"references naming the journal name and not numbers",
+"clear citation",
+"hyperlinked citations"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Insufficient linkage between claims and sources",
+"description": "Some comments imply frustration when the report does not show what specific text, figure, or study supports the reasoning and conclusion.",
+"representative_examples": [
+"what specific text in reference is being used",
+"specific graphic, then discuss logic, then how it comes to conclusion"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Potential bias in summary framing",
+"description": "One comment explicitly noted that an introductory summary could be useful but needed to be more unbiased, suggesting concern about slanted framing.",
+"representative_examples": [
+"introductory paragraph summary ... but I would need to be more unbiased"
+],
+"relative_salience": "low"
+},
+{
+"feature_label": "Poor prioritization of key information",
+"description": "Comments imply that burying the recommendation, evidence hierarchy, or patient-specific conclusion lower in the report makes the output less useful.",
+"representative_examples": [
+"key information with summary at the top",
+"one page response with references on the next page"
+],
+"relative_salience": "medium"
+}
+],
+"improvement_requests": [
+{
+"request_label": "Open with the question and bottom-line answer",
+"description": "Participants wanted the report to begin by restating the question, key patient context, and a concise summary recommendation before moving into detail.",
+"representative_examples": [
+"Restating the primary question",
+""bottom line" recommendations at the top",
+"summarize question and final answer"
+],
+"targeted_problem": "Buried conclusions and lack of immediate orientation to the case",
+"relative_salience": "high"
+},
+{
+"request_label": "Display evidence in tables with explicit study details",
+"description": "A major request was for tables or bulletized evidence summaries that name the study type, trial data, journal/source, and strength of evidence in a visible format.",
+"representative_examples": [
+"summary table with a few references with the strongest study designs",
+"type of data, e.g. phase trial, observational",
+"high-quality clinical trials with explicit data"
+],
+"targeted_problem": "Opaque evidence base and insufficient transparency of supporting data",
+"relative_salience": "high"
+},
+{
+"request_label": "Make citations more interpretable and actionable",
+"description": "Participants wanted references to be clearer while reading, including journal names, evidence type labels, hyperlinks, and ranking by strength when needed.",
+"representative_examples": [
+"references naming the journal name and not numbers",
+"clear references while reading",
+"hyperlinked citations and list of references"
+],
+"targeted_problem": "Difficulty verifying claims or quickly judging source quality",
+"relative_salience": "high"
+},
+{
+"request_label": "Add patient-specific clinical guidance",
+"description": "Respondents wanted the report to move beyond generic evidence summary by explicitly connecting findings to the patient's case, treatment plan, and counseling needs.",
+"representative_examples": [
+"personalized response with summary of my patient prompt",
+"what to do for your patient",
+"patient counseling"
+],
+"targeted_problem": "Generic outputs with weak relevance to the immediate clinical decision",
+"relative_salience": "high"
+},
+{
+"request_label": "Include balanced reasoning, caveats, and alternatives",
+"description": "Comments requested a structure that presents pros and cons, practical considerations, alternative options, unknowns, and caveats alongside the recommendation.",
+"representative_examples": [
+"arguments for the treatment, arguments against the treatment, practical considerations",
+"alternative options",
+"areas of unknown"
+],
+"targeted_problem": "Overly one-sided conclusions that do not support nuanced clinical judgment",
+"relative_salience": "medium"
+},
+{
+"request_label": "Improve scannability and layout",
+"description": "Participants wanted the report organized into visually distinct sections using bullets, charts, bolding, and limited length so key content can be reviewed quickly.",
+"representative_examples": [
+"bullet point",
+"chart form if there are many clinical trials to report",
+"one page response with references on the next page"
+],
+"targeted_problem": "Dense or hard-to-scan formatting that reduces workflow fit",
+"relative_salience": "medium"
+}
+],
+"mixed_or_tradeoff_comments": [
+{
+"theme_label": "Concise summary versus sufficient evidentiary detail",
+"description": "Participants wanted a brief, top-level recommendation, but not at the expense of visible trial data, tables, and references that justify the answer.",
+"representative_examples": [
+"1-2 sentences summarizing the data and then each data point or trial listed"
+]
+},
+{
+"theme_label": "Synthesis versus direct evidence display",
+"description": "The preferred report appears to combine synthesis with explicit source material; participants did not reject interpretation, but wanted it anchored in traceable evidence.",
+"representative_examples": [
+"focus on pulling representative trial data instead of synthesizing",
+"some prose afterwards regarding the results"
+]
+},
+{
+"theme_label": "Strong recommendation versus neutrality",
+"description": "Respondents wanted a bottom line and recommendation, while also signaling that the framing should remain balanced and not overly biased.",
+"representative_examples": [
+"I liked the introductory paragraph summary ... but I would need to be more unbiased"
+]
+}
+],
+"analytic_memos": {
+"interpretive_notes": [
+"This subset is less about reactions to one existing report and more about constructive design preferences for an ideal hybrid report, so negative themes are often expressed as absent features or elements to avoid.",
+"The strongest shared design logic is a layered structure: question and summary first, evidence and its hierarchy second, then patient-specific interpretation and practical next steps.",
+"Citation transparency is not just a formatting preference here; it appears tied to trust, interpretability, and the ability to judge evidence quality quickly."
+],
+"data_quality_notes": [
+"The corpus is fragmented and list-like, with many brief design suggestions rather than full evaluative comments.",
+"Several entries are NA, and many comments bundle multiple preferences together, so some thematic categories necessarily consolidate co-occurring ideas rather than cleanly separable sentiments."
+]
+}
+}

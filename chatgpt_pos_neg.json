@@ -1,0 +1,372 @@
+{
+"analysis_unit": {
+"subset_type": "report_type",
+"subset_label": "Red",
+"notes": "Pooled corpus of positive and negative free-text comments about the Red report style across multiple oncology scenarios."
+},
+"summary": {
+"overall_impression": "The Red report style was often valued for being structured, explicit, and clinically useful. Oncologists repeatedly liked the presence of bottom-line summaries, practical recommendations, patient-specific reasoning, and visible attempts to connect conclusions to evidence. At the same time, the most salient weaknesses were excessive length, visual heaviness, and citation practices that felt too opaque, hyperlink-dependent, or insufficiently specific. Comments also showed a recurring tension between appreciating practical communication aids and rejecting sections that felt overly conversational, overly patient-facing, or more inferential than necessary.",
+"dominant_positive_themes": [
+"Clear structure with bottom-line summaries and headings",
+"Practical, patient-specific recommendations and workflow-oriented guidance",
+"Evidence-backed reasoning with explicit logic and cited support"
+],
+"dominant_negative_themes": [
+"Excessive length, redundancy, and too much text to sift through",
+"Weak citation usability, specificity, and transparency",
+"Tone or formatting choices that felt clunky, casual, visually noisy, or overly editorialized"
+],
+"dominant_improvement_requests": [
+"Shorten and tighten the report while preserving the answer and key reasoning",
+"Make citations more specific, transparent, and compiled in a usable reference list",
+"Reduce unnecessary sections, conversational phrasing, and formatting excess"
+]
+},
+"positive_features": [
+{
+"feature_label": "Bottom-line summaries and clear takeaways",
+"description": "Many comments praised the presence of a clear up-front or end summary that made the main recommendation easy to identify quickly.",
+"representative_examples": [
+""Bottom line" at the very beginning",
+"final summary",
+"summary statement and main takeaways"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Strong organization and readable structure",
+"description": "Respondents frequently described the reports as well organized, easy to read, and helped by headings, subheadings, or ordered presentation.",
+"representative_examples": [
+"well organized",
+"headings and subheadings were short and precise",
+"number lists make it easy to read"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Clear language and digestibility",
+"description": "Across scenarios, clinicians often valued plain, readable language that made the content easier to digest.",
+"representative_examples": [
+"clear language",
+"concise, readable and digestible",
+"clear answers"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Practical clinical guidance",
+"description": "The reports were often seen as useful when they translated literature into concrete next steps, recommendations, timelines, dosing guidance, or anticipated questions.",
+"representative_examples": [
+"practical recommendations",
+"clear follow up timeline plans",
+"practical dosing/titration approach"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Patient-specific personalization",
+"description": "Clinicians appreciated when the output clearly incorporated the details of the presented case and tailored the recommendation accordingly.",
+"representative_examples": [
+"narrowed down to personalize to this patient case",
+"recommendations grounded in patient case",
+"confirms the patient situation first"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Explicit reasoning and decision logic",
+"description": "Several comments praised the report for showing its logic, weighing risks and benefits, and making the reasoning behind conclusions more explicit.",
+"representative_examples": [
+"explicit about what it's pulling out",
+"discusses decisions and risks benefits",
+"clear logic"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Evidence-backed conclusions",
+"description": "Positive comments often noted that conclusions felt supported by evidence, including mention of guidelines, trials, or concrete literature references.",
+"representative_examples": [
+"specific citation of evidence to support final decision",
+"well backed by cited evidence",
+"high quality publications cited"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Balanced presentation of pros and cons",
+"description": "Some clinicians liked that the report acknowledged controversy, uncertainty, or competing options instead of presenting a one-sided answer.",
+"representative_examples": [
+"gives controversy",
+"provided pros and cons",
+"appropriately treated the uncertainty"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Useful patient-facing language",
+"description": "A substantial subset of comments positively valued language that could be used to explain recommendations to patients in plain terms.",
+"representative_examples": [
+""what to say to the patient" portion",
+"plain language which is amazing",
+"language for what you can share with the patient"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Inclusion of quantitative detail when present",
+"description": "When the report included statistics or outcome numbers, those details were seen as helpful and decision-relevant.",
+"representative_examples": [
+"statistical data",
+"good inclusion of #s for OS",
+"specific studies, numbers"
+],
+"relative_salience": "medium"
+}
+],
+"negative_features": [
+{
+"feature_label": "Excessive length and verbosity",
+"description": "The most repeated criticism was that the reports were too long, too wordy, or too dense for rapid clinical use.",
+"representative_examples": [
+"way too long",
+"too much text to sift through",
+"not concise enough"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Redundancy and unnecessary content",
+"description": "Comments described the reports as repetitive or padded with extra material that did not help answer the core question.",
+"representative_examples": [
+"repetitive sections",
+"gave more than asked for",
+"some added information are not very helpful"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Opaque or weak citation presentation",
+"description": "Many respondents found the citation style hard to use because references appeared as hyperlinks or vague source labels rather than clearly inspectable citations.",
+"representative_examples": [
+"citations are hyperlinks and can't quickly see",
+"unclear citations",
+"don't want just hyperlinks"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Insufficient citation specificity and reference detail",
+"description": "Clinicians wanted to know exactly what study, guideline section, population, or document supported each statement, and often felt the report did not make that clear enough.",
+"representative_examples": [
+"would like to know exactly where it is taken from",
+"not enough references and explanation of the research",
+"would like more description of what a link is"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Missing or incomplete reference lists",
+"description": "Across scenarios, comments noted the absence of a compiled citation list at the end, even when inline references were present.",
+"representative_examples": [
+"no citation/reference list at the end",
+"nice to have a list at the end that is compiled",
+"citations not listed out"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Too little hard data or weak evidence support",
+"description": "Some clinicians felt the report lacked trial numbers, outcome statistics, stronger source selection, or enough evidence detail to support the recommendation confidently.",
+"representative_examples": [
+"no data or statistics",
+"lack of specific numbers from trials",
+"some citations are weak"
+],
+"relative_salience": "high"
+},
+{
+"feature_label": "Formatting and visual noise",
+"description": "Formatting choices such as excessive bolding, title-style citations, and visually heavy layouts were viewed as distracting.",
+"representative_examples": [
+"adds too much visual noise",
+"excessive bolding",
+"visually heavy"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Clunky or suboptimal format choices",
+"description": "Some respondents disliked the Q&A style or felt the structure delayed the answer rather than foregrounding it.",
+"representative_examples": [
+"Q&A format is a bit clunky",
+"doesn't get to the heart of the true question until the last paragraph",
+""bottom line" section should be moved to the top"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Overly casual, conversational, or editorial tone",
+"description": "A subset of clinicians reacted negatively to first-person phrasing, casual wording, buzzwords, parentheticals, or editorializing.",
+"representative_examples": [
+"reads like chat gpt",
+"casual writing style with parentheticals",
+"too much editorializing"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Patient-facing sections seen as unnecessary or oversimplified",
+"description": "Although some clinicians liked patient-language sections, others thought these sections were too simplistic, unnecessary, or not appropriate for the intended user.",
+"representative_examples": [
+"not sure if I like the 'what to say to patient' section",
+"there are more nuances than what is listed",
+"I can rephrase myself"
+],
+"relative_salience": "medium"
+},
+{
+"feature_label": "Questionable nuance or inferential overreach",
+"description": "Some comments suggested the report occasionally over-interpreted evidence, created false equivalence, or added inference beyond what was well supported.",
+"representative_examples": [
+"false equivalence of pro and con data",
+"too inferential",
+"not clear, not nuanced"
+],
+"relative_salience": "medium"
+}
+],
+"improvement_requests": [
+{
+"request_label": "Shorten and prioritize the answer",
+"description": "Respondents wanted a tighter report that surfaces the answer earlier and trims redundant or low-value content.",
+"representative_examples": [
+"should be shorter than 3 pages",
+"length could be shortened",
+"too much info for a quick look"
+],
+"targeted_problem": "Excessive length, redundancy, and difficulty rapidly extracting the answer",
+"relative_salience": "high"
+},
+{
+"request_label": "Provide a compiled reference list",
+"description": "Clinicians repeatedly asked for a clear citation list at the end in addition to or instead of embedded hyperlinks.",
+"representative_examples": [
+"no citation list",
+"citations need to be listed out",
+"would want to see citations at the bottom"
+],
+"targeted_problem": "Poor citation usability and inability to quickly inspect sources",
+"relative_salience": "high"
+},
+{
+"request_label": "Make citations more specific and inspectable",
+"description": "They wanted citations tied to exact claims, clearer study identification, and more detail about source type, journal, and relevance.",
+"representative_examples": [
+"identify specific place of citation",
+"would like actual document",
+"more description of what a link is"
+],
+"targeted_problem": "Opaque evidence provenance and weak transparency of support for recommendations",
+"relative_salience": "high"
+},
+{
+"request_label": "Include more hard data and trial numbers",
+"description": "Many comments asked for quantitative outcomes, stronger statistics, and more explicit reporting of trial results and studied populations.",
+"representative_examples": [
+"would like some specific numbers",
+"not as much hard data from references",
+"baseline population ... unclear if relevant"
+],
+"targeted_problem": "Insufficient evidentiary detail for assessing recommendation quality and applicability",
+"relative_salience": "high"
+},
+{
+"request_label": "Use stronger and more relevant sources",
+"description": "Some clinicians wanted better source selection, more guideline linkage, and clearer use of high-quality or specialty-relevant references.",
+"representative_examples": [
+"missed key references",
+"no link to guidelines",
+"articles appear low quality"
+],
+"targeted_problem": "Concerns about source quality, completeness, and alignment with oncology practice",
+"relative_salience": "high"
+},
+{
+"request_label": "Move the main recommendation earlier",
+"description": "Comments suggested putting the bottom line at the top and reducing the time required to reach the actionable answer.",
+"representative_examples": [
+""bottom line" section should be moved to the top",
+"doesn't get to the heart of the true question until the last paragraph",
+"most important information ... at top"
+],
+"targeted_problem": "Delayed answer retrieval and suboptimal workflow fit",
+"relative_salience": "medium"
+},
+{
+"request_label": "Reduce formatting excess and visual clutter",
+"description": "Respondents wanted cleaner presentation with less bolding, fewer visually noisy citation styles, and a lighter page layout.",
+"representative_examples": [
+"excessive bolding",
+"too much visual noise",
+"visually heavy"
+],
+"targeted_problem": "Reduced readability from distracting formatting choices",
+"relative_salience": "medium"
+},
+{
+"request_label": "Trim nonessential conversational or patient-facing sections",
+"description": "Several clinicians wanted the report to drop unnecessary drafted messages, pushback language, or lay summaries that did not add value for them.",
+"representative_examples": [
+"proposal to draft a message unnecessary",
+""what I would push back on" sections are unnecessary",
+"Do NOT like the lay summary"
+],
+"targeted_problem": "Perceived overdelivery, tone mismatch, and clutter from low-value add-ons",
+"relative_salience": "medium"
+}
+],
+"mixed_or_tradeoff_comments": [
+{
+"theme_label": "Practical guidance versus overreach",
+"description": "Practical recommendations were often appreciated, but some respondents felt the report crossed into unnecessary scripting, drafted messages, or patient-care decisions that should remain with the clinician.",
+"representative_examples": [
+"practical recommendations appreciated, but drafted message or patient-care sections unnecessary"
+]
+},
+{
+"theme_label": "Patient-friendly language versus clinician preference",
+"description": "Plain-language summaries for patients were highly valued by some clinicians and explicitly rejected by others who preferred to do their own phrasing or wanted more nuance.",
+"representative_examples": [
+""what to say to the patient" was praised by some and disliked by others"
+]
+},
+{
+"theme_label": "Thoroughness versus usability",
+"description": "Comprehensiveness was sometimes experienced as a strength, but just as often as a burden when it increased scrolling, repetition, or delayed the core answer.",
+"representative_examples": [
+"comprehensive and nuanced, but too long"
+]
+},
+{
+"theme_label": "Conversational tone versus professionalism",
+"description": "A more casual or ChatGPT-like voice helped readability for some, while others found the same style condescending, annoying, or insufficiently professional.",
+"representative_examples": [
+"casual writing was helpful for one commenter but read as annoying or too conversational for others"
+]
+}
+],
+"analytic_memos": {
+"interpretive_notes": [
+"The strongest pattern is not rejection of the report's reasoning, but dissatisfaction with how that reasoning is packaged: too much text, insufficiently inspectable citations, and too many optional sections.",
+"Clinicians appear to value outputs that are simultaneously evidence-grounded and workflow-efficient: concise answer first, tailored reasoning second, and source transparency throughout.",
+"The corpus suggests that citation usability is not just a formatting preference; it is closely tied to trust, perceived rigor, and the ability to verify applicability to the patient case.",
+"Patient-facing language appears to be a true preference split rather than a uniformly good or bad feature, so this may need to be optional rather than standard."
+],
+"data_quality_notes": [
+"Comments are short, fragmented, and sometimes telegraphic, so categories were consolidated across repeated wording patterns rather than treated as precise counts.",
+"A small number of entries were blank or minimally informative.",
+"Some positive comments contained embedded criticism such as 'good but long'; these were represented in both positive and mixed/negative sections where appropriate."
+]
+}
+}
