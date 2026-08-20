@@ -1,0 +1,632 @@
+{
+"transcript_id": "TX001",
+"interview_context": {
+"participant_role": "unknown",
+"setting_or_workflow_context": "Group discussion about AI-generated oncology literature-review reports for clinical information seeking, note support, and treatment-decision support.",
+"tools_mentioned_by_participant": ["open evidence", "ChatGPT"]
+},
+"segments": [
+{
+"segment_id": "S1",
+"timestamp_start": "00:00:44.010",
+"timestamp_end": "00:01:08.409",
+"speaker": "participant",
+"verbatim_excerpt": "I can see it becoming useful, it's just, I'm, like, very particular when I want to look up information, and so none of the reports, I guess, like, satisfied everything that I look for, in, like, one report.",
+"codes": ["potential_future_usefulness", "no_single_report_meets_needs", "specific_information_preferences"],
+"valence": "mixed",
+"object_of_evaluation": "overall utility and workflow fit",
+"rationale": "The participant explicitly says the reports could become useful, but also says none satisfied everything they look for. This supports both future potential and unmet format/content needs."
+},
+{
+"segment_id": "S2",
+"timestamp_start": "00:01:09.170",
+"timestamp_end": "00:01:19.400",
+"speaker": "participant",
+"verbatim_excerpt": "Like, I think the yellow reports just have it, a list of 30 different references, and everything was just, like, conjected together, and it wasn't… Yeah, I agree with that. I think visually, how it's laid out makes a big difference.",
+"codes": ["overloaded_reference_lists", "poor_visual_layout", "readability_matters"],
+"valence": "negative",
+"object_of_evaluation": "formatting and readability",
+"rationale": "The participant criticizes a long, crowded reference list and directly links layout to usability. The excerpt grounds codes about overload and visual parsing difficulty."
+},
+{
+"segment_id": "S3",
+"timestamp_start": "00:01:30.160",
+"timestamp_end": "00:01:58.189",
+"speaker": "participant",
+"verbatim_excerpt": "I like the sections. So, I like the fact that it had a section on efficacy, and one regimen to the other, and report, and then another on toxicity. So, like, yeah, definitely putting things into different sections is helpful.",
+"codes": ["preference_for_sectioned_reports", "compare_regimens", "toxicity_and_efficacy_structure"],
+"valence": "positive",
+"object_of_evaluation": "organization and content structure",
+"rationale": "The participant positively evaluates reports that separate content into named sections and highlights efficacy, regimen comparison, and toxicity as useful categories."
+},
+{
+"segment_id": "S4",
+"timestamp_start": "00:01:52.570",
+"timestamp_end": "00:02:21.369",
+"speaker": "participant",
+"verbatim_excerpt": "The actual data as in their, like, they had overall survival, everybody's survival. Yeah, especially, like, when it just gets to blocks of text, like, the paragraphs get too long, then, like, I immediately am less interested.",
+"codes": ["wants_actual_outcome_data", "dislikes_long_paragraphs", "attention_drop_with_text_blocks"],
+"valence": "mixed",
+"object_of_evaluation": "data display and narrative length",
+"rationale": "The participant values concrete outcome data while also saying long paragraphs reduce engagement. This supports both a positive preference and a negative reaction."
+},
+{
+"segment_id": "S5",
+"timestamp_start": "00:02:27.760",
+"timestamp_end": "00:03:00.100",
+"speaker": "participant",
+"verbatim_excerpt": "I think pink was my second favorite, because I thought, like, the chart format was interesting. And it would be helpful in specific clinical instances... but then for other questions, it would probably be unnecessary.",
+"codes": ["conditional_value_of_tables_or_charts", "use_case_dependent_format", "not_one_size_fits_all"],
+"valence": "mixed",
+"object_of_evaluation": "tables/charts and use-case tailoring",
+"rationale": "The participant says the format is useful in some clinical scenarios but unnecessary in others, indicating context-dependent rather than universal value."
+},
+{
+"segment_id": "S6",
+"timestamp_start": "00:03:35.760",
+"timestamp_end": "00:03:50.670",
+"speaker": "participant",
+"verbatim_excerpt": "Probably both. Yeah. Yeah, I mean, like, a customizable format would be nice, because there are ways I like it tailored, but if there were pre-formats that we can sort of, like, build off of at some level.",
+"codes": ["wants_customization", "wants_templates", "lower_barrier_to_entry"],
+"valence": "positive",
+"object_of_evaluation": "customization and presets",
+"rationale": "The participant wants both tailored outputs and starting templates, indicating a preference for flexible customization without requiring everything from scratch."
+},
+{
+"segment_id": "S7",
+"timestamp_start": "00:04:22.540",
+"timestamp_end": "00:05:14.930",
+"speaker": "participant",
+"verbatim_excerpt": "The very thorough, in-depth, red or blue, I think, is very helpful. I particularly like the blue if I needed something to kind of help frame a note... The pink one had the table? But I don't think standalone that's good.",
+"codes": ["values_thorough_reports_for_new_topics", "note_support_use_case", "tables_need_narrative_context"],
+"valence": "mixed",
+"object_of_evaluation": "depth, note-writing support, and table usefulness",
+"rationale": "The participant values detailed reports for unfamiliar scenarios and note framing, but says tables alone are insufficient. This supports a mixed view tied to context."
+},
+{
+"segment_id": "S8",
+"timestamp_start": "00:05:18.980",
+"timestamp_end": "00:05:43.179",
+"speaker": "participant",
+"verbatim_excerpt": "In terms of actually making a decision for a patient, that's not the format that I would want. And the formatting of the tables in pink and a little in yellow, there were times where it was hard to know where, like, one cell started, and the next one ended.",
+"codes": ["tables_not_ideal_for_decision_making", "table_boundary_confusion", "extra_effort_to_parse"],
+"valence": "negative",
+"object_of_evaluation": "table formatting and decision support",
+"rationale": "The participant directly rejects this table-heavy format for patient decision-making and describes cell boundaries as visually unclear, increasing cognitive effort."
+},
+{
+"segment_id": "S9",
+"timestamp_start": "00:06:03.470",
+"timestamp_end": "00:06:48.530",
+"speaker": "participant",
+"verbatim_excerpt": "Like, if it's, like, a key figure that's really highlighting, like, either supporting or not supporting whatever clinical decision you're trying to make, then it's helpful... I like hard, deterministic data, from the primary source.",
+"codes": ["primary_source_preference", "selective_value_of_figures", "wants_direct_evidence_access"],
+"valence": "positive",
+"object_of_evaluation": "figures, evidence provenance, and source access",
+"rationale": "The participant values figures when they directly support a decision and explicitly prefers concrete primary-source data, grounding trust in source material."
+},
+{
+"segment_id": "S10",
+"timestamp_start": "00:06:36.900",
+"timestamp_end": "00:06:48.530",
+"speaker": "participant",
+"verbatim_excerpt": "We have, like, a hyperlink, too. Like, if you have that where you just click on, and it takes you to that exact reference, and, like, that Graph within reference, that would be helpful.",
+"codes": ["wants_deep_links", "source_traceability", "figure_level_navigation"],
+"valence": "positive",
+"object_of_evaluation": "citation UX and verification workflow",
+"rationale": "The participant wants links to the exact reference and even the relevant graph, indicating a desire for faster source verification and precise navigation."
+},
+{
+"segment_id": "S11",
+"timestamp_start": "00:07:54.590",
+"timestamp_end": "00:08:31.829",
+"speaker": "participant",
+"verbatim_excerpt": "Some of them were good because they basically just, like, summarized, you know, like, NCCN guidelines or, like, other already established bodies... I would prefer to just, like, have the information presented neutrally.",
+"codes": ["guideline_summary_is_useful", "prefers_neutral_presentation", "discomfort_with_ai_recommendations"],
+"valence": "mixed",
+"object_of_evaluation": "guidelines and recommendation style",
+"rationale": "The participant likes summaries of established guidance but prefers neutral presentation over model-generated recommendations, showing a preference boundary."
+},
+{
+"segment_id": "S12",
+"timestamp_start": "00:09:25.420",
+"timestamp_end": "00:09:45.660",
+"speaker": "participant",
+"verbatim_excerpt": "I didn't feel comfortable making decisions just based off of what I was reading. I mean, they provided great evidence, but, I feel like it was just sort of, like, a little bit ambiguous for some parts.",
+"codes": ["insufficient_decision_confidence", "ambiguity_in_output", "evidence_not_enough_without_clarity"],
+"valence": "negative",
+"object_of_evaluation": "decision confidence and interpretability",
+"rationale": "The participant acknowledges evidence quality but says ambiguity prevented comfortable decision-making, indicating that evidence alone did not create actionability."
+},
+{
+"segment_id": "S13",
+"timestamp_start": "00:09:46.410",
+"timestamp_end": "00:10:11.289",
+"speaker": "participant",
+"verbatim_excerpt": "I like when it says, here are all the arguments for, and here are all the arguments against, and then it kind of synthesizes everything together... as long as they can actually put the arguments where they need to be.",
+"codes": ["balanced_pro_con_summaries", "synthesis_after_structure", "needs_correct_argument_placement"],
+"valence": "mixed",
+"object_of_evaluation": "argument structure and synthesis",
+"rationale": "The participant values structured pros/cons synthesis, but only when arguments are correctly organized. This indicates appreciation with an accuracy condition."
+},
+{
+"segment_id": "S14",
+"timestamp_start": "00:10:45.990",
+"timestamp_end": "00:11:13.240",
+"speaker": "participant",
+"verbatim_excerpt": "I just think there's still so many instances where the data isn't fully accurate, and doctors don't have a lot of trust... I'm gonna go through all of the things that they're citing anyway to make sure that they're accurately saying what was in the reports.",
+"codes": ["accuracy_limits_trust", "manual_verification_needed", "time_savings_eroded_by_checking"],
+"valence": "negative",
+"object_of_evaluation": "trust, accuracy, and workflow burden",
+"rationale": "The participant links incomplete accuracy to low trust and explains that they still verify cited material themselves, reducing the system's time-saving value."
+},
+{
+"segment_id": "S15",
+"timestamp_start": "00:11:38.920",
+"timestamp_end": "00:12:23.380",
+"speaker": "participant",
+"verbatim_excerpt": "Kind of like the way that it reads in a paper... they'll put a superscript with a link to the reference for that, so I find, like, that's just how I read naturally... if you hover over it, and then you see, like, a little snapshot.",
+"codes": ["paper_like_citation_style", "natural_reading_workflow", "hover_preview_preference"],
+"valence": "positive",
+"object_of_evaluation": "citation formatting and interaction design",
+"rationale": "The participant prefers literature-like inline citation patterns and proposes hover previews, showing how familiar scholarly reading conventions support usability."
+},
+{
+"segment_id": "S16",
+"timestamp_start": "00:12:28.720",
+"timestamp_end": "00:13:06.430",
+"speaker": "participant",
+"verbatim_excerpt": "I think the blue report did a great job of providing, like, the reference if you could copy and paste it into a search engine to find it... but [the other report] wouldn't provide, like, the links or the clear-cut data that you can kind of quickly search it.",
+"codes": ["better_reference_provision", "needs_searchable_citations", "clear_data_supports_verification"],
+"valence": "mixed",
+"object_of_evaluation": "references and searchability",
+"rationale": "The participant compares reports based on how easy it is to identify and search cited sources, praising one and criticizing another for weaker linkage to evidence."
+},
+{
+"segment_id": "S17",
+"timestamp_start": "00:13:30.000",
+"timestamp_end": "00:14:17.080",
+"speaker": "participant",
+"verbatim_excerpt": "I think this is useful to have. I actually think that sometimes it saves me time, in terms of if I have a specific question, and I'm looking for evidence on open evidence, then it gives me the exact citations to review.",
+"codes": ["current_time_savings_for_targeted_queries", "specific_question_use_case", "exact_citations_are_valuable"],
+"valence": "positive",
+"object_of_evaluation": "evidence retrieval and efficiency",
+"rationale": "The participant explicitly states the tool can save time for specific questions because it surfaces exact citations to review."
+},
+{
+"segment_id": "S18",
+"timestamp_start": "00:14:00.620",
+"timestamp_end": "00:14:17.080",
+"speaker": "participant",
+"verbatim_excerpt": "It's also useful to go through the logic of a particular patient scenario... So overall, I think it has the potential to save time, especially in a busy clinic kind of scenario.",
+"codes": ["logic_walkthrough_usefulness", "busy_clinic_value", "potential_time_savings"],
+"valence": "positive",
+"object_of_evaluation": "clinical reasoning support and workflow speed",
+"rationale": "The participant describes the system as useful for reasoning through scenarios and specifically ties value to time pressure in clinic."
+},
+{
+"segment_id": "S19",
+"timestamp_start": "00:15:33.270",
+"timestamp_end": "00:15:44.950",
+"speaker": "participant",
+"verbatim_excerpt": "It would also be good to, to have... like, a short summary of why it's providing that source. You know, like, this was the trial, and this was, like, these were the primary outcomes. And then the link.",
+"codes": ["wants_brief_source_context", "summary_plus_link", "outcome_oriented_reference_display"],
+"valence": "positive",
+"object_of_evaluation": "citation context and evidence presentation",
+"rationale": "The participant does not want bare links; they want a concise summary explaining why the citation matters, including trial identity and primary outcomes."
+},
+{
+"segment_id": "S20",
+"timestamp_start": "00:16:59.160",
+"timestamp_end": "00:17:34.399",
+"speaker": "participant",
+"verbatim_excerpt": "If there are a way to make this, like, PHI, like, fully integrated and remember me? Because I think my ChatGPT is nice, because it knows me, so it knows what I want out of it, memory format already.",
+"codes": ["wants_memory_of_preferences", "desire_for_phi_compatible_integration", "personalized_output_format"],
+"valence": "positive",
+"object_of_evaluation": "integration, privacy, and personalization",
+"rationale": "The participant asks for a system that can be integrated into clinical constraints while remembering their preferred format, indicating desire for personalized and usable deployment."
+}
+],
+"codebook": [
+{
+"code": "potential_future_usefulness",
+"definition": "Participant sees the tool as potentially useful even if current outputs are not yet adequate.",
+"inclusion_criteria": ["Mentions that the system could become useful", "Describes promise or potential rather than current full satisfaction"],
+"exclusion_criteria": ["Purely positive statements about current performance without caveats", "General comments not tied to usefulness"],
+"example_segment_ids": ["S1", "S18"]
+},
+{
+"code": "no_single_report_meets_needs",
+"definition": "No one output format provides everything the participant wants in one place.",
+"inclusion_criteria": ["Says none of the reports satisfied all needs", "Compares formats as partial fits"],
+"exclusion_criteria": ["Preference for one report without noting missing elements", "Critique of one isolated formatting flaw"],
+"example_segment_ids": ["S1"]
+},
+{
+"code": "poor_visual_layout",
+"definition": "Visual presentation makes the report difficult to read, parse, or use.",
+"inclusion_criteria": ["Hard to read", "Congealed formatting", "Mushed-together cells"],
+"exclusion_criteria": ["Complaints about content accuracy without visual component"],
+"example_segment_ids": ["S2", "S8"]
+},
+{
+"code": "preference_for_sectioned_reports",
+"definition": "Participant prefers reports broken into clearly labeled sections by topic or decision domain.",
+"inclusion_criteria": ["Praises sections", "Names separate sections like efficacy and toxicity"],
+"exclusion_criteria": ["General praise for organization without sectioning"],
+"example_segment_ids": ["S3"]
+},
+{
+"code": "wants_actual_outcome_data",
+"definition": "Participant wants concrete study results or outcomes presented directly in the report.",
+"inclusion_criteria": ["Mentions overall survival or actual data", "Requests deterministic or primary-source data"],
+"exclusion_criteria": ["General desire for citations without mention of outcome details"],
+"example_segment_ids": ["S4", "S9"]
+},
+{
+"code": "dislikes_long_paragraphs",
+"definition": "Long narrative blocks reduce attention and make reports less usable.",
+"inclusion_criteria": ["Paragraphs too long", "Less interested when text becomes blocky"],
+"exclusion_criteria": ["Critique of insufficient detail", "General dislike of summaries"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "use_case_dependent_format",
+"definition": "The ideal report format changes depending on the clinical question or familiarity with the topic.",
+"inclusion_criteria": ["Helpful in some cases but unnecessary in others", "Different needs for deep dive versus refresher"],
+"exclusion_criteria": ["Calls for one universal format"],
+"example_segment_ids": ["S5", "S7"]
+},
+{
+"code": "wants_customization",
+"definition": "Participant wants control over how the output is tailored to their needs.",
+"inclusion_criteria": ["Customizable format", "Tailored responses", "Remember my preferences"],
+"exclusion_criteria": ["Only asks for a single fixed template"],
+"example_segment_ids": ["S6", "S20"]
+},
+{
+"code": "wants_templates",
+"definition": "Participant wants reusable preset formats to lower effort and standardize output.",
+"inclusion_criteria": ["Pre-formats", "Build off existing structures"],
+"exclusion_criteria": ["Only bespoke customization with no presets"],
+"example_segment_ids": ["S6"]
+},
+{
+"code": "tables_need_narrative_context",
+"definition": "Tables or charts alone are not sufficient; they work better as adjuncts to explanatory text.",
+"inclusion_criteria": ["Table not good standalone", "Adjunct to something else"],
+"exclusion_criteria": ["General praise of tables without context"],
+"example_segment_ids": ["S7"]
+},
+{
+"code": "primary_source_preference",
+"definition": "Participant trusts reports more when they clearly connect to original source material.",
+"inclusion_criteria": ["Hard deterministic data", "Primary source", "Exact figure or paragraph"],
+"exclusion_criteria": ["General liking of citations without source-level trust logic"],
+"example_segment_ids": ["S9", "S10", "S15"]
+},
+{
+"code": "prefers_neutral_presentation",
+"definition": "Participant prefers information to be presented without the system making a strong recommendation.",
+"inclusion_criteria": ["Presented neutrally", "Summarize guidelines rather than decide for me"],
+"exclusion_criteria": ["Explicit request for a recommendation only"],
+"example_segment_ids": ["S11"]
+},
+{
+"code": "discomfort_with_ai_recommendations",
+"definition": "Participant is uneasy when the system itself makes clinical recommendations.",
+"inclusion_criteria": ["On their own made clinical recommendations", "Did not feel comfortable making decisions from report"],
+"exclusion_criteria": ["Neutral presentation preferences without concern"],
+"example_segment_ids": ["S11", "S12"]
+},
+{
+"code": "balanced_pro_con_summaries",
+"definition": "Participant values outputs that explicitly lay out arguments for and against a choice before synthesis.",
+"inclusion_criteria": ["Arguments for and against", "Synthesizes everything together"],
+"exclusion_criteria": ["Single-sided recommendation"],
+"example_segment_ids": ["S13"]
+},
+{
+"code": "accuracy_limits_trust",
+"definition": "Trust is limited because the participant perceives the data or reporting as not fully accurate.",
+"inclusion_criteria": ["Data isn't fully accurate", "Don't have a lot of trust"],
+"exclusion_criteria": ["General caution without mention of accuracy"],
+"example_segment_ids": ["S14"]
+},
+{
+"code": "manual_verification_needed",
+"definition": "Participant still checks cited sources themselves before relying on the report.",
+"inclusion_criteria": ["Go through all the citations anyway", "Need to make sure the report is accurately saying what was in the source"],
+"exclusion_criteria": ["Passive acceptance of linked references"],
+"example_segment_ids": ["S14"]
+},
+{
+"code": "paper_like_citation_style",
+"definition": "Participant prefers citation formatting that resembles conventional scientific papers.",
+"inclusion_criteria": ["Superscript with a link", "How I read naturally"],
+"exclusion_criteria": ["Requests links without mentioning reading workflow"],
+"example_segment_ids": ["S15"]
+},
+{
+"code": "hover_preview_preference",
+"definition": "Participant wants lightweight preview interactions for source verification without leaving the page.",
+"inclusion_criteria": ["Hover", "Little snapshot of the paragraph"],
+"exclusion_criteria": ["Only asks for clickable links"],
+"example_segment_ids": ["S15"]
+},
+{
+"code": "current_time_savings_for_targeted_queries",
+"definition": "Participant already experiences time savings when asking focused evidence questions.",
+"inclusion_criteria": ["Saves me time", "Specific question", "Exact citations to review"],
+"exclusion_criteria": ["Potential future time savings only"],
+"example_segment_ids": ["S17"]
+},
+{
+"code": "wants_memory_of_preferences",
+"definition": "Participant wants the system to remember their preferred output style and recurring needs.",
+"inclusion_criteria": ["Knows me", "Knows what I want", "Memory format already"],
+"exclusion_criteria": ["One-off customization with no longitudinal memory"],
+"example_segment_ids": ["S20"]
+}
+],
+"themes": [
+{
+"theme_id": "T1",
+"theme_name": "Usability depends on readable structure, not just having more information",
+"theme_definition": "Participants repeatedly tied usefulness to how information was organized and displayed. They favored sectioned reports with concrete outcomes and disliked dense paragraphs, crowded references, and visually confusing tables. Across comments, readability shaped whether the same evidence felt actionable or burdensome.",
+"supporting_segments": ["S2", "S3", "S4", "S7", "S8"],
+"representative_quotes": [
+{
+"segment_id": "S3",
+"quote": "I like the sections... definitely putting things into different sections is helpful."
+},
+{
+"segment_id": "S4",
+"quote": "When it just gets to blocks of text... I immediately am less interested."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Repeated across multiple participants and multiple parts of the transcript."
+},
+{
+"theme_id": "T2",
+"theme_name": "Clinicians want evidence retrieval and source traceability more than unsupported recommendation-making",
+"theme_definition": "Participants valued reports that linked clearly to underlying literature, especially when exact references, figures, or source passages were easy to access. At the same time, they were uneasy relying on outputs for decisions when recommendations felt ambiguous or insufficiently separated from source evidence. Trust was strongest when the report behaved like an expedited literature search rather than an autonomous decider.",
+"supporting_segments": ["S9", "S10", "S11", "S12", "S14", "S15", "S16", "S17", "S19"],
+"representative_quotes": [
+{
+"segment_id": "S9",
+"quote": "I like hard, deterministic data, from the primary source."
+},
+{
+"segment_id": "S12",
+"quote": "I didn't feel comfortable making decisions just based off of what I was reading."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Strong support from repeated comments about citations, links, neutral presentation, ambiguity, and verification."
+},
+{
+"theme_id": "T3",
+"theme_name": "The right output should be customizable to the task, the user, and the level of familiarity",
+"theme_definition": "Participants did not describe one universally best format. Instead, they wanted different output types for deep dives, quick refreshers, note support, and specific decision contexts. They also wanted a mix of presets and customization, ideally with remembered personal preferences.",
+"supporting_segments": ["S5", "S6", "S7", "S17", "S18", "S20"],
+"representative_quotes": [
+{
+"segment_id": "S6",
+"quote": "A customizable format would be nice... but if there were pre-formats that we can sort of, like, build off of."
+},
+{
+"segment_id": "S20",
+"quote": "My ChatGPT is nice, because it knows me, so it knows what I want out of it."
+}
+],
+"overall_valence": "positive",
+"confidence": "high",
+"confidence_basis": "Multiple participants raised tailoring, preset formats, scenario-specific outputs, and remembered preferences."
+}
+],
+"likes": [
+{
+"like_id": "L1",
+"statement": "Clear sectioning by topics such as efficacy, regimen comparison, and toxicity.",
+"supporting_segments": ["S3"],
+"representative_quote": "I like the sections."
+},
+{
+"like_id": "L2",
+"statement": "Detailed reports are useful for unfamiliar topics and can help frame clinical notes.",
+"supporting_segments": ["S7"],
+"representative_quote": "I particularly like the blue if I needed something to kind of help frame a note."
+},
+{
+"like_id": "L3",
+"statement": "Key figures and primary-source data are helpful when directly tied to a decision.",
+"supporting_segments": ["S9", "S10"],
+"representative_quote": "I like hard, deterministic data, from the primary source."
+},
+{
+"like_id": "L4",
+"statement": "Exact citations and links can save time for targeted evidence questions.",
+"supporting_segments": ["S17", "S18"],
+"representative_quote": "It gives me the exact citations to review."
+},
+{
+"like_id": "L5",
+"statement": "Balanced summaries that present arguments for and against a choice before synthesis.",
+"supporting_segments": ["S13"],
+"representative_quote": "Here are all the arguments for, and here are all the arguments against."
+}
+],
+"dislikes": [
+{
+"dislike_id": "D1",
+"statement": "Crowded reference lists and poor layout make reports hard to read and parse.",
+"supporting_segments": ["S2"],
+"representative_quote": "Visually, how it's laid out makes a big difference."
+},
+{
+"dislike_id": "D2",
+"statement": "Long paragraph blocks reduce attention and interest.",
+"supporting_segments": ["S4"],
+"representative_quote": "When it just gets to blocks of text... I immediately am less interested."
+},
+{
+"dislike_id": "D3",
+"statement": "Table-heavy outputs can be confusing and are not ideal as standalone decision-support formats.",
+"supporting_segments": ["S7", "S8"],
+"representative_quote": "I don't think standalone that's good."
+},
+{
+"dislike_id": "D4",
+"statement": "Model-generated recommendations are less comfortable than neutral evidence presentation.",
+"supporting_segments": ["S11", "S12"],
+"representative_quote": "I would prefer to just, like, have the information presented neutrally."
+},
+{
+"dislike_id": "D5",
+"statement": "Trust is limited when accuracy is uncertain and clinicians still need to verify every citation.",
+"supporting_segments": ["S14"],
+"representative_quote": "I'm gonna go through all of the things that they're citing anyway."
+}
+],
+"requirements": [
+{
+"req_id": "R1",
+"type": "must_have",
+"requirement": "Reports must separate content into clearly labeled sections such as efficacy, regimen comparison, toxicity, and concrete outcome data.",
+"supporting_segments": ["S3", "S4"],
+"risk_if_ignored": "Clinicians may find the report harder to scan and less useful for fast clinical reasoning."
+},
+{
+"req_id": "R2",
+"type": "avoid",
+"requirement": "Avoid dense paragraph blocks, crowded reference dumps, and visually ambiguous tables.",
+"supporting_segments": ["S2", "S4", "S8"],
+"risk_if_ignored": "Users may disengage quickly or misread the output because parsing requires extra effort."
+},
+{
+"req_id": "R3",
+"type": "must_have",
+"requirement": "Each claim or summary should link to the exact underlying source, ideally at the level of the relevant paragraph or figure.",
+"supporting_segments": ["S9", "S10", "S15", "S19"],
+"risk_if_ignored": "Trust and verification speed will remain poor because users cannot efficiently confirm provenance."
+},
+{
+"req_id": "R4",
+"type": "must_have",
+"requirement": "The system should provide neutral evidence presentation and clearly distinguish source-derived information from any synthesized recommendation.",
+"supporting_segments": ["S11", "S12", "S13"],
+"risk_if_ignored": "Clinicians may be uncomfortable relying on the output for patient-facing reasoning."
+},
+{
+"req_id": "R5",
+"type": "must_have",
+"requirement": "The product should support multiple output modes, including detailed deep dives, quick refreshers, note-support formats, and customizable templates.",
+"supporting_segments": ["S5", "S6", "S7"],
+"risk_if_ignored": "A single rigid format will fail across different clinical questions and levels of user familiarity."
+},
+{
+"req_id": "R6",
+"type": "nice_to_have",
+"requirement": "The system should remember user-specific formatting preferences in a privacy-compatible integrated workflow.",
+"supporting_segments": ["S20"],
+"risk_if_ignored": "Users may need to repeatedly re-specify preferences, reducing efficiency and adoption."
+}
+],
+"workflow_integration": {
+"current_workarounds": [
+"Using the tool mainly to look things up rather than directly make clinical decisions.",
+"Reviewing cited references manually to verify accuracy.",
+"Copying or searching references manually when links are not sufficiently direct."
+],
+"intended_use_cases": [
+"Expedited literature search for specific clinical questions.",
+"Reviewing exact citations and guideline-related evidence.",
+"Helping frame a clinical note.",
+"Walking through the logic of a particular patient scenario.",
+"Quick refresher for familiar topics versus deep dive for unfamiliar ones."
+],
+"constraints": [
+"Time pressure in busy clinic settings.",
+"Cognitive load from long paragraphs or poorly formatted tables.",
+"Trust limitations due to perceived inaccuracy or ambiguity.",
+"Need to verify source content before relying on it.",
+"Different information needs depending on topic familiarity and clinical task."
+],
+"output_format_preferences": [
+"Sectioned reports with efficacy, toxicity, and regimen comparisons.",
+"Concrete outcome data such as survival metrics.",
+"Short summaries paired with links.",
+"Paper-like inline citations.",
+"Optional tables/charts only when directly relevant.",
+"Customizable formats with templates."
+]
+},
+"trust_and_safety": {
+"trust_drivers": [
+"Primary-source data and exact citations.",
+"Direct links to the relevant reference, paragraph, or figure.",
+"Clear explanation of why a source is being shown.",
+"Neutral presentation of guidelines and evidence.",
+"Structured pros/cons synthesis when correctly organized."
+],
+"trust_erosions": [
+"Perception that the data is not always fully accurate.",
+"Ambiguous recommendations or unclear separation between evidence and conclusion.",
+"Poor citation presentation.",
+"Visually confusing tables and overloaded text."
+],
+"verification_behaviors": [
+"Clicking, searching, or otherwise checking cited references manually.",
+"Comparing report claims back to the original source material.",
+"Using the tool as a check on their own logic rather than as a final authority."
+],
+"medico_legal_or_policy_concerns": [
+"Desire for PHI-compatible integration before fuller adoption."
+]
+},
+"quantified_mentions": {
+"top_codes_by_count": [
+{
+"code": "primary_source_preference",
+"count": 3
+},
+{
+"code": "wants_customization",
+"count": 3
+},
+{
+"code": "use_case_dependent_format",
+"count": 3
+},
+{
+"code": "manual_verification_needed",
+"count": 2
+},
+{
+"code": "prefers_neutral_presentation",
+"count": 2
+}
+],
+"notes": "Counts are approximate because the transcript reflects a group discussion with multiple participant voices and uneven segment lengths."
+},
+"analytic_memos": {
+"summary": "Participants generally saw promise in AI-generated literature-review reports, but they did not describe any single current format as sufficient. The strongest positive reactions centered on readable structure, exact citations, concrete data, and outputs that behave like an efficient literature search rather than a black-box recommender. Participants wanted reports to be easier to scan, with sections, concise summaries, and better citation UX. They were notably less comfortable when the output blurred neutral evidence presentation with model-generated recommendation. Trust remained limited because some participants still felt compelled to verify every cited source manually. The preferred future state was not one fixed report, but a set of customizable or templated modes matched to different tasks such as note-writing, quick refreshers, or deep dives. Personalization and privacy-compatible integration were also raised as meaningful product opportunities.",
+"tensions_or_tradeoffs": [
+"More detail can be helpful for unfamiliar topics, but too much text becomes hard to read.",
+"Tables and charts can speed review, but standalone structured outputs may be insufficient for actual patient decisions.",
+"Participants want summaries to save time, but not at the cost of source traceability and verification.",
+"Some synthesis is helpful, but users still want clear separation between neutral evidence and any recommendation."
+],
+"open_questions_for_next_interview": [
+"When does a table become helpful versus too sparse or confusing for decision support?",
+"What is the minimum citation context needed for users to trust a summary without opening the paper?",
+"How should a tool visibly separate source-grounded evidence from model-generated interpretation?",
+"Which clinical tasks most need a deep-dive format versus a quick refresher format?",
+"What kind of remembered user preferences would be most valuable in a privacy-constrained clinical environment?"
+]
+}
+}

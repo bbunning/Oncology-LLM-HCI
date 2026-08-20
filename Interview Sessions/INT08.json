@@ -1,0 +1,643 @@
+{
+"transcript_id": "TX001",
+"interview_context": {
+"participant_role": "unknown",
+"setting_or_workflow_context": "oncology clinical decision-making and research workflow with interest in literature-based questions, evidence summaries, and patient-specific management considerations",
+"tools_mentioned_by_participant": ["Open Evidence", "R", "R markdown", "NCCN guidelines"]
+},
+"segments": [
+{
+"segment_id": "S1",
+"timestamp_start": "00:00:23.370",
+"timestamp_end": "00:01:28.859",
+"speaker": "participant",
+"verbatim_excerpt": "I used Open Evidence a bit, which is pretty good. I think it's helpful for answering clinical questions... I usually also like to confirm with... colleagues... it can be helpful just to make sure we're on the right track.",
+"codes": ["helpful_for_clinical_questions", "needs_human_confirmation", "limited_specialty_specificity", "institutional_variation_limits_generalization"],
+"valence": "mixed",
+"object_of_evaluation": "workflow fit, trust, specialty relevance",
+"rationale": "The participant describes Open Evidence as useful for answering questions and checking direction, but also says they confirm with colleagues and notes limitations in specialty-specific and institution-specific applicability."
+},
+{
+"segment_id": "S2",
+"timestamp_start": "00:03:06.610",
+"timestamp_end": "00:03:28.130",
+"speaker": "participant",
+"verbatim_excerpt": "The thing I did find was helpful is if you were asking specifically, like, what does the literature say about this?... it tells you all the evidence... there's no evidence that this helps, these are all the studies.",
+"codes": ["good_for_direct_literature_questions", "evidence_listing_is_useful"],
+"valence": "positive",
+"object_of_evaluation": "evidence display, literature review utility",
+"rationale": "The participant explicitly says this style was helpful when the question was narrowly about what the literature says and valued the listing of studies and evidence."
+},
+{
+"segment_id": "S3",
+"timestamp_start": "00:03:28.470",
+"timestamp_end": "00:04:13.049",
+"speaker": "participant",
+"verbatim_excerpt": "I liked the blue one the best... it was very comprehensive... it actually stopped and was like, well, first, you should actually... check for other causes, too... and others didn't necessarily recommend that.",
+"codes": ["prefers_comprehensive_report", "wants_broader_differential", "values_missing_step_detection"],
+"valence": "positive",
+"object_of_evaluation": "comprehensiveness, differential thinking",
+"rationale": "The participant favors the report that broadened the workup and caught additional considerations other reports missed."
+},
+{
+"segment_id": "S4",
+"timestamp_start": "00:04:14.120",
+"timestamp_end": "00:05:42.810",
+"speaker": "participant",
+"verbatim_excerpt": "It was nice that it kind of presented, like, these are the options... but some of them kind of provided, like, this is the recommendation that I would have for this patient... they haven't seen the patient.",
+"codes": ["prefers_options_over_single_recommendation", "concern_about_overreach", "missing_patient_specific_variables", "patient_goals_matter"],
+"valence": "mixed",
+"object_of_evaluation": "recommendation style, patient-specificity",
+"rationale": "The participant likes option-framing but objects when the report makes a firm recommendation without enough patient-specific information or knowledge of patient goals."
+},
+{
+"segment_id": "S5",
+"timestamp_start": "00:06:10.480",
+"timestamp_end": "00:07:28.619",
+"speaker": "participant",
+"verbatim_excerpt": "If you're gonna say there's no difference, that's an interpretation... it could be P equals .059 and a huge clinical benefit... presenting that data is very helpful... it assesses the quality of the evidence.",
+"codes": ["raw_numbers_over_summary_claims", "concern_about_statistical_overinterpretation", "values_evidence_quality_assessment"],
+"valence": "mixed",
+"object_of_evaluation": "interpretation, evidence quality, numeric detail",
+"rationale": "The participant distinguishes between reporting the data and claiming there is no difference, and wants the underlying numbers and evidence quality rather than compressed conclusions."
+},
+{
+"segment_id": "S6",
+"timestamp_start": "00:08:19.430",
+"timestamp_end": "00:09:43.839",
+"speaker": "participant",
+"verbatim_excerpt": "I would err more on the side of less interpretation... I like having the facts presented and to make my own interpretation... if it's saying, like, this is my recommendation and this is why... that's concerning to me.",
+"codes": ["prefers_less_interpretation", "wants_clinician_to_decide", "editorializing_is_concerning"],
+"valence": "negative",
+"object_of_evaluation": "tone, interpretation, clinical autonomy",
+"rationale": "The participant clearly states a preference for fact presentation over model-led recommendation and labels unsolicited interpretation as concerning."
+},
+{
+"segment_id": "S7",
+"timestamp_start": "00:10:37.430",
+"timestamp_end": "00:11:28.550",
+"speaker": "participant",
+"verbatim_excerpt": "I had... an R markdown... PDF, and I just said, turn this data into a results paragraph... I still went back and double-checked them. But it was right, and it did it very well.",
+"codes": ["time_saving_for_research_writing", "needs_human_verification", "good_at_structuring_results"],
+"valence": "positive",
+"object_of_evaluation": "research workflow, efficiency",
+"rationale": "The participant reports a concrete non-clinical use case where the tool saved time and performed well, while still requiring verification."
+},
+{
+"segment_id": "S8",
+"timestamp_start": "00:11:28.550",
+"timestamp_end": "00:12:56.720",
+"speaker": "participant",
+"verbatim_excerpt": "If I'm looking for an interpretation, that's fine, but I think sometimes they do it by default... it hasn't seen the patient... it hasn't asked the patient about... values and goals... there's certainly no physical exam.",
+"codes": ["interpretation_should_be_optional", "missing_patient_context", "patient_values_and_exam_are_absent"],
+"valence": "negative",
+"object_of_evaluation": "trust, patient context, decision support scope",
+"rationale": "The participant accepts interpretation only when explicitly requested and explains why default interpretation is risky in the absence of patient interaction and exam information."
+},
+{
+"segment_id": "S9",
+"timestamp_start": "00:12:15.720",
+"timestamp_end": "00:12:56.720",
+"speaker": "participant",
+"verbatim_excerpt": "Local control really matters for some patients... for their quality of life... I think there's just a lot of things where you could easily be like, there's no benefit to this. But maybe there is.",
+"codes": ["quality_of_life_can_change_value", "missing_clinical_detail_changes_conclusion", "binary_no_benefit_language_is_risky"],
+"valence": "negative",
+"object_of_evaluation": "clinical nuance, framing of benefit",
+"rationale": "The participant warns that a report can miss meaningful benefit when it compresses complex situations into a simple no-benefit conclusion."
+},
+{
+"segment_id": "S10",
+"timestamp_start": "00:13:45.160",
+"timestamp_end": "00:15:37.140",
+"speaker": "participant",
+"verbatim_excerpt": "I like the ones that have, like, a summary at the top... at least alongside some data... I definitely think having, like, a next steps or, like, follow-up questions thing is... important to have.",
+"codes": ["summary_should_be_tied_to_data", "wants_next_steps_section", "wants_follow_up_questions", "summary_position_has_tradeoffs"],
+"valence": "positive",
+"object_of_evaluation": "report structure, summary design, actionability",
+"rationale": "The participant wants concise summaries, but only when supported by visible data, and explicitly asks for next steps and follow-up questions."
+},
+{
+"segment_id": "S11",
+"timestamp_start": "00:15:37.380",
+"timestamp_end": "00:16:32.280",
+"speaker": "participant",
+"verbatim_excerpt": "Having, like, the actual data... numbers in it... there was one where it had, like, a forest plot, and I thought that was nice... I thought the references overall were pretty good.",
+"codes": ["wants_numeric_results", "visuals_can_help", "references_appear_credible"],
+"valence": "positive",
+"object_of_evaluation": "data display, visuals, citations",
+"rationale": "The participant values concrete numbers, found at least one graph helpful, and reports that the references they checked appeared real and credible."
+},
+{
+"segment_id": "S12",
+"timestamp_start": "00:18:06.509",
+"timestamp_end": "00:18:26.380",
+"speaker": "participant",
+"verbatim_excerpt": "Maybe you can also choose... what do you want in interpretation... sometimes it is helpful... but... if it's written there, you're going to be more likely to believe it.",
+"codes": ["wants_user_control_over_interpretation", "written_output_can_anchor_belief", "interpretation_needs_calibration"],
+"valence": "mixed",
+"object_of_evaluation": "customization, cognitive influence, trust",
+"rationale": "The participant proposes adjustable interpretation depth and explains that written recommendations can unduly influence belief even when they are uncertain."
+}
+],
+"codebook": [
+{
+"code": "helpful_for_clinical_questions",
+"definition": "The participant describes AI as useful for answering clinical or literature-based questions in practice.",
+"inclusion_criteria": ["Statements that the tool is helpful for answering questions", "Comments about getting feedback or being on the right track"],
+"exclusion_criteria": ["General praise without a specific workflow use", "Research-writing use cases"],
+"example_segment_ids": ["S1", "S2"]
+},
+{
+"code": "needs_human_confirmation",
+"definition": "The participant uses AI output only with secondary checking by colleagues or personal review.",
+"inclusion_criteria": ["Double-checking outputs", "Confirming with colleagues", "Verification before use"],
+"exclusion_criteria": ["General distrust without a checking behavior", "Concerns about interpretation alone"],
+"example_segment_ids": ["S1", "S7"]
+},
+{
+"code": "limited_specialty_specificity",
+"definition": "The participant feels the tool does not fully capture specialty-specific content or needs.",
+"inclusion_criteria": ["Comments that specialty-related content is lacking", "Requests for specialty-specific practical guidance"],
+"exclusion_criteria": ["Institution-specific workflow differences", "General missing patient data"],
+"example_segment_ids": ["S1"]
+},
+{
+"code": "institutional_variation_limits_generalization",
+"definition": "Differences across institutions make generic AI guidance less directly applicable.",
+"inclusion_criteria": ["Mentions of institutional differences", "Concerns that models do not account for local practice patterns"],
+"exclusion_criteria": ["Patient-specific differences", "General uncertainty"],
+"example_segment_ids": ["S1"]
+},
+{
+"code": "good_for_direct_literature_questions",
+"definition": "The participant sees strong value when the question is narrowly framed around what the literature says.",
+"inclusion_criteria": ["Usefulness for direct evidence queries", "Preference for evidence-focused responses"],
+"exclusion_criteria": ["Broad management questions", "Patient-specific recommendations"],
+"example_segment_ids": ["S2", "S5"]
+},
+{
+"code": "evidence_listing_is_useful",
+"definition": "The participant values seeing the relevant studies or evidence laid out explicitly.",
+"inclusion_criteria": ["All the studies are listed", "Evidence is surfaced directly"],
+"exclusion_criteria": ["General comments on citations being real", "Quality grading without study listing"],
+"example_segment_ids": ["S2"]
+},
+{
+"code": "prefers_comprehensive_report",
+"definition": "The participant favors reports that include more complete clinical considerations and context.",
+"inclusion_criteria": ["Comprehensive report praised", "Catching things other reports missed"],
+"exclusion_criteria": ["Preference only for brevity", "Pure evidence-summary preference"],
+"example_segment_ids": ["S3"]
+},
+{
+"code": "wants_broader_differential",
+"definition": "The participant wants the report to consider other explanations or workup steps before committing to one pathway.",
+"inclusion_criteria": ["Check for other causes", "Broader differential or evaluation"],
+"exclusion_criteria": ["General concern about interpretation", "Patient goals discussions"],
+"example_segment_ids": ["S3"]
+},
+{
+"code": "values_missing_step_detection",
+"definition": "The participant values reports that identify omitted tests, questions, or workup steps.",
+"inclusion_criteria": ["Additional labs or checks mentioned", "Missing details surfaced by report"],
+"exclusion_criteria": ["General next steps not tied to missing information", "Options framing alone"],
+"example_segment_ids": ["S3", "S10"]
+},
+{
+"code": "prefers_options_over_single_recommendation",
+"definition": "The participant prefers reports that present options and reasoning rather than one definitive recommendation.",
+"inclusion_criteria": ["These are the options", "Multiple paths presented"],
+"exclusion_criteria": ["Summary statements without options", "Calls for raw data only"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "concern_about_overreach",
+"definition": "The participant worries that the model goes too far by making treatment recommendations beyond the available information.",
+"inclusion_criteria": ["They haven't seen the patient", "Making a decision based on incomplete information"],
+"exclusion_criteria": ["Simple mention of uncertainty", "Minor wording issues"],
+"example_segment_ids": ["S4", "S6"]
+},
+{
+"code": "missing_patient_specific_variables",
+"definition": "The participant notes that omitted clinical details can materially change what the right answer is.",
+"inclusion_criteria": ["Not every patient is the same", "Missing variables or one keyword can change the answer"],
+"exclusion_criteria": ["Institutional differences", "Pure literature questions"],
+"example_segment_ids": ["S4", "S9"]
+},
+{
+"code": "patient_goals_matter",
+"definition": "The participant emphasizes that treatment value depends on what matters to the patient, not just headline endpoints.",
+"inclusion_criteria": ["Values and goals", "Quality of life", "Outcome priorities"],
+"exclusion_criteria": ["General patient-specificity without goals", "Physical exam concerns alone"],
+"example_segment_ids": ["S4", "S8", "S9"]
+},
+{
+"code": "raw_numbers_over_summary_claims",
+"definition": "The participant prefers actual numeric results and endpoint data over compressed verbal conclusions.",
+"inclusion_criteria": ["Presenting the data is helpful", "Numbers in it", "Need hard endpoints"],
+"exclusion_criteria": ["General liking of citations", "Graphs without numbers"],
+"example_segment_ids": ["S5", "S11"]
+},
+{
+"code": "concern_about_statistical_overinterpretation",
+"definition": "The participant worries that statistical findings are being over-summarized into claims that exceed the data.",
+"inclusion_criteria": ["No difference is an interpretation", "P-value example used to challenge summary claim"],
+"exclusion_criteria": ["General editorializing concerns without statistics", "Patient context concerns"],
+"example_segment_ids": ["S5"]
+},
+{
+"code": "values_evidence_quality_assessment",
+"definition": "The participant values reports that indicate how strong or credible the evidence is.",
+"inclusion_criteria": ["Assesses the quality of the evidence", "Guidelines and peer-reviewed journals mentioned positively"],
+"exclusion_criteria": ["References merely present", "General study listing"],
+"example_segment_ids": ["S5", "S11"]
+},
+{
+"code": "prefers_less_interpretation",
+"definition": "The participant would rather the report lean toward factual presentation than built-in interpretation.",
+"inclusion_criteria": ["Err more on the side of less interpretation", "Facts presented for own interpretation"],
+"exclusion_criteria": ["Optional interpretation requested by user", "General distrust"],
+"example_segment_ids": ["S6", "S8"]
+},
+{
+"code": "wants_clinician_to_decide",
+"definition": "The participant sees the clinician as the one who should synthesize and decide after reviewing the evidence.",
+"inclusion_criteria": ["Make my own interpretation", "Serve facts to clinician"],
+"exclusion_criteria": ["General discussion of trust", "Simple need for summary"],
+"example_segment_ids": ["S6"]
+},
+{
+"code": "editorializing_is_concerning",
+"definition": "The participant uses the idea of editorializing to describe an unwanted, risky style of AI output.",
+"inclusion_criteria": ["Editorialize", "Saying what it means by default", "Concern about conclusions sounding like gospel"],
+"exclusion_criteria": ["Neutral interpretation on request", "Simple recommendations without concern"],
+"example_segment_ids": ["S6", "S8"]
+},
+{
+"code": "time_saving_for_research_writing",
+"definition": "The participant uses AI to speed up turning results into prose in a research workflow.",
+"inclusion_criteria": ["Turn data into results paragraph", "Save time in writing"],
+"exclusion_criteria": ["Clinical report summarization", "General coding help"],
+"example_segment_ids": ["S7"]
+},
+{
+"code": "good_at_structuring_results",
+"definition": "The participant reports that AI can accurately organize extracted numerical results into usable prose.",
+"inclusion_criteria": ["Did it very well", "Pulled main result correctly"],
+"exclusion_criteria": ["Interpretation of results", "Citation retrieval"],
+"example_segment_ids": ["S7"]
+},
+{
+"code": "interpretation_should_be_optional",
+"definition": "The participant wants interpretation available when requested, but not embedded by default.",
+"inclusion_criteria": ["If I'm looking for an interpretation, that's fine", "Choose what you want in interpretation"],
+"exclusion_criteria": ["Absolute rejection of interpretation", "General customization unrelated to interpretation"],
+"example_segment_ids": ["S8", "S12"]
+},
+{
+"code": "missing_patient_context",
+"definition": "The participant notes that AI lacks access to critical patient-specific context needed for safe recommendations.",
+"inclusion_criteria": ["Hasn't seen the patient", "Missing values, goals, exam, or key descriptors"],
+"exclusion_criteria": ["Institutional variation", "Literature-only questions"],
+"example_segment_ids": ["S8", "S9"]
+},
+{
+"code": "summary_should_be_tied_to_data",
+"definition": "The participant wants summaries, but only when paired closely with supporting evidence and numbers.",
+"inclusion_criteria": ["Summary at the top alongside some data", "Conclusion plus evidence"],
+"exclusion_criteria": ["Summary alone", "Data section without summary"],
+"example_segment_ids": ["S10"]
+},
+{
+"code": "wants_next_steps_section",
+"definition": "The participant wants the report to suggest immediate follow-up actions or practical next steps.",
+"inclusion_criteria": ["Next steps", "Things to do in the meantime", "Follow-up schedule"],
+"exclusion_criteria": ["General recommendations without action framing", "Broader interpretations"],
+"example_segment_ids": ["S10"]
+},
+{
+"code": "wants_follow_up_questions",
+"definition": "The participant wants the model to surface missing information and ask what else needs to be known.",
+"inclusion_criteria": ["Follow-up questions", "Identify where more information is needed"],
+"exclusion_criteria": ["General next actions", "Differential workup not framed as missing information"],
+"example_segment_ids": ["S10"]
+},
+{
+"code": "summary_position_has_tradeoffs",
+"definition": "The participant sees pros and cons to placing a summary at the top versus later in the report.",
+"inclusion_criteria": ["Easy to stop at summary", "Sometimes useful for simple questions"],
+"exclusion_criteria": ["General preference for summaries", "Navigation comments without tradeoff"],
+"example_segment_ids": ["S10"]
+},
+{
+"code": "wants_numeric_results",
+"definition": "The participant wants actual quantitative results and endpoints included in the report body.",
+"inclusion_criteria": ["Numbers in it", "Raw data itself"],
+"exclusion_criteria": ["High-level evidence quality", "Citations alone"],
+"example_segment_ids": ["S11"]
+},
+{
+"code": "visuals_can_help",
+"definition": "The participant sees visual displays such as graphs as potentially useful additions to a report.",
+"inclusion_criteria": ["Forest plot was nice", "Graph included helped"],
+"exclusion_criteria": ["Tables or references only", "Desire for every graph from every paper"],
+"example_segment_ids": ["S11"]
+},
+{
+"code": "references_appear_credible",
+"definition": "The participant reports that the cited references looked real and drawn from credible sources.",
+"inclusion_criteria": ["Clicked through references", "Real, peer-reviewed journals, guidelines"],
+"exclusion_criteria": ["Assumptions about reference accuracy", "General trust without citation checking"],
+"example_segment_ids": ["S11"]
+},
+{
+"code": "wants_user_control_over_interpretation",
+"definition": "The participant wants configurable control over how much interpretation the report provides.",
+"inclusion_criteria": ["Choose what you want in interpretation", "Different levels of interpretation"],
+"exclusion_criteria": ["General request for less interpretation", "Calls for summary/data balance only"],
+"example_segment_ids": ["S12"]
+},
+{
+"code": "written_output_can_anchor_belief",
+"definition": "The participant believes written recommendations can influence clinicians simply by being presented authoritatively.",
+"inclusion_criteria": ["If it's written there, you're going to be more likely to believe it"],
+"exclusion_criteria": ["General trust concerns without anchoring idea", "Verification behaviors"],
+"example_segment_ids": ["S12"]
+}
+],
+"themes": [
+{
+"theme_id": "T1",
+"theme_name": "Useful for evidence retrieval, risky as default decision-maker",
+"theme_definition": "The participant repeatedly describes AI reports as useful when they surface literature, organize evidence, and save time. The value drops when the system shifts from presenting evidence to making patient-specific recommendations without enough context. The participant draws a line between evidence support and decision authority.",
+"supporting_segments": ["S1", "S2", "S4", "S6", "S8", "S11"],
+"representative_quotes": [
+{
+"segment_id": "S2",
+"quote": "What does the literature say about this?... it tells you all the evidence."
+},
+{
+"segment_id": "S6",
+"quote": "I would err more on the side of less interpretation."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Repeated across many segments with direct statements about both utility and concern."
+},
+{
+"theme_id": "T2",
+"theme_name": "Show the numbers, not just the conclusion",
+"theme_definition": "The participant wants the report to display hard data, endpoint results, and evidence quality rather than collapsing findings into simplified verbal claims. Numeric results are treated as necessary for independent clinician judgment. Summaries are acceptable only when visibly tied to supporting data.",
+"supporting_segments": ["S5", "S10", "S11"],
+"representative_quotes": [
+{
+"segment_id": "S5",
+"quote": "Presenting that data is very helpful."
+},
+{
+"segment_id": "S11",
+"quote": "Having... the actual data... numbers in it."
+}
+],
+"overall_valence": "positive",
+"confidence": "high",
+"confidence_basis": "This preference is stated clearly in multiple segments and linked to several concrete examples."
+},
+{
+"theme_id": "T3",
+"theme_name": "Patient context changes what counts as the right answer",
+"theme_definition": "The participant stresses that missing variables, patient goals, physical exam findings, and subtle clinical details can materially alter recommendations. Because those factors are often absent from prompts, the participant is wary of overly certain AI conclusions. Benefit depends on context, not just literature headlines.",
+"supporting_segments": ["S4", "S8", "S9"],
+"representative_quotes": [
+{
+"segment_id": "S8",
+"quote": "It hasn't asked the patient about... values and goals."
+},
+{
+"segment_id": "S9",
+"quote": "There's no benefit to this. But maybe there is."
+}
+],
+"overall_valence": "negative",
+"confidence": "high",
+"confidence_basis": "The concern appears repeatedly and is grounded in several distinct examples."
+},
+{
+"theme_id": "T4",
+"theme_name": "Best report style combines summary, evidence, and next steps",
+"theme_definition": "The participant's preferred report is neither a bare literature dump nor a single top-line recommendation. It should combine a concise summary, visible supporting data, practical next steps, and prompts for missing information. The participant also sees some value in visuals and good references within that structure.",
+"supporting_segments": ["S3", "S10", "S11", "S12"],
+"representative_quotes": [
+{
+"segment_id": "S10",
+"quote": "Having... a next steps or... follow-up questions thing is... important."
+},
+{
+"segment_id": "S3",
+"quote": "I liked the blue one the best... it was very comprehensive."
+}
+],
+"overall_valence": "positive",
+"confidence": "medium",
+"confidence_basis": "Supported by multiple segments, though some design choices remain explicitly unresolved by the participant."
+}
+],
+"likes": [
+{
+"like_id": "L1",
+"statement": "The participant liked reports that directly answered narrow literature questions by laying out the supporting studies.",
+"supporting_segments": ["S2"],
+"representative_quote": "It tells you all the evidence."
+},
+{
+"like_id": "L2",
+"statement": "The participant liked the more comprehensive report that broadened the workup and caught considerations other reports missed.",
+"supporting_segments": ["S3"],
+"representative_quote": "I liked the blue one the best."
+},
+{
+"like_id": "L3",
+"statement": "The participant liked AI for turning numeric research output into a draft results paragraph to save time.",
+"supporting_segments": ["S7"],
+"representative_quote": "It was right, and it did it very well."
+},
+{
+"like_id": "L4",
+"statement": "The participant liked summaries when they were paired with supporting data rather than standing alone.",
+"supporting_segments": ["S10"],
+"representative_quote": "I like the summary, but as long as it says... the data."
+},
+{
+"like_id": "L5",
+"statement": "The participant liked concrete numbers, occasional visuals such as a forest plot, and apparently real citations.",
+"supporting_segments": ["S11"],
+"representative_quote": "The references overall were pretty good."
+}
+],
+"dislikes": [
+{
+"dislike_id": "D1",
+"statement": "The participant disliked reports that made patient-specific recommendations without having seen the patient or knowing missing clinical details.",
+"supporting_segments": ["S4", "S8"],
+"representative_quote": "They haven't seen the patient."
+},
+{
+"dislike_id": "D2",
+"statement": "The participant disliked verbal conclusions such as 'no difference' or 'no benefit' when the underlying data were not shown.",
+"supporting_segments": ["S5", "S9"],
+"representative_quote": "That's an interpretation."
+},
+{
+"dislike_id": "D3",
+"statement": "The participant disliked default editorializing and felt the model sometimes interpreted findings too aggressively.",
+"supporting_segments": ["S6", "S8"],
+"representative_quote": "Editorializing is very... concerning to me."
+},
+{
+"dislike_id": "D4",
+"statement": "The participant disliked summaries that could be read in isolation and encourage users to skip the supporting evidence.",
+"supporting_segments": ["S10"],
+"representative_quote": "I'm gonna not even read the rest of it."
+}
+],
+"requirements": [
+{
+"req_id": "R1",
+"type": "must_have",
+"requirement": "The report must present underlying numeric data and evidence quality alongside any conclusion or summary.",
+"supporting_segments": ["S5", "S10", "S11"],
+"risk_if_ignored": "Clinicians may be forced to rely on oversimplified claims that hide important effect sizes, endpoints, or uncertainty."
+},
+{
+"req_id": "R2",
+"type": "avoid",
+"requirement": "The report should avoid default patient-specific recommendations when critical clinical details, patient goals, or exam findings are missing.",
+"supporting_segments": ["S4", "S8", "S9"],
+"risk_if_ignored": "The output may overreach and nudge clinicians toward decisions that do not fit the actual patient."
+},
+{
+"req_id": "R3",
+"type": "must_have",
+"requirement": "The report must identify missing information, follow-up questions, and immediate next steps rather than only summarizing literature.",
+"supporting_segments": ["S3", "S10"],
+"risk_if_ignored": "Users may miss key workup steps or fail to recognize when the prompt lacks crucial context."
+},
+{
+"req_id": "R4",
+"type": "nice_to_have",
+"requirement": "The interface should let the user control how much interpretation versus raw evidence the report provides.",
+"supporting_segments": ["S8", "S12"],
+"risk_if_ignored": "The same report style will be too interpretive for some use cases and insufficiently interpretive for others."
+},
+{
+"req_id": "R5",
+"type": "nice_to_have",
+"requirement": "The report should include optional visuals, such as a graph or forest plot, when they help communicate the evidence efficiently.",
+"supporting_segments": ["S11"],
+"risk_if_ignored": "Users may lose a potentially efficient way to understand comparative evidence at a glance."
+}
+],
+"workflow_integration": {
+"current_workarounds": [
+"Confirms AI output with colleagues involved in relevant specialties.",
+"Double-checks generated research prose and extracted numbers manually.",
+"Uses AI for narrow evidence questions and separately applies personal clinical judgment."
+],
+"intended_use_cases": [
+"Answering direct literature questions.",
+"Checking basic clinical questions outside the participant's most routine domain.",
+"Drafting research results paragraphs from structured outputs.",
+"Surfacing studies, guidelines, and evidence relevant to a clinical scenario."
+],
+"constraints": [
+"Missing patient values, goals, and physical exam information.",
+"Institution-specific practice differences.",
+"Risk of over-interpretation or editorializing.",
+"Potential anchoring from authoritative written recommendations.",
+"Need to preserve clinician judgment rather than replace it."
+],
+"output_format_preferences": [
+"Summary plus supporting data rather than summary alone.",
+"Visible numeric results and endpoint details.",
+"Option-based framing rather than a single recommendation.",
+"Section for next steps and missing information.",
+"Credible citations and occasional helpful visuals."
+]
+},
+"trust_and_safety": {
+"trust_drivers": [
+"References appeared real when checked.",
+"Usefulness for direct evidence retrieval.",
+"Concrete numeric data and evidence-quality assessment.",
+"Comprehensive reports that surface alternative causes or missing steps."
+],
+"trust_erosions": [
+"Default editorializing.",
+"Strong recommendations without seeing the patient.",
+"Conclusions that compress nuance into 'no benefit' or 'no difference'.",
+"Failure to account for patient goals, physical exam, or key omitted details.",
+"Specialty or institution mismatch."
+],
+"verification_behaviors": [
+"Confirms answers with colleagues.",
+"Clicks through some references.",
+"Double-checks generated numbers and prose.",
+"Critically reviews interpretation rather than accepting it at face value."
+],
+"medico_legal_or_policy_concerns": []
+},
+"quantified_mentions": {
+"top_codes_by_count": [
+{
+"code": "missing_patient_context",
+"count": 3
+},
+{
+"code": "patient_goals_matter",
+"count": 3
+},
+{
+"code": "needs_human_confirmation",
+"count": 2
+},
+{
+"code": "raw_numbers_over_summary_claims",
+"count": 2
+},
+{
+"code": "prefers_less_interpretation",
+"count": 2
+},
+{
+"code": "interpretation_should_be_optional",
+"count": 2
+},
+{
+"code": "wants_next_steps_section",
+"count": 2
+},
+{
+"code": "references_appear_credible",
+"count": 1
+}
+],
+"notes": "Counts are approximate because segments combine related ideas and the transcript is conversational. Anonymization did not materially alter code counting, but some concepts overlap across segments."
+},
+"analytic_memos": {
+"summary": "The participant sees clear value in AI tools for literature retrieval, answering direct evidence questions, and saving time in research-related writing tasks. They are notably more comfortable with the model as an evidence organizer than as an autonomous interpreter or recommender. A recurring concern is that reports may sound authoritative while lacking critical patient-specific details such as goals, exam findings, or other omitted variables. The participant strongly prefers that the report expose the underlying numbers and evidence quality rather than replace them with compressed verbal claims. They also prefer reports that present options and reasoning over a single directive recommendation. Structurally, they want a summary tied closely to data, plus explicit next steps and prompts for missing information. Overall, their perspective is favorable toward AI-assisted evidence synthesis but cautious about default interpretation and clinical overreach.",
+"tensions_or_tradeoffs": [
+"A concise summary is useful, but if placed too prominently it may discourage reading the supporting evidence.",
+"Interpretation can be helpful when explicitly requested, but risky when delivered by default.",
+"A direct answer to a narrow literature question can be valuable, but the same report style may be insufficient for broader management decisions.",
+"Firm recommendations are efficient, but option-based framing better preserves clinician judgment under uncertainty."
+],
+"open_questions_for_next_interview": [
+"When does a participant want a literature-first report versus a management-oriented report with next steps?",
+"What exact numeric fields or endpoints are most important to surface across different oncology use cases?",
+"How should a report visually separate raw evidence from interpretation so clinicians do not over-trust the latter?",
+"What is the best way to prompt users for missing patient context before a report is finalized?",
+"How much customization over interpretation depth would participants actually use in practice?"
+]
+}
+}

@@ -1,0 +1,622 @@
+{
+"transcript_id": "TX001",
+"interview_context": {
+"participant_role": "oncologist",
+"setting_or_workflow_context": "Outpatient oncology clinical care involving literature review, patient-specific treatment discussions, and message management.",
+"tools_mentioned_by_participant": ["AI scribe", "open evidence", "ChatGPT", "Claude", "NCCN"]
+},
+"segments": [
+{
+"segment_id": "S1",
+"timestamp_start": "00:00:17.690",
+"timestamp_end": "00:01:07.840",
+"speaker": "participant",
+"verbatim_excerpt": "Sort of. I use an AI scribe. I have tried to use an AI response to my in-basket messages that has been horrible, so I haven't used it at all. ... But the AI Scribe I really like. I really like open evidence. But I mostly use it for myself ... and I always check the references, because I'm very skeptical of it.",
+"codes": ["likes_ai_scribe", "rejects_poor_message_reply_tool", "uses_ai_for_self_education", "skeptical_reference_checking"],
+"valence": "mixed",
+"object_of_evaluation": "workflow fit, trust, verification behavior",
+"rationale": "The participant distinguishes between helpful and unhelpful AI tools, endorsing the AI scribe while rejecting the inbox-response tool. The excerpt also shows that open evidence is used mainly for the participant's own review and that outputs are checked because of skepticism."
+},
+{
+"segment_id": "S2",
+"timestamp_start": "00:01:24.320",
+"timestamp_end": "00:02:55.439",
+"speaker": "participant",
+"verbatim_excerpt": "The most common thing I ask it is, like, has there been any publications in the last year about X topic? ... it can help me... open evidence has helped me find publications that represent different populations better, but I always, like... I'm still a little bit wary, because there have been a couple of times that I've, like, gone to click on the citation, and it... I, like, can't find what it said in the citation.",
+"codes": ["uses_for_recent_literature_updates", "uses_for_subpopulation_search", "citation_content_mismatch", "persistent_wariness"],
+"valence": "mixed",
+"object_of_evaluation": "recency search, subgroup retrieval, citation accuracy",
+"rationale": "The participant describes two valued use cases: recent-publication lookback and finding evidence for more specific populations. At the same time, trust is limited because cited papers sometimes do not appear to support the system's claims."
+},
+{
+"segment_id": "S3",
+"timestamp_start": "00:03:04.260",
+"timestamp_end": "00:04:19.180",
+"speaker": "participant",
+"verbatim_excerpt": "I think it has been good at that. It's, like, very good at publication dates and, like, topics and titles ... there are new guidelines that came out this year in 2026, and it was good at identifying those. But then it had, like, cited some publications of what it thought were primary evidence, but... There wasn't, like, a trial.",
+"codes": ["good_at_dates_topics_titles", "good_at_guideline_identification", "confuses_evidence_types", "needs_primary_evidence_clarity"],
+"valence": "mixed",
+"object_of_evaluation": "guideline retrieval, evidence hierarchy",
+"rationale": "The participant credits the system with locating recent guidelines and organizing literature by date and topic. However, the participant also says it blurred consensus guidance and primary evidence, which undermines confidence in the evidence summary."
+},
+{
+"segment_id": "S4",
+"timestamp_start": "00:04:20.450",
+"timestamp_end": "00:05:25.080",
+"speaker": "participant",
+"verbatim_excerpt": "Yes and no ... it'll, like... cite... A bunch of different publications and come up with, like, a number summary from all of them. ... if I were to click on any one of the references, it would have a different number, and so I'm not quite sure how to... reconcile that. Like, usually if I was doing the literature review myself, I would, like, pick the... a meta-analysis or the most recent publication.",
+"codes": ["difficulty_reconciling_aggregated_numbers", "subpopulation_synthesis_is_confusing", "prefers_single_best_source", "manual_review_norm"],
+"valence": "negative",
+"object_of_evaluation": "numerical summaries, evidence synthesis",
+"rationale": "The participant finds the synthesized numerical output confusing because individual references do not match the summary number. The comparison to their own manual workflow shows a preference for choosing one authoritative source rather than averaging across heterogeneous studies."
+},
+{
+"segment_id": "S5",
+"timestamp_start": "00:06:13.950",
+"timestamp_end": "00:07:06.859",
+"speaker": "participant",
+"verbatim_excerpt": "The thing that I liked about the pink report, are, like... very little paragraph text was amazing. ... it, like, clearly summarized, it was a great summary, I loved the bold, and I thought it bolded the right things, and it had, like, a clear recommendation. ... I definitely don't need, like, all of those references, like, it could have said, like, the top 5, and then a link to, like, any of the others.",
+"codes": ["prefers_minimal_paragraph_text", "values_bolding_of_key_points", "wants_clear_recommendation", "prefers_curated_reference_list"],
+"valence": "positive",
+"object_of_evaluation": "report length, emphasis, recommendation, references",
+"rationale": "The participant strongly endorses concise writing, bolded key points, and a clear recommendation. The excerpt also shows a desire to limit visible references to a smaller curated set."
+},
+{
+"segment_id": "S6",
+"timestamp_start": "00:07:06.859",
+"timestamp_end": "00:08:15.209",
+"speaker": "participant",
+"verbatim_excerpt": "I really liked the table summary of evidence at the bottom. ... I personally liked when the references were, like... standard lines at the bottom, like 1, 2, 3 ... Journal and year and title, and that's, like... helpful ... I was surprised that I really liked when it told me what to do. Like, if I'm in clinic ... what do I actually do with this?",
+"codes": ["likes_evidence_table", "likes_standard_reference_lines", "wants_visible_title_journal_year", "wants_actionable_bottom_line"],
+"valence": "positive",
+"object_of_evaluation": "evidence display, references, actionability",
+"rationale": "This excerpt identifies favored formatting elements: an evidence table and simple numbered references with bibliographic details. It also shows that the participant values explicit direction when using the report in clinic."
+},
+{
+"segment_id": "S7",
+"timestamp_start": "00:08:22.560",
+"timestamp_end": "00:10:14.050",
+"speaker": "participant",
+"verbatim_excerpt": "Yeah, I wanted to tell me what to do, and I might disagree with it, but I still wanted to have an opinion. ... One of the things that I liked about the red report was that it said, if you still choose to do what I'm telling you not to do, this is how you should document it ... I feel like all the reports should either say there is an NCCN stance on this, or there is not an NCCN stance on this.",
+"codes": ["wants_report_opinion", "accepts_disagreement_if_actionable", "values_documentation_guidance", "wants_guideline_status_up_front"],
+"valence": "positive",
+"object_of_evaluation": "recommendation strength, documentation support, guideline content",
+"rationale": "The participant explicitly wants the system to take a stance rather than remain purely descriptive. The excerpt also highlights two specific desired features: documentation guidance for off-guideline choices and an explicit statement about whether guideline guidance exists."
+},
+{
+"segment_id": "S8",
+"timestamp_start": "00:10:37.739",
+"timestamp_end": "00:11:47.800",
+"speaker": "participant",
+"verbatim_excerpt": "I liked the... in the blue report, there were paragraphs, and in the red report, there were bullet points, and I liked the red one better. ... I didn't read... all of any of them. ... I think that, like, the bolding of the text helps. I didn't like the ones with the paragraphs, I read even less.",
+"codes": ["prefers_bullets_over_paragraphs", "does_not_fully_read_long_reports", "bolding_supports_scanning", "paragraphs_reduce_engagement"],
+"valence": "negative",
+"object_of_evaluation": "formatting, readability, cognitive load",
+"rationale": "The participant plainly states a stronger preference for bullet points and acknowledges not fully reading the reports. The excerpt ties paragraph-heavy formatting to reduced reading and identifies bolding as a compensatory aid."
+},
+{
+"segment_id": "S9",
+"timestamp_start": "00:12:19.840",
+"timestamp_end": "00:13:58.570",
+"speaker": "participant",
+"verbatim_excerpt": "In the... red report best ... it should list the references at the bottom instead of just linking to them. ... sometimes it'll link to something, and then the title of whatever it links to is, like, not related. And at least I can see, like, the title, the journal, the year, how recent it is, was it in a peer-reviewed journal, and... was the title of the article actually, like, related to what I'm looking at? ... I think that's great.",
+"codes": ["prefers_inline_reference_metadata", "link_only_references_reduce_trust", "uses_metadata_for_legitimacy_check", "likes_highlighted_source_chunks"],
+"valence": "mixed",
+"object_of_evaluation": "reference presentation, trust, verification aids",
+"rationale": "The participant wants references shown directly in the report so they can quickly assess relevance and legitimacy. Trust is reduced by unrelated links, while highlighted source passages are viewed favorably."
+},
+{
+"segment_id": "S10",
+"timestamp_start": "00:14:18.610",
+"timestamp_end": "00:15:06.520",
+"speaker": "participant",
+"verbatim_excerpt": "Clear recommendations for next steps based on what we have told them would be... my favorite feature, that it's important to me to see the... year, title, and journal of the references without navigating to a different page, that I don't like paragraphs, and I like the bullet points, and I really depended a lot on the bold text to read through it.",
+"codes": ["summarizes_core_design_requirements", "wants_next_step_recommendations", "wants_reference_metadata_visible", "prefers_bullets_and_bold"],
+"valence": "positive",
+"object_of_evaluation": "design requirements, formatting, references",
+"rationale": "This is a concise synthesis of the participant's stated priorities. It directly names the desired features: next-step recommendations, visible reference metadata, bullet points, and bolded emphasis."
+},
+{
+"segment_id": "S11",
+"timestamp_start": "00:15:36.000",
+"timestamp_end": "00:17:01.429",
+"speaker": "participant",
+"verbatim_excerpt": "Sometimes I ask open evidence... for a specific patient, and other times I'm like, what is the latest literature on hormone replacement therapy after breast cancer? And so if it's just a general... question, like, not related to a particular patient, I actually think the pink report is the best, by far. And then if it's... geared towards a particular patient, that's the one I liked the red report for. ... I agree that the intent can be different.",
+"codes": ["different_report_for_general_vs_patient_specific_use", "intent_matters", "prefers_concise_summary_for_general_queries", "prefers_actionable_report_for_patient_specific_queries"],
+"valence": "mixed",
+"object_of_evaluation": "workflow fit, use-case tailoring",
+"rationale": "The participant distinguishes between general literature questions and patient-specific decision support. The preferred report style changes with that intent, suggesting the need for multiple modes rather than one universal format."
+}
+],
+"codebook": [
+{
+"code": "likes_ai_scribe",
+"definition": "Participant explicitly describes the AI scribe as useful or liked in current workflow.",
+"inclusion_criteria": ["Positive statements about AI scribe usefulness", "Contrasts showing AI scribe works better than other tools"],
+"exclusion_criteria": ["General positive comments about AI tools without naming the scribe", "Comments about literature review tools"],
+"example_segment_ids": ["S1"]
+},
+{
+"code": "rejects_poor_message_reply_tool",
+"definition": "Participant rejects AI support for inbox or message response because it is not helpful in practice.",
+"inclusion_criteria": ["Describing inbox-response AI as horrible or unused", "Saying the tool has not helped despite availability"],
+"exclusion_criteria": ["Critiques of literature review reports", "General skepticism not tied to message response"],
+"example_segment_ids": ["S1"]
+},
+{
+"code": "skeptical_reference_checking",
+"definition": "Participant checks references because they do not fully trust the system output at face value.",
+"inclusion_criteria": ["Mentions always checking references", "States skepticism as the reason for checking"],
+"exclusion_criteria": ["General desire for references without mention of checking", "Praise of references alone"],
+"example_segment_ids": ["S1"]
+},
+{
+"code": "uses_for_recent_literature_updates",
+"definition": "Participant uses the tool to find whether newer publications have appeared on a known topic.",
+"inclusion_criteria": ["Questions about publications in the last year", "Using tool to update older knowledge"],
+"exclusion_criteria": ["Patient-specific treatment planning without recency emphasis", "General praise of publication retrieval"],
+"example_segment_ids": ["S2"]
+},
+{
+"code": "uses_for_subpopulation_search",
+"definition": "Participant uses the tool to identify evidence relevant to narrower patient groups or conditional populations.",
+"inclusion_criteria": ["Mentions premenopausal or otherwise specific patient groups", "Says tool helps find publications for different populations"],
+"exclusion_criteria": ["General literature lookups with no subgroup element", "Guideline-only retrieval"],
+"example_segment_ids": ["S2", "S4"]
+},
+{
+"code": "citation_content_mismatch",
+"definition": "Participant reports that the linked citation does not seem to support the claim made in the summary.",
+"inclusion_criteria": ["Cannot find what the system said in the cited paper", "Linked title appears unrelated"],
+"exclusion_criteria": ["Requests for more references", "General skepticism without mismatch example"],
+"example_segment_ids": ["S2", "S9"]
+},
+{
+"code": "good_at_guideline_identification",
+"definition": "Participant says the tool does a good job finding relevant guidelines, especially recent ones.",
+"inclusion_criteria": ["Mentions identifying new guidelines", "Says tool is good at finding guideline content"],
+"exclusion_criteria": ["Requests for guidelines to be displayed more clearly", "Critiques of how guidelines are mixed with evidence"],
+"example_segment_ids": ["S3"]
+},
+{
+"code": "confuses_evidence_types",
+"definition": "Participant observes that the report mixes guideline consensus with publications presented as if they were primary evidence.",
+"inclusion_criteria": ["Distinguishes consensus recommendations from trials", "Says cited publications were treated like primary evidence when they were not"],
+"exclusion_criteria": ["General comments about needing references", "Complaints about length or style"],
+"example_segment_ids": ["S3"]
+},
+{
+"code": "difficulty_reconciling_aggregated_numbers",
+"definition": "Participant cannot tell how a summarized numerical result was derived when different cited studies contain different numbers.",
+"inclusion_criteria": ["Summary number differs across source papers", "Participant says they cannot reconcile the number"],
+"exclusion_criteria": ["Requests for citations without mention of numbers", "General distrust of synthesis"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "prefers_single_best_source",
+"definition": "Participant prefers using one authoritative source, such as a meta-analysis or most recent paper, rather than a blended summary across multiple papers.",
+"inclusion_criteria": ["Mentions choosing a meta-analysis or most recent publication", "Contrasts own review style with system synthesis"],
+"exclusion_criteria": ["General desire for evidence tables", "Preference for guideline-first structure"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "prefers_minimal_paragraph_text",
+"definition": "Participant favors reports with little paragraph prose and concise summary text.",
+"inclusion_criteria": ["Says very little paragraph text was amazing", "Critiques paragraph-heavy reports"],
+"exclusion_criteria": ["General statements about brevity without format reference", "Preference for bullets alone"],
+"example_segment_ids": ["S5", "S8"]
+},
+{
+"code": "values_bolding_of_key_points",
+"definition": "Participant relies on bold formatting to identify and read the most important parts of the report.",
+"inclusion_criteria": ["Says bolded the right things", "States dependence on bold text"],
+"exclusion_criteria": ["General readability praise without mention of bolding", "Requests for bullets only"],
+"example_segment_ids": ["S5", "S8", "S10"]
+},
+{
+"code": "wants_clear_recommendation",
+"definition": "Participant wants the report to state an explicit recommendation or bottom line rather than only summarize evidence.",
+"inclusion_criteria": ["Likes a clear recommendation", "Wants the system to tell them what to do"],
+"exclusion_criteria": ["General appreciation for summaries", "Documentation guidance without recommendation"],
+"example_segment_ids": ["S5", "S6", "S7", "S10"]
+},
+{
+"code": "likes_evidence_table",
+"definition": "Participant values a bottom table that summarizes evidence in a compact way.",
+"inclusion_criteria": ["Direct praise for evidence table", "Preference for table-based evidence summary"],
+"exclusion_criteria": ["Preference for references listed at bottom without a table", "General citation needs"],
+"example_segment_ids": ["S6"]
+},
+{
+"code": "wants_visible_title_journal_year",
+"definition": "Participant wants citation metadata displayed in the report so relevance and recency can be judged quickly.",
+"inclusion_criteria": ["Requests title, journal, and year", "Says metadata should be visible without leaving the page"],
+"exclusion_criteria": ["Mentions references generally with no metadata detail", "Trust concerns unrelated to citation display"],
+"example_segment_ids": ["S6", "S9", "S10"]
+},
+{
+"code": "values_documentation_guidance",
+"definition": "Participant likes when the report explains how to document a decision, especially when deviating from the report's recommendation.",
+"inclusion_criteria": ["Mentions liking instructions on how to document", "Links documentation support to report usefulness"],
+"exclusion_criteria": ["General action recommendations without documentation", "Guideline status comments"],
+"example_segment_ids": ["S7"]
+},
+{
+"code": "wants_guideline_status_up_front",
+"definition": "Participant wants every report to state explicitly whether a guideline stance exists.",
+"inclusion_criteria": ["Says reports should say whether there is an NCCN stance", "Suggests this should be first in the report"],
+"exclusion_criteria": ["General comments about guideline identification", "Mentions guidelines without layout preference"],
+"example_segment_ids": ["S7"]
+},
+{
+"code": "prefers_bullets_over_paragraphs",
+"definition": "Participant clearly prefers bullet-point formatting over paragraph prose.",
+"inclusion_criteria": ["States liking bullet points better", "Contrasts red bullets favorably against blue paragraphs"],
+"exclusion_criteria": ["Generic brevity comments", "Praise for bolding alone"],
+"example_segment_ids": ["S8", "S10"]
+},
+{
+"code": "does_not_fully_read_long_reports",
+"definition": "Participant reports not fully reading the reports, indicating length or density limits engagement.",
+"inclusion_criteria": ["Says did not read all of any report", "Links reduced reading to paragraphs"],
+"exclusion_criteria": ["Simple preference for concise reports without explicit non-reading", "Critiques of trust or citations"],
+"example_segment_ids": ["S8"]
+},
+{
+"code": "prefers_inline_reference_metadata",
+"definition": "Participant wants reference details listed in the report instead of only accessible through links.",
+"inclusion_criteria": ["Says references should be listed at bottom", "Critiques link-only citation display"],
+"exclusion_criteria": ["Preference for fewer references only", "Praise for source highlighting without metadata request"],
+"example_segment_ids": ["S9", "S10"]
+},
+{
+"code": "likes_highlighted_source_chunks",
+"definition": "Participant likes seeing the exact highlighted manuscript section supporting the summary.",
+"inclusion_criteria": ["Says highlighted chunk is great", "Approves source passage highlighting"],
+"exclusion_criteria": ["General citation praise", "Requests for title/journal/year"],
+"example_segment_ids": ["S9"]
+},
+{
+"code": "intent_matters",
+"definition": "Participant says report design should vary depending on whether the question is general literature review or patient-specific planning.",
+"inclusion_criteria": ["Different report preferences for general vs patient-specific use", "Says intent can be different"],
+"exclusion_criteria": ["General workflow comments with no contrast between use cases", "Simple report preference with no context"],
+"example_segment_ids": ["S11"]
+}
+],
+"themes": [
+{
+"theme_id": "T1",
+"theme_name": "Tell me what to do, but show me why",
+"theme_definition": "The participant wants reports to move beyond passive literature summaries and offer a bottom-line recommendation or next step. At the same time, that recommendation must remain inspectable through visible references, evidence summaries, and enough context to decide whether to agree or disagree.",
+"supporting_segments": ["S5", "S6", "S7", "S10"],
+"representative_quotes": [
+{
+"segment_id": "S7",
+"quote": "I wanted to tell me what to do, and I might disagree with it, but I still wanted to have an opinion."
+},
+{
+"segment_id": "S6",
+"quote": "Like, if I'm in clinic ... what do I actually do with this?"
+}
+],
+"overall_valence": "positive",
+"confidence": "high",
+"confidence_basis": "Repeated across multiple segments with direct, emphatic statements about recommendations and next steps."
+},
+{
+"theme_id": "T2",
+"theme_name": "Readable reports win: bullets, bold, and less prose",
+"theme_definition": "The participant strongly prefers concise, scannable formatting. Bullet points, bolded key text, and short summaries make the report usable, while long paragraphs reduce engagement to the point that reports may not be read fully.",
+"supporting_segments": ["S5", "S8", "S10"],
+"representative_quotes": [
+{
+"segment_id": "S8",
+"quote": "I didn't read... all of any of them."
+},
+{
+"segment_id": "S10",
+"quote": "I don't like paragraphs, and I like the bullet points."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "The preference is repeated several times and linked to concrete behavior: partial reading and reliance on bolding."
+},
+{
+"theme_id": "T3",
+"theme_name": "Trust depends on visible, checkable evidence",
+"theme_definition": "The participant does not accept citations at face value and wants to verify them quickly. Trust is supported by visible title, journal, year, and evidence tables, but eroded when links appear unrelated, citations do not support the claim, or evidence types are blended unclearly.",
+"supporting_segments": ["S1", "S2", "S3", "S4", "S6", "S9", "S10"],
+"representative_quotes": [
+{
+"segment_id": "S1",
+"quote": "I always check the references, because I'm very skeptical of it."
+},
+{
+"segment_id": "S9",
+"quote": "At least I can see, like, the title, the journal, the year, how recent it is."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "This theme recurs across many segments and includes both trust-building features and specific trust failures."
+},
+{
+"theme_id": "T4",
+"theme_name": "Guidelines and evidence hierarchy should anchor the report",
+"theme_definition": "The participant wants reports to begin by stating whether there is a guideline position and then situate the supporting evidence clearly. Mixing consensus guidance, heterogeneous papers, and numerical summaries without clarifying hierarchy makes the output harder to use.",
+"supporting_segments": ["S3", "S4", "S7"],
+"representative_quotes": [
+{
+"segment_id": "S7",
+"quote": "I think that should be, like, the first thing in each report, is, like, there is a guideline on this, or there is not a guideline on this."
+},
+{
+"segment_id": "S4",
+"quote": "Usually if I was doing the literature review myself, I would, like, pick the... a meta-analysis or the most recent publication."
+}
+],
+"overall_valence": "mixed",
+"confidence": "medium",
+"confidence_basis": "Strongly expressed, but supported by fewer segments than the formatting and trust themes."
+},
+{
+"theme_id": "T5",
+"theme_name": "One report is not enough",
+"theme_definition": "The participant distinguishes between general professional literature review and patient-specific decision support. A concise summary format is preferred for broad topic updates, while a more directive, patient-oriented format is preferred when clinical action is being considered for a particular patient.",
+"supporting_segments": ["S1", "S11"],
+"representative_quotes": [
+{
+"segment_id": "S11",
+"quote": "If it's just a general... question ... I actually think the pink report is the best, by far."
+},
+{
+"segment_id": "S11",
+"quote": "If it was geared towards a particular patient, that's the one I liked the red report for."
+}
+],
+"overall_valence": "mixed",
+"confidence": "medium",
+"confidence_basis": "Clearly articulated near the end of the interview, though concentrated in one extended section."
+}
+],
+"likes": [
+{
+"like_id": "L1",
+"statement": "The participant liked concise reports with very little paragraph text.",
+"supporting_segments": ["S5", "S8"],
+"representative_quote": "Very little paragraph text was amazing."
+},
+{
+"like_id": "L2",
+"statement": "The participant liked bolded text that highlighted the right information.",
+"supporting_segments": ["S5", "S8", "S10"],
+"representative_quote": "I really depended a lot on the bold text to read through it."
+},
+{
+"like_id": "L3",
+"statement": "The participant liked clear bottom-line recommendations and next-step guidance.",
+"supporting_segments": ["S5", "S6", "S7", "S10"],
+"representative_quote": "I wanted to tell me what to do."
+},
+{
+"like_id": "L4",
+"statement": "The participant liked an evidence summary table at the bottom of the report.",
+"supporting_segments": ["S6"],
+"representative_quote": "I really liked the table summary of evidence at the bottom."
+},
+{
+"like_id": "L5",
+"statement": "The participant liked seeing title, journal, and year directly in the report references.",
+"supporting_segments": ["S6", "S9", "S10"],
+"representative_quote": "Journal and year and title, and that's, like... helpful."
+},
+{
+"like_id": "L6",
+"statement": "The participant liked documentation guidance for situations where a clinician chooses a different path.",
+"supporting_segments": ["S7"],
+"representative_quote": "If you still choose to do what I'm telling you not to do, this is how you should document it."
+},
+{
+"like_id": "L7",
+"statement": "The participant liked source highlighting that shows the exact manuscript chunk supporting the answer.",
+"supporting_segments": ["S9"],
+"representative_quote": "I think that's great."
+}
+],
+"dislikes": [
+{
+"dislike_id": "D1",
+"statement": "The participant disliked AI-generated inbox message responses and found them unusable.",
+"supporting_segments": ["S1"],
+"representative_quote": "I have tried to use an AI response to my in-basket messages that has been horrible."
+},
+{
+"dislike_id": "D2",
+"statement": "The participant disliked paragraph-heavy reports and read even less when reports were written that way.",
+"supporting_segments": ["S8", "S10"],
+"representative_quote": "I didn't like the ones with the paragraphs, I read even less."
+},
+{
+"dislike_id": "D3",
+"statement": "The participant disliked citation links that appeared unrelated to the claim or required extra navigation to assess.",
+"supporting_segments": ["S2", "S9"],
+"representative_quote": "Sometimes it'll link to something, and then the title of whatever it links to is, like, not related."
+},
+{
+"dislike_id": "D4",
+"statement": "The participant disliked summaries that combined numbers across different studies in a way that was hard to reconcile.",
+"supporting_segments": ["S4"],
+"representative_quote": "I'm not quite sure how to... reconcile that."
+},
+{
+"dislike_id": "D5",
+"statement": "The participant disliked when reports did not explicitly state whether there was a guideline stance.",
+"supporting_segments": ["S7"],
+"representative_quote": "All the reports should either say there is an NCCN stance on this, or there is not an NCCN stance on this."
+}
+],
+"requirements": [
+{
+"req_id": "R1",
+"type": "must_have",
+"requirement": "Each patient-facing clinical report should provide a clear recommendation for next steps rather than only a descriptive literature summary.",
+"supporting_segments": ["S6", "S7", "S10"],
+"risk_if_ignored": "The report may feel informational but not clinically useful at the point of care."
+},
+{
+"req_id": "R2",
+"type": "must_have",
+"requirement": "Reports should state up front whether there is a guideline stance on the question and, if so, make that explicit.",
+"supporting_segments": ["S3", "S7"],
+"risk_if_ignored": "Clinicians may not know their baseline standard or how the recommendation relates to guideline-backed care."
+},
+{
+"req_id": "R3",
+"type": "must_have",
+"requirement": "Reference metadata should be visible in the report itself, including title, journal, and year, without requiring navigation to another page.",
+"supporting_segments": ["S6", "S9", "S10"],
+"risk_if_ignored": "Trust drops because clinicians cannot quickly judge relevance, recency, or legitimacy of the evidence."
+},
+{
+"req_id": "R4",
+"type": "must_have",
+"requirement": "Use bullet points and bolded emphasis instead of long paragraph prose for core findings and recommendations.",
+"supporting_segments": ["S5", "S8", "S10"],
+"risk_if_ignored": "Clinicians may skim incompletely or disengage from the report due to cognitive load."
+},
+{
+"req_id": "R5",
+"type": "nice_to_have",
+"requirement": "Include a compact evidence summary table and, when possible, highlighted source passages that show exactly where a claim came from.",
+"supporting_segments": ["S6", "S9"],
+"risk_if_ignored": "The report remains less inspectable and less efficient to verify."
+},
+{
+"req_id": "R6",
+"type": "avoid",
+"requirement": "Avoid presenting blended quantitative summaries across multiple papers unless the basis for the number and source hierarchy is made explicit.",
+"supporting_segments": ["S4"],
+"risk_if_ignored": "Clinicians may not trust or use numerical summaries they cannot reconcile with the cited studies."
+},
+{
+"req_id": "R7",
+"type": "nice_to_have",
+"requirement": "Offer different report modes for general literature review versus patient-specific clinical decision support.",
+"supporting_segments": ["S11"],
+"risk_if_ignored": "A single format may fit neither educational use nor patient-specific action planning particularly well."
+},
+{
+"req_id": "R8",
+"type": "nice_to_have",
+"requirement": "When recommending against an option, include documentation guidance for how to record an alternative decision if the clinician still chooses it.",
+"supporting_segments": ["S7"],
+"risk_if_ignored": "The report misses a practical support function clinicians find helpful in real decision-making."
+}
+],
+"workflow_integration": {
+"current_workarounds": [
+"Uses the tool for personal literature review rather than relying on it directly in clinic.",
+"Always checks references manually because of skepticism.",
+"When reviewing literature manually, selects a meta-analysis or the most recent publication rather than relying on blended numerical summaries."
+],
+"intended_use_cases": [
+"Checking whether newer publications have appeared on a topic.",
+"Finding evidence relevant to narrower patient subpopulations.",
+"Supporting discussions of risks, benefits, and treatment decisions.",
+"General professional literature review on a topic.",
+"Patient-specific decision support and planning."
+],
+"constraints": [
+"High message volume makes intrusive or low-value AI prompts unacceptable.",
+"Trust depends on being able to verify citations quickly.",
+"Long paragraphs reduce reading and usability.",
+"Reports need to support point-of-care action, not just information retrieval.",
+"Clinicians need to know whether guidance is backed by guidelines, consensus, or primary evidence."
+],
+"output_format_preferences": [
+"Bullet points over paragraphs",
+"Bolded key text",
+"Clear bottom-line recommendation",
+"Evidence summary table at the bottom",
+"Visible reference metadata in standard numbered lines",
+"Guideline status near the top",
+"Fewer visible references with option to access more if needed"
+]
+},
+"trust_and_safety": {
+"trust_drivers": [
+"Visible title, journal, and year of references",
+"Evidence summary tables",
+"Highlighted manuscript sections showing source support",
+"Accurate identification of recent guidelines",
+"Explicit recommendations that can still be independently judged"
+],
+"trust_erosions": [
+"Citation links that appear unrelated to the claim",
+"Inability to find the stated point in the cited paper",
+"Mixing consensus recommendations with primary evidence unclearly",
+"Numerical summaries that do not match any single cited source",
+"Link-only references that require extra navigation"
+],
+"verification_behaviors": [
+"Always checks references",
+"Uses title, journal, year, and recency to assess whether a source is relevant and legitimate",
+"Compares summarized claims against the cited source content"
+],
+"medico_legal_or_policy_concerns": [
+"Wants reports to indicate how to document a decision when deviating from the recommended approach.",
+"Wants explicit statement of whether there is a guideline stance on the clinical question."
+]
+},
+"quantified_mentions": {
+"top_codes_by_count": [
+{
+"code": "wants_clear_recommendation",
+"count": 4
+},
+{
+"code": "wants_visible_title_journal_year",
+"count": 3
+},
+{
+"code": "values_bolding_of_key_points",
+"count": 3
+},
+{
+"code": "prefers_bullets_over_paragraphs",
+"count": 2
+},
+{
+"code": "citation_content_mismatch",
+"count": 2
+},
+{
+"code": "uses_for_subpopulation_search",
+"count": 2
+},
+{
+"code": "intent_matters",
+"count": 1
+}
+],
+"notes": "Counts are approximate and based on segmented participant statements rather than line-by-line coding. Some overlapping ideas were collapsed into the nearest inductive code when the participant repeated them in similar wording."
+},
+"analytic_memos": {
+"summary": "This participant sees real value in AI tools, but only when they fit the workflow and remain easy to verify. The strongest positive reaction is to concise, highly scannable reports with bolded takeaways, bullet points, and a clear recommendation for what to do next. The participant does not want a passive literature dump; they want actionable guidance, including practical documentation advice when relevant. Trust is conditional and actively managed through citation checking, because the participant has seen links that appear unrelated or claims that are hard to find in the cited source. Guideline orientation matters a great deal: the participant wants the report to say immediately whether there is a guideline stance and then place the rest of the evidence in that context. The participant also dislikes synthesized numeric summaries that merge heterogeneous studies without making the source of the number clear. Finally, the participant does not think one report style is sufficient: a concise summary works for general educational use, while a more directive report is preferred for patient-specific decision support.",
+"tensions_or_tradeoffs": [
+"The participant wants stronger recommendations, but only if the evidence remains transparent enough to inspect and challenge.",
+"The participant values concise reports, but still wants enough citation detail to judge trustworthiness.",
+"The participant appreciates synthesis, but not when the synthesis obscures source hierarchy or produces unreconcilable numbers.",
+"General literature review and patient-specific care appear to require different report styles."
+],
+"open_questions_for_next_interview": [
+"When a report gives a recommendation, what level of explanation is needed for the participant to feel comfortable disagreeing with it?",
+"How should a report visually distinguish guidelines, consensus statements, trials, and observational studies?",
+"What is the minimum citation detail needed to support trust without overloading the report?",
+"Would the participant prefer a user-selectable mode at the start of the query, or a single report that adapts automatically to intent?",
+"How much numerical synthesis is acceptable before the participant would rather see a single preferred source instead?"
+]
+}
+}

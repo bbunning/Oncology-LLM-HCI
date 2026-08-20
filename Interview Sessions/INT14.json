@@ -1,0 +1,595 @@
+{
+"transcript_id": "TX001",
+"interview_context": {
+"participant_role": "unknown",
+"setting_or_workflow_context": "oncology decision support workflow involving pre-visit preparation, outpatient clinic, and inpatient consults",
+"tools_mentioned_by_participant": ["ChatGPT 5.4", "PubMed", "clinicaltrials.gov", "Gemini", "Mercor", "Claude", "OpenAI", "Gemini Pro"]
+},
+"segments": [
+{
+"segment_id": "S1",
+"timestamp_start": "00:00:22.450",
+"timestamp_end": "00:01:39.689",
+"speaker": "participant",
+"verbatim_excerpt": "what separates the models for me was. Hey, is it actually just telling me what's online, or is it actually kind of going beyond the step of extraction and reasoning it to the actual patient case",
+"codes": ["patient_specific_reasoning", "goes_beyond_extraction"],
+"valence": "positive",
+"object_of_evaluation": "clinical reasoning and patient tailoring",
+"rationale": "The participant distinguishes better reports by whether they adapt evidence to the patient rather than merely retrieving information. The excerpt explicitly values reasoning tied to the specific case."
+},
+{
+"segment_id": "S2",
+"timestamp_start": "00:02:56.800",
+"timestamp_end": "00:03:25.579",
+"speaker": "participant",
+"verbatim_excerpt": "you go on ChatGPT 5.4, you ask it for a reference, you then try to find the actual reference, and you realize it's not even a PubMed link",
+"codes": ["reference_fabrication_concern", "trust_fragility"],
+"valence": "negative",
+"object_of_evaluation": "references and trust",
+"rationale": "The participant describes a concrete failure mode where cited references are not real or verifiable, directly undermining trust. The statement also implies trust can be lost quickly after one such event."
+},
+{
+"segment_id": "S3",
+"timestamp_start": "00:03:30.530",
+"timestamp_end": "00:04:49.839",
+"speaker": "participant",
+"verbatim_excerpt": "I like how it just said, you know, pulmonary considerations, these are the drugs. clinical summary, and then a reference section, where it organizes it in a just helpful flow.",
+"codes": ["organized_helpful_flow", "sectioned_output_preference", "concise_prep_support"],
+"valence": "positive",
+"object_of_evaluation": "organization and workflow fit",
+"rationale": "The participant explicitly praises a report structure with clear sections and a helpful flow. The organization is valued because it supports quick preparation before seeing a patient."
+},
+{
+"segment_id": "S4",
+"timestamp_start": "00:04:02.950",
+"timestamp_end": "00:04:45.929",
+"speaker": "participant",
+"verbatim_excerpt": "if it's something that you have to sift through yourself, as if it's another patient chart, that's… that's less helpful. But if it's just listing out clinical trials as if it's clinicaltrials.gov, that's very complicated.",
+"codes": ["avoid_chart_like_sifting", "avoid_trial_dump", "time_saving_need"],
+"valence": "negative",
+"object_of_evaluation": "length and information presentation",
+"rationale": "The participant rejects outputs that require extensive sifting or resemble a raw trial listing. The main concern is usability under time pressure, not lack of information per se."
+},
+{
+"segment_id": "S5",
+"timestamp_start": "00:05:37.080",
+"timestamp_end": "00:06:48.579",
+"speaker": "participant",
+"verbatim_excerpt": "AI tends to bold random things. There was a lot of documents that just had excessive bolding... some of the AI just generated text, everything is bolded",
+"codes": ["random_excessive_bolding", "highlighting_should_be_meaningful", "visual_noise"],
+"valence": "negative",
+"object_of_evaluation": "formatting and emphasis",
+"rationale": "The participant criticizes indiscriminate bolding because it makes visual emphasis meaningless. The problem is framed as poor signal-to-noise in the display."
+},
+{
+"segment_id": "S6",
+"timestamp_start": "00:06:50.570",
+"timestamp_end": "00:08:49.700",
+"speaker": "participant",
+"verbatim_excerpt": "if that was highlighted and bolded, that would be key... the patient that I'm seeing doesn't fit into this study.",
+"codes": ["highlight_patient_trial_mismatch", "eligibility_mismatch_alerts", "decision_support_reminder"],
+"valence": "positive",
+"object_of_evaluation": "highlighting, evidence applicability, safety checks",
+"rationale": "The participant wants highlighting to mark mismatches between patient characteristics and study populations or treatment assumptions. This is framed as clinically helpful and safety-relevant."
+},
+{
+"segment_id": "S7",
+"timestamp_start": "00:10:05.480",
+"timestamp_end": "00:11:14.820",
+"speaker": "participant",
+"verbatim_excerpt": "how are clinicians actually going to use it where… in clinic? In the sense of, how do you type in patient information without constantly thinking, hey, am I violating HIPAA?",
+"codes": ["hipaa_compliance_barrier", "input_burden", "in_clinic_use_uncertainty"],
+"valence": "negative",
+"object_of_evaluation": "workflow integration and privacy",
+"rationale": "The participant identifies privacy compliance during data entry as a central unresolved barrier to real clinical use. The quote also points to uncertainty about how these tools fit into clinic operations."
+},
+{
+"segment_id": "S8",
+"timestamp_start": "00:11:51.610",
+"timestamp_end": "00:13:07.030",
+"speaker": "participant",
+"verbatim_excerpt": "I can still go on PubMed, get the study myself... as opposed to potentially risking something which is, you know, gonna impact my career.",
+"codes": ["manual_pubmed_workaround", "career_risk_from_ai_use", "security_benefit_tradeoff"],
+"valence": "negative",
+"object_of_evaluation": "trust, risk, and alternatives",
+"rationale": "The participant describes reverting to manual literature search because security and professional risk may outweigh the tool's benefit. This frames the comparison against an existing workaround."
+},
+{
+"segment_id": "S9",
+"timestamp_start": "00:13:07.140",
+"timestamp_end": "00:13:38.140",
+"speaker": "participant",
+"verbatim_excerpt": "if a hospital had some kind of agreement with, hey, we're gonna use Claude, and that's our guy. and it's HIPAA compliant when you type into this chatbot. That'll be… that'll be, I think, maybe make people feel safer",
+"codes": ["institutional_approved_tool_preference", "standardization_across_tools", "safety_from_enterprise_agreement"],
+"valence": "positive",
+"object_of_evaluation": "deployment model and trust",
+"rationale": "The participant suggests an institutionally sanctioned, HIPAA-compliant tool as a way to improve safety and adoption. The value comes from standardization and perceived protection."
+},
+{
+"segment_id": "S10",
+"timestamp_start": "00:15:05.320",
+"timestamp_end": "00:16:04.029",
+"speaker": "participant",
+"verbatim_excerpt": "those reports would absolutely help me the day before I saw patients... when you're more of under a time crunch... you need a very concise report",
+"codes": ["day_before_use_case", "time_crunch_requires_concision", "single_best_report_need"],
+"valence": "mixed",
+"object_of_evaluation": "workflow timing and concision",
+"rationale": "The participant sees clear value in these reports for advance preparation, but says acute settings require shorter and higher-quality outputs. The segment contains both enthusiasm and a practical limitation."
+},
+{
+"segment_id": "S11",
+"timestamp_start": "00:16:04.030",
+"timestamp_end": "00:17:26.290",
+"speaker": "participant",
+"verbatim_excerpt": "eventually, where AI needs to go is almost give you, like, a rating. Like, 0 through 100",
+"codes": ["evidence_strength_rating_request", "confidence_signal_needed", "guideline_alignment_signal"],
+"valence": "positive",
+"object_of_evaluation": "evidence grading and confidence display",
+"rationale": "The participant explicitly requests a numeric strength-of-evidence or confidence signal. The goal is to communicate how strongly a recommendation is supported and when a case is fringe or uncertain."
+},
+{
+"segment_id": "S12",
+"timestamp_start": "00:17:26.390",
+"timestamp_end": "00:17:27.980",
+"speaker": "participant",
+"verbatim_excerpt": "I think that will be… the next step.",
+"codes": ["future_direction"],
+"valence": "neutral",
+"object_of_evaluation": "product evolution",
+"rationale": "This brief segment explicitly marks the requested evidence-rating capability as a future direction. It adds little detail beyond prioritization, so the coding remains minimal."
+}
+],
+"codebook": [
+{
+"code": "patient_specific_reasoning",
+"definition": "The report applies evidence to the individual patient scenario rather than giving generic information. The participant treats this as a core marker of quality.",
+"inclusion_criteria": ["Mentions tailoring to the patient", "Contrasts case-specific reasoning with generic output"],
+"exclusion_criteria": ["General praise for evidence presence without patient linkage", "Comments about formatting only"],
+"example_segment_ids": ["S1", "S3"]
+},
+{
+"code": "goes_beyond_extraction",
+"definition": "The report does more than retrieve or summarize online content by interpreting it for the case. The participant values movement from extraction to reasoning.",
+"inclusion_criteria": ["Uses language like beyond extraction", "Contrasts listing with reasoning"],
+"exclusion_criteria": ["Simple organization or concision comments", "Reference verification concerns"],
+"example_segment_ids": ["S1"]
+},
+{
+"code": "reference_fabrication_concern",
+"definition": "The participant worries that AI-generated citations may be false, unverifiable, or not linked to real literature. This directly affects credibility.",
+"inclusion_criteria": ["Fake references", "Non-PubMed or invented papers"],
+"exclusion_criteria": ["General distrust without citation examples", "Formatting complaints"],
+"example_segment_ids": ["S2"]
+},
+{
+"code": "trust_fragility",
+"definition": "Trust is easy to lose after a single bad experience with the system. The participant suggests one failure can undermine future use.",
+"inclusion_criteria": ["One bad event causes lasting distrust", "Older physicians may stop trusting after one error"],
+"exclusion_criteria": ["General security concerns without mention of trust loss", "Manual workaround discussion alone"],
+"example_segment_ids": ["S2"]
+},
+{
+"code": "organized_helpful_flow",
+"definition": "The report is useful when it is arranged in a flow that supports quick interpretation. Clear sequence and sectioning make the output easier to use.",
+"inclusion_criteria": ["Helpful flow", "Organized sections in an order that makes sense"],
+"exclusion_criteria": ["Requests for bolding or highlighting only", "Evidence-rating requests"],
+"example_segment_ids": ["S3"]
+},
+{
+"code": "sectioned_output_preference",
+"definition": "The participant prefers discrete sections such as clinical summary, considerations, and references. These sections make the document easier to navigate.",
+"inclusion_criteria": ["Names desired sections", "Praises reports with clear sections"],
+"exclusion_criteria": ["General concision without structure", "Comments about raw trial listing"],
+"example_segment_ids": ["S3"]
+},
+{
+"code": "concise_prep_support",
+"definition": "The report should help the clinician prepare efficiently before seeing a patient. Concision is valued when it reduces pre-visit effort.",
+"inclusion_criteria": ["Guide before stepping into the room", "Help the day before clinic"],
+"exclusion_criteria": ["Inpatient time-crunch comments without prep context", "Security concerns"],
+"example_segment_ids": ["S3", "S10"]
+},
+{
+"code": "avoid_chart_like_sifting",
+"definition": "The participant dislikes outputs that feel like another chart to read through. Reports should reduce, not recreate, documentation burden.",
+"inclusion_criteria": ["Need to sift through it yourself", "Feels like another patient chart"],
+"exclusion_criteria": ["General longness without chart analogy", "Manual PubMed search comments"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "avoid_trial_dump",
+"definition": "The participant does not want the tool to act like a raw list of trials or a database export. Evidence should be interpreted, not dumped.",
+"inclusion_criteria": ["Listing clinical trials like clinicaltrials.gov", "Complicated trial listing"],
+"exclusion_criteria": ["Reference fabrication concerns", "Desire for evidence ratings"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "time_saving_need",
+"definition": "The report must save time in busy clinical settings. Outputs that require extra interpretation are seen as less useful.",
+"inclusion_criteria": ["Time crunch", "Need to read only one report", "Less helpful when it takes time"],
+"exclusion_criteria": ["Privacy concerns about data entry", "General praise for reasoning"],
+"example_segment_ids": ["S4", "S10"]
+},
+{
+"code": "random_excessive_bolding",
+"definition": "Visual emphasis becomes unhelpful when too many elements are bolded. Excessive bolding makes it hard to know what matters.",
+"inclusion_criteria": ["Everything is bolded", "Random bolding"],
+"exclusion_criteria": ["Requests for meaningful highlighting", "Poor table formatting without bolding"],
+"example_segment_ids": ["S5"]
+},
+{
+"code": "highlighting_should_be_meaningful",
+"definition": "Any visual emphasis should point to clinically important facts rather than being decorative or ubiquitous. Highlighting should communicate significance.",
+"inclusion_criteria": ["Bolding should mark important things", "Wants signifiers tied to meaning"],
+"exclusion_criteria": ["General formatting complaints without desired function", "Evidence-rating requests"],
+"example_segment_ids": ["S5", "S6"]
+},
+{
+"code": "visual_noise",
+"definition": "Formatting or tables can create clutter that obscures meaning. The participant notices when visuals add confusion rather than clarity.",
+"inclusion_criteria": ["Poorly formatted table", "Hard to know what to get from the table"],
+"exclusion_criteria": ["Generic longness complaints", "Reference or privacy concerns"],
+"example_segment_ids": ["S5"]
+},
+{
+"code": "highlight_patient_trial_mismatch",
+"definition": "The system should explicitly surface when patient characteristics do not align with a study population or recommendation context. This helps interpret evidence applicability.",
+"inclusion_criteria": ["Patient does not fit into this study", "Adult study versus pediatric patient"],
+"exclusion_criteria": ["General patient tailoring without mismatch emphasis", "Evidence grading without eligibility context"],
+"example_segment_ids": ["S6"]
+},
+{
+"code": "eligibility_mismatch_alerts",
+"definition": "The participant wants warnings or alerts for contraindications, missing criteria, or mismatch between the case and supporting evidence. These are safety-relevant prompts.",
+"inclusion_criteria": ["Big yellow highlighting", "Doesn't meet criterion", "Would AI highlight contraindication"],
+"exclusion_criteria": ["Generic highlighting comments", "Reference verification"],
+"example_segment_ids": ["S6"]
+},
+{
+"code": "decision_support_reminder",
+"definition": "The tool can be useful as a prompt or reminder for clinically relevant details the physician may not immediately recall. The participant frames this as supportive, not replacement-level, help.",
+"inclusion_criteria": ["Reminder of supplement need", "Helpful in making a clinical decision"],
+"exclusion_criteria": ["Requests for autonomous decision making", "General concision comments"],
+"example_segment_ids": ["S6"]
+},
+{
+"code": "hipaa_compliance_barrier",
+"definition": "The participant sees privacy and HIPAA compliance as a major barrier to actual clinical adoption. Entering patient data into models feels risky and unresolved.",
+"inclusion_criteria": ["Am I violating HIPAA", "Need to do it in a HIPAA-compliant way"],
+"exclusion_criteria": ["General trust concerns without privacy mention", "Time burden alone"],
+"example_segment_ids": ["S7", "S8", "S9"]
+},
+{
+"code": "input_burden",
+"definition": "Preparing and entering the right patient information is effortful and cognitively demanding. This burden reduces practical usability in clinic.",
+"inclusion_criteria": ["Type in patient information", "Tease out everything and paste it in", "Constantly thinking about what to include"],
+"exclusion_criteria": ["Need for concise output after generation", "Manual literature search after generation"],
+"example_segment_ids": ["S7"]
+},
+{
+"code": "manual_pubmed_workaround",
+"definition": "The participant describes falling back to manual literature search rather than using AI when trust or security is in doubt. PubMed acts as the safer alternative.",
+"inclusion_criteria": ["I can still go on PubMed", "Get the study myself"],
+"exclusion_criteria": ["Fake citation complaints without mention of alternative workflow", "Hospital-approved tool suggestions"],
+"example_segment_ids": ["S8"]
+},
+{
+"code": "career_risk_from_ai_use",
+"definition": "The participant worries that misuse of AI could create professional consequences. This raises the threshold for adoption.",
+"inclusion_criteria": ["Impact my career", "Security concern tied to physician reluctance"],
+"exclusion_criteria": ["General privacy concerns without personal/professional stakes", "Reference hallucination alone"],
+"example_segment_ids": ["S8"]
+},
+{
+"code": "institutional_approved_tool_preference",
+"definition": "The participant believes adoption would improve if one institutionally sanctioned model were designated for use. Official approval is framed as reassuring.",
+"inclusion_criteria": ["Hospital agreement", "We're gonna use Claude and that's our guy"],
+"exclusion_criteria": ["General comments about multiple consumer tools", "Privacy concern without institutional solution"],
+"example_segment_ids": ["S9"]
+},
+{
+"code": "standardization_across_tools",
+"definition": "The participant sees current use of many different models as disorderly and risky. Standardization is desired to reduce uncertainty about where patient information goes.",
+"inclusion_criteria": ["One doctor using one tool and another using another", "Should we be putting information into all three things"],
+"exclusion_criteria": ["Preference for one vendor for capability reasons only", "General HIPAA concerns"],
+"example_segment_ids": ["S9"]
+},
+{
+"code": "day_before_use_case",
+"definition": "The participant sees the strongest current fit as advance preparation before clinic rather than immediate bedside use. Timing shapes utility.",
+"inclusion_criteria": ["Help me the day before I saw patients", "Know my clinic patients tomorrow"],
+"exclusion_criteria": ["General pre-visit comments without timing", "Inpatient time-crunch comments"],
+"example_segment_ids": ["S10"]
+},
+{
+"code": "single_best_report_need",
+"definition": "In time-pressured settings, the participant wants one high-quality report rather than multiple alternatives. The system should surface the best answer efficiently.",
+"inclusion_criteria": ["You kind of need just one", "Only have time to maybe read one report"],
+"exclusion_criteria": ["General concision without report selection", "Advance prep with multiple reports"],
+"example_segment_ids": ["S10"]
+},
+{
+"code": "evidence_strength_rating_request",
+"definition": "The participant wants a visible rating or grade indicating strength of evidence behind the recommendation. This should distinguish highly supported from fringe recommendations.",
+"inclusion_criteria": ["0 through 100", "Level 1 / phase 3 evidence", "Category 2B"],
+"exclusion_criteria": ["Reference lists without explicit grading", "General trust discussions"],
+"example_segment_ids": ["S11", "S12"]
+}
+],
+"themes": [
+{
+"theme_id": "T1",
+"theme_name": "Useful reports reason to the patient, not just summarize the literature",
+"theme_definition": "The participant consistently values outputs that connect evidence to the specific patient scenario. Reports are most useful when they move beyond extraction and explicitly interpret caveats, contraindications, or study-population mismatches for the case at hand.",
+"supporting_segments": ["S1", "S6", "S11"],
+"representative_quotes": [
+{
+"segment_id": "S1",
+"quote": "is it actually kind of going beyond the step of extraction and reasoning it to the actual patient case"
+},
+{
+"segment_id": "S6",
+"quote": "the patient that I'm seeing doesn't fit into this study."
+}
+],
+"overall_valence": "positive",
+"confidence": "high",
+"confidence_basis": "Repeated across multiple extended segments with concrete examples of what counts as meaningful reasoning."
+},
+{
+"theme_id": "T2",
+"theme_name": "Formatting should reduce cognitive load, not add noise",
+"theme_definition": "The participant wants reports that are concise, sectioned, and visually purposeful. Excessive bolding, poorly formatted tables, and raw trial dumps make the output harder to use, especially when time is limited.",
+"supporting_segments": ["S3", "S4", "S5", "S10"],
+"representative_quotes": [
+{
+"segment_id": "S3",
+"quote": "clinical summary, and then a reference section, where it organizes it in a just helpful flow."
+},
+{
+"segment_id": "S5",
+"quote": "some of the AI just generated text, everything is bolded"
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Multiple segments address structure, concision, and visual emphasis with both liked and disliked examples."
+},
+{
+"theme_id": "T3",
+"theme_name": "Trust depends on verifiable evidence and safe deployment",
+"theme_definition": "The participant's trust is shaped by whether references appear real and whether the tool can be used safely with patient information. Fabricated citations, unclear data handling, and security incidents all erode trust, while an institutionally approved HIPAA-compliant setup could improve it.",
+"supporting_segments": ["S2", "S7", "S8", "S9"],
+"representative_quotes": [
+{
+"segment_id": "S2",
+"quote": "you realize it's not even a PubMed link"
+},
+{
+"segment_id": "S9",
+"quote": "it's HIPAA compliant when you type into this chatbot"
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Strongly repeated concern spanning citation reliability, privacy, breaches, and deployment preferences."
+},
+{
+"theme_id": "T4",
+"theme_name": "Current fit is pre-visit support; faster settings need one concise best answer",
+"theme_definition": "The participant sees present-day usefulness mainly in preparing before clinic, when there is time to review multiple outputs. In urgent or time-constrained settings, the report must be shorter, clearer, and capable of signaling the strength of its recommendation.",
+"supporting_segments": ["S10", "S11", "S12"],
+"representative_quotes": [
+{
+"segment_id": "S10",
+"quote": "those reports would absolutely help me the day before I saw patients"
+},
+{
+"segment_id": "S11",
+"quote": "AI needs to go is almost give you, like, a rating. Like, 0 through 100"
+}
+],
+"overall_valence": "mixed",
+"confidence": "medium",
+"confidence_basis": "This appears clearly but is concentrated in the later portion of the interview."
+}
+],
+"likes": [
+{
+"like_id": "L1",
+"statement": "The participant liked when the report reasoned from evidence to the specific patient case.",
+"supporting_segments": ["S1", "S6"],
+"representative_quote": "going beyond the step of extraction and reasoning it to the actual patient case"
+},
+{
+"like_id": "L2",
+"statement": "The participant liked reports with a clear sectioned flow such as considerations, summary, and references.",
+"supporting_segments": ["S3"],
+"representative_quote": "clinical summary, and then a reference section"
+},
+{
+"like_id": "L3",
+"statement": "The participant liked clinically useful caveats or reminders tied to the recommendation.",
+"supporting_segments": ["S6"],
+"representative_quote": "that would be important"
+},
+{
+"like_id": "L4",
+"statement": "The participant liked the idea of highlighting patient-trial mismatches or contraindications.",
+"supporting_segments": ["S6"],
+"representative_quote": "if that was highlighted and bolded, that would be key"
+}
+],
+"dislikes": [
+{
+"dislike_id": "D1",
+"statement": "The participant disliked reports that simply list trials or require chart-like sifting.",
+"supporting_segments": ["S4"],
+"representative_quote": "if it's just listing out clinical trials as if it's clinicaltrials.gov, that's very complicated."
+},
+{
+"dislike_id": "D2",
+"statement": "The participant disliked excessive or random bolding.",
+"supporting_segments": ["S5"],
+"representative_quote": "everything is bolded"
+},
+{
+"dislike_id": "D3",
+"statement": "The participant disliked poorly formatted tables that did not clearly communicate meaning.",
+"supporting_segments": ["S5"],
+"representative_quote": "what are we supposed to get from this?"
+},
+{
+"dislike_id": "D4",
+"statement": "The participant disliked fabricated or unverifiable references.",
+"supporting_segments": ["S2"],
+"representative_quote": "it's not even a PubMed link"
+}
+],
+"requirements": [
+{
+"req_id": "R1",
+"type": "must_have",
+"requirement": "The system must translate evidence into patient-specific reasoning rather than provide generic literature summaries.",
+"supporting_segments": ["S1", "S4"],
+"risk_if_ignored": "Clinicians may see the tool as a time-consuming literature dump instead of decision support."
+},
+{
+"req_id": "R2",
+"type": "must_have",
+"requirement": "The report must use concise, sectioned formatting that can be scanned quickly before clinic or during time pressure.",
+"supporting_segments": ["S3", "S10"],
+"risk_if_ignored": "The output may be too slow to use in real workflows, especially when only one report can be read."
+},
+{
+"req_id": "R3",
+"type": "must_have",
+"requirement": "Highlighting must be reserved for meaningful items such as patient-trial mismatch, contraindications, or key patient characteristics.",
+"supporting_segments": ["S5", "S6"],
+"risk_if_ignored": "Important distinctions may be buried in visual noise or missed entirely."
+},
+{
+"req_id": "R4",
+"type": "must_have",
+"requirement": "The system must provide verifiable references and avoid fabricated citations.",
+"supporting_segments": ["S2"],
+"risk_if_ignored": "A single false citation may permanently damage clinician trust."
+},
+{
+"req_id": "R5",
+"type": "must_have",
+"requirement": "Clinical use must occur within a clearly HIPAA-compliant workflow for entering patient information.",
+"supporting_segments": ["S7", "S8", "S9"],
+"risk_if_ignored": "Clinicians may avoid the tool because privacy and career risk outweigh perceived benefit."
+},
+{
+"req_id": "R6",
+"type": "nice_to_have",
+"requirement": "Recommendations should include a visible evidence-strength or confidence rating that distinguishes routine from fringe scenarios.",
+"supporting_segments": ["S11", "S12"],
+"risk_if_ignored": "Users may struggle to judge how strongly to rely on the recommendation in different cases."
+},
+{
+"req_id": "R7",
+"type": "avoid",
+"requirement": "Avoid outputs that resemble another chart or an unfiltered clinicaltrials.gov-style list.",
+"supporting_segments": ["S4"],
+"risk_if_ignored": "The system may increase cognitive load instead of reducing it."
+}
+],
+"workflow_integration": {
+"current_workarounds": [
+"Uses PubMed to get studies directly.",
+"Creates a concise patient summary before seeing patients that could be pasted into a model.",
+"When time allows, runs multiple reports and parses through them before clinic."
+],
+"intended_use_cases": [
+"Pre-visit preparation the day before clinic.",
+"Support for oncology clinical decision making.",
+"Potential use before entering the patient room.",
+"Possible use in inpatient consult situations if a concise single report exists."
+],
+"constraints": [
+"HIPAA and privacy compliance when entering patient information.",
+"Time burden of extracting and pasting the right clinical details.",
+"Trust erosion from fabricated citations.",
+"Security concerns after reports of vendor breaches.",
+"Need for outputs that work under time pressure.",
+"Concern about professional or career risk if data are mishandled."
+],
+"output_format_preferences": [
+"Clear sections such as considerations, clinical summary, and references.",
+"Concise report rather than long text.",
+"Meaningful bolding or highlighting tied to key patient or trial facts.",
+"Visible flags for patient-study mismatch or contraindications.",
+"Evidence-strength or confidence rating for recommendations."
+]
+},
+"trust_and_safety": {
+"trust_drivers": [
+"References that can be verified through recognizable sources such as PubMed.",
+"Evidence that is clearly applied to the specific patient case.",
+"Institutionally approved HIPAA-compliant deployment.",
+"Transparent signaling of how strong the evidence is."
+],
+"trust_erosions": [
+"Made-up or unverifiable references.",
+"Fear of violating HIPAA when entering patient data.",
+"Reports of AI vendor data breaches.",
+"Use of multiple unsanctioned consumer tools for patient information.",
+"Outputs that feel generic or not clearly tied to the patient's situation."
+],
+"verification_behaviors": [
+"Tries to find the actual reference after the model provides it.",
+"Compares AI utility against manually going to PubMed and retrieving the study directly.",
+"Judges whether the patient aligns with the study population or recommendation context."
+],
+"medico_legal_or_policy_concerns": [
+"Potential HIPAA violations from entering patient information into models.",
+"Uncertainty about legality of pasting clinical summaries into AI tools.",
+"Concern that misuse could impact a physician's career.",
+"Need for institution-level agreements to define compliant tool use."
+]
+},
+"quantified_mentions": {
+"top_codes_by_count": [
+{
+"code": "hipaa_compliance_barrier",
+"count": 3
+},
+{
+"code": "patient_specific_reasoning",
+"count": 2
+},
+{
+"code": "time_saving_need",
+"count": 2
+},
+{
+"code": "highlighting_should_be_meaningful",
+"count": 2
+},
+{
+"code": "evidence_strength_rating_request",
+"count": 2
+}
+],
+"notes": "Counts are approximate and based on segment-level coding rather than line-by-line frequency. Some ideas overlap across neighboring segments because the transcript is conversational and timestamps are coarse."
+},
+"analytic_memos": {
+"summary": "This participant evaluates AI reports primarily through the lens of whether they genuinely help make a patient-specific oncology decision. They repeatedly distinguish useful reasoning from outputs that merely summarize studies or list trials. The participant values reports that are structured, concise, and easy to scan before seeing patients, and they see strongest current fit in pre-visit preparation rather than urgent real-time use. Formatting matters a great deal: random bolding and poor tables reduce usability, while targeted highlighting of patient-study mismatch or contraindications could materially improve value. Trust is fragile and closely tied to whether citations are real and verifiable. The participant also sees privacy compliance as a major unresolved barrier to clinical use, especially when clinicians must manually enter patient details into consumer tools. An institutionally approved, HIPAA-compliant model would make use feel safer. They also want recommendation outputs to communicate strength of evidence or confidence, especially when moving from routine to niche cases.",
+"tensions_or_tradeoffs": [
+"More detailed evidence can be helpful, but too much text turns the report into another chart to sift through.",
+"AI could support decision making, but clinicians do not want to become truly reliant on it.",
+"A secure, compliant institutional model may feel safer, but current safe deployments may lag behind frontier capabilities.",
+"Multiple reports may be useful for advance preparation, but urgent settings require one concise best report."
+],
+"open_questions_for_next_interview": [
+"What exact visual cues would feel most useful for showing patient-study mismatch without cluttering the page?",
+"How should a report indicate uncertainty or evidence strength in a way that feels clinically credible?",
+"What minimum set of patient details would the participant feel comfortable entering into a compliant system?",
+"In a time-crunched inpatient setting, what is the shortest acceptable report format that still feels safe to use?",
+"What kinds of references or source linking would be sufficient for the participant to trust the output?"
+]
+}
+}

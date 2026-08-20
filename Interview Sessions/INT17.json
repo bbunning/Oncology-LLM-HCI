@@ -1,0 +1,679 @@
+{
+"transcript_id": "TX001",
+"interview_context": {
+"participant_role": "unknown",
+"setting_or_workflow_context": "Oncology clinical decision-making and note-writing workflow using AI literature-review and question-answer tools.",
+"tools_mentioned_by_participant": ["ChatGPT", "Open Evidence", "Claude", "Cloud Code"]
+},
+"segments": [
+{
+"segment_id": "S1",
+"timestamp_start": "00:00:28.110",
+"timestamp_end": "00:00:49.899",
+"speaker": "participant",
+"verbatim_excerpt": "Yeah, I'm using ChatGPT, Open Evidence, and Claude... I definitely have developed a preference, even using all three. And sometimes I use, like, two at the same time and just compare it.",
+"codes": ["uses_multiple_tools", "cross_tool_comparison", "tool_specific_preferences"],
+"valence": "neutral",
+"object_of_evaluation": "workflow fit",
+"rationale": "The participant describes routine use of several AI tools and explicitly compares outputs across them. This reflects an evaluative workflow rather than simple one-tool reliance."
+},
+{
+"segment_id": "S2",
+"timestamp_start": "00:01:05.930",
+"timestamp_end": "00:01:50.910",
+"speaker": "participant",
+"verbatim_excerpt": "I use Open Evidence more for... evaluating data or, like, studies... it's able to present the data in a better way that's synthesized than, like, ChatGPT and Claude... I prefer chat over open evidence when I try to... communicate that to either a patient or, like, colleagues.",
+"codes": ["tool_specific_preferences", "better_data_synthesis", "better_plain_language", "audience_specific_use"],
+"valence": "mixed",
+"object_of_evaluation": "data synthesis and phrasing",
+"rationale": "The participant differentiates tools by task: one for study evaluation and another for communication. The excerpt supports both perceived strengths and limitations across tools."
+},
+{
+"segment_id": "S3",
+"timestamp_start": "00:02:22.500",
+"timestamp_end": "00:03:17.699",
+"speaker": "participant",
+"verbatim_excerpt": "open evidence is often overly strict with where it'll pull guidance from... it'll say things like yes or no with a lot of assurance, and then I think ChatGPT has the other issue where it's often psychophantic... Claude is somewhere in the middle.",
+"codes": ["overconfident_binary_answers", "sycophancy_concern", "tool_specific_preferences", "prompt_sensitivity"],
+"valence": "negative",
+"object_of_evaluation": "trust and response behavior",
+"rationale": "The participant names concrete failure modes: overly assured binary answers and agreement-seeking behavior. The comparison also indicates a trust gradient across tools."
+},
+{
+"segment_id": "S4",
+"timestamp_start": "00:03:46.180",
+"timestamp_end": "00:04:23.679",
+"speaker": "participant",
+"verbatim_excerpt": "I really like when... the citations... kind of explain the studies or the outcomes of the studies, rather than... just putting a citation that's... empty... if you have a hazards ratio, if you have... p-values... I trust that more than just a statement.",
+"codes": ["wants_study_outcomes_in_citations", "trusts_quantitative_detail", "fact_checking_behavior"],
+"valence": "positive",
+"object_of_evaluation": "citations and evidence display",
+"rationale": "The participant explicitly prefers explanatory citations with numerical outcomes. Trust is tied to concrete quantitative details rather than unsupported summary claims."
+},
+{
+"segment_id": "S5",
+"timestamp_start": "00:04:45.570",
+"timestamp_end": "00:05:16.080",
+"speaker": "participant",
+"verbatim_excerpt": "don't tell me the hemoglobin is normal. Besides, it's normal... I don't trust the interpretation of an untrained provider on values... I treat all of the LLMs as if they're medical students, essentially.",
+"codes": ["llm_as_junior_trainee", "distrust_of_unexplained_interpretation", "needs_explicit_supporting_data"],
+"valence": "negative",
+"object_of_evaluation": "interpretation and trust",
+"rationale": "The participant frames LLMs as novice interpreters whose conclusions are not yet trusted on their own. The analogy directly grounds the need for transparent supporting evidence."
+},
+{
+"segment_id": "S6",
+"timestamp_start": "00:05:58.330",
+"timestamp_end": "00:06:29.759",
+"speaker": "participant",
+"verbatim_excerpt": "the blue report had... the citations and... the statistics for me. And it also... gave... both sides of the argument as well. It wasn't just... feeding back to me... what I wanted to... hear. So I think I valued the blue report the most.",
+"codes": ["prefers_balanced_argument", "wants_study_outcomes_in_citations", "anti_sycophancy", "report_preference_blue"],
+"valence": "positive",
+"object_of_evaluation": "report structure and balance",
+"rationale": "The participant favors a report that combined citations, statistics, and competing sides of the argument. Non-sycophantic presentation appears to increase perceived quality."
+},
+{
+"segment_id": "S7",
+"timestamp_start": "00:07:04.010",
+"timestamp_end": "00:08:01.890",
+"speaker": "participant",
+"verbatim_excerpt": "I would have... a summary statement of... the prompt that I gave it... I want a summary statement showing that... it's picked out the... high-risk features... give me the evidence, give me the citations, And give... both sides of the argument... a summary table of... the evidence... very concise.",
+"codes": ["wants_prompt_restatement", "wants_concise_evidence_table", "prefers_balanced_argument", "layered_summary_structure"],
+"valence": "positive",
+"object_of_evaluation": "report structure",
+"rationale": "The participant outlines an ideal report structure: prompt summary, evidence with citations, balanced argument, concise table, and end synthesis. This is a direct design specification grounded in stated preferences."
+},
+{
+"segment_id": "S8",
+"timestamp_start": "00:08:25.390",
+"timestamp_end": "00:09:05.690",
+"speaker": "participant",
+"verbatim_excerpt": "that first summary is... I wanted to summarize my prompt, not necessarily... make a claim... to make sure it's understanding what I'm telling it... it interpreted it as bladder invasion... which is... incorrect... So that's just an example that I'm making sure it's understanding what I'm telling it.",
+"codes": ["wants_prompt_restatement", "checks_model_understanding", "input_misinterpretation_risk"],
+"valence": "negative",
+"object_of_evaluation": "question understanding",
+"rationale": "The participant distinguishes prompt understanding from answer generation and gives a concrete example of harmful misinterpretation. This supports a need for the model to echo or clarify the intended question first."
+},
+{
+"segment_id": "S9",
+"timestamp_start": "00:09:08.370",
+"timestamp_end": "00:10:24.190",
+"speaker": "participant",
+"verbatim_excerpt": "the core question that the provider is actually asking is... very few of the reports actually picked up on that... the number one thing I want is to... highlight the question it thinks I'm asking... So if it summarizes what it thinks I'm asking, then I can... really clue in a little bit better.",
+"codes": ["captures_core_question", "wants_prompt_restatement", "question_misalignment", "context_dependent_summary"],
+"valence": "mixed",
+"object_of_evaluation": "question framing",
+"rationale": "The participant criticizes reports for missing the clinical core of the question, then proposes question restatement as a fix. The mention of simple cases also suggests the feature should be context-sensitive."
+},
+{
+"segment_id": "S10",
+"timestamp_start": "00:11:51.110",
+"timestamp_end": "00:12:33.450",
+"speaker": "participant",
+"verbatim_excerpt": "One or less... if it's a page or less, then I might read everything. If it's more than a page, then I start skimming very quickly... it's not that I don't want the content, it's just that immediately I might want some parts of it.",
+"codes": ["prefers_scannable_length", "skims_long_reports", "deferred_use_of_detail"],
+"valence": "mixed",
+"object_of_evaluation": "length and readability",
+"rationale": "The participant expresses a clear threshold for immediate readability while still valuing depth. This indicates a tension between completeness and rapid scan-ability."
+},
+{
+"segment_id": "S11",
+"timestamp_start": "00:13:11.110",
+"timestamp_end": "00:15:16.769",
+"speaker": "participant",
+"verbatim_excerpt": "having presets for what we're doing is super important. The context is always important... prepping consult notes... being able to synthesize that into a way that I could just copy and paste into a note in a better way... doing this to learn versus I'm doing this because I need to write a note.",
+"codes": ["wants_task_specific_presets", "consult_note_use_case", "copy_ready_output", "audience_specific_use"],
+"valence": "positive",
+"object_of_evaluation": "workflow integration",
+"rationale": "The participant wants configurable outputs tailored to tasks, especially consult-note preparation. The excerpt also separates learning-oriented from documentation-oriented use."
+},
+{
+"segment_id": "S12",
+"timestamp_start": "00:15:41.790",
+"timestamp_end": "00:17:33.839",
+"speaker": "participant",
+"verbatim_excerpt": "the patient-level memory is important... the reason that we're asking this consult question is because the patient had this reaction... that gets buried very fast... the kind of... synthesis of the journey is really important, and that's what I spend a lot of time doing, personally.",
+"codes": ["needs_longitudinal_context", "patient_journey_synthesis", "history_gets_buried", "high_manual_synthesis_burden"],
+"valence": "negative",
+"object_of_evaluation": "longitudinal context",
+"rationale": "The participant emphasizes that current questions depend on older, easily buried context. The need to reconstruct the patient's trajectory is described as a major part of manual work."
+},
+{
+"segment_id": "S13",
+"timestamp_start": "00:18:18.210",
+"timestamp_end": "00:19:50.090",
+"speaker": "participant",
+"verbatim_excerpt": "so much of oncology, it's patient-level, unwritten data, too, that's... not known in the health record, but that's known to people... I want some questions before I start my thing... Then that gives me a chance to answer your questions without you needing to have EHR interoperability.",
+"codes": ["missing_unwritten_context", "model_should_ask_clarifying_questions", "human_in_the_loop_context_gathering"],
+"valence": "mixed",
+"object_of_evaluation": "context gathering",
+"rationale": "The participant notes that critical context is often unwritten and unavailable to the model. Instead of requiring full system access, the participant prefers an interactive question-asking step."
+},
+{
+"segment_id": "S14",
+"timestamp_start": "00:20:38.190",
+"timestamp_end": "00:22:21.470",
+"speaker": "participant",
+"verbatim_excerpt": "the most powerful thing would be for the AI models to admit that they don't know something... I'd rather have less information than made-up information... there should be... a score for different parts for the certainty... give me how certain or uncertain you are about certain parts.",
+"codes": ["wants_admission_of_unknowns", "anti_hallucination", "wants_uncertainty_signals", "section_level_certainty"],
+"valence": "negative",
+"object_of_evaluation": "trust and safety",
+"rationale": "The participant explicitly prefers uncertainty or incompleteness over fabricated synthesis. They also ask for more granular confidence signaling rather than generic disclaimers."
+}
+],
+"codebook": [
+{
+"code": "uses_multiple_tools",
+"definition": "Participant describes routine use of more than one AI system for related clinical or literature tasks.",
+"inclusion_criteria": ["Mentions using multiple named tools", "Describes regular switching between systems"],
+"exclusion_criteria": ["Mentions only one tool", "General discussion of AI without own use"],
+"example_segment_ids": ["S1"]
+},
+{
+"code": "cross_tool_comparison",
+"definition": "Participant actively compares outputs from different tools to judge quality or usefulness.",
+"inclusion_criteria": ["Uses two tools at the same time", "Compares answers across systems"],
+"exclusion_criteria": ["Simple mention of several tools without comparison"],
+"example_segment_ids": ["S1", "S3"]
+},
+{
+"code": "tool_specific_preferences",
+"definition": "Participant assigns different strengths, weaknesses, or preferred uses to specific tools.",
+"inclusion_criteria": ["One tool preferred for studies", "Another tool preferred for communication", "Ranks tools relative to each other"],
+"exclusion_criteria": ["Generic AI preference with no tool distinction"],
+"example_segment_ids": ["S1", "S2", "S3"]
+},
+{
+"code": "better_data_synthesis",
+"definition": "Participant values a report that synthesizes evidence or study data clearly.",
+"inclusion_criteria": ["Says data are presented better", "References better synthesis of studies"],
+"exclusion_criteria": ["General liking of a tool without mention of evidence synthesis"],
+"example_segment_ids": ["S2"]
+},
+{
+"code": "better_plain_language",
+"definition": "Participant values wording that makes information easier to communicate to others.",
+"inclusion_criteria": ["Mentions clearer language", "Mentions communicating to patients or colleagues"],
+"exclusion_criteria": ["Pure evidence preference without communication angle"],
+"example_segment_ids": ["S2"]
+},
+{
+"code": "sycophancy_concern",
+"definition": "Participant worries that a tool tells them what they want to hear or agrees too readily.",
+"inclusion_criteria": ["Uses words like agrees with you", "Says report fed back desired answer"],
+"exclusion_criteria": ["General accuracy concern without agreement-seeking behavior"],
+"example_segment_ids": ["S3", "S6"]
+},
+{
+"code": "overconfident_binary_answers",
+"definition": "Participant describes answers that are too absolute or too assured for uncertain clinical questions.",
+"inclusion_criteria": ["Yes/no with a lot of assurance", "Never/absolutely framing criticized"],
+"exclusion_criteria": ["Confidence discussion without concern about absoluteness"],
+"example_segment_ids": ["S3"]
+},
+{
+"code": "wants_study_outcomes_in_citations",
+"definition": "Participant wants citations to include study outcomes or explanatory context rather than bare references.",
+"inclusion_criteria": ["Wants explained studies", "Wants outcomes attached to citations"],
+"exclusion_criteria": ["Mentions citations only as links"],
+"example_segment_ids": ["S4", "S6"]
+},
+{
+"code": "trusts_quantitative_detail",
+"definition": "Participant places more trust in numerical study details than in unsupported summary statements.",
+"inclusion_criteria": ["Hazard ratio", "p-values", "statistics increase trust"],
+"exclusion_criteria": ["General evidence preference without numbers"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "fact_checking_behavior",
+"definition": "Participant describes manually checking AI outputs against source material.",
+"inclusion_criteria": ["Clicks hyperlink", "Goes through the study myself"],
+"exclusion_criteria": ["General skepticism without explicit checking behavior"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "llm_as_junior_trainee",
+"definition": "Participant treats the model like a novice learner whose interpretations require oversight.",
+"inclusion_criteria": ["Compares LLMs to medical students", "Trust not yet established"],
+"exclusion_criteria": ["General distrust without trainee analogy"],
+"example_segment_ids": ["S5"]
+},
+{
+"code": "distrust_of_unexplained_interpretation",
+"definition": "Participant resists summary interpretations when the underlying evidence is not shown.",
+"inclusion_criteria": ["Don't tell me normal without details", "Doesn't trust unexplained conclusions"],
+"exclusion_criteria": ["Requests explanation of prompt rather than evidence"],
+"example_segment_ids": ["S5"]
+},
+{
+"code": "prefers_balanced_argument",
+"definition": "Participant values reports that present both or multiple sides of an argument.",
+"inclusion_criteria": ["Both sides of the argument", "Multiple sides of the argument"],
+"exclusion_criteria": ["General completeness without contrast of sides"],
+"example_segment_ids": ["S6", "S7"]
+},
+{
+"code": "wants_prompt_restatement",
+"definition": "Participant wants the model to restate or summarize the question/prompt before answering.",
+"inclusion_criteria": ["Summary statement of the prompt", "Highlight the question it thinks I'm asking"],
+"exclusion_criteria": ["Summary of answer only", "General desire for shorter summary"],
+"example_segment_ids": ["S7", "S8", "S9"]
+},
+{
+"code": "wants_concise_evidence_table",
+"definition": "Participant wants evidence organized in a brief table rather than a long prose listing.",
+"inclusion_criteria": ["Summary table of the evidence", "Very concise table"],
+"exclusion_criteria": ["Mentions tables without preference for concise organization"],
+"example_segment_ids": ["S7"]
+},
+{
+"code": "layered_summary_structure",
+"definition": "Participant prefers a multi-layered report with prompt summary, evidence, and end synthesis.",
+"inclusion_criteria": ["Describes front summary plus evidence plus final synthesis", "Values skimmable layered structure"],
+"exclusion_criteria": ["Single statement about wanting a short answer"],
+"example_segment_ids": ["S7"]
+},
+{
+"code": "input_misinterpretation_risk",
+"definition": "Participant describes errors caused by the model misunderstanding the clinical prompt or details.",
+"inclusion_criteria": ["Interpreted X as Y incorrectly", "Upstaging example from misunderstanding"],
+"exclusion_criteria": ["Wrong evidence retrieval without prompt misunderstanding"],
+"example_segment_ids": ["S8"]
+},
+{
+"code": "captures_core_question",
+"definition": "Participant wants the report to identify the real clinical question underlying the prompt.",
+"inclusion_criteria": ["Core question the provider is actually asking", "Missed the actual issue"],
+"exclusion_criteria": ["Simple prompt restatement without deeper reframing"],
+"example_segment_ids": ["S9"]
+},
+{
+"code": "prefers_scannable_length",
+"definition": "Participant wants responses short enough to read fully or skim quickly.",
+"inclusion_criteria": ["One page or less", "Skimming long reports"],
+"exclusion_criteria": ["Mentions long responses only as acceptable sometimes"],
+"example_segment_ids": ["S10"]
+},
+{
+"code": "wants_task_specific_presets",
+"definition": "Participant wants configurable response styles matched to the immediate workflow task.",
+"inclusion_criteria": ["Presets", "Different style based on what we're doing", "Context is important"],
+"exclusion_criteria": ["General desire for customization without linking to task"],
+"example_segment_ids": ["S11"]
+},
+{
+"code": "consult_note_use_case",
+"definition": "Participant describes using AI outputs to support consult preparation or consult documentation.",
+"inclusion_criteria": ["Prepping consult notes", "Rationale for why we're doing XYZ"],
+"exclusion_criteria": ["General note-writing without consult context"],
+"example_segment_ids": ["S11"]
+},
+{
+"code": "copy_ready_output",
+"definition": "Participant wants output that can be directly reused in documentation.",
+"inclusion_criteria": ["Copy and paste into a note", "Write something for the patient"],
+"exclusion_criteria": ["Learning-only use"],
+"example_segment_ids": ["S11"]
+},
+{
+"code": "needs_longitudinal_context",
+"definition": "Participant says useful reasoning depends on prior events and accumulated patient history over time.",
+"inclusion_criteria": ["Fork we took months ago", "Patient-level memory is important"],
+"exclusion_criteria": ["Single-encounter context only"],
+"example_segment_ids": ["S12"]
+},
+{
+"code": "patient_journey_synthesis",
+"definition": "Participant values synthesis of the overall trajectory or juncture in care, not just isolated facts.",
+"inclusion_criteria": ["Synthesis of the journey", "Patient is at this juncture in care"],
+"exclusion_criteria": ["Summarizing one paper or one decision only"],
+"example_segment_ids": ["S12"]
+},
+{
+"code": "model_should_ask_clarifying_questions",
+"definition": "Participant wants the model to stop and request missing clinical details before producing an answer.",
+"inclusion_criteria": ["I want some questions before I start my thing", "Before I continue, can you tell me more"],
+"exclusion_criteria": ["Generic question understanding without interactive clarification"],
+"example_segment_ids": ["S13"]
+},
+{
+"code": "wants_admission_of_unknowns",
+"definition": "Participant wants the model to explicitly say when it does not know something.",
+"inclusion_criteria": ["Admit that they don't know", "Less information than made-up information"],
+"exclusion_criteria": ["Confidence score request alone"],
+"example_segment_ids": ["S14"]
+},
+{
+"code": "wants_uncertainty_signals",
+"definition": "Participant wants graded certainty indicators for specific parts of the report.",
+"inclusion_criteria": ["Score for different parts", "How certain or uncertain you are"],
+"exclusion_criteria": ["Generic disclaimer that models make mistakes"],
+"example_segment_ids": ["S14"]
+}
+],
+"themes": [
+{
+"theme_id": "T1",
+"theme_name": "Show the reasoning, not just the conclusion",
+"theme_definition": "The participant repeatedly resists unsupported interpretation and prefers reports that expose study outcomes, statistics, and explicit evidence. Trust rises when the report shows what it is basing claims on, and drops when the model offers bare conclusions or overconfident judgments.",
+"supporting_segments": ["S4", "S5", "S6", "S14"],
+"representative_quotes": [
+{
+"segment_id": "S4",
+"quote": "if you have a hazards ratio, if you have, like, p-values... I trust that more than just a statement."
+},
+{
+"segment_id": "S5",
+"quote": "I treat all of the LLMs as if they're medical students, essentially."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Repeated across multiple participant segments with direct examples about citations, statistics, and interpretation."
+},
+{
+"theme_id": "T2",
+"theme_name": "Make the question explicit before answering",
+"theme_definition": "A central concern is that reports may answer the wrong question because they miss the clinical core or misunderstand the prompt. The participant wants the model to summarize what it thinks is being asked, clarify ambiguous details, and show it has identified the real decision point before synthesizing literature.",
+"supporting_segments": ["S7", "S8", "S9", "S13"],
+"representative_quotes": [
+{
+"segment_id": "S9",
+"quote": "the number one thing I want is to, like, highlight the question it thinks I'm asking"
+},
+{
+"segment_id": "S8",
+"quote": "I wanted to summarize my prompt... to make sure it's understanding what I'm telling it."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Repeated in several segments and tied to a concrete example of clinically meaningful misinterpretation."
+},
+{
+"theme_id": "T3",
+"theme_name": "Responses should match the task and be easy to scan",
+"theme_definition": "The participant wants format and length to adapt to what they are doing in the moment, such as learning, rounding, or writing consult notes. They value layered outputs that can be skimmed first, revisited later, and in some cases copied into documentation.",
+"supporting_segments": ["S7", "S10", "S11"],
+"representative_quotes": [
+{
+"segment_id": "S10",
+"quote": "if it's a page or less, then I might read everything. If it's more than a page, then I start skimming very quickly."
+},
+{
+"segment_id": "S11",
+"quote": "having presets for what we're doing is super important."
+}
+],
+"overall_valence": "positive",
+"confidence": "high",
+"confidence_basis": "Appears across direct design preferences for structure, length, presets, and documentation use."
+},
+{
+"theme_id": "T4",
+"theme_name": "Good answers depend on longitudinal and unwritten context",
+"theme_definition": "The participant describes oncology reasoning as highly dependent on past decisions, patient trajectory, and contextual details that may not be obvious in a single note. Because full context is often unavailable, the model should help elicit missing details rather than act as though it already knows them.",
+"supporting_segments": ["S12", "S13"],
+"representative_quotes": [
+{
+"segment_id": "S12",
+"quote": "the patient-level memory is important"
+},
+{
+"segment_id": "S13",
+"quote": "I want some questions before I start my thing."
+}
+],
+"overall_valence": "mixed",
+"confidence": "medium",
+"confidence_basis": "Strongly stated, but concentrated in fewer segments than the other themes."
+},
+{
+"theme_id": "T5",
+"theme_name": "Better to be uncertain than confidently wrong",
+"theme_definition": "The participant wants the model to admit uncertainty, avoid making things up, and communicate confidence in a more granular way. Generic warnings are not enough; the participant wants uncertainty surfaced in ways that change how they interpret particular parts of the report.",
+"supporting_segments": ["S3", "S6", "S14"],
+"representative_quotes": [
+{
+"segment_id": "S14",
+"quote": "I'd rather have less information than made-up information."
+},
+{
+"segment_id": "S14",
+"quote": "give me how certain or uncertain you are about certain parts."
+}
+],
+"overall_valence": "negative",
+"confidence": "high",
+"confidence_basis": "Repeated as both a critique of current tools and a concrete design request."
+}
+],
+"likes": [
+{
+"like_id": "L1",
+"statement": "The participant liked citations that explain study outcomes rather than appearing as empty references.",
+"supporting_segments": ["S4"],
+"representative_quote": "the citations... kind of explain the studies or the outcomes of the studies"
+},
+{
+"like_id": "L2",
+"statement": "The participant liked seeing statistics or hard outcomes alongside claims.",
+"supporting_segments": ["S4", "S6"],
+"representative_quote": "I trust that more than just a statement."
+},
+{
+"like_id": "L3",
+"statement": "The participant liked reports that presented both sides of the argument rather than agreeing reflexively.",
+"supporting_segments": ["S6", "S7"],
+"representative_quote": "gave, like, both sides of the argument as well"
+},
+{
+"like_id": "L4",
+"statement": "The participant liked the blue report because it combined citations, statistics, and balance.",
+"supporting_segments": ["S6"],
+"representative_quote": "I think I valued the blue report the most."
+},
+{
+"like_id": "L5",
+"statement": "The participant liked the idea of task-specific presets for different clinical workflows.",
+"supporting_segments": ["S11"],
+"representative_quote": "having presets for what we're doing is super important."
+}
+],
+"dislikes": [
+{
+"dislike_id": "D1",
+"statement": "The participant disliked citations that are present but do not explain the study or outcome.",
+"supporting_segments": ["S4"],
+"representative_quote": "just putting a citation that's... empty"
+},
+{
+"dislike_id": "D2",
+"statement": "The participant disliked unsupported interpretation and overconfident yes/no answers.",
+"supporting_segments": ["S3", "S5"],
+"representative_quote": "it'll say things like yes or no with a lot of assurance"
+},
+{
+"dislike_id": "D3",
+"statement": "The participant disliked reports that miss the actual clinical question being asked.",
+"supporting_segments": ["S8", "S9"],
+"representative_quote": "very few of the reports actually picked up on that"
+},
+{
+"dislike_id": "D4",
+"statement": "The participant disliked long reports that push them into immediate skimming.",
+"supporting_segments": ["S10"],
+"representative_quote": "If it's more than a page, then I start skimming very quickly."
+},
+{
+"dislike_id": "D5",
+"statement": "The participant disliked made-up information and vague global disclaimers about model fallibility.",
+"supporting_segments": ["S14"],
+"representative_quote": "I'd rather have less information than made-up information."
+}
+],
+"requirements": [
+{
+"req_id": "R1",
+"type": "must_have",
+"requirement": "The report should begin by summarizing what the model thinks the user is asking, especially the core clinical question and salient risk features.",
+"supporting_segments": ["S7", "S8", "S9"],
+"risk_if_ignored": "The model may answer the wrong question or misinterpret key clinical details."
+},
+{
+"req_id": "R2",
+"type": "must_have",
+"requirement": "Claims should be tied to citations that include concise study outcomes or numerical details rather than bare references.",
+"supporting_segments": ["S4", "S6"],
+"risk_if_ignored": "Users may distrust the output and spend extra time manually checking source studies."
+},
+{
+"req_id": "R3",
+"type": "must_have",
+"requirement": "The report should present multiple sides of the argument instead of simply reinforcing the user's apparent preference.",
+"supporting_segments": ["S6", "S7"],
+"risk_if_ignored": "The output may feel sycophantic and less clinically trustworthy."
+},
+{
+"req_id": "R4",
+"type": "nice_to_have",
+"requirement": "The interface should offer task-specific presets, such as a concise consult-note mode and a deeper learning mode.",
+"supporting_segments": ["S10", "S11"],
+"risk_if_ignored": "Users may receive outputs with the wrong depth, tone, or structure for the task at hand."
+},
+{
+"req_id": "R5",
+"type": "must_have",
+"requirement": "The system should ask clarifying questions when important patient context is missing rather than proceeding as if it knows enough.",
+"supporting_segments": ["S13"],
+"risk_if_ignored": "Answers may be built on incomplete or incorrect assumptions about the patient's situation."
+},
+{
+"req_id": "R6",
+"type": "must_have",
+"requirement": "The model should explicitly admit when it does not know something and provide section-level uncertainty signals.",
+"supporting_segments": ["S14"],
+"risk_if_ignored": "Confidently wrong or fabricated content could send clinicians down a bad path."
+},
+{
+"req_id": "R7",
+"type": "avoid",
+"requirement": "Avoid long, unstructured responses that exceed what can be read or skimmed efficiently in workflow.",
+"supporting_segments": ["S7", "S10"],
+"risk_if_ignored": "Important details may be missed because the user skims instead of reading carefully."
+}
+],
+"workflow_integration": {
+"current_workarounds": [
+"Using multiple AI tools side by side and comparing outputs.",
+"Clicking through cited studies and reviewing them manually.",
+"Skimming long responses first and revisiting later if needed.",
+"Manually synthesizing the patient journey from prior notes and history."
+],
+"intended_use_cases": [
+"Evaluating studies and evidence for clinical decisions.",
+"Communicating synthesized information to patients or colleagues.",
+"Preparing consult notes.",
+"Learning a patient's history and current juncture in care.",
+"Generating documentation-ready summaries."
+],
+"constraints": [
+"Low trust in unsupported interpretation.",
+"Risk of prompt misunderstanding.",
+"Time pressure and tendency to skim longer reports.",
+"Need for patient-specific historical context.",
+"Important unwritten context may not be in the record.",
+"Different tasks require different output styles."
+],
+"output_format_preferences": [
+"Prompt summary up front.",
+"Citations with study outcomes and statistics.",
+"Balanced presentation of multiple sides.",
+"Concise evidence table.",
+"Short overall length or at least scannable layering.",
+"A final synthesized summary statement.",
+"Preset formats tailored to workflow."
+]
+},
+"trust_and_safety": {
+"trust_drivers": [
+"Citations that explain the study or outcome.",
+"Numerical details such as hazard ratios or p-values.",
+"Balanced arguments rather than agreement-seeking responses.",
+"Model restatement of the question it is answering.",
+"Honest admission of uncertainty."
+],
+"trust_erosions": [
+"Empty citations.",
+"Unsupported interpretation.",
+"Overconfident yes/no answers.",
+"Sycophantic responses.",
+"Misunderstanding the clinical prompt.",
+"Made-up information.",
+"Generic disclaimers that do not localize uncertainty."
+],
+"verification_behaviors": [
+"Fact-checking by clicking the hyperlink and reviewing the study.",
+"Comparing outputs from multiple tools.",
+"Checking whether the model's restated question matches the intended question."
+],
+"medico_legal_or_policy_concerns": [
+"Concern that incorrect answers can put the team on a bad path.",
+"Concern that the model may lack critical patient context and still answer decisively."
+]
+},
+"quantified_mentions": {
+"top_codes_by_count": [
+{
+"code": "wants_prompt_restatement",
+"count": 3
+},
+{
+"code": "tool_specific_preferences",
+"count": 3
+},
+{
+"code": "prefers_balanced_argument",
+"count": 2
+},
+{
+"code": "wants_study_outcomes_in_citations",
+"count": 2
+},
+{
+"code": "sycophancy_concern",
+"count": 2
+},
+{
+"code": "audience_specific_use",
+"count": 2
+},
+{
+"code": "needs_longitudinal_context",
+"count": 1
+},
+{
+"code": "wants_uncertainty_signals",
+"count": 1
+}
+],
+"notes": "Counts are approximate and reflect coded meaningful segments. This transcript contains more than one participant speaker, but all participant speech was coded under the schema's single 'participant' field."
+},
+"analytic_memos": {
+"summary": "The participant perspective in this transcript is pragmatic and highly evaluative rather than enthusiastic by default. AI tools are already being used, but each tool is seen as having a different niche, with participants comparing them against each other and against their own manual review. The strongest recurring preference is for transparent evidence presentation: explanatory citations, quantitative results, and visible support for claims. Another major theme is that the report must first show it understands the real question, because participants have seen clinically meaningful misreadings of prompts and scenarios. Format matters, but not in a simplistic 'shorter is always better' way; participants want layered, scannable outputs that can flex by task, including consult-note support and learning-oriented use. Longitudinal patient context is treated as central, especially in oncology, and participants do not assume the model can infer that context from a limited prompt. Trust is not framed as all-or-none: participants appear willing to use these tools more if the systems can admit uncertainty, ask clarifying questions, and avoid confident fabrication.",
+"tensions_or_tradeoffs": [
+"Participants want both concise, scannable outputs and enough underlying evidence to verify claims.",
+"They want the system to summarize the prompt first, but not so rigidly that it slows simple queries.",
+"They value synthesis, but only when the synthesis is visibly grounded and not overconfident.",
+"They want patient-specific context incorporated, but recognize that much of that context is unwritten or unavailable to the tool."
+],
+"open_questions_for_next_interview": [
+"When should a system restate the question versus answer directly without extra friction?",
+"What is the most useful way to display uncertainty: a section-level score, labels, or another format?",
+"Which parts of a consult note would clinicians actually trust enough to copy and paste from an AI report?",
+"How much evidence detail is enough before the report becomes too long to use in real workflow?",
+"What kinds of clarifying questions feel helpful rather than burdensome in time-pressured settings?"
+]
+}
+}

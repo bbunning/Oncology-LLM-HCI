@@ -1,0 +1,730 @@
+{
+"transcript_id": "TX001",
+"interview_context": {
+"participant_role": "oncologist",
+"setting_or_workflow_context": "oncology clinical decision-making and report review workflow",
+"tools_mentioned_by_participant": [
+"ChatGPT",
+"PubMed",
+"MedNet",
+"EMR"
+]
+},
+"segments": [
+{
+"segment_id": "S1",
+"timestamp_start": "00:00:28.940",
+"timestamp_end": "00:00:57.010",
+"speaker": "participant",
+"verbatim_excerpt": "Clinical questions, or it's a gray area, so I can have some… Kind of quick additional information. That I want to, of course, verify before maybe then asking a partner about it, that sort of thing.",
+"codes": [
+"uses_ai_for_gray_areas",
+"quick_orientation",
+"verification_before_colleague"
+],
+"valence": "mixed",
+"object_of_evaluation": "workflow fit; trust",
+"rationale": "The participant describes using AI for uncertain clinical questions as a fast first pass, but explicitly says the output still needs verification before consulting a colleague."
+},
+{
+"segment_id": "S2",
+"timestamp_start": "00:01:43.420",
+"timestamp_end": "00:02:15.040",
+"speaker": "participant",
+"verbatim_excerpt": "It's been helpful. I've even used it… this clip, and look for this language, and look in the operative note, and did they say this? ... Figuring out ways to troubleshoot.",
+"codes": [
+"helpful_overall",
+"troubleshooting_support",
+"cross_note_reasoning"
+],
+"valence": "positive",
+"object_of_evaluation": "clinical troubleshooting",
+"rationale": "The excerpt emphasizes that the tool was helpful for working through a documentation problem by suggesting what language and notes to inspect."
+},
+{
+"segment_id": "S3",
+"timestamp_start": "00:03:02.070",
+"timestamp_end": "00:03:15.219",
+"speaker": "participant",
+"verbatim_excerpt": "I didn't like, like, some long list of citations at the end. I didn't like citations as, yeah, like, numbers. I want to kind of know where it's coming from up front.",
+"codes": [
+"dislikes_long_reference_lists",
+"wants_source_context_up_front",
+"dislikes_numeric_citations"
+],
+"valence": "negative",
+"object_of_evaluation": "citations; evidence display",
+"rationale": "The participant rejects long end-of-report reference lists and numeric citation styles, and asks for source provenance to be visible earlier."
+},
+{
+"segment_id": "S4",
+"timestamp_start": "00:03:18.470",
+"timestamp_end": "00:03:57.820",
+"speaker": "participant",
+"verbatim_excerpt": "Like, some of them, I think, said, like. PubMed... you got a little idea of where it was coming from. ... the sources appeared to actually go to the right spot, because… I think that's not always the case with ChatGPT.",
+"codes": [
+"trust_from_named_sources",
+"link_accuracy_matters",
+"chatgpt_source_mismatch"
+],
+"valence": "mixed",
+"object_of_evaluation": "source credibility; trust",
+"rationale": "Trust increases when the participant can see recognizable source origins and when links match the claim, while prior source mismatches in ChatGPT reduce confidence."
+},
+{
+"segment_id": "S5",
+"timestamp_start": "00:04:09.020",
+"timestamp_end": "00:04:38.849",
+"speaker": "participant",
+"verbatim_excerpt": "I don't want it to be… you know, too long. I guess I'm not accustomed to looking at anything in a sort of, like, table format... I'm used to kind of a more chat GPT kind of conversational feel.",
+"codes": [
+"prefers_brief_reports",
+"dislikes_table_format",
+"prefers_conversational_style"
+],
+"valence": "mixed",
+"object_of_evaluation": "length; format; tone",
+"rationale": "The participant wants shorter outputs and states a preference for conversational prose over table-heavy formatting."
+},
+{
+"segment_id": "S6",
+"timestamp_start": "00:05:03.430",
+"timestamp_end": "00:05:25.539",
+"speaker": "participant",
+"verbatim_excerpt": "It wasn't too long, it was kind of to the point, it had a few citations, I could tell where they were coming from, they were legit... I don't have time to look through... like, too many, then I'm just overwhelmed.",
+"codes": [
+"prefers_concise_to_the_point",
+"few_legible_citations",
+"overwhelmed_by_excess_detail",
+"time_pressure"
+],
+"valence": "positive",
+"object_of_evaluation": "report usefulness",
+"rationale": "The participant identifies the preferred report as concise, credible, and manageable under time pressure, with excess references becoming overwhelming."
+},
+{
+"segment_id": "S7",
+"timestamp_start": "00:05:42.910",
+"timestamp_end": "00:06:03.859",
+"speaker": "participant",
+"verbatim_excerpt": "I liked when... It said the title of the, kind of, article or report it was... Cuz, if it was just a report. Anyway, I wanted to know, kind of, what I was getting myself into before I would click on it.",
+"codes": [
+"wants_article_titles_visible",
+"click_preview_value"
+],
+"valence": "positive",
+"object_of_evaluation": "reference presentation",
+"rationale": "The participant values seeing titles because they help judge whether a source is worth opening."
+},
+{
+"segment_id": "S8",
+"timestamp_start": "00:06:26.880",
+"timestamp_end": "00:07:34.629",
+"speaker": "participant",
+"verbatim_excerpt": "I would want... a summary... some evidence, but not so extensive... I think about a page is good. ... it would be... a nice way to have that incorporated in there, too... this is also an expert opinion.",
+"codes": [
+"one_page_target",
+"balanced_evidence_amount",
+"wants_expert_opinion_layer"
+],
+"valence": "positive",
+"object_of_evaluation": "ideal report design",
+"rationale": "The participant specifies a target length, asks for some but not excessive evidence, and proposes adding expert opinion alongside the evidence summary."
+},
+{
+"segment_id": "S9",
+"timestamp_start": "00:08:24.210",
+"timestamp_end": "00:09:35.560",
+"speaker": "participant",
+"verbatim_excerpt": "I was just, like, trying to get them to help me figure it out... they said, go look in these spots... look in the operative report... And so, anyway, it just... like, I don't need evidence for that, right?",
+"codes": [
+"different_reports_for_different_tasks",
+"troubleshooting_over_literature",
+"operational_guidance_without_citations"
+],
+"valence": "positive",
+"object_of_evaluation": "use case differentiation",
+"rationale": "The participant distinguishes a troubleshooting use case from literature review, saying this kind of operational reasoning does not require formal evidence display."
+},
+{
+"segment_id": "S10",
+"timestamp_start": "00:09:41.380",
+"timestamp_end": "00:10:35.650",
+"speaker": "participant",
+"verbatim_excerpt": "It was more of just helping me think through... Kind of a complex multi-step situation. Help me just troubleshoot it. ... not necessarily they didn't take the clip out. We need to look at other places.",
+"codes": [
+"helps_think_through_steps",
+"non_binary_reasoning",
+"troubleshooting_support"
+],
+"valence": "positive",
+"object_of_evaluation": "reasoning assistance",
+"rationale": "The participant values the tool because it helped reason through multiple steps and avoided a premature conclusion."
+},
+{
+"segment_id": "S11",
+"timestamp_start": "00:10:46.900",
+"timestamp_end": "00:11:28.960",
+"speaker": "participant",
+"verbatim_excerpt": "It could be embarrassing for them... and then embarrassing for me... I would have hated if I had, like, reached out to a surgeon... Sometimes I'm like, gosh, should I word this less stupid so I'm not embarrassed?",
+"codes": [
+"low_stakes_question_asking",
+"social_embarrassment_reduction",
+"privacy_uncertainty"
+],
+"valence": "mixed",
+"object_of_evaluation": "psychological safety; privacy",
+"rationale": "The participant uses the tool partly to avoid embarrassment in interpersonal workflows, but also worries about whether someone might later read the query."
+},
+{
+"segment_id": "S12",
+"timestamp_start": "00:12:14.580",
+"timestamp_end": "00:12:46.199",
+"speaker": "participant",
+"verbatim_excerpt": "Shorter is good. I think one integrated into, like, an EMR is... would be nice for... like, HIPAA purposes... Easy integration, like, you don't even have to do any sort of, here's this info.",
+"codes": [
+"prefers_brief_reports",
+"wants_emr_integration",
+"hipaa_sensitive_workflow",
+"reduce_manual_copy_paste"
+],
+"valence": "positive",
+"object_of_evaluation": "integration; privacy; workflow efficiency",
+"rationale": "The participant asks for shorter outputs and direct EMR integration to reduce manual data transfer and better fit privacy-sensitive clinical work."
+}
+],
+"codebook": [
+{
+"code": "uses_ai_for_gray_areas",
+"definition": "Uses AI when the clinical situation feels uncertain or not straightforward.",
+"inclusion_criteria": [
+"Participant describes a gray area or uncertainty",
+"AI is used before final decision-making"
+],
+"exclusion_criteria": [
+"Clear statements about routine documentation tasks without uncertainty",
+"General praise without a use case"
+],
+"example_segment_ids": [
+"S1"
+]
+},
+{
+"code": "verification_before_colleague",
+"definition": "AI output is checked or verified before escalating to a colleague or partner.",
+"inclusion_criteria": [
+"Mentions verifying AI output",
+"Mentions consulting a colleague after AI"
+],
+"exclusion_criteria": [
+"General trust comments without a verification step"
+],
+"example_segment_ids": [
+"S1"
+]
+},
+{
+"code": "troubleshooting_support",
+"definition": "AI helps work through a complex, practical problem by suggesting next checks or steps.",
+"inclusion_criteria": [
+"Problem-solving language such as troubleshoot or figure it out",
+"Stepwise guidance across documents or notes"
+],
+"exclusion_criteria": [
+"Literature-summary preferences only"
+],
+"example_segment_ids": [
+"S2",
+"S10"
+]
+},
+{
+"code": "wants_source_context_up_front",
+"definition": "Prefers to see where information is coming from early in the report rather than only at the end.",
+"inclusion_criteria": [
+"Requests source cues near the main text",
+"Complains about end-loaded references"
+],
+"exclusion_criteria": [
+"General citation praise without placement preference"
+],
+"example_segment_ids": [
+"S3"
+]
+},
+{
+"code": "dislikes_numeric_citations",
+"definition": "Dislikes citations presented only as numbers or long numbered lists.",
+"inclusion_criteria": [
+"Mentions numbers or numbered citations negatively",
+"Says long citation list is unhelpful"
+],
+"exclusion_criteria": [
+"General dislike of too much content not tied to citations"
+],
+"example_segment_ids": [
+"S3"
+]
+},
+{
+"code": "trust_from_named_sources",
+"definition": "Trust increases when recognizable source names or venues are visible.",
+"inclusion_criteria": [
+"Mentions sources like PubMed by name",
+"Says named sources make content feel more legitimate"
+],
+"exclusion_criteria": [
+"Mentions links without discussing trust"
+],
+"example_segment_ids": [
+"S4"
+]
+},
+{
+"code": "link_accuracy_matters",
+"definition": "Trust depends on whether the cited source actually matches the question or claim.",
+"inclusion_criteria": [
+"Describes checking a source link",
+"Notes that a source went to the right or wrong place"
+],
+"exclusion_criteria": [
+"General comments about source prestige only"
+],
+"example_segment_ids": [
+"S4"
+]
+},
+{
+"code": "prefers_brief_reports",
+"definition": "Wants short answers and sees brevity as a core design requirement.",
+"inclusion_criteria": [
+"Says shorter is good",
+"Rejects long outputs"
+],
+"exclusion_criteria": [
+"Specific complaints only about tables or citations"
+],
+"example_segment_ids": [
+"S5",
+"S12"
+]
+},
+{
+"code": "prefers_conversational_style",
+"definition": "Prefers prose that reads like a conversation rather than a rigid table.",
+"inclusion_criteria": [
+"Mentions conversational feel positively",
+"Contrasts chat-style output with tables"
+],
+"exclusion_criteria": [
+"Requests summaries without discussing tone or format"
+],
+"example_segment_ids": [
+"S5"
+]
+},
+{
+"code": "few_legible_citations",
+"definition": "Prefers a small number of understandable citations over many references.",
+"inclusion_criteria": [
+"Praises having a few citations",
+"Links this to usability"
+],
+"exclusion_criteria": [
+"General citation dislike without nuance"
+],
+"example_segment_ids": [
+"S6"
+]
+},
+{
+"code": "wants_article_titles_visible",
+"definition": "Wants titles shown for sources so the user can preview relevance before clicking.",
+"inclusion_criteria": [
+"Mentions article or report titles explicitly",
+"Discusses knowing what they are about to open"
+],
+"exclusion_criteria": [
+"Generic requests for better references"
+],
+"example_segment_ids": [
+"S7"
+]
+},
+{
+"code": "wants_expert_opinion_layer",
+"definition": "Wants expert commentary included alongside evidence summaries.",
+"inclusion_criteria": [
+"References expert responses or opinions",
+"Suggests combining data and expert opinion"
+],
+"exclusion_criteria": [
+"General trust comments without expert input"
+],
+"example_segment_ids": [
+"S8"
+]
+},
+{
+"code": "different_reports_for_different_tasks",
+"definition": "Different workflow questions call for different report styles or evidence levels.",
+"inclusion_criteria": [
+"States that not every use case needs evidence",
+"Contrasts literature review with troubleshooting"
+],
+"exclusion_criteria": [
+"Single-use-case preferences"
+],
+"example_segment_ids": [
+"S9"
+]
+},
+{
+"code": "social_embarrassment_reduction",
+"definition": "AI creates a lower-stakes space to ask questions that might feel embarrassing to ask colleagues.",
+"inclusion_criteria": [
+"Mentions embarrassment",
+"Contrasts AI with asking a surgeon or colleague"
+],
+"exclusion_criteria": [
+"General privacy concerns without social context"
+],
+"example_segment_ids": [
+"S11"
+]
+},
+{
+"code": "wants_emr_integration",
+"definition": "Wants the tool integrated into the EMR for privacy and easier access to notes.",
+"inclusion_criteria": [
+"Mentions EMR integration",
+"Links integration to easier workflow or HIPAA"
+],
+"exclusion_criteria": [
+"Generic integration comments without EMR"
+],
+"example_segment_ids": [
+"S12"
+]
+}
+],
+"themes": [
+{
+"theme_id": "T1",
+"theme_name": "Short, credible summaries beat long reference dumps",
+"theme_definition": "The participant repeatedly wants outputs that are brief, to the point, and easy to scan. Evidence is valued, but only when it is limited, legible, and clearly tied to recognizable sources rather than buried in a long numbered list.",
+"supporting_segments": [
+"S3",
+"S5",
+"S6",
+"S7",
+"S8",
+"S12"
+],
+"representative_quotes": [
+{
+"segment_id": "S3",
+"quote": "I didn't like... some long list of citations at the end."
+},
+{
+"segment_id": "S6",
+"quote": "It wasn't too long, it was kind of to the point."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Repeated explicitly across several segments with concrete preferences about length, citation style, and source display."
+},
+{
+"theme_id": "T2",
+"theme_name": "Trust depends on visible provenance and accurate sources",
+"theme_definition": "The participant trusts reports more when source origins are obvious and the links actually support the answer. Prior experiences with mismatched sources weaken trust, so provenance and citation accuracy are central rather than ornamental.",
+"supporting_segments": [
+"S3",
+"S4",
+"S6",
+"S7"
+],
+"representative_quotes": [
+{
+"segment_id": "S4",
+"quote": "the sources appeared to actually go to the right spot"
+},
+{
+"segment_id": "S3",
+"quote": "I want to kind of know where it's coming from up front."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "This issue is discussed directly and in detail, with both positive and negative examples."
+},
+{
+"theme_id": "T3",
+"theme_name": "AI is useful as a low-friction troubleshooting partner",
+"theme_definition": "Beyond literature summaries, the participant values AI for helping think through messy, multi-step clinical and documentation problems. In these moments the tool functions as a fast orienting resource that can prevent unnecessary outreach and guide what to check next.",
+"supporting_segments": [
+"S1",
+"S2",
+"S9",
+"S10",
+"S11"
+],
+"representative_quotes": [
+{
+"segment_id": "S10",
+"quote": "Kind of a complex multi-step situation. Help me just troubleshoot it."
+},
+{
+"segment_id": "S1",
+"quote": "quick additional information"
+}
+],
+"overall_valence": "positive",
+"confidence": "high",
+"confidence_basis": "The participant gives an extended real-world example and returns to it several times."
+},
+{
+"theme_id": "T4",
+"theme_name": "The ideal tool changes with the task and should live in the workflow",
+"theme_definition": "The participant does not want a single fixed report style for every question. Literature review may need a concise summary plus evidence and possibly expert opinion, whereas troubleshooting may need stepwise guidance without heavy citations; both would work better with EMR integration.",
+"supporting_segments": [
+"S8",
+"S9",
+"S12"
+],
+"representative_quotes": [
+{
+"segment_id": "S8",
+"quote": "I think about a page is good."
+},
+{
+"segment_id": "S12",
+"quote": "one integrated into, like, an EMR is... would be nice"
+}
+],
+"overall_valence": "positive",
+"confidence": "medium",
+"confidence_basis": "This theme is clear but supported by fewer distinct segments than the trust and brevity themes."
+}
+],
+"likes": [
+{
+"like_id": "L1",
+"statement": "The participant liked concise reports that were to the point.",
+"supporting_segments": [
+"S6"
+],
+"representative_quote": "It wasn't too long, it was kind of to the point."
+},
+{
+"like_id": "L2",
+"statement": "The participant liked citations when they were few, recognizable, and clearly tied to legitimate sources.",
+"supporting_segments": [
+"S4",
+"S6"
+],
+"representative_quote": "it had a few citations, I could tell where they were coming from, they were legit"
+},
+{
+"like_id": "L3",
+"statement": "The participant liked seeing the title of the article or report before clicking.",
+"supporting_segments": [
+"S7"
+],
+"representative_quote": "I wanted to know... what I was getting myself into before I would click on it."
+},
+{
+"like_id": "L4",
+"statement": "The participant liked using AI to troubleshoot a complex multi-step issue.",
+"supporting_segments": [
+"S2",
+"S10"
+],
+"representative_quote": "Help me just troubleshoot it."
+}
+],
+"dislikes": [
+{
+"dislike_id": "D1",
+"statement": "The participant disliked long citation lists at the end of a report.",
+"supporting_segments": [
+"S3"
+],
+"representative_quote": "I didn't like... some long list of citations at the end."
+},
+{
+"dislike_id": "D2",
+"statement": "The participant disliked citations presented only as numbers.",
+"supporting_segments": [
+"S3"
+],
+"representative_quote": "I didn't like citations as... like, numbers."
+},
+{
+"dislike_id": "D3",
+"statement": "The participant disliked table-heavy formatting and preferred a conversational feel.",
+"supporting_segments": [
+"S5"
+],
+"representative_quote": "I'm not accustomed to looking at anything in a sort of... table format."
+},
+{
+"dislike_id": "D4",
+"statement": "The participant disliked outputs with too many references because they become overwhelming.",
+"supporting_segments": [
+"S6"
+],
+"representative_quote": "too many, then I'm just overwhelmed"
+}
+],
+"requirements": [
+{
+"req_id": "R1",
+"type": "must_have",
+"requirement": "Reports should provide a brief summary with some evidence, but keep the total length to about a page.",
+"supporting_segments": [
+"S6",
+"S8",
+"S12"
+],
+"risk_if_ignored": "The participant may feel overwhelmed and abandon the output in favor of another response."
+},
+{
+"req_id": "R2",
+"type": "must_have",
+"requirement": "Source provenance should be visible near the main answer, using recognizable source names and accurate links.",
+"supporting_segments": [
+"S3",
+"S4",
+"S7"
+],
+"risk_if_ignored": "Trust may erode if citations look generic, numeric, or do not actually support the answer."
+},
+{
+"req_id": "R3",
+"type": "nice_to_have",
+"requirement": "The tool should allow or incorporate expert opinion alongside data summaries for some questions.",
+"supporting_segments": [
+"S8"
+],
+"risk_if_ignored": "The report may feel less legitimate or less useful for decisions where expert judgment matters."
+},
+{
+"req_id": "R4",
+"type": "must_have",
+"requirement": "The product should support different output styles for different tasks, including troubleshooting workflows that do not need literature-heavy evidence displays.",
+"supporting_segments": [
+"S9",
+"S10"
+],
+"risk_if_ignored": "A one-size-fits-all report may fail both fast operational problem-solving and literature review use cases."
+},
+{
+"req_id": "R5",
+"type": "must_have",
+"requirement": "The tool should integrate into the EMR so users do not need to manually paste information and can use it in a HIPAA-sensitive workflow.",
+"supporting_segments": [
+"S12"
+],
+"risk_if_ignored": "Manual copying may add friction and raise privacy or operational concerns."
+},
+{
+"req_id": "R6",
+"type": "avoid",
+"requirement": "Avoid long, end-loaded, table-heavy reports with too many references.",
+"supporting_segments": [
+"S3",
+"S5",
+"S6"
+],
+"risk_if_ignored": "The participant may perceive the output as noisy, hard to use, and poorly aligned with clinical time constraints."
+}
+],
+"workflow_integration": {
+"current_workarounds": [
+"Uses AI for an initial pass, then verifies and may ask a partner or colleague.",
+"Copies a path report into ChatGPT and asks a question when trying to troubleshoot a documentation issue."
+],
+"intended_use_cases": [
+"Quick orientation on clinical questions in gray areas.",
+"Troubleshooting complex multi-step documentation or workflow questions.",
+"Concise literature-style summaries with limited evidence and visible sources."
+],
+"constraints": [
+"Limited time to read long reports.",
+"Need to verify information before acting.",
+"Trust depends on source quality and accuracy.",
+"Potential embarrassment when asking colleagues simple questions.",
+"Privacy and HIPAA concerns when moving information into external tools."
+],
+"output_format_preferences": [
+"Conversational summary style rather than table-heavy format.",
+"About a page in length.",
+"A few citations rather than many.",
+"Visible source names and article titles before clicking."
+]
+},
+"trust_and_safety": {
+"trust_drivers": [
+"Recognizable source names such as PubMed.",
+"Links that actually go to the right source.",
+"A small number of citations that appear legitimate.",
+"Potential inclusion of expert opinion."
+],
+"trust_erosions": [
+"Citations that are only numbers.",
+"Long lists of references at the end.",
+"ChatGPT sources that do not really answer the question.",
+"Uncertainty about whether queries might be read later."
+],
+"verification_behaviors": [
+"Checks sources after the AI provides them.",
+"Uses AI output as a first pass and then verifies before asking a partner.",
+"Looks in other documentation locations such as operative notes when prompted by the AI."
+],
+"medico_legal_or_policy_concerns": [
+"Wants EMR integration for HIPAA purposes.",
+"Expresses uncertainty about who might read submitted questions later."
+]
+},
+"quantified_mentions": {
+"top_codes_by_count": [
+{
+"code": "prefers_brief_reports",
+"count": 2
+},
+{
+"code": "troubleshooting_support",
+"count": 2
+},
+{
+"code": "wants_source_context_up_front",
+"count": 1
+},
+{
+"code": "trust_from_named_sources",
+"count": 1
+},
+{
+"code": "wants_emr_integration",
+"count": 1
+}
+],
+"notes": "Counts are approximate; note any ambiguity due to transcript format and anonymization replacements. This transcript contains disfluencies and some overlapping ideas across adjacent segments."
+},
+"analytic_memos": {
+"summary": "This participant sees AI as useful primarily because it can provide quick orientation and help troubleshoot messy problems without the social cost of immediately asking a colleague. The participant does not want long, heavily referenced outputs; brevity is treated as essential for real clinical use. Trust is strongly tied to whether sources are visibly named, legible, and actually match the underlying claim. The participant prefers a conversational style over tables and wants to see article titles before deciding whether to click. For literature-like reports, the ideal output is about a page with a summary and a limited amount of evidence. The participant also imagines added value from integrating expert opinion rather than relying on citations alone. At the same time, the participant describes another class of use case—stepwise troubleshooting—where operational guidance matters more than formal evidence display. Integration into the EMR is framed as both a workflow convenience and a privacy-sensitive design improvement.",
+"tensions_or_tradeoffs": [
+"Wants evidence and credibility, but only in a limited amount that does not create overload.",
+"Values AI as a private space to ask basic questions, but also worries about whether someone might read the query later.",
+"Sees literature-summary and troubleshooting tasks as both important, but not well served by a single report style."
+],
+"open_questions_for_next_interview": [
+"When does a participant want expert opinion added instead of more citations?",
+"What exact source labels or provenance cues make a report feel trustworthy at a glance?",
+"Which troubleshooting tasks feel appropriate for AI without formal evidence, and which still require literature support?",
+"What would safe EMR integration need to include for the participant to feel comfortable using it routinely?"
+]
+}
+}

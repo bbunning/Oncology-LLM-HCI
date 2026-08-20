@@ -1,0 +1,644 @@
+{
+"transcript_id": "TX001",
+"interview_context": {
+"participant_role": "oncologist",
+"setting_or_workflow_context": "oncology clinical decision-making and literature review use in clinic and study preparation",
+"tools_mentioned_by_participant": ["OpenEvidence", "ChatGPT", "Claude"]
+},
+"segments": [
+{
+"segment_id": "S1",
+"timestamp_start": "00:04:18.079",
+"timestamp_end": "00:05:19.180",
+"speaker": "participant",
+"verbatim_excerpt": "Open evidence, I think is my favorite. I use ChatGPT, as well. Sometimes I pay for it, sometimes I don't... I think that sometimes it can be super helpful, and sometimes... I just trust that it needs... Someone to... to be an expert.",
+"codes": ["uses_multiple_ai_tools", "expert_in_the_loop", "conditional_helpfulness"],
+"valence": "mixed",
+"object_of_evaluation": "trust and current AI use",
+"rationale": "The participant names several tools they already use, but pairs that with a clear statement that expert oversight is still needed. This supports both current adoption and limited trust."
+},
+{
+"segment_id": "S2",
+"timestamp_start": "00:05:32.980",
+"timestamp_end": "00:06:14.939",
+"speaker": "participant",
+"verbatim_excerpt": "For... mostly prepping and studying... prepping for resident conferences, or prepping for how do I want the structure of my study to be... I don't use them, I don't use them for clinic, no.",
+"codes": ["used_for_studying_not_clinic", "separates_research_and_clinic"],
+"valence": "neutral",
+"object_of_evaluation": "workflow fit",
+"rationale": "The excerpt distinguishes current use for study preparation from non-use in live clinical work. It shows an existing boundary between educational and clinical contexts."
+},
+{
+"segment_id": "S3",
+"timestamp_start": "00:06:34.880",
+"timestamp_end": "00:07:47.420",
+"speaker": "participant",
+"verbatim_excerpt": "No, no, no, I am 100% for it... I don't know if it can replicate clinical experience... you can be the clinical experience and then use it as... to pull references... the time is just not enough, ever.",
+"codes": ["overall_support_for_ai_reports", "expert_in_the_loop", "time_pressure_in_clinic", "references_as_support"],
+"valence": "positive",
+"object_of_evaluation": "clinical utility and workflow support",
+"rationale": "The participant strongly endorses the general idea while defining AI as supportive rather than substituting for experience. The excerpt also ties usefulness to time pressure and reference retrieval."
+},
+{
+"segment_id": "S4",
+"timestamp_start": "00:07:47.420",
+"timestamp_end": "00:08:14.590",
+"speaker": "participant",
+"verbatim_excerpt": "Things like open evidence, or more medical, focus. Tools would help, because then we know what is the newest thing that we can pull really quickly... I hated that so much because there's so much garbage that is being published.",
+"codes": ["medical_specific_tools_preferred", "wants_current_evidence", "distrusts_generic_source_labels"],
+"valence": "mixed",
+"object_of_evaluation": "source quality and retrieval",
+"rationale": "The participant prefers medically focused tools for fast access to newer material, but rejects vague or generic sourcing because poor-quality literature exists. The excerpt centers quality discrimination."
+},
+{
+"segment_id": "S5",
+"timestamp_start": "00:08:14.600",
+"timestamp_end": "00:09:23.000",
+"speaker": "participant",
+"verbatim_excerpt": "When the references were... even if it was numbered, and then at the end it was the specific, citations, that gave me more confidence... if I see this was published in 2026... randomized Phase III trial... it gives me the confidence.",
+"codes": ["full_citations_build_confidence", "study_design_details_matter", "verification_behavior"],
+"valence": "positive",
+"object_of_evaluation": "citations and evidence display",
+"rationale": "The participant explicitly says specific citations increase confidence and names publication date, trial phase, and design features as important. This also implies a concrete checking behavior."
+},
+{
+"segment_id": "S6",
+"timestamp_start": "00:09:41.920",
+"timestamp_end": "00:10:26.480",
+"speaker": "participant",
+"verbatim_excerpt": "I can use the hyperlink and just go to it... the references were there, so if I wanted to go in deep and check, oh, where is this coming from? I can do that... great for studying, but it's not really good for making rapid clinical decisions.",
+"codes": ["hyperlinks_enable_drill_down", "separates_research_and_clinic", "clinic_needs_speed"],
+"valence": "mixed",
+"object_of_evaluation": "navigation and workflow fit",
+"rationale": "The excerpt values drill-down through links for deeper review, but also says a more detailed report is mismatched to rapid clinic decisions. It directly contrasts deep review with clinical speed."
+},
+{
+"segment_id": "S7",
+"timestamp_start": "00:10:34.140",
+"timestamp_end": "00:11:25.689",
+"speaker": "participant",
+"verbatim_excerpt": "I definitely liked the yellow and the blue. The red was too long and dispersed, and the pink was not giving me confidence... the yellow one had the perfect length, and... the blue one... had more nuance.",
+"codes": ["prefers_concise_but_nuanced_reports", "layout_affects_confidence", "report_style_comparison"],
+"valence": "mixed",
+"object_of_evaluation": "length, nuance, and report style",
+"rationale": "The participant compares formats directly and explains why some worked better: ideal length and nuance. Other styles are criticized for diffuseness or low confidence."
+},
+{
+"segment_id": "S8",
+"timestamp_start": "00:11:53.600",
+"timestamp_end": "00:12:52.430",
+"speaker": "participant",
+"verbatim_excerpt": "It's the most, pleasant to see... there's a point to the bold... to bolding the words in the yellow report that I liked very much. And the references were really good, and I liked the summary of the evidence that was clear, and succinct.",
+"codes": ["visual_readability_matters", "purposeful_bolding", "clear_succinct_summary", "full_citations_build_confidence"],
+"valence": "positive",
+"object_of_evaluation": "UI readability and summary format",
+"rationale": "The participant links visual pleasantness and selective bolding to usefulness, then explicitly praises clear and succinct evidence summaries. This is a strong positive evaluation of formatting."
+},
+{
+"segment_id": "S9",
+"timestamp_start": "00:13:03.270",
+"timestamp_end": "00:13:18.390",
+"speaker": "participant",
+"verbatim_excerpt": "I like the fact that, the blue one gave me alternative considerations, but I would keep both. I would use both. Blue and... and yeah, I would use both with confidence.",
+"codes": ["alternative_considerations_helpful", "would_use_with_confidence"],
+"valence": "positive",
+"object_of_evaluation": "decision support content",
+"rationale": "The participant values alternative considerations rather than a single path, and explicitly states willingness to use both favored formats with confidence."
+},
+{
+"segment_id": "S10",
+"timestamp_start": "00:13:26.430",
+"timestamp_end": "00:13:49.669",
+"speaker": "participant",
+"verbatim_excerpt": "The pink one? Can I say ugly?... the pink one, the big icons, it's just... it's not as slick or clean.",
+"codes": ["dislikes_cluttered_visuals", "layout_affects_confidence"],
+"valence": "negative",
+"object_of_evaluation": "visual design",
+"rationale": "The participant uses strongly negative language about the visual presentation and specifically points to oversized icons and lack of clean design."
+},
+{
+"segment_id": "S11",
+"timestamp_start": "00:14:36.510",
+"timestamp_end": "00:15:25.730",
+"speaker": "participant",
+"verbatim_excerpt": "I would definitely publish that, because it was... Beautiful, it gave all of the information that we needed... Maybe a little shorter for clinic... Yes... it gives me confidence that I'm doing what is up-to-date, and also, is coming from good. Evidence.",
+"codes": ["research_grade_output_valued", "separates_research_and_clinic", "wants_current_evidence", "good_evidence_builds_confidence"],
+"valence": "positive",
+"object_of_evaluation": "research use and evidence quality",
+"rationale": "The participant describes one report as publication-level and information-complete, but still notes clinic requires shorter output. Confidence is tied to recency and evidence quality."
+},
+{
+"segment_id": "S12",
+"timestamp_start": "00:15:43.210",
+"timestamp_end": "00:16:35.220",
+"speaker": "participant",
+"verbatim_excerpt": "The ones that I have used... are lacking... integrating the whole information... I have found mistakes. And that is okay, because it's a learning tool... but for a person that doesn't have... the same way of thinking... it can be a different experience.",
+"codes": ["current_tools_miss_information", "found_mistakes_in_tools", "expertise_changes_safety"],
+"valence": "negative",
+"object_of_evaluation": "completeness and safety",
+"rationale": "The participant identifies missing integration and past mistakes in existing tools. The excerpt also raises concern that less experienced users may be affected differently."
+},
+{
+"segment_id": "S13",
+"timestamp_start": "00:16:50.330",
+"timestamp_end": "00:17:23.499",
+"speaker": "participant",
+"verbatim_excerpt": "I can't... I don't feel there yet. I want to. I don't feel there yet, because... It has a lot of nuance... making sure that the information that It's learning from, is high quality, best evidence, 100%, and the most updated.",
+"codes": ["not_ready_for_blind_trust", "wants_high_quality_updated_inputs", "nuance_requires_better_training_data"],
+"valence": "mixed",
+"object_of_evaluation": "trust and data quality",
+"rationale": "The participant wants to trust the tools more but explicitly says they are not there yet. Trust is linked to nuance, high-quality evidence, and updated information sources."
+},
+{
+"segment_id": "S14",
+"timestamp_start": "00:17:41.640",
+"timestamp_end": "00:18:40.730",
+"speaker": "participant",
+"verbatim_excerpt": "One thing can change everything... the more, the better. It's just that... presenting the information, it also takes a lot of time... I have feed that information and... then tailor it... it doesn't do that on its own, for sure.",
+"codes": ["needs_complete_context", "time_pressure_in_clinic", "manual_prompting_and_tailoring", "current_tools_need_user_guidance"],
+"valence": "mixed",
+"object_of_evaluation": "context integration and usability",
+"rationale": "The participant wants comprehensive information because small details matter, yet also emphasizes presentation burden and the need to manually feed and tailor inputs."
+},
+{
+"segment_id": "S15",
+"timestamp_start": "00:18:40.730",
+"timestamp_end": "00:19:25.500",
+"speaker": "participant",
+"verbatim_excerpt": "There's a way to support anything, honestly... they review the study, and it seems like it's a very well-done study, but they look at details that maybe your regular person... doesn't look at... Well, you don't want to hurt anybody.",
+"codes": ["same_evidence_can_support_opposing_choices", "expert_review_of_trial_details", "patient_harm_concern"],
+"valence": "negative",
+"object_of_evaluation": "clinical nuance and safety risk",
+"rationale": "The participant warns that evidence can be marshaled for different decisions and that experts inspect subtle trial details. This culminates in an explicit harm-avoidance concern."
+}
+],
+"codebook": [
+{
+"code": "uses_multiple_ai_tools",
+"definition": "Participant describes current use of more than one AI tool or model in their work or study routines.",
+"inclusion_criteria": ["Names two or more tools", "Describes active or contemplated use of multiple systems"],
+"exclusion_criteria": ["Mentions only one tool", "General opinions without personal use"],
+"example_segment_ids": ["S1"]
+},
+{
+"code": "expert_in_the_loop",
+"definition": "Participant says AI output still requires expert oversight, judgment, or clinical experience.",
+"inclusion_criteria": ["States an expert is needed", "Contrasts AI with clinical experience"],
+"exclusion_criteria": ["General trust concerns without reference to expert review"],
+"example_segment_ids": ["S1", "S3"]
+},
+{
+"code": "used_for_studying_not_clinic",
+"definition": "Participant uses AI for study, research, or preparation but not for live clinical care.",
+"inclusion_criteria": ["Prep for conferences", "Study structure or learning use", "Explicit non-use in clinic"],
+"exclusion_criteria": ["Potential future clinical use", "General support for AI in medicine"],
+"example_segment_ids": ["S2"]
+},
+{
+"code": "separates_research_and_clinic",
+"definition": "Participant distinguishes between the kind of report useful for research/learning and the kind useful for rapid clinic decisions.",
+"inclusion_criteria": ["Says a report is good for studying but not clinic", "Requests shorter clinical version"],
+"exclusion_criteria": ["Mentions only speed or only detail without contrast"],
+"example_segment_ids": ["S6", "S11"]
+},
+{
+"code": "time_pressure_in_clinic",
+"definition": "Participant frames clinic as time-constrained and needing fast, efficient presentation.",
+"inclusion_criteria": ["Says time is not enough", "Says clinic requires faster output"],
+"exclusion_criteria": ["General efficiency comments not tied to clinic workflow"],
+"example_segment_ids": ["S3", "S14"]
+},
+{
+"code": "medical_specific_tools_preferred",
+"definition": "Participant prefers tools that are medically focused over broader or less specialized systems.",
+"inclusion_criteria": ["Praises medical focus", "Contrasts with less targeted sourcing"],
+"exclusion_criteria": ["General tool preferences without medical-focus rationale"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "full_citations_build_confidence",
+"definition": "Participant says complete citations, not vague source mentions, increase trust and confidence.",
+"inclusion_criteria": ["Wants specific citations", "Rejects generic named organizations as enough"],
+"exclusion_criteria": ["Wants references without saying why they matter"],
+"example_segment_ids": ["S5", "S8"]
+},
+{
+"code": "study_design_details_matter",
+"definition": "Participant wants key study features surfaced because trial design affects confidence in use.",
+"inclusion_criteria": ["Mentions phase, blinding, sample size, statistics", "References trial details as confidence builders"],
+"exclusion_criteria": ["Generic desire for more evidence without design features"],
+"example_segment_ids": ["S5", "S15"]
+},
+{
+"code": "hyperlinks_enable_drill_down",
+"definition": "Participant wants a concise report with linked sources for deeper optional review.",
+"inclusion_criteria": ["Mentions hyperlinking", "Says they can go in deep and check"],
+"exclusion_criteria": ["Mentions citations only", "Mentions browsing without links"],
+"example_segment_ids": ["S6"]
+},
+{
+"code": "prefers_concise_but_nuanced_reports",
+"definition": "Participant values reports that are brief enough for clinic yet still preserve nuance and alternative considerations.",
+"inclusion_criteria": ["Perfect length", "More nuance", "Alternative considerations"],
+"exclusion_criteria": ["Only says short", "Only says nuanced without comparison"],
+"example_segment_ids": ["S7", "S9"]
+},
+{
+"code": "visual_readability_matters",
+"definition": "Participant evaluates usefulness partly through visual cleanliness, pleasantness, and ease of scanning.",
+"inclusion_criteria": ["Pleasant to see", "Slick or clean", "Layout comments"],
+"exclusion_criteria": ["Content-only comments without display features"],
+"example_segment_ids": ["S8", "S10"]
+},
+{
+"code": "purposeful_bolding",
+"definition": "Participant likes bolding only when it meaningfully guides attention rather than being scattered.",
+"inclusion_criteria": ["Mentions point to bolding", "Contrasts with dispersed bolding"],
+"exclusion_criteria": ["General comments on formatting without bold emphasis"],
+"example_segment_ids": ["S8"]
+},
+{
+"code": "found_mistakes_in_tools",
+"definition": "Participant reports having observed errors in existing AI tools.",
+"inclusion_criteria": ["States they found mistakes", "Links mistakes to current limitations"],
+"exclusion_criteria": ["General mistrust without firsthand error mention"],
+"example_segment_ids": ["S12"]
+},
+{
+"code": "expertise_changes_safety",
+"definition": "Participant suggests the same tool may be safer for someone with expertise than for someone without it.",
+"inclusion_criteria": ["Mentions different experience for less expert users", "Contrasts their own thinking with others"],
+"exclusion_criteria": ["General education-level comments not tied to tool use"],
+"example_segment_ids": ["S12"]
+},
+{
+"code": "not_ready_for_blind_trust",
+"definition": "Participant explicitly says they are not ready to blindly trust AI outputs.",
+"inclusion_criteria": ["I don't feel there yet", "Rejects blind trust"],
+"exclusion_criteria": ["General caution without explicit trust threshold"],
+"example_segment_ids": ["S13"]
+},
+{
+"code": "wants_high_quality_updated_inputs",
+"definition": "Participant wants the system trained on the best, most current evidence.",
+"inclusion_criteria": ["High quality", "Best evidence", "Most updated"],
+"exclusion_criteria": ["General quality language without source/input emphasis"],
+"example_segment_ids": ["S13"]
+},
+{
+"code": "needs_complete_context",
+"definition": "Participant says small pieces of missing context can change conclusions, so fuller information matters.",
+"inclusion_criteria": ["One thing can change everything", "The more, the better"],
+"exclusion_criteria": ["Requests more detail without decision-impact framing"],
+"example_segment_ids": ["S14"]
+},
+{
+"code": "manual_prompting_and_tailoring",
+"definition": "Participant describes needing to feed information into the system and guide it toward the desired output.",
+"inclusion_criteria": ["I have feed that information", "Tailor it", "Doesn't do that on its own"],
+"exclusion_criteria": ["General customization preferences without user labor"],
+"example_segment_ids": ["S14"]
+},
+{
+"code": "same_evidence_can_support_opposing_choices",
+"definition": "Participant says different clinicians can use the evidence base to justify different decisions.",
+"inclusion_criteria": ["There's a way to support anything", "Different groups would choose differently"],
+"exclusion_criteria": ["Mentions controversy without decision divergence"],
+"example_segment_ids": ["S15"]
+},
+{
+"code": "patient_harm_concern",
+"definition": "Participant raises the risk of harming patients if nuance and evidence interpretation are mishandled.",
+"inclusion_criteria": ["You don't want to hurt anybody", "Safety concern tied to decisions"],
+"exclusion_criteria": ["Generic caution without patient-impact framing"],
+"example_segment_ids": ["S15"]
+}
+],
+"themes": [
+{
+"theme_id": "T1",
+"theme_name": "Helpful, but only with expert judgment behind it",
+"theme_definition": "The participant is strongly supportive of AI-assisted reports and believes they can save time and improve access to references. At the same time, they repeatedly frame the tool as something that needs an expert in the loop rather than something to trust on its own. Their stance is supportive but explicitly bounded by human clinical judgment.",
+"supporting_segments": ["S1", "S3", "S12", "S13"],
+"representative_quotes": [
+{
+"segment_id": "S3",
+"quote": "I am 100% for it."
+},
+{
+"segment_id": "S1",
+"quote": "I just trust that it needs... Someone to... to be an expert."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Repeated across multiple segments with direct, explicit statements about both enthusiasm and limits."
+},
+{
+"theme_id": "T2",
+"theme_name": "Clinic needs concise reports; studying can tolerate more detail",
+"theme_definition": "The participant consistently separates research or learning use from rapid clinical decision-making. They describe longer, more comprehensive reports as excellent for studying or even publication-like work, but not appropriate when moving quickly in clinic. This creates a recurring two-mode model of desired output.",
+"supporting_segments": ["S2", "S6", "S7", "S11"],
+"representative_quotes": [
+{
+"segment_id": "S6",
+"quote": "Great for studying, but it's not really good for making rapid clinical decisions."
+},
+{
+"segment_id": "S11",
+"quote": "Maybe a little shorter for clinic."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "The clinic-versus-study distinction appears repeatedly and is described in concrete terms."
+},
+{
+"theme_id": "T3",
+"theme_name": "Trust comes from specific citations and visible study quality",
+"theme_definition": "The participant does not want vague source labels or generalized authority claims. Confidence rises when the report includes full citations, publication timing, and concrete study-design features such as phase, sample size, and trial structure. They want concise output up front with the ability to inspect the evidence underneath.",
+"supporting_segments": ["S4", "S5", "S6", "S13"],
+"representative_quotes": [
+{
+"segment_id": "S5",
+"quote": "The specific, citations, that gave me more confidence."
+},
+{
+"segment_id": "S6",
+"quote": "I can use the hyperlink and just go to it."
+}
+],
+"overall_valence": "positive",
+"confidence": "high",
+"confidence_basis": "This is one of the most elaborated topics in the interview, with repeated examples and explanation."
+},
+{
+"theme_id": "T4",
+"theme_name": "Presentation quality changes utility",
+"theme_definition": "The participant treats formatting and appearance as central to usefulness, not cosmetic extras. They favor reports that are pleasant to see, clean, selectively bolded, and succinct. Poor layout, oversized icons, or overly dispersed structure reduce willingness to read and trust the output.",
+"supporting_segments": ["S7", "S8", "S10"],
+"representative_quotes": [
+{
+"segment_id": "S8",
+"quote": "It's the most, pleasant to see."
+},
+{
+"segment_id": "S10",
+"quote": "It's not as slick or clean."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "The participant repeatedly compares report styles using visual and readability criteria."
+},
+{
+"theme_id": "T5",
+"theme_name": "Nuance and complete context are safety issues",
+"theme_definition": "The participant repeatedly emphasizes that small details can change decisions and that evidence interpretation is often contested even among experts. Because different clinicians can defend different choices from the literature, the system must handle nuance, complete context, and evidence quality carefully. The stakes are framed as potential patient harm, not just inconvenience.",
+"supporting_segments": ["S5", "S14", "S15"],
+"representative_quotes": [
+{
+"segment_id": "S14",
+"quote": "One thing can change everything."
+},
+{
+"segment_id": "S15",
+"quote": "You don't want to hurt anybody."
+}
+],
+"overall_valence": "negative",
+"confidence": "medium",
+"confidence_basis": "The concern is explicit and substantive, though concentrated in the latter part of the interview."
+}
+],
+"likes": [
+{
+"like_id": "L1",
+"statement": "The participant liked medically focused tools that can quickly surface newer information.",
+"supporting_segments": ["S4"],
+"representative_quote": "We know what is the newest thing that we can pull really quickly."
+},
+{
+"like_id": "L2",
+"statement": "The participant liked reports with full citations and enough study detail to evaluate the evidence.",
+"supporting_segments": ["S5", "S6"],
+"representative_quote": "The specific, citations, that gave me more confidence."
+},
+{
+"like_id": "L3",
+"statement": "The participant liked concise reports that still preserved nuance.",
+"supporting_segments": ["S7", "S8", "S9"],
+"representative_quote": "The yellow one had the perfect length."
+},
+{
+"like_id": "L4",
+"statement": "The participant liked clear visual design, selective bolding, and succinct summaries.",
+"supporting_segments": ["S8"],
+"representative_quote": "I liked the summary of the evidence that was clear, and succinct."
+},
+{
+"like_id": "L5",
+"statement": "The participant liked reports that included alternative considerations rather than only one path.",
+"supporting_segments": ["S9"],
+"representative_quote": "The blue one gave me alternative considerations."
+},
+{
+"like_id": "L6",
+"statement": "The participant valued more comprehensive reports for learning and literature review purposes.",
+"supporting_segments": ["S11"],
+"representative_quote": "I would definitely publish that."
+}
+],
+"dislikes": [
+{
+"dislike_id": "D1",
+"statement": "The participant disliked vague source labels that did not identify the actual citation.",
+"supporting_segments": ["S4", "S7"],
+"representative_quote": "I hated that so much."
+},
+{
+"dislike_id": "D2",
+"statement": "The participant disliked reports that were too long and dispersed for clinic use.",
+"supporting_segments": ["S6", "S7"],
+"representative_quote": "The red was too long and dispersed."
+},
+{
+"dislike_id": "D3",
+"statement": "The participant disliked visual designs that felt cluttered or not clean.",
+"supporting_segments": ["S10"],
+"representative_quote": "It's not as slick or clean."
+},
+{
+"dislike_id": "D4",
+"statement": "The participant disliked current tools missing information or making mistakes.",
+"supporting_segments": ["S12"],
+"representative_quote": "I have found mistakes."
+},
+{
+"dislike_id": "D5",
+"statement": "The participant disliked the idea of blindly trusting AI in nuanced clinical contexts.",
+"supporting_segments": ["S13", "S15"],
+"representative_quote": "I don't feel there yet."
+}
+],
+"requirements": [
+{
+"req_id": "R1",
+"type": "must_have",
+"requirement": "Clinical-facing reports must be concise enough for rapid use while preserving enough nuance to avoid oversimplification.",
+"supporting_segments": ["S6", "S7", "S11"],
+"risk_if_ignored": "The report may be too slow to use in clinic or too shallow to support safe decisions."
+},
+{
+"req_id": "R2",
+"type": "must_have",
+"requirement": "Reports must include specific citations and make it easy to inspect the underlying source material.",
+"supporting_segments": ["S5", "S6"],
+"risk_if_ignored": "Users may not trust the output or may be unable to verify whether recommendations rest on strong evidence."
+},
+{
+"req_id": "R3",
+"type": "must_have",
+"requirement": "Evidence displays should surface key study-quality signals such as recency and trial characteristics.",
+"supporting_segments": ["S5", "S13"],
+"risk_if_ignored": "Users may not be able to distinguish stronger from weaker evidence when making decisions."
+},
+{
+"req_id": "R4",
+"type": "nice_to_have",
+"requirement": "The interface should be visually clean, pleasant to scan, and use bolding purposefully rather than excessively.",
+"supporting_segments": ["S8", "S10"],
+"risk_if_ignored": "Even strong content may be ignored or perceived as less useful because it is harder to read quickly."
+},
+{
+"req_id": "R5",
+"type": "must_have",
+"requirement": "The system should draw from high-quality, up-to-date evidence sources and better distinguish good from poor literature.",
+"supporting_segments": ["S4", "S13"],
+"risk_if_ignored": "Users may receive recommendations influenced by low-quality or outdated information."
+},
+{
+"req_id": "R6",
+"type": "avoid",
+"requirement": "Avoid designs that rely on generic authority labels, oversized icons, or cluttered layouts in place of concrete evidence presentation.",
+"supporting_segments": ["S4", "S10"],
+"risk_if_ignored": "The report may feel untrustworthy, visually distracting, or not serious enough for clinical adoption."
+},
+{
+"req_id": "R7",
+"type": "must_have",
+"requirement": "The tool should support user tailoring and context integration rather than assuming it can infer all necessary nuance on its own.",
+"supporting_segments": ["S14", "S15"],
+"risk_if_ignored": "Important case details may be missed, increasing the chance of poor-fit recommendations."
+}
+],
+"workflow_integration": {
+"current_workarounds": [
+"Uses AI mainly for studying, conference preparation, and structuring study work rather than for live clinic.",
+"Checks citations and drills down into linked references when more confidence is needed.",
+"Feeds information into the tool and tailors prompts manually to get closer to the desired output.",
+"Relies on personal expertise and skepticism to catch mistakes."
+],
+"intended_use_cases": [
+"Pulling references quickly to support decisions.",
+"Keeping up with newer and classical evidence.",
+"Reducing bureaucratic or documentation burden through dictation-like support.",
+"Generating deeper personalized literature reviews for study or research-oriented tasks.",
+"Creating shorter decision-support summaries for clinic."
+],
+"constraints": [
+"Clinic time is limited.",
+"Thoroughness and speed are in tension.",
+"Trust depends on visible evidence quality.",
+"Current tools can make mistakes or fail to integrate all relevant information.",
+"Nuance in the specialty makes blind trust unsafe."
+],
+"output_format_preferences": [
+"Short clinical summaries with clear first-paragraph takeaway.",
+"Nuanced content without excessive length.",
+"Specific citations at the end plus optional hyperlinks for deeper review.",
+"Clean layout with meaningful bolding.",
+"Alternative considerations included when relevant."
+]
+},
+"trust_and_safety": {
+"trust_drivers": [
+"Full citations rather than generic source mentions.",
+"Visible study details such as phase, sample size, and recency.",
+"Medically focused evidence sources.",
+"Reports that are concise, clear, and visually easy to inspect.",
+"Outputs that acknowledge alternative considerations and nuance."
+],
+"trust_erosions": [
+"Generic authority labels without the actual citation.",
+"Low-quality or 'garbage' published material entering the evidence base.",
+"Found mistakes in current tools.",
+"Reports that are too long, dispersed, or visually cluttered.",
+"Systems that do not integrate all relevant information."
+],
+"verification_behaviors": [
+"Checks where statements are coming from through citations and hyperlinks.",
+"Looks at publication date and trial characteristics before feeling more confident.",
+"Would review protocol-level details if deciding whether to rely on the evidence."
+],
+"medico_legal_or_policy_concerns": [
+"Concern that nuanced trial details may be missed by less experienced users.",
+"Concern that different decisions can each be supported from the literature depending on interpretation.",
+"Concern about patient harm if evidence is misread or oversimplified."
+]
+},
+"quantified_mentions": {
+"top_codes_by_count": [
+{
+"code": "separates_research_and_clinic",
+"count": 4
+},
+{
+"code": "expert_in_the_loop",
+"count": 3
+},
+{
+"code": "full_citations_build_confidence",
+"count": 3
+},
+{
+"code": "time_pressure_in_clinic",
+"count": 3
+},
+{
+"code": "visual_readability_matters",
+"count": 2
+},
+{
+"code": "prefers_concise_but_nuanced_reports",
+"count": 2
+},
+{
+"code": "wants_high_quality_updated_inputs",
+"count": 2
+},
+{
+"code": "study_design_details_matter",
+"count": 2
+}
+],
+"notes": "Counts are approximate and based on analyst-assigned segment coding. Transcript formatting is somewhat fragmented in places, so some ideas could reasonably be split or merged differently."
+},
+"analytic_memos": {
+"summary": "This participant is strongly favorable toward AI-generated literature-review reports and sees clear value in them, especially under time pressure. They do not view the tool as a substitute for clinical judgment and repeatedly insist that an expert still needs to interpret and verify the output. A major organizing distinction in their comments is between research or study use and live clinic use: longer, richer reports are welcome for learning, while clinic needs shorter, cleaner summaries. Trust depends heavily on evidence presentation, especially full citations, recency, and visible trial-quality signals. The participant is also highly sensitive to visual design and regards readability as part of clinical usefulness rather than a cosmetic concern. They report having seen mistakes in current tools and therefore are not ready to trust them blindly. They want systems that integrate complete context better, use high-quality updated evidence, and still leave room for nuance and alternative considerations.",
+"tensions_or_tradeoffs": [
+"More information increases confidence, but too much detail slows clinic use.",
+"A report can be excellent for study or publication-like review but still be too long for real-time decisions.",
+"The participant wants both succinctness and nuance rather than choosing one over the other.",
+"AI is faster than humans, but speed alone is not enough without strong evidence quality and expert oversight.",
+"Broader evidence coverage is valuable, but poor-quality literature in the corpus can undermine trust."
+],
+"open_questions_for_next_interview": [
+"What is the minimum study-detail display needed to feel safe using a report in clinic without making the summary too long?",
+"How should a tool signal uncertainty or controversy when experts could reasonably choose different treatments from the same literature?",
+"What visual elements make a report feel 'clean' and clinically usable versus distracting or low-confidence?",
+"In what specific clinical moments would the participant actually open and use a short report during workflow?",
+"What kinds of mistakes in current tools are most concerning: factual errors, omitted context, or poor evidence selection?"
+]
+}
+}

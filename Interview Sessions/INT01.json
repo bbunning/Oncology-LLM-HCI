@@ -1,0 +1,630 @@
+{
+"transcript_id": "TX001",
+"interview_context": {
+"participant_role": "unknown",
+"setting_or_workflow_context": "Participant discusses oncology clinical decision support, literature searching, patient discussions, insurance-related documentation, and repetitive clinical documentation tasks.",
+"tools_mentioned_by_participant": ["open evidence", "Epic", "SecureGPT", "NCCN"]
+},
+"segments": [
+{
+"segment_id": "S1",
+"timestamp_start": "00:00:18.280",
+"timestamp_end": "00:00:24.729",
+"speaker": "participant",
+"verbatim_excerpt": "I thought all of them were too long, and that was, like, a major driver that made me like the ones that were shorter.",
+"codes": ["prefers_short_reports", "length_reduces_utility"],
+"valence": "negative",
+"object_of_evaluation": "length",
+"rationale": "The participant directly states that excessive length was common across reports and that brevity strongly influenced preference."
+},
+{
+"segment_id": "S2",
+"timestamp_start": "00:00:26.480",
+"timestamp_end": "00:00:39.890",
+"speaker": "participant",
+"verbatim_excerpt": "one of the ones that would, like, present the different grade of recommendations in the table, I think it was the pink one, I did not like that at all. It seemed to take up, like, a lot of space and, like, organize it in that kind of arbitrary way.",
+"codes": ["dislikes_evidence_grading_table", "table_feels_arbitrary", "space_inefficiency"],
+"valence": "negative",
+"object_of_evaluation": "tables",
+"rationale": "The participant rejects a specific table format because it consumed space and felt arbitrarily organized."
+},
+{
+"segment_id": "S3",
+"timestamp_start": "00:00:40.740",
+"timestamp_end": "00:01:04.039",
+"speaker": "participant",
+"verbatim_excerpt": "I thought the language of the, like, the writing style was very AI-focused, which is, like, a big turnoff. Like, it was, like, clearly written by AI. No, even, like, the way they put in these weird parentheticals, like, you know, they title a section and then put a parenthetical and be like, what it means to you, or something like that.",
+"codes": ["ai_sounding_tone_is_turnoff", "dislikes_explanatory_parentheticals", "writing_style_reduces_acceptance"],
+"valence": "negative",
+"object_of_evaluation": "tone",
+"rationale": "The participant criticizes AI-like phrasing and specific stylistic features such as parenthetical explanations, framing them as off-putting."
+},
+{
+"segment_id": "S4",
+"timestamp_start": "00:01:33.920",
+"timestamp_end": "00:02:03.760",
+"speaker": "participant",
+"verbatim_excerpt": "So, like, the best parts of the reports was when they just, like, pulled the relevant Data, and, like, very simply displayed it. ... it gave you the PFS data, the OFS… the OS data is not changed, and the toxicity data, and that's, like, really all I need.",
+"codes": ["wants_relevant_data_only", "simple_display_preferred", "key_trial_outcomes_needed"],
+"valence": "positive",
+"object_of_evaluation": "evidence display",
+"rationale": "The participant praises reports when they extract and simply display the core data elements needed for decision-making."
+},
+{
+"segment_id": "S5",
+"timestamp_start": "00:02:03.760",
+"timestamp_end": "00:02:24.630",
+"speaker": "participant",
+"verbatim_excerpt": "I don't need AI to, like, tell me what that means, right? I just don't want to have to click in 100 different places to, like, find all the journal articles and pull it all together. ... And the spin makes me actually distrust almost what it's saying, because it makes me worried that it's not… Showing me all the stuff. ... And it makes it longer.",
+"codes": ["rejects_ai_interpretation", "wants_information_aggregation", "spin_reduces_trust", "length_reduces_utility"],
+"valence": "negative",
+"object_of_evaluation": "trust and synthesis",
+"rationale": "The participant contrasts desired aggregation with unwanted interpretation and explicitly links editorialized framing to distrust and extra length."
+},
+{
+"segment_id": "S6",
+"timestamp_start": "00:02:32.750",
+"timestamp_end": "00:03:14.550",
+"speaker": "participant",
+"verbatim_excerpt": "I think it was yellow, which I think was the shortest one, and the most succinct. ... So shorter and, like, less fluff in there was better. ... that, like, big table of, like, grading all the different evidence was hard to read and made it long and clunky.",
+"codes": ["prefers_short_reports", "dislikes_fluff", "dislikes_evidence_grading_table", "hard_to_read_format"],
+"valence": "mixed",
+"object_of_evaluation": "overall format",
+"rationale": "The participant identifies succinctness as the main reason for preferring one report while again criticizing the long evidence-grading table."
+},
+{
+"segment_id": "S7",
+"timestamp_start": "00:03:31.120",
+"timestamp_end": "00:04:24.129",
+"speaker": "participant",
+"verbatim_excerpt": "So I use open evidence, like, daily. And I generally think it's pretty good. ... I actually think I use it most as what I would say, like, as an augmented search engine. ... is there any data to support this thing I'm interested in doing?",
+"codes": ["uses_ai_daily", "ai_as_augmented_search", "evidence_lookup_use_case"],
+"valence": "positive",
+"object_of_evaluation": "workflow fit",
+"rationale": "The participant describes routine use of a named tool and defines its main value as helping locate supporting evidence."
+},
+{
+"segment_id": "S8",
+"timestamp_start": "00:04:24.129",
+"timestamp_end": "00:05:31.549",
+"speaker": "participant",
+"verbatim_excerpt": "I tend to use it less for, like, really synthesizing new ideas, because I feel like I haven't been… it hasn't been shown to me that AI actually can really do that from a medical side. And then I also use it, like, a lot to, like, write letters to insurance companies... actually works surprisingly well.",
+"codes": ["skeptical_of_novel_synthesis", "ai_use_for_admin_writing", "evidence_supports_insurance_tasks"],
+"valence": "mixed",
+"object_of_evaluation": "use cases",
+"rationale": "The participant limits trust in idea generation but endorses administrative writing support and evidence-finding as effective uses."
+},
+{
+"segment_id": "S9",
+"timestamp_start": "00:05:31.549",
+"timestamp_end": "00:06:00.769",
+"speaker": "participant",
+"verbatim_excerpt": "what I'm looking for is, like, to be prepared to talk to a patient and say, hey, on average, this regimen's gonna work for this long. ... in clinical oncology, I think actually pulling out the figures would be great. Like, to have all the Kaplan-Meier curves, that's often something I, like, want to have, and I like being able to put them next to each other.",
+"codes": ["supports_patient_counseling", "wants_figures_and_curves", "comparison_view_is_helpful"],
+"valence": "positive",
+"object_of_evaluation": "visuals and use case",
+"rationale": "The participant explains a concrete use case and expresses enthusiasm for comparative trial figures, especially survival curves."
+},
+{
+"segment_id": "S10",
+"timestamp_start": "00:06:29.280",
+"timestamp_end": "00:08:00.619",
+"speaker": "participant",
+"verbatim_excerpt": "to me, I think overall, less, like, synthesis and kind of, like, talking the better... So I did like when they would summarize, like, the NCCN guidelines, because that, to me, is like a… kind of my own safety check. ... Give me the PFS, OS, and, like, grade 3 adverse event percentages.",
+"codes": ["less_synthesis_is_better", "guideline_summary_builds_trust", "wants_structured_core_metrics", "safety_check_via_guidelines"],
+"valence": "positive",
+"object_of_evaluation": "guideline content and structure",
+"rationale": "The participant specifies desired content: concise primary data plus guideline summaries that function as a safety check."
+},
+{
+"segment_id": "S11",
+"timestamp_start": "00:07:51.940",
+"timestamp_end": "00:08:32.150",
+"speaker": "participant",
+"verbatim_excerpt": "I really don't think you need that section at the bottom, where it's, like. Well, you shouldn't use gabapentin because this guy's old and has renal dysfunction. I was like, I mean, yeah, I got it. ... where they're primarily useful right now is actually organizing data instead of synthesizing it.",
+"codes": ["rejects_obvious_clinical_commentary", "wants_data_organization_not_synthesis", "avoid_telling_doctor_what_to_do"],
+"valence": "negative",
+"object_of_evaluation": "clinical commentary",
+"rationale": "The participant rejects obvious patient-specific advice and explicitly reframes current AI utility as organizing information rather than interpreting it."
+},
+{
+"segment_id": "S12",
+"timestamp_start": "00:09:29.440",
+"timestamp_end": "00:10:03.990",
+"speaker": "participant",
+"verbatim_excerpt": "the length is just very important. Things move very quickly, so every, like, extraneous sentence, I think, really, detracts from the utility. ... one-liner, and then, like, bullet points ... just ordered by date or something like that? ... Or, yeah, significance, I don't know.",
+"codes": ["time_pressure_in_workflow", "extraneous_text_hurts_utility", "prefers_one_liner_plus_bullets", "ordering_preference_uncertain"],
+"valence": "negative",
+"object_of_evaluation": "workflow fit and formatting",
+"rationale": "The participant ties brevity to fast-paced workflow demands and suggests a compact structure, while indicating some uncertainty about optimal ordering."
+},
+{
+"segment_id": "S13",
+"timestamp_start": "00:10:52.320",
+"timestamp_end": "00:11:12.120",
+"speaker": "participant",
+"verbatim_excerpt": "Yes, too many references, and like, in my mind. ... I'd rather have, like, the 4 big ones than, like, the 20 complete ones. Unless they're saying something truly different.",
+"codes": ["prefers_top_references_only", "too_many_references_overload", "novel_difference_justifies_extra_references"],
+"valence": "negative",
+"object_of_evaluation": "citations",
+"rationale": "The participant clearly prefers a small number of major references and allows expansion only when additional citations materially differ."
+},
+{
+"segment_id": "S14",
+"timestamp_start": "00:11:57.560",
+"timestamp_end": "00:12:26.199",
+"speaker": "participant",
+"verbatim_excerpt": "No, yeah, I'd happily do it, and it's something that I actually kind of do to some degree already in my clinical workflows, in that I have dot phrases in Epic that I'll put into SecureGPT to do, like, repetitive tasks. Okay. And I do like that it outputs kind of the way that I like it. ... I think there's more heterogeneity than you'd like.",
+"codes": ["wants_customizable_output", "existing_prompt_workaround", "ai_for_repetitive_tasks", "user_preferences_vary"],
+"valence": "positive",
+"object_of_evaluation": "customization and workflow integration",
+"rationale": "The participant already uses a customization workaround and explicitly notes that formatting preferences differ across oncologists."
+},
+{
+"segment_id": "S15",
+"timestamp_start": "00:13:26.030",
+"timestamp_end": "00:13:31.129",
+"speaker": "participant",
+"verbatim_excerpt": "Sounds about right.",
+"codes": ["endorses_data_not_fluff_summary"],
+"valence": "positive",
+"object_of_evaluation": "overall design direction",
+"rationale": "The participant explicitly affirms the summary that the tool should provide data, top trials, and minimal fluff."
+},
+{
+"segment_id": "S16",
+"timestamp_start": "00:13:41.010",
+"timestamp_end": "00:14:05.590",
+"speaker": "participant",
+"verbatim_excerpt": "I thought it was a good survey. I think that, it made me feel like an inconsistent grader ... the thing that I saw on the last one influenced what I was looking for on the next one. Which, you know, might just be kind of inherent to this process.",
+"codes": ["survey_order_effect_awareness", "self_noted_rating_inconsistency"],
+"valence": "mixed",
+"object_of_evaluation": "study process",
+"rationale": "This segment concerns the survey rather than the report product itself, but it shows the participant noticing possible carryover effects across comparisons."
+}
+],
+"codebook": [
+{
+"code": "prefers_short_reports",
+"definition": "Participant favors reports that are brief, succinct, or shorter than alternatives.",
+"inclusion_criteria": ["Explicit praise for shorter reports", "Statements that brevity drove preference"],
+"exclusion_criteria": ["General complaints about tone without mentioning length", "Comments about specific tables unless linked to brevity"],
+"example_segment_ids": ["S1", "S6"]
+},
+{
+"code": "length_reduces_utility",
+"definition": "Participant says excessive length makes reports less useful in practice.",
+"inclusion_criteria": ["Too long", "Extraneous text detracts from utility", "Longer format seen as burdensome"],
+"exclusion_criteria": ["Simple preference for bullets without utility claim", "Critique of references alone"],
+"example_segment_ids": ["S1", "S5"]
+},
+{
+"code": "dislikes_evidence_grading_table",
+"definition": "Participant dislikes a table that grades or ranks evidence/recommendations.",
+"inclusion_criteria": ["Negative reaction to evidence table", "Table described as clunky, hard to read, or not liked"],
+"exclusion_criteria": ["Positive comments about other visuals", "Reference count complaints without table mention"],
+"example_segment_ids": ["S2", "S6"]
+},
+{
+"code": "ai_sounding_tone_is_turnoff",
+"definition": "Participant is put off by writing that sounds obviously AI-generated.",
+"inclusion_criteria": ["Clearly written by AI", "AI-focused language as negative"],
+"exclusion_criteria": ["Criticism of synthesis content without tone judgment", "Comments about survey wording"],
+"example_segment_ids": ["S3"]
+},
+{
+"code": "wants_relevant_data_only",
+"definition": "Participant wants the report to extract and present only the key relevant data.",
+"inclusion_criteria": ["Just pulled the relevant data", "Only needs specific outcomes or facts"],
+"exclusion_criteria": ["Requests for guideline content alone", "General comments about trust without data focus"],
+"example_segment_ids": ["S4", "S15"]
+},
+{
+"code": "simple_display_preferred",
+"definition": "Participant favors simple, direct presentation over elaborate formatting or prose.",
+"inclusion_criteria": ["Very simply displayed", "One-liner and bullet points", "Straightforward layout"],
+"exclusion_criteria": ["Customization comments without display preference", "Visual requests for figures"],
+"example_segment_ids": ["S4", "S12"]
+},
+{
+"code": "rejects_ai_interpretation",
+"definition": "Participant does not want the AI to explain, interpret, or tell them what findings mean.",
+"inclusion_criteria": ["I don't need AI to tell me what that means", "Avoid commentary or interpretation"],
+"exclusion_criteria": ["Requests for guideline summaries", "Administrative writing use cases"],
+"example_segment_ids": ["S5", "S11"]
+},
+{
+"code": "spin_reduces_trust",
+"definition": "Participant says report 'spin' or editorialized framing makes the content less trustworthy.",
+"inclusion_criteria": ["Spin makes me distrust", "Worry that it is not showing everything"],
+"exclusion_criteria": ["General dislike of AI tone without trust consequence", "Complaints about length alone"],
+"example_segment_ids": ["S5"]
+},
+{
+"code": "ai_as_augmented_search",
+"definition": "Participant sees AI primarily as a search or retrieval aid rather than a reasoner.",
+"inclusion_criteria": ["Augmented search engine", "Find data to support a thing I'm interested in doing"],
+"exclusion_criteria": ["Administrative writing tasks", "Custom output formatting"],
+"example_segment_ids": ["S7", "S11"]
+},
+{
+"code": "skeptical_of_novel_synthesis",
+"definition": "Participant is unconvinced that AI can generate medically useful new ideas or synthesis.",
+"inclusion_criteria": ["Use it less for synthesizing new ideas", "Hasn't been shown AI can really do that"],
+"exclusion_criteria": ["Requests for concise summaries of existing evidence", "Trust concerns unrelated to novelty"],
+"example_segment_ids": ["S8", "S10"]
+},
+{
+"code": "ai_use_for_admin_writing",
+"definition": "Participant uses AI for letters or other repetitive writing tasks around clinical work.",
+"inclusion_criteria": ["Write letters to insurance companies", "Repetitive tasks with SecureGPT"],
+"exclusion_criteria": ["Evidence synthesis requests", "Patient counseling use cases"],
+"example_segment_ids": ["S8", "S14"]
+},
+{
+"code": "wants_figures_and_curves",
+"definition": "Participant values inclusion of trial figures, especially comparative survival curves.",
+"inclusion_criteria": ["Pulling out the figures would be great", "Want Kaplan-Meier curves side by side"],
+"exclusion_criteria": ["Tables of evidence grades", "Text bullets of outcomes only"],
+"example_segment_ids": ["S9"]
+},
+{
+"code": "guideline_summary_builds_trust",
+"definition": "Participant values guideline summaries because they provide a safety check or boundary check.",
+"inclusion_criteria": ["Liked when they summarize NCCN guidelines", "Guidelines are my safety check"],
+"exclusion_criteria": ["General evidence summaries without guidelines", "Reference count preferences"],
+"example_segment_ids": ["S10"]
+},
+{
+"code": "wants_structured_core_metrics",
+"definition": "Participant wants a compact structure centered on specific trial metrics and notable adverse events.",
+"inclusion_criteria": ["PFS, OS, grade 3 adverse event percentages", "Major studies with one line each"],
+"exclusion_criteria": ["Generic brevity comments without metric detail", "Requests for general guidelines alone"],
+"example_segment_ids": ["S10"]
+},
+{
+"code": "avoid_telling_doctor_what_to_do",
+"definition": "Participant rejects report content that gives obvious patient-management advice instead of data.",
+"inclusion_criteria": ["I got it", "Stop telling me what to do", "Serve information that lets clinician decide"],
+"exclusion_criteria": ["Guideline summaries", "Simple outcome reporting"],
+"example_segment_ids": ["S11", "S15"]
+},
+{
+"code": "time_pressure_in_workflow",
+"definition": "Participant frames report utility in light of a fast-moving workflow with little room for extra reading.",
+"inclusion_criteria": ["Things move very quickly", "Every extraneous sentence detracts from utility"],
+"exclusion_criteria": ["General brevity preference without workflow mention", "Survey burden comments"],
+"example_segment_ids": ["S12"]
+},
+{
+"code": "prefers_top_references_only",
+"definition": "Participant prefers a small set of major references rather than exhaustive citation lists.",
+"inclusion_criteria": ["4 big ones not 20 complete ones", "Too many references"],
+"exclusion_criteria": ["General table criticism", "Guideline summary praise"],
+"example_segment_ids": ["S13"]
+},
+{
+"code": "wants_customizable_output",
+"definition": "Participant values being able to shape output format to personal preferences.",
+"inclusion_criteria": ["I'd happily do it", "Outputs kind of the way that I like it", "Custom formatting interest"],
+"exclusion_criteria": ["Simple display preference without customization", "Use of AI for evidence search only"],
+"example_segment_ids": ["S14"]
+},
+{
+"code": "user_preferences_vary",
+"definition": "Participant believes clinicians differ meaningfully in how they want outputs formatted.",
+"inclusion_criteria": ["More heterogeneity than you'd like", "Not one-size-fits-all"],
+"exclusion_criteria": ["Only describing personal preference", "Survey inconsistency comments"],
+"example_segment_ids": ["S14"]
+},
+{
+"code": "survey_order_effect_awareness",
+"definition": "Participant noticed that earlier report exposure influenced later judgments in the survey.",
+"inclusion_criteria": ["Last one influenced what I was looking for on the next one"],
+"exclusion_criteria": ["Product design preferences", "Workflow constraints"],
+"example_segment_ids": ["S16"]
+}
+],
+"themes": [
+{
+"theme_id": "T1",
+"theme_name": "Give me the data, not the fluff",
+"theme_definition": "Across the transcript, the participant repeatedly prefers reports that are brief, stripped of extra wording, and centered on the key trial facts. They describe extra prose, explanatory spin, and long formatting as barriers to utility rather than added value.",
+"supporting_segments": ["S1", "S4", "S5", "S6", "S12", "S15"],
+"representative_quotes": [
+{
+"segment_id": "S4",
+"quote": "the best parts of the reports was when they just, like, pulled the relevant Data, and, like, very simply displayed it."
+},
+{
+"segment_id": "S12",
+"quote": "every, like, extraneous sentence, I think, really, detracts from the utility."
+}
+],
+"overall_valence": "positive",
+"confidence": "high",
+"confidence_basis": "Repeated explicitly across many segments with consistent wording about brevity, utility, and dislike of fluff."
+},
+{
+"theme_id": "T2",
+"theme_name": "AI should organize evidence, not interpret for me",
+"theme_definition": "The participant draws a clear boundary between useful and less useful AI behavior. Useful behavior is aggregating studies, outcomes, and figures; less useful behavior is explaining what results mean, adding spin, or offering obvious clinical commentary that the clinician sees as their own job.",
+"supporting_segments": ["S5", "S8", "S10", "S11"],
+"representative_quotes": [
+{
+"segment_id": "S11",
+"quote": "where they're primarily useful right now is actually organizing data instead of synthesizing it."
+},
+{
+"segment_id": "S5",
+"quote": "I don't need AI to, like, tell me what that means, right?"
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "The participant states this distinction directly several times and applies it to multiple examples."
+},
+{
+"theme_id": "T3",
+"theme_name": "Trust comes from guidelines and core outcomes, and falls with spin",
+"theme_definition": "The participant trusts report elements that anchor them to guidelines and concrete trial metrics such as PFS, OS, toxicity, and adverse events. Trust is eroded when the language feels overly AI-like, when content seems editorialized, or when the report appears to be hiding detail behind interpretation.",
+"supporting_segments": ["S3", "S5", "S10"],
+"representative_quotes": [
+{
+"segment_id": "S10",
+"quote": "I did like when they would summarize, like, the NCCN guidelines, because that, to me, is like a… kind of my own safety check."
+},
+{
+"segment_id": "S5",
+"quote": "the spin makes me actually distrust almost what it's saying"
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Trust-building and trust-eroding elements are both named explicitly and tied to concrete report features."
+},
+{
+"theme_id": "T4",
+"theme_name": "Format should be compact, selective, and possibly customizable",
+"theme_definition": "The participant wants a compact structure: a quick summary statement, a primary data section with one-line trial summaries, and a guideline section. They also prefer a limited set of major references and indicate that formatting preferences may vary enough across clinicians to justify customization.",
+"supporting_segments": ["S10", "S12", "S13", "S14"],
+"representative_quotes": [
+{
+"segment_id": "S10",
+"quote": "what I would want is, like, just a quick summary statement of the question, right? And then a section that says primary data"
+},
+{
+"segment_id": "S13",
+"quote": "I'd rather have, like, the 4 big ones than, like, the 20 complete ones."
+}
+],
+"overall_valence": "positive",
+"confidence": "medium",
+"confidence_basis": "Supported by several detailed design suggestions, though customization heterogeneity is mentioned more briefly."
+}
+],
+"likes": [
+{
+"like_id": "L1",
+"statement": "Short, succinct reports with less fluff.",
+"supporting_segments": ["S1", "S6"],
+"representative_quote": "the ones that were shorter."
+},
+{
+"like_id": "L2",
+"statement": "Simple display of relevant trial data such as PFS, OS, and toxicity.",
+"supporting_segments": ["S4", "S10"],
+"representative_quote": "that's, like, really all I need."
+},
+{
+"like_id": "L3",
+"statement": "Guideline summaries as a safety check.",
+"supporting_segments": ["S10"],
+"representative_quote": "I did like when they would summarize, like, the NCCN guidelines"
+},
+{
+"like_id": "L4",
+"statement": "Comparative trial figures, especially Kaplan-Meier curves shown side by side.",
+"supporting_segments": ["S9"],
+"representative_quote": "to have all the Kaplan-Meier curves, that's often something I, like, want to have"
+},
+{
+"like_id": "L5",
+"statement": "Customizable output that matches personal workflow preferences.",
+"supporting_segments": ["S14"],
+"representative_quote": "I do like that it outputs kind of the way that I like it."
+}
+],
+"dislikes": [
+{
+"dislike_id": "D1",
+"statement": "Reports that are too long.",
+"supporting_segments": ["S1", "S12"],
+"representative_quote": "all of them were too long"
+},
+{
+"dislike_id": "D2",
+"statement": "Large evidence-grading tables that feel arbitrary, hard to read, and clunky.",
+"supporting_segments": ["S2", "S6"],
+"representative_quote": "hard to read and made it long and clunky."
+},
+{
+"dislike_id": "D3",
+"statement": "AI-sounding tone and parenthetical phrasing.",
+"supporting_segments": ["S3"],
+"representative_quote": "it was, like, clearly written by AI."
+},
+{
+"dislike_id": "D4",
+"statement": "Interpretive spin or commentary telling the clinician what findings mean.",
+"supporting_segments": ["S5", "S11"],
+"representative_quote": "I don't need AI to, like, tell me what that means"
+},
+{
+"dislike_id": "D5",
+"statement": "Too many references when only a few major studies matter.",
+"supporting_segments": ["S13"],
+"representative_quote": "I'd rather have, like, the 4 big ones"
+}
+],
+"requirements": [
+{
+"req_id": "R1",
+"type": "must_have",
+"requirement": "The report must be brief and minimize extraneous sentences so it can be used in a fast-moving workflow.",
+"supporting_segments": ["S1", "S12"],
+"risk_if_ignored": "The participant may see the report as too burdensome to read and therefore low utility."
+},
+{
+"req_id": "R2",
+"type": "must_have",
+"requirement": "The report must foreground primary data in a compact format, including major studies with PFS, OS, grade 3 adverse event percentages, and notable adverse events of special interest.",
+"supporting_segments": ["S4", "S10"],
+"risk_if_ignored": "The report may fail to provide the specific evidence the participant uses for decision-making and patient counseling."
+},
+{
+"req_id": "R3",
+"type": "must_have",
+"requirement": "The report must include a guideline summary section as a safety check.",
+"supporting_segments": ["S10"],
+"risk_if_ignored": "The participant may feel less anchored to accepted bounds of care when using the report."
+},
+{
+"req_id": "R4",
+"type": "avoid",
+"requirement": "Avoid AI-like tone, parenthetical explanatory flourishes, and editorialized language.",
+"supporting_segments": ["S3", "S5"],
+"risk_if_ignored": "The report may feel off-putting and less trustworthy."
+},
+{
+"req_id": "R5",
+"type": "avoid",
+"requirement": "Avoid obvious clinical commentary that tells the clinician what to do rather than presenting the evidence.",
+"supporting_segments": ["S5", "S11"],
+"risk_if_ignored": "The participant may dismiss the report as overreaching and less relevant to clinician judgment."
+},
+{
+"req_id": "R6",
+"type": "must_have",
+"requirement": "Limit citations to the major references unless additional studies add meaningfully different information.",
+"supporting_segments": ["S13"],
+"risk_if_ignored": "Reference overload may make the report harder to scan and less efficient to use."
+},
+{
+"req_id": "R7",
+"type": "nice_to_have",
+"requirement": "Support customizable formatting because clinicians may differ in preferred output style.",
+"supporting_segments": ["S14"],
+"risk_if_ignored": "A one-size-fits-all design may fit some users poorly even if the underlying evidence is useful."
+},
+{
+"req_id": "R8",
+"type": "nice_to_have",
+"requirement": "Include comparative figures such as Kaplan-Meier curves when the clinical topic makes them useful.",
+"supporting_segments": ["S9"],
+"risk_if_ignored": "The report may miss a visual format the participant finds valuable for comparing trials."
+}
+],
+"workflow_integration": {
+"current_workarounds": [
+"Uses open evidence as an augmented search engine to find supporting studies.",
+"Uses AI to draft letters to insurance companies.",
+"Uses dot phrases in Epic and places them into SecureGPT for repetitive tasks."
+],
+"intended_use_cases": [
+"Finding whether there is data to support a planned treatment approach.",
+"Pulling Phase 3 studies and summarizing PFS and OS.",
+"Preparing to discuss expected regimen benefit with a patient.",
+"Comparing figures such as Kaplan-Meier curves across trials.",
+"Checking guidelines when operating outside familiar territory."
+],
+"constraints": [
+"Time pressure in clinical workflow.",
+"Cognitive burden from long reports.",
+"Distrust triggered by interpretive spin.",
+"Need for rapid access to core evidence without clicking through many articles."
+],
+"output_format_preferences": [
+"One-line summary of the question.",
+"Primary data section with one-line summaries per major study.",
+"Bullet-point style presentation.",
+"Include PFS, OS, grade 3 adverse event percentages, and adverse events of special interest.",
+"Include a guideline section.",
+"Prefer a few major references over exhaustive lists."
+]
+},
+"trust_and_safety": {
+"trust_drivers": [
+"Guideline summaries, especially NCCN, as a safety check.",
+"Direct presentation of primary data such as PFS, OS, toxicity, and adverse events.",
+"Consistency across reports referencing similar studies."
+],
+"trust_erosions": [
+"AI-sounding writing style.",
+"Interpretive spin or commentary.",
+"Concern that summarized prose may not be showing all the relevant information.",
+"Long, clunky formatting that obscures signal."
+],
+"verification_behaviors": [
+"Uses guidelines to check whether a plan is outside the bounds.",
+"Looks for core studies and outcomes to support treatment choices.",
+"Uses retrieved evidence in insurance-related justification."
+],
+"medico_legal_or_policy_concerns": [
+"Insurance approval and evidence support for unusual regimens."
+]
+},
+"quantified_mentions": {
+"top_codes_by_count": [
+{
+"code": "prefers_short_reports",
+"count": 3
+},
+{
+"code": "length_reduces_utility",
+"count": 3
+},
+{
+"code": "wants_relevant_data_only",
+"count": 2
+},
+{
+"code": "rejects_ai_interpretation",
+"count": 2
+},
+{
+"code": "skeptical_of_novel_synthesis",
+"count": 2
+},
+{
+"code": "guideline_summary_builds_trust",
+"count": 1
+},
+{
+"code": "wants_customizable_output",
+"count": 1
+},
+{
+"code": "wants_figures_and_curves",
+"count": 1
+}
+],
+"notes": "Counts are approximate and based on analyst-defined meaningful segments rather than raw utterance counts. Some ideas overlap within the same segment, and transcript chunking may affect totals."
+},
+"analytic_memos": {
+"summary": "The participant consistently frames value in terms of speed, brevity, and direct access to evidence. They prefer reports that extract the major studies and present a few concrete metrics, especially PFS, OS, toxicity, and notable adverse events, without interpretive commentary. They actively distrust writing that sounds obviously AI-generated or that adds spin, because it raises concern that important information may be filtered out. Guideline summaries are one of the few synthesized elements they clearly endorse, because they function as a safety check. The participant describes current real-world use of AI as an augmented search engine and administrative writing aid rather than a source of novel medical reasoning. They also express interest in useful visuals like Kaplan-Meier curves when the topic fits, and they already use custom prompting workflows for repetitive tasks. Overall, their preferred product direction is a compact, clinician-controlled evidence display rather than a narrative assistant.",
+"tensions_or_tradeoffs": [
+"The participant values AI tools in daily work but limits that value mainly to retrieval, organization, and repetitive writing rather than synthesis.",
+"They want concise output, but still want enough detail to include key trial metrics, adverse events, and guideline context.",
+"They want standard useful structure, yet also believe clinician preferences are heterogeneous enough that customization may be important.",
+"They dislike exhaustive references, but still want enough citation support to justify unusual decisions when needed."
+],
+"open_questions_for_next_interview": [
+"When clinicians say they want only the major studies, how do they decide which references count as the major ones?",
+"What exact visual layouts for trial comparisons feel most useful in practice: tables, figures, side-by-side curves, or mixed formats?",
+"How much customization do clinicians actually want to control themselves versus having preset templates?",
+"What kinds of guideline summaries are helpful without becoming redundant or overly long?",
+"In what situations, if any, would clinicians want the system to move beyond organization into cautious synthesis or recommendation?"
+]
+}
+}

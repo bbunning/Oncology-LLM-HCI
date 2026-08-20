@@ -1,0 +1,579 @@
+{
+"transcript_id": "TX001",
+"interview_context": {
+"participant_role": "oncologist",
+"setting_or_workflow_context": "oncology clinical decision-making and clinical trial/research workflow",
+"tools_mentioned_by_participant": ["Open Evidence", "Google AI"]
+},
+"segments": [
+{
+"segment_id": "S1",
+"timestamp_start": "00:00:25.090",
+"timestamp_end": "00:00:44.169",
+"speaker": "participant",
+"verbatim_excerpt": "So it's a good question for, like, a test like this, because it's very nuanced and uncertain, which I think is where AI can both be helpful, but also struggles. Yeah. You know, I thought it… I thought, in general, that they summarized the evidence pretty nicely. Some of them, the citations were kind of sparse or weak.",
+"codes": ["handles_nuanced_questions_poorly", "useful_evidence_summary", "weak_or_sparse_citations"],
+"valence": "mixed",
+"object_of_evaluation": "evidence summary, citations, handling of uncertainty",
+"rationale": "The participant says the question is nuanced and that AI both helps and struggles, showing mixed appraisal. They also explicitly praise evidence summarization while criticizing citation quality."
+},
+{
+"segment_id": "S2",
+"timestamp_start": "00:00:44.280",
+"timestamp_end": "00:01:13.480",
+"speaker": "participant",
+"verbatim_excerpt": "I thought some of the stuff… a lot of it was redundant. It felt like it could have been… it was just repeated over and over, it could have been just, like, more concise. I think that… The scariest part, I think, Is that, In a nuanced decision like this, it didn't… like, not all of the models or the text or whatever, I felt appropriately treated the uncertainty.",
+"codes": ["redundant_padding", "needs_conciseness", "poor_uncertainty_handling"],
+"valence": "negative",
+"object_of_evaluation": "length, concision, uncertainty communication",
+"rationale": "The participant directly criticizes repetition and lack of concision, then identifies failure to treat uncertainty appropriately as the most concerning issue."
+},
+{
+"segment_id": "S3",
+"timestamp_start": "00:01:14.110",
+"timestamp_end": "00:02:23.760",
+"speaker": "participant",
+"verbatim_excerpt": "they seemed a little too confident, or I think even worse than that... there were, like, logical errors in some of them... It's a true statement, it just doesn't apply to the situation at hand, but then it, like, injects confusion into, like, the whole thing, if that makes sense.",
+"codes": ["overconfident_tone", "context_mismatch", "logical_nonapplication", "confusion_from_irrelevant_truths"],
+"valence": "negative",
+"object_of_evaluation": "reasoning quality, contextual fit, trust",
+"rationale": "The participant distinguishes between outright falsehood and a true statement that does not apply to the case. This grounds codes about overconfidence, context mismatch, and confusion from irrelevant information."
+},
+{
+"segment_id": "S4",
+"timestamp_start": "00:02:51.710",
+"timestamp_end": "00:03:15.600",
+"speaker": "participant",
+"verbatim_excerpt": "I thought red was pretty good. I thought, it was too long, but I thought it did the best job of handling the uncertainty of an uncertain situation. Like, it felt to me like a reasonable suggestion. Like, whereas some of the other ones were, like, too confident, or, like, didn't really say anything.",
+"codes": ["better_uncertainty_handling", "too_long", "reasonable_recommendation", "other_reports_unhelpful"],
+"valence": "mixed",
+"object_of_evaluation": "response quality, uncertainty handling, length",
+"rationale": "The participant identifies one report as relatively best because it handled uncertainty reasonably, but still criticizes its length. Comparison with other reports reinforces dissatisfaction with overconfidence and lack of substance."
+},
+{
+"segment_id": "S5",
+"timestamp_start": "00:03:16.230",
+"timestamp_end": "00:05:25.090",
+"speaker": "participant",
+"verbatim_excerpt": "I thought the citations of the pink one were the best. Like, I thought that was really cool, and they gave this, like, one or two sentence summary of, like, what was in the paper. I thought that was extremely helpful and time-saving... I didn't always agree… with, like, how they categorized evidence.",
+"codes": ["helpful_citation_summaries", "time_saving_paper_summaries", "disagrees_with_evidence_ranking", "skeptical_of_guideline_priority"],
+"valence": "mixed",
+"object_of_evaluation": "citations, evidence display, evidence ranking",
+"rationale": "The participant strongly values short summaries attached to citations because they save time. At the same time, they question the report's hierarchy for ranking evidence."
+},
+{
+"segment_id": "S6",
+"timestamp_start": "00:05:42.730",
+"timestamp_end": "00:08:08.070",
+"speaker": "participant",
+"verbatim_excerpt": "I use Open Evidence, and I use ChatGPT… not ChatGPT, I use, like, Google AI occasionally... I mostly… I use it when I haven't heard of something... That's generally how I've been using it. I don't generally use AI as, like, help me make this decision.",
+"codes": ["uses_ai_for_orientation", "uses_ai_for_unfamiliar_topics", "not_for_final_decisions", "search_like_usage"],
+"valence": "neutral",
+"object_of_evaluation": "workflow fit, use case",
+"rationale": "This excerpt describes actual use patterns rather than evaluation alone. The participant positions AI as a tool for learning and orientation, not direct decision delegation."
+},
+{
+"segment_id": "S7",
+"timestamp_start": "00:06:12.980",
+"timestamp_end": "00:07:30.430",
+"speaker": "participant",
+"verbatim_excerpt": "what I'll use it for is, like... oh, I saw an article in an academic journal that said that, you know, compound X was… just showed positive results... And I'll just type into omen evidence, like... compound X renal cell carcinoma... It's actually remarkably helpful for that... it gives its references... it's a great foray into like, hey, I don't know anything about this, and this just saved me, like, 6 hours.",
+"codes": ["cross_indication_exploration", "references_enable_followup", "major_time_savings", "helpful_for_basic_orientation"],
+"valence": "positive",
+"object_of_evaluation": "literature exploration, efficiency, references",
+"rationale": "The participant describes a concrete research-oriented workflow where the tool is highly useful. They emphasize references and substantial time savings when exploring unfamiliar topics."
+},
+{
+"segment_id": "S8",
+"timestamp_start": "00:07:08.450",
+"timestamp_end": "00:07:30.430",
+"speaker": "participant",
+"verbatim_excerpt": "Open evidence, in particular, hallucinates a lot around cutting edge. So, around trial stuff, like, it'll link the wrong NCT, you know, trial identifier and stuff, so there's a lot of hallucination, but it gives its references.",
+"codes": ["hallucination_in_cutting_edge_content", "trial_identifier_errors", "references_partially_mitigate_risk"],
+"valence": "mixed",
+"object_of_evaluation": "accuracy, references, trust",
+"rationale": "The participant reports a specific failure mode in cutting-edge trial content and concrete identifier errors. They immediately balance this with the value of provided references."
+},
+{
+"segment_id": "S9",
+"timestamp_start": "00:08:29.300",
+"timestamp_end": "00:09:56.349",
+"speaker": "participant",
+"verbatim_excerpt": "I think for straightforward things, it could probably help... if it's straightforward enough that AI can give an obvious answer, like, what doctor would probably already know that... where it's at right now, I think it could be an adjunct... somebody with a lot of knowledge who doesn't always know, like, things... doesn't know how to contextualize always.",
+"codes": ["adjunct_not_authority", "limited_value_for_simple_cases", "poor_contextualization", "knowledge_without_judgment"],
+"valence": "mixed",
+"object_of_evaluation": "role in decision-making, clinical usefulness",
+"rationale": "The participant sees potential for straightforward cases but questions the marginal value there. They characterize AI as knowledgeable but weak at contextual judgment, supporting an adjunct role only."
+},
+{
+"segment_id": "S10",
+"timestamp_start": "00:09:48.390",
+"timestamp_end": "00:09:56.349",
+"speaker": "participant",
+"verbatim_excerpt": "you know, the way they write, it just doesn't inspire a lot of confidence. Yes, I think it pads it, right? And it's like, what are you really saying, you know?",
+"codes": ["writing_style_reduces_confidence", "redundant_padding", "unclear_takeaway"],
+"valence": "negative",
+"object_of_evaluation": "writing style, trust, clarity",
+"rationale": "The participant explicitly links writing style to confidence. They describe padding and lack of a clear bottom line as trust-reducing features."
+},
+{
+"segment_id": "S11",
+"timestamp_start": "00:11:18.220",
+"timestamp_end": "00:11:57.629",
+"speaker": "participant",
+"verbatim_excerpt": "Giving testosterone replacement therapy 12 months out from a Gleason 4 plus 3, to me, is crazy... all the models are like, well, you could do it... Did you summarize the evidence accurately? Is this really what it says? Or does my practice and perspective just different, you know?",
+"codes": ["case_specific_clinical_conservatism", "questions_evidence_summary_accuracy", "tension_between_model_and_clinician_judgment", "uncertain_if_disagreement_is_evidence_or_perspective"],
+"valence": "negative",
+"object_of_evaluation": "clinical recommendation, evidence interpretation, trust",
+"rationale": "The participant reacts strongly against the model suggestions and questions whether the evidence was summarized correctly. They also acknowledge ambiguity about whether disagreement reflects the tool or their own practice perspective."
+},
+{
+"segment_id": "S12",
+"timestamp_start": "00:12:16.710",
+"timestamp_end": "00:13:31.270",
+"speaker": "participant",
+"verbatim_excerpt": "I think what you want is to say, like, there's uncertainty around this decision... there's no prospective evidence, right? We don't know... Right? But, like, then they… it's really, like, a paragraph. Right? That answers the question, but then some of them make four paragraphs out of one... sometimes it'll, like, give me tangential stuff... a lot of times, it's like, okay, can we just, like, get to the answer.",
+"codes": ["wants_brief_uncertainty_framing", "no_prospective_evidence_should_be_stated", "overexpansion_of_simple_answer", "mixed_value_of_tangential_information"],
+"valence": "mixed",
+"object_of_evaluation": "answer structure, uncertainty, tangential content",
+"rationale": "The participant describes the desired answer format very concretely: brief, uncertainty-aware, and explicit about evidence gaps. They also articulate that tangential information is sometimes helpful but often distracting."
+},
+{
+"segment_id": "S13",
+"timestamp_start": "00:14:02.220",
+"timestamp_end": "00:14:19.089",
+"speaker": "participant",
+"verbatim_excerpt": "I think it might be nice to be able to toggle it. like, hey, I'm in a rush, you know, I want… give me the short version of this, right? Or, like, give me the full thing.",
+"codes": ["wants_toggle_for_length", "intent_sensitive_output", "time_pressure_matters"],
+"valence": "positive",
+"object_of_evaluation": "customization, workflow fit",
+"rationale": "The participant proposes a concrete design feature: toggling output length based on urgency. This is a clear workflow-fit requirement tied to differing intents."
+},
+{
+"segment_id": "S14",
+"timestamp_start": "00:15:09.169",
+"timestamp_end": "00:15:09.169",
+"speaker": "participant",
+"verbatim_excerpt": "Yeah. Also, open evidence, like, I don't know why it takes so long to generate its text when, like, the other AIs do it, like, very quickly. I'm not sure why it does that.",
+"codes": ["slow_generation_is_a_problem", "compares_speed_across_tools"],
+"valence": "negative",
+"object_of_evaluation": "speed, efficiency",
+"rationale": "The participant raises response latency as a usability concern and compares the tool unfavorably with others on speed."
+}
+],
+"codebook": [
+{
+"code": "handles_nuanced_questions_poorly",
+"definition": "The participant describes AI as struggling when questions are subtle, uncertain, or clinically nuanced.",
+"inclusion_criteria": ["Mentions nuanced or uncertain decisions", "States AI struggles on hard cases"],
+"exclusion_criteria": ["General criticism not tied to nuance", "Comments about speed only"],
+"example_segment_ids": ["S1", "S2"]
+},
+{
+"code": "useful_evidence_summary",
+"definition": "The participant says the reports or tools summarize evidence in a helpful way.",
+"inclusion_criteria": ["Praise for summarizing evidence", "Statements that synthesis is useful"],
+"exclusion_criteria": ["Praise limited only to citations without summary", "Comments about literature search alone"],
+"example_segment_ids": ["S1", "S7"]
+},
+{
+"code": "weak_or_sparse_citations",
+"definition": "The participant notes that citations are thin, weak, or otherwise insufficiently supportive.",
+"inclusion_criteria": ["Calls citations sparse", "Questions citation strength"],
+"exclusion_criteria": ["Critique of evidence ranking rather than citation presence", "General trust concerns without citation mention"],
+"example_segment_ids": ["S1"]
+},
+{
+"code": "redundant_padding",
+"definition": "The participant describes responses as repetitive, padded, or longer than necessary.",
+"inclusion_criteria": ["Repeated over and over", "Pads it", "Four paragraphs out of one"],
+"exclusion_criteria": ["Requests for a short/long toggle without criticism", "Tangential content that is valued"],
+"example_segment_ids": ["S2", "S10", "S12"]
+},
+{
+"code": "poor_uncertainty_handling",
+"definition": "The participant says the tool fails to communicate uncertainty appropriately in ambiguous decisions.",
+"inclusion_criteria": ["Too confident in uncertain situations", "Does not appropriately treat uncertainty"],
+"exclusion_criteria": ["General logic errors without uncertainty framing", "Disagreement with evidence hierarchy alone"],
+"example_segment_ids": ["S2", "S4", "S12"]
+},
+{
+"code": "context_mismatch",
+"definition": "The participant says a statement may be true in general but does not fit the specific clinical situation.",
+"inclusion_criteria": ["Doesn't apply to the situation", "Injects confusion because of mismatch"],
+"exclusion_criteria": ["Pure hallucination claims", "Broad concerns about citations"],
+"example_segment_ids": ["S3"]
+},
+{
+"code": "helpful_citation_summaries",
+"definition": "The participant values short summaries attached to cited papers because they clarify what each source says.",
+"inclusion_criteria": ["One or two sentence paper summaries", "Helpful citation formatting"],
+"exclusion_criteria": ["General praise for references without summaries", "Evidence ranking concerns"],
+"example_segment_ids": ["S5"]
+},
+{
+"code": "disagrees_with_evidence_ranking",
+"definition": "The participant questions how the report orders or categorizes strength of evidence.",
+"inclusion_criteria": ["Disagrees with guideline as level one", "Questions meta-analysis above RCTs"],
+"exclusion_criteria": ["Comments about citation scarcity", "Comments about uncertainty only"],
+"example_segment_ids": ["S5"]
+},
+{
+"code": "uses_ai_for_orientation",
+"definition": "The participant uses AI primarily to get oriented on unfamiliar topics rather than to make final decisions.",
+"inclusion_criteria": ["Uses it when I haven't heard of something", "Search-like or learning-oriented usage"],
+"exclusion_criteria": ["Direct endorsement for autonomous decision-making", "Comments limited to survey reports"],
+"example_segment_ids": ["S6", "S7"]
+},
+{
+"code": "hallucination_in_cutting_edge_content",
+"definition": "The participant reports inaccurate outputs when the topic is novel, trial-focused, or at the cutting edge.",
+"inclusion_criteria": ["Hallucinates a lot around cutting edge", "Wrong trial identifier"],
+"exclusion_criteria": ["Context mismatch that is not about novelty", "General mistrust without examples"],
+"example_segment_ids": ["S8"]
+},
+{
+"code": "adjunct_not_authority",
+"definition": "The participant sees AI as a supporting tool rather than a system that should supersede clinician judgment.",
+"inclusion_criteria": ["Could be an adjunct", "Does not use AI to make the decision"],
+"exclusion_criteria": ["Praise for efficiency alone", "Critique of speed or writing style alone"],
+"example_segment_ids": ["S6", "S9"]
+},
+{
+"code": "writing_style_reduces_confidence",
+"definition": "The participant says the wording or style of the response makes it less trustworthy or less clear.",
+"inclusion_criteria": ["Doesn't inspire confidence", "What are you really saying"],
+"exclusion_criteria": ["Disagreement with the clinical recommendation itself", "Citation-related concerns"],
+"example_segment_ids": ["S10"]
+},
+{
+"code": "questions_evidence_summary_accuracy",
+"definition": "The participant wonders whether the report accurately represented the underlying evidence.",
+"inclusion_criteria": ["Did you summarize the evidence accurately?", "Is this really what it says?"],
+"exclusion_criteria": ["Questions evidence hierarchy only", "General skepticism without mention of summarization"],
+"example_segment_ids": ["S11"]
+},
+{
+"code": "wants_brief_uncertainty_framing",
+"definition": "The participant wants a concise answer that states uncertainty and evidence limits plainly without unnecessary expansion.",
+"inclusion_criteria": ["It's really a paragraph", "There's uncertainty around this decision", "No prospective evidence"],
+"exclusion_criteria": ["General request for short version toggle without content preference", "Pure criticism of speed"],
+"example_segment_ids": ["S12"]
+},
+{
+"code": "mixed_value_of_tangential_information",
+"definition": "The participant says extra or tangential information can sometimes help but often distracts from the main answer.",
+"inclusion_criteria": ["Glad it said that, I didn't think of that", "Can we just get to the answer"],
+"exclusion_criteria": ["Repetition without mention of tangential content", "Simple desire for more detail"],
+"example_segment_ids": ["S12"]
+},
+{
+"code": "wants_toggle_for_length",
+"definition": "The participant wants user control over answer length or depth depending on urgency and intent.",
+"inclusion_criteria": ["Toggle it", "Short version", "Full thing"],
+"exclusion_criteria": ["General complaint about being too long without customization idea", "Pure speed concerns"],
+"example_segment_ids": ["S13"]
+},
+{
+"code": "slow_generation_is_a_problem",
+"definition": "The participant identifies long response generation time as a usability drawback.",
+"inclusion_criteria": ["Takes so long to generate", "Other AIs do it quickly"],
+"exclusion_criteria": ["Length of text output rather than latency", "General efficiency comments without speed mention"],
+"example_segment_ids": ["S14"]
+}
+],
+"themes": [
+{
+"theme_id": "T1",
+"theme_name": "Useful synthesis, but weak on nuance",
+"theme_definition": "The participant sees value in AI as a summarizer of evidence, especially when getting oriented to an unfamiliar topic. But when the decision is nuanced, uncertain, or clinically sensitive, the reports often become overconfident, poorly contextualized, or logically misapplied. The participant repeatedly treats this as the main limit on decision support value.",
+"supporting_segments": ["S1", "S2", "S3", "S4", "S9", "S11", "S12"],
+"representative_quotes": [
+{
+"segment_id": "S1",
+"quote": "it's very nuanced and uncertain, which I think is where AI can both be helpful, but also struggles"
+},
+{
+"segment_id": "S3",
+"quote": "It's a true statement, it just doesn't apply to the situation at hand"
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Repeated across many segments with concrete examples about uncertainty, context mismatch, and limits of decision support."
+},
+{
+"theme_id": "T2",
+"theme_name": "Trust depends on concise, well-supported reasoning",
+"theme_definition": "The participant's trust rises when the tool provides clear citations, short summaries of cited papers, and a reasonable acknowledgment of uncertainty. Trust falls when responses are padded, vague, too confident, or contain non-applicable details that create confusion. Writing style itself is treated as part of credibility.",
+"supporting_segments": ["S1", "S2", "S4", "S5", "S8", "S10", "S12"],
+"representative_quotes": [
+{
+"segment_id": "S5",
+"quote": "they gave this, like, one or two sentence summary of, like, what was in the paper"
+},
+{
+"segment_id": "S10",
+"quote": "the way they write, it just doesn't inspire a lot of confidence"
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "The participant returns several times to citations, confidence, padding, and clarity as linked drivers of trust."
+},
+{
+"theme_id": "T3",
+"theme_name": "Best fit is orientation and literature scouting, not final judgment",
+"theme_definition": "The participant currently uses AI mainly to learn about unfamiliar treatments, explore cross-indication ideas, and surface references efficiently. They do not generally use it to decide what to do for a patient. The preferred role is an adjunct that accelerates literature review while leaving contextual judgment to the clinician.",
+"supporting_segments": ["S6", "S7", "S8", "S9"],
+"representative_quotes": [
+{
+"segment_id": "S6",
+"quote": "I don't generally use AI as, like, help me make this decision"
+},
+{
+"segment_id": "S7",
+"quote": "it's a great foray into like, hey, I don't know anything about this, and this just saved me, like, 6 hours"
+}
+],
+"overall_valence": "positive",
+"confidence": "high",
+"confidence_basis": "The participant gives multiple concrete real-world use cases and explicitly distinguishes them from decision-making."
+},
+{
+"theme_id": "T4",
+"theme_name": "Output should adapt to intent and time pressure",
+"theme_definition": "The participant wants the system to flex between brief and detailed modes depending on whether they are rushed or exploring a topic deeply. They also note that tangential information can be valuable in some settings and frustrating in others. This suggests that one fixed response style does not fit all clinical or research intents.",
+"supporting_segments": ["S12", "S13", "S14"],
+"representative_quotes": [
+{
+"segment_id": "S13",
+"quote": "I think it might be nice to be able to toggle it"
+},
+{
+"segment_id": "S12",
+"quote": "a lot of times, it's like, okay, can we just, like, get to the answer"
+}
+],
+"overall_valence": "mixed",
+"confidence": "medium",
+"confidence_basis": "This appears in fewer segments, but the participant states the preference directly and connects it to real workflow conditions."
+}
+],
+"likes": [
+{
+"like_id": "L1",
+"statement": "The participant liked that some reports summarized the evidence well.",
+"supporting_segments": ["S1"],
+"representative_quote": "they summarized the evidence pretty nicely"
+},
+{
+"like_id": "L2",
+"statement": "The participant liked the report that handled uncertainty more reasonably than the others.",
+"supporting_segments": ["S4"],
+"representative_quote": "it did the best job of handling the uncertainty"
+},
+{
+"like_id": "L3",
+"statement": "The participant liked citations that included one- to two-sentence summaries of what each paper contained.",
+"supporting_segments": ["S5"],
+"representative_quote": "that was extremely helpful and time-saving"
+},
+{
+"like_id": "L4",
+"statement": "The participant liked using AI to explore unfamiliar topics and cross-indication ideas in research work.",
+"supporting_segments": ["S7"],
+"representative_quote": "It's actually remarkably helpful for that"
+},
+{
+"like_id": "L5",
+"statement": "The participant liked that the tool could save substantial time when entering a new topic area.",
+"supporting_segments": ["S7"],
+"representative_quote": "this just saved me, like, 6 hours"
+}
+],
+"dislikes": [
+{
+"dislike_id": "D1",
+"statement": "The participant disliked repetitive, overly long answers.",
+"supporting_segments": ["S2", "S4", "S10", "S12"],
+"representative_quote": "it was just repeated over and over"
+},
+{
+"dislike_id": "D2",
+"statement": "The participant disliked responses that sounded too confident in uncertain situations.",
+"supporting_segments": ["S2", "S3", "S4"],
+"representative_quote": "they seemed a little too confident"
+},
+{
+"dislike_id": "D3",
+"statement": "The participant disliked logically true but case-inappropriate statements that inject confusion.",
+"supporting_segments": ["S3"],
+"representative_quote": "It's a true statement, it just doesn't apply"
+},
+{
+"dislike_id": "D4",
+"statement": "The participant disliked the report's evidence hierarchy and did not consistently agree with how evidence was categorized.",
+"supporting_segments": ["S5"],
+"representative_quote": "I didn't always agree… with, like, how they categorized evidence"
+},
+{
+"dislike_id": "D5",
+"statement": "The participant disliked hallucinations and incorrect trial identifiers in cutting-edge content.",
+"supporting_segments": ["S8"],
+"representative_quote": "it'll link the wrong NCT"
+},
+{
+"dislike_id": "D6",
+"statement": "The participant disliked writing that felt padded and did not clearly state the takeaway.",
+"supporting_segments": ["S10"],
+"representative_quote": "what are you really saying"
+},
+{
+"dislike_id": "D7",
+"statement": "The participant disliked slow response generation compared with other AI tools.",
+"supporting_segments": ["S14"],
+"representative_quote": "I don't know why it takes so long"
+}
+],
+"requirements": [
+{
+"req_id": "R1",
+"type": "must_have",
+"requirement": "The report must explicitly communicate uncertainty and evidence gaps in nuanced decisions rather than sounding definitive.",
+"supporting_segments": ["S2", "S4", "S12"],
+"risk_if_ignored": "Users may view the output as unsafe or untrustworthy in clinically ambiguous cases."
+},
+{
+"req_id": "R2",
+"type": "must_have",
+"requirement": "The report must avoid including true-but-nonapplicable statements that do not fit the specific case context.",
+"supporting_segments": ["S3"],
+"risk_if_ignored": "Case-irrelevant facts can inject confusion and distort decision-making."
+},
+{
+"req_id": "R3",
+"type": "must_have",
+"requirement": "Citations should include brief summaries of what each cited paper actually found.",
+"supporting_segments": ["S5"],
+"risk_if_ignored": "Users lose an important time-saving trust signal and may need to re-check sources manually."
+},
+{
+"req_id": "R4",
+"type": "avoid",
+"requirement": "The system should avoid unnecessary repetition, padding, and multi-paragraph expansion when a short answer would suffice.",
+"supporting_segments": ["S2", "S10", "S12"],
+"risk_if_ignored": "Users may disengage, mistrust the writing, or miss the core recommendation."
+},
+{
+"req_id": "R5",
+"type": "must_have",
+"requirement": "The system should preserve accurate trial and reference identifiers, especially for cutting-edge topics.",
+"supporting_segments": ["S8"],
+"risk_if_ignored": "Reference errors undermine verification and can make the tool unreliable for research use."
+},
+{
+"req_id": "R6",
+"type": "nice_to_have",
+"requirement": "Users should be able to toggle between a short answer and a full literature-style response based on their intent and time pressure.",
+"supporting_segments": ["S12", "S13"],
+"risk_if_ignored": "A one-size-fits-all response may be useful in some moments but inefficient or frustrating in others."
+},
+{
+"req_id": "R7",
+"type": "nice_to_have",
+"requirement": "The system should return results quickly enough to feel competitive with other AI tools.",
+"supporting_segments": ["S14"],
+"risk_if_ignored": "Slow output may discourage use even when the content is otherwise valuable."
+}
+],
+"workflow_integration": {
+"current_workarounds": [
+"Uses AI more like a search or literature-orientation tool rather than accepting its recommendation.",
+"Checks the references rather than relying only on the generated narrative.",
+"Uses the tool to explore whether a compound or target may matter in another indication."
+],
+"intended_use_cases": [
+"Learning about drugs or topics the participant has not heard of before.",
+"Exploring cross-indication or repurposing ideas in a clinical trial/research context.",
+"Getting a first-pass literature review with references.",
+"Potential adjunctive help for straightforward questions."
+],
+"constraints": [
+"Nuanced decisions require careful handling of uncertainty.",
+"Overconfidence reduces trust.",
+"Context mismatch and logical nonapplication create confusion.",
+"Time pressure makes verbosity costly.",
+"Slow generation reduces usability.",
+"Cutting-edge topics carry hallucination risk."
+],
+"output_format_preferences": [
+"Concise answers when the core answer is short.",
+"A brief paragraph that directly states uncertainty and lack of prospective evidence when applicable.",
+"Citations with one- to two-sentence summaries of each paper.",
+"Optional ability to toggle between short and full-length responses."
+]
+},
+"trust_and_safety": {
+"trust_drivers": [
+"Reasonable handling of uncertainty in uncertain situations.",
+"Clear citations with concise summaries of cited papers.",
+"References that let the participant verify claims.",
+"Useful synthesis that saves time on unfamiliar topics."
+],
+"trust_erosions": [
+"Overconfident tone.",
+"True statements that do not apply to the case at hand.",
+"Logical or contextual errors.",
+"Padded writing that obscures the point.",
+"Incorrect trial identifiers and hallucinations in cutting-edge content.",
+"Evidence ranking that does not match the participant's judgment."
+],
+"verification_behaviors": [
+"Looks at the references and uses them as a starting point for further review.",
+"Questions whether the evidence was summarized accurately when the recommendation conflicts with clinical judgment."
+],
+"medico_legal_or_policy_concerns": []
+},
+"quantified_mentions": {
+"top_codes_by_count": [
+{
+"code": "redundant_padding",
+"count": 4
+},
+{
+"code": "poor_uncertainty_handling",
+"count": 3
+},
+{
+"code": "uses_ai_for_orientation",
+"count": 2
+},
+{
+"code": "adjunct_not_authority",
+"count": 2
+},
+{
+"code": "helpful_citation_summaries",
+"count": 1
+}
+],
+"notes": "Counts are approximate and based on analyst-assigned segment codes. Some ideas overlap across segments, and one participant statement may support multiple closely related codes."
+},
+"analytic_memos": {
+"summary": "The participant sees AI literature tools as genuinely useful for summarizing evidence and quickly orienting them to unfamiliar topics. Their strongest praise is for references, especially when citations are paired with short summaries that explain what each paper found. They currently use these tools mainly for scouting the literature and exploring research ideas rather than for direct clinical decision-making. The major concerns are overconfidence, verbosity, context mismatch, and answers that say things that are technically true but not applicable to the patient scenario. The participant also worries that some outputs may summarize evidence inaccurately or rank evidence in a way they do not agree with. In their view, the best clinical report would plainly state uncertainty, acknowledge evidence limits, and give a concise answer rather than padding the response. They also want the option to tailor output length depending on whether they are rushing or exploring more deeply.",
+"tensions_or_tradeoffs": [
+"Tangential information can be valuable when exploring a topic, but frustrating when the user only wants the direct answer.",
+"AI can save major time on literature review, but the same tool may still be unsafe as a primary decision-maker.",
+"Detailed evidence displays can increase trust, but evidence ranking schemes may alienate users if they do not match clinician judgment.",
+"A richer narrative may feel comprehensive, but brevity may better support confidence and clinical usability."
+],
+"open_questions_for_next_interview": [
+"When a report states uncertainty well, what exact wording makes it feel appropriately cautious rather than evasive?",
+"What is the minimum citation display that still feels trustworthy in a busy workflow?",
+"How should a tool distinguish between helpful tangential context and distracting extra information?",
+"Would users prefer to set a default response mode for speed versus depth, or choose it case by case?",
+"When the tool conflicts with the clinician's prior judgment, what kinds of evidence display would help resolve that conflict?"
+]
+}
+}

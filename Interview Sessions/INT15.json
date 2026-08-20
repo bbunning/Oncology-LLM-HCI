@@ -1,0 +1,533 @@
+{
+"transcript_id": "TX001",
+"interview_context": {
+"participant_role": "oncologist",
+"setting_or_workflow_context": "Clinical oncology workflow with interest in quick between-patient consultation and literature review support.",
+"tools_mentioned_by_participant": ["Gemini", "ChatGPT", "Google", "PubMed", "NCCN", "ESMO", "ASTRO", "ASCO", "ARRO", "ACRO", "RTOG"]
+},
+"segments": [
+{
+"segment_id": "S1",
+"timestamp_start": "00:00:28.900",
+"timestamp_end": "00:01:14.550",
+"speaker": "participant",
+"verbatim_excerpt": "for me, I don't use it to answer, like, radiation oncology questions. I just don't trust it, for that purpose... then I would use, like, an AI… usually just, like, what's built into Google... it's, like, very simple questions",
+"codes": ["does_not_trust_ai_for_core_specialty", "uses_ai_for_simple_related_questions", "routine_outside_specialty_use"],
+"valence": "mixed",
+"object_of_evaluation": "workflow fit; trust",
+"rationale": "The speaker rejects AI for specialty-specific decisions but accepts it for simple, adjacent questions. This supports limited-scope use tied to low-stakes or less familiar tasks."
+},
+{
+"segment_id": "S2",
+"timestamp_start": "00:01:33.930",
+"timestamp_end": "00:02:28.900",
+"speaker": "participant",
+"verbatim_excerpt": "I mostly use, Gemini instead of ChatGPT... if I'm searching for a specific trial... I go directly to those references, and then read through that, but… but nothing that [SYSTEM] will tell me. I don't integrate it as much.",
+"codes": ["reference_finding_over_answer_acceptance", "prefers_primary_sources", "limited_integration_of_ai"],
+"valence": "mixed",
+"object_of_evaluation": "search behavior; verification",
+"rationale": "The excerpt shows AI being used as a pointer to references rather than as a trusted answer source. The participant explicitly describes going to the cited papers instead of relying on the AI output itself."
+},
+{
+"segment_id": "S3",
+"timestamp_start": "00:02:51.830",
+"timestamp_end": "00:03:27.739",
+"speaker": "participant",
+"verbatim_excerpt": "I thought the red one was very good. it included NCCN and ESMO guidelines... when it discussed trials. It told you what phase they were, as well as the... conclusion, like the PFS, the OS, which I think it's helpful to kind of come to your own conclusion",
+"codes": ["guideline_anchoring_builds_trust", "wants_trial_phase_and_outcomes", "supports_clinician_own_conclusion"],
+"valence": "positive",
+"object_of_evaluation": "guideline content; evidence display; trust",
+"rationale": "The participant links trust to recognizable guidelines and clear presentation of trial phase and outcomes. The report is valued because it enables independent clinician judgment rather than replacing it."
+},
+{
+"segment_id": "S4",
+"timestamp_start": "00:03:28.090",
+"timestamp_end": "00:04:08.219",
+"speaker": "participant",
+"verbatim_excerpt": "I thought blue was, like, really useless... it was giving, like, authors, like, which I don't care about if I want to ask a quick question. It's also giving animal models, which I don't... care... I think it actually missed out on key references",
+"codes": ["too_much_irrelevant_detail", "does_not_want_authors_or_animal_models", "missing_key_references_undermines_value"],
+"valence": "negative",
+"object_of_evaluation": "content relevance; evidence selection; length",
+"rationale": "The participant criticizes content that feels extraneous for quick clinical use and notes omission of key references. The negative judgment is tied both to clutter and to poor evidence prioritization."
+},
+{
+"segment_id": "S5",
+"timestamp_start": "00:04:12.140",
+"timestamp_end": "00:05:25.150",
+"speaker": "participant",
+"verbatim_excerpt": "I really like the format, the bullet-style format, specifically if I'm thinking that I'm gonna be, consulting this or using this in between patients... with hyperlinks that can allow me to go straight to that source... I prefer that yellow-type, report.",
+"codes": ["prefers_bullet_style_for_speed", "between_patients_use_case", "hyperlinks_support_deeper_review"],
+"valence": "positive",
+"object_of_evaluation": "format; workflow fit; navigation",
+"rationale": "The participant explicitly ties bullet formatting to fast use between patients and values direct links for optional deeper reading. This is a clear preference for efficient, navigable outputs."
+},
+{
+"segment_id": "S6",
+"timestamp_start": "00:04:48.500",
+"timestamp_end": "00:05:25.150",
+"speaker": "participant",
+"verbatim_excerpt": "the pink, that table format, I think that if you're going to do a table format and you have too much information within those table cells. The message can get lost... complete titles in a format or in a hyperlink format, you can actually add more visual noise.",
+"codes": ["dense_tables_hide_message", "visual_noise_from_full_titles", "prefers_clean_linking"],
+"valence": "negative",
+"object_of_evaluation": "UI; tables; readability",
+"rationale": "The concern is not tables in principle but overloaded tables with long titles and too much cell content. The participant frames this as a readability problem caused by visual noise."
+},
+{
+"segment_id": "S7",
+"timestamp_start": "00:05:45.890",
+"timestamp_end": "00:06:13.059",
+"speaker": "participant",
+"verbatim_excerpt": "I thought they were generally a bit too long. If I'm asking AI a question, I don't want to read more than a page. Like, if I want to read more than a page, I would just read the article.",
+"codes": ["report_length_too_long", "ai_should_save_reading_time", "prefers_one_page_or_less"],
+"valence": "negative",
+"object_of_evaluation": "length; efficiency",
+"rationale": "The participant sets a clear threshold for acceptable report length and contrasts AI outputs with reading the original article. The complaint is fundamentally about efficiency and value-add."
+},
+{
+"segment_id": "S8",
+"timestamp_start": "00:06:14.420",
+"timestamp_end": "00:06:26.530",
+"speaker": "participant",
+"verbatim_excerpt": "I would say one page, one page and a half, anything more, I would just go through the journal article myself and read the abstract, which should be even shorter than that.",
+"codes": ["prefers_one_page_or_less", "ai_should_save_reading_time"],
+"valence": "negative",
+"object_of_evaluation": "length; workflow efficiency",
+"rationale": "This excerpt reinforces a practical ceiling on acceptable report length. The participant compares longer outputs unfavorably to simply reading the abstract directly."
+},
+{
+"segment_id": "S9",
+"timestamp_start": "00:07:07.289",
+"timestamp_end": "00:08:24.320",
+"speaker": "participant",
+"verbatim_excerpt": "NCCN should apply to any oncology question... ESMO as well... if, you know, ASTRO or ASCO have a consensus statement... very helpful. And then... bullet points on, like, Phase 3 clinical trials... just give me your recommendation... and then the hyperlinks",
+"codes": ["guidelines_first_structure", "wants_trial_phase_and_outcomes", "prefers_direct_recommendation_with_support", "hyperlinks_support_deeper_review"],
+"valence": "positive",
+"object_of_evaluation": "ideal report structure; evidence hierarchy",
+"rationale": "The participant lays out a preferred content order: guidelines, major trial evidence, concise recommendation, and links. The excerpt is concrete enough to derive design requirements directly."
+},
+{
+"segment_id": "S10",
+"timestamp_start": "00:08:48.710",
+"timestamp_end": "00:10:34.279",
+"speaker": "participant",
+"verbatim_excerpt": "I would want to be able to see what are the key summary recommendations... pretty neatly organized, right at the top... with hyperlinks... I would be open to at least see how the AI program sees the patient and analyzes the patient.",
+"codes": ["wants_top_loaded_summary", "hyperlinks_support_deeper_review", "open_to_ai_patient_analysis", "uses_ai_reasoning_to_calibrate_fit"],
+"valence": "mixed",
+"object_of_evaluation": "organization; AI interpretation; workflow fit",
+"rationale": "The participant wants concise top-loaded summaries but is more open than others to seeing AI reasoning about the patient. That openness is conditional and framed as a way to judge alignment with clinician thinking."
+},
+{
+"segment_id": "S11",
+"timestamp_start": "00:11:01.000",
+"timestamp_end": "00:12:05.540",
+"speaker": "participant",
+"verbatim_excerpt": "once I see one thing wrong, I kinda completely lose faith in everything that it suggests... when there's anything wrong, it's just, like, it's a big, turnoff for using the model.",
+"codes": ["single_error_collapses_trust", "prefers_objective_data_over_ai_conclusions"],
+"valence": "negative",
+"object_of_evaluation": "trust; error tolerance",
+"rationale": "The participant describes a very brittle trust threshold. A single perceived mistake damages confidence in the entire response, which directly explains preference for objective evidence presentation."
+},
+{
+"segment_id": "S12",
+"timestamp_start": "00:11:30.250",
+"timestamp_end": "00:11:57.969",
+"speaker": "participant",
+"verbatim_excerpt": "if it's just giving kind of a more objective summary of data... I think would be really useful in a clinical context to know that, oh, there's a [LOCATION] Phase III trial that... answers this question",
+"codes": ["prefers_objective_data_over_ai_conclusions", "useful_when_surface_relevant_trials", "supports_clinician_own_conclusion"],
+"valence": "positive",
+"object_of_evaluation": "evidence summary; clinical utility",
+"rationale": "The excerpt shows the participant valuing objective summaries that surface relevant trials they may not already know. The utility comes from evidence discovery, not AI-generated interpretation."
+},
+{
+"segment_id": "S13",
+"timestamp_start": "00:12:42.180",
+"timestamp_end": "00:13:34.629",
+"speaker": "participant",
+"verbatim_excerpt": "in terms of number results, overall survival... that number will be the same no matter what resource you use, but sometimes I feel... AI can start to add some subjectivity to it... I tried to not pay attention to what can be, subjective and pay more to... the objective",
+"codes": ["wary_of_subjective_overlay", "prefers_objective_data_over_ai_conclusions", "trust_reduced_by_interpretive_spin"],
+"valence": "negative",
+"object_of_evaluation": "objectivity; interpretation; trust",
+"rationale": "The participant distinguishes stable numeric results from AI-added commentary and explicitly tries to ignore subjective interpretation. The excerpt grounds distrust in perceived subjectivity rather than raw data retrieval."
+}
+],
+"codebook": [
+{
+"code": "does_not_trust_ai_for_core_specialty",
+"definition": "Participant does not trust AI to answer questions in their own oncology specialty area.",
+"inclusion_criteria": ["Statements rejecting AI for specialty-specific decision support", "Comments about not trusting AI for core clinical questions"],
+"exclusion_criteria": ["General skepticism without reference to specialty use", "Critiques limited to formatting or length"],
+"example_segment_ids": ["S1"]
+},
+{
+"code": "uses_ai_for_simple_related_questions",
+"definition": "Participant accepts AI for simple, lower-stakes, or adjacent questions outside daily expertise.",
+"inclusion_criteria": ["Use for simple questions", "Use for related specialties or routine tasks"],
+"exclusion_criteria": ["Use for complex oncology recommendations", "Use for literature summarization only"],
+"example_segment_ids": ["S1"]
+},
+{
+"code": "reference_finding_over_answer_acceptance",
+"definition": "Participant uses AI to locate trials or references but does not rely on the generated answer itself.",
+"inclusion_criteria": ["Using AI like a search aid", "Going directly to cited references"],
+"exclusion_criteria": ["Trusting AI recommendations without checking sources", "General hyperlink preference unrelated to verification"],
+"example_segment_ids": ["S2"]
+},
+{
+"code": "guideline_anchoring_builds_trust",
+"definition": "Trust increases when recommendations are visibly grounded in major guidelines named by the participant.",
+"inclusion_criteria": ["Positive mention of NCCN, ESMO, or similar guidance bodies", "Statements linking guidelines to trust"],
+"exclusion_criteria": ["General reference to evidence without named guidelines", "Personal preference for brevity alone"],
+"example_segment_ids": ["S3", "S9"]
+},
+{
+"code": "wants_trial_phase_and_outcomes",
+"definition": "Participant wants trials labeled by phase and accompanied by key results such as outcomes, not vague mentions.",
+"inclusion_criteria": ["Requests for Phase 3 or Phase 2 identification", "Mentions of PFS or OS as useful details"],
+"exclusion_criteria": ["Requests for full paper titles or author names", "General desire for more evidence without specifics"],
+"example_segment_ids": ["S3", "S9"]
+},
+{
+"code": "supports_clinician_own_conclusion",
+"definition": "Participant wants evidence displayed in a way that allows them to reach their own judgment rather than accept the model's judgment.",
+"inclusion_criteria": ["Statements about coming to your own conclusion", "Preference for data presentation over model interpretation"],
+"exclusion_criteria": ["Requests for AI to make the final call", "Purely format-based comments"],
+"example_segment_ids": ["S3", "S12"]
+},
+{
+"code": "too_much_irrelevant_detail",
+"definition": "Participant experiences parts of the report as cluttered with information that does not help answer a quick clinical question.",
+"inclusion_criteria": ["Complaints about extra details", "Descriptions of content as useless or unnecessary"],
+"exclusion_criteria": ["Long but relevant evidence summaries", "Comments focused only on wrong facts"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "does_not_want_authors_or_animal_models",
+"definition": "Participant explicitly rejects author names and animal-model content for quick clinical consultation reports.",
+"inclusion_criteria": ["Mentions of authors as unhelpful", "Mentions of animal models as irrelevant in this context"],
+"exclusion_criteria": ["General complaints about tables or hyperlinks", "Interest in preclinical evidence for another use case"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "prefers_bullet_style_for_speed",
+"definition": "Participant prefers bullet-point formatting because it supports faster review under clinical time pressure.",
+"inclusion_criteria": ["Direct praise for bullet format", "Linking bullets to concise or direct communication"],
+"exclusion_criteria": ["Preference for short length without format mention", "Praise for tables"],
+"example_segment_ids": ["S5"]
+},
+{
+"code": "between_patients_use_case",
+"definition": "Participant imagines consulting the report in brief intervals during clinical work, especially between patients.",
+"inclusion_criteria": ["Explicit between-patients language", "Time-pressured workflow references"],
+"exclusion_criteria": ["General clinic use without time pressure", "Home or research-only use cases"],
+"example_segment_ids": ["S5"]
+},
+{
+"code": "hyperlinks_support_deeper_review",
+"definition": "Participant values hyperlinks as a way to optionally move from summary to source material.",
+"inclusion_criteria": ["Mentions clicking through to source", "Requests for links at the point of summary"],
+"exclusion_criteria": ["General mention of references without navigation", "Using AI without any source-checking behavior"],
+"example_segment_ids": ["S5", "S9", "S10"]
+},
+{
+"code": "dense_tables_hide_message",
+"definition": "Participant feels that information-heavy tables can obscure the main message instead of clarifying it.",
+"inclusion_criteria": ["Too much information in table cells", "Message getting lost in table format"],
+"exclusion_criteria": ["General dislike of long reports outside table context", "Positive mention of tables"],
+"example_segment_ids": ["S6"]
+},
+{
+"code": "report_length_too_long",
+"definition": "Participant feels the reports exceed useful length for AI-assisted clinical consultation.",
+"inclusion_criteria": ["Too long", "Would rather read the article if output exceeds a threshold"],
+"exclusion_criteria": ["Comments only about density or table design", "Length-neutral remarks"],
+"example_segment_ids": ["S7", "S8"]
+},
+{
+"code": "prefers_one_page_or_less",
+"definition": "Participant gives a rough maximum acceptable report length around one page to one and a half pages.",
+"inclusion_criteria": ["One page", "One and a half pages at most"],
+"exclusion_criteria": ["General brevity preference without a threshold", "Preference for bullets only"],
+"example_segment_ids": ["S7", "S8"]
+},
+{
+"code": "guidelines_first_structure",
+"definition": "Participant wants reports structured with key guideline recommendations placed first and prominently.",
+"inclusion_criteria": ["Key summary recommendations for each group", "Guidelines named as first-line content"],
+"exclusion_criteria": ["Evidence mentions without order or prioritization", "General trust in guidelines without design implication"],
+"example_segment_ids": ["S9", "S10"]
+},
+{
+"code": "open_to_ai_patient_analysis",
+"definition": "Participant is willing to view the AI's patient-specific reasoning as a calibration aid, not as a standalone authority.",
+"inclusion_criteria": ["Open to seeing how AI sees the patient", "Using AI framing to compare with own thinking"],
+"exclusion_criteria": ["Rejecting AI interpretation outright", "Comments only about trial summaries"],
+"example_segment_ids": ["S10"]
+},
+{
+"code": "single_error_collapses_trust",
+"definition": "Trust in the entire response can fail once the participant notices even one wrong claim.",
+"inclusion_criteria": ["Lose faith after one thing wrong", "One mistake poisons the full response"],
+"exclusion_criteria": ["Mild skepticism without a threshold", "Dislike of verbosity alone"],
+"example_segment_ids": ["S11"]
+},
+{
+"code": "prefers_objective_data_over_ai_conclusions",
+"definition": "Participant prefers objective evidence display over AI-generated conclusions, interpretations, or commentary.",
+"inclusion_criteria": ["Objective summary of data", "Not paying attention to subjective parts", "Dislike of model-made conclusions"],
+"exclusion_criteria": ["Requests for AI recommendation with no evidence", "Pure formatting critiques"],
+"example_segment_ids": ["S11", "S12", "S13"]
+},
+{
+"code": "wary_of_subjective_overlay",
+"definition": "Participant worries that AI adds subjective interpretation on top of otherwise stable study results.",
+"inclusion_criteria": ["Subjectivity concerns", "Selection-bias commentary seen as AI-added framing"],
+"exclusion_criteria": ["Objective extraction of reported numbers", "Trust issues caused only by missing citations"],
+"example_segment_ids": ["S13"]
+}
+],
+"themes": [
+{
+"theme_id": "T1",
+"theme_name": "Keep it short, top-loaded, and clickable",
+"theme_definition": "Participants repeatedly describe the ideal report as a fast clinical aid rather than a long narrative. They want bullet points, key recommendations near the top, and hyperlinks that let them go deeper only when needed. Long reports, overloaded tables, and visually noisy citation formats work against that use case.",
+"supporting_segments": ["S5", "S6", "S7", "S8", "S9", "S10"],
+"representative_quotes": [
+{
+"segment_id": "S5",
+"quote": "I really like the format, the bullet-style format... if I'm gonna be... using this in between patients."
+},
+{
+"segment_id": "S7",
+"quote": "If I'm asking AI a question, I don't want to read more than a page."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Repeated across both participant speakers in multiple segments with specific design preferences and length thresholds."
+},
+{
+"theme_id": "T2",
+"theme_name": "Trust comes from objective evidence and recognizable guidelines",
+"theme_definition": "Trust is built when the report foregrounds major guidelines and clearly labeled trial evidence. Participants want phase, outcomes, and direct links to sources so they can assess the evidence themselves. They are more comfortable when the system functions as an evidence organizer than as an opinion-giver.",
+"supporting_segments": ["S2", "S3", "S9", "S12", "S13"],
+"representative_quotes": [
+{
+"segment_id": "S3",
+"quote": "it included NCCN and ESMO guidelines... I think... that was very trustworthy"
+},
+{
+"segment_id": "S12",
+"quote": "if it's just giving kind of a more objective summary of data... [that] would be really useful"
+}
+],
+"overall_valence": "positive",
+"confidence": "high",
+"confidence_basis": "This theme appears in several segments from both participants and is tied to concrete examples of what increases trust."
+},
+{
+"theme_id": "T3",
+"theme_name": "Interpretive overreach can poison the whole report",
+"theme_definition": "Participants describe a low tolerance for factual errors and subjective framing. One wrong claim can collapse trust in the entire output, and AI-added interpretation is treated cautiously when it goes beyond presenting the evidence. A minority openness to AI patient analysis exists, but even that is framed as something to compare against clinician reasoning rather than adopt outright.",
+"supporting_segments": ["S1", "S10", "S11", "S13"],
+"representative_quotes": [
+{
+"segment_id": "S11",
+"quote": "once I see one thing wrong, I kinda completely lose faith in everything that it suggests."
+},
+{
+"segment_id": "S13",
+"quote": "I tried to not pay attention to what can be, subjective and pay more to... the objective"
+}
+],
+"overall_valence": "negative",
+"confidence": "high",
+"confidence_basis": "Strongly and explicitly stated in multiple segments, with one nuanced counterpoint about limited openness to AI patient analysis."
+}
+],
+"likes": [
+{
+"like_id": "L1",
+"statement": "Guideline-based reports that cite major oncology guidelines felt more trustworthy.",
+"supporting_segments": ["S3", "S9"],
+"representative_quote": "it included NCCN and ESMO guidelines... that was very trustworthy"
+},
+{
+"like_id": "L2",
+"statement": "Bullet-style summaries were preferred for rapid use in clinic.",
+"supporting_segments": ["S5", "S7"],
+"representative_quote": "I really like the format, the bullet-style format"
+},
+{
+"like_id": "L3",
+"statement": "Hyperlinks were valued because they make it easy to verify or read more at the source.",
+"supporting_segments": ["S5", "S9", "S10"],
+"representative_quote": "if I want to read more on the topic, I just click on the hyperlink"
+},
+{
+"like_id": "L4",
+"statement": "Phase-labeled trial summaries with concrete outcomes were useful.",
+"supporting_segments": ["S3", "S9", "S12"],
+"representative_quote": "It told you what phase they were, as well as the... PFS, the OS"
+}
+],
+"dislikes": [
+{
+"dislike_id": "D1",
+"statement": "Reports were often too long for the intended AI use case.",
+"supporting_segments": ["S7", "S8"],
+"representative_quote": "I don't want to read more than a page."
+},
+{
+"dislike_id": "D2",
+"statement": "Irrelevant details such as author names and animal models reduced usefulness.",
+"supporting_segments": ["S4"],
+"representative_quote": "authors... which I don't care about... It's also giving animal models"
+},
+{
+"dislike_id": "D3",
+"statement": "Dense tables and full titles created visual noise and obscured the message.",
+"supporting_segments": ["S6"],
+"representative_quote": "The message can get lost."
+},
+{
+"dislike_id": "D4",
+"statement": "AI subjectivity or incorrect statements quickly eroded trust.",
+"supporting_segments": ["S11", "S13"],
+"representative_quote": "once I see one thing wrong, I kinda completely lose faith"
+}
+],
+"requirements": [
+{
+"req_id": "R1",
+"type": "must_have",
+"requirement": "Reports should begin with a brief, neatly organized bullet-point summary of key recommendations and supporting evidence.",
+"supporting_segments": ["S5", "S9", "S10"],
+"risk_if_ignored": "Clinicians may find the report too slow to scan for between-patient use and stop using it."
+},
+{
+"req_id": "R2",
+"type": "must_have",
+"requirement": "Reports should foreground major guidelines and the highest-level relevant trial evidence, including phase and key outcomes.",
+"supporting_segments": ["S3", "S9"],
+"risk_if_ignored": "The output may feel untrustworthy or insufficiently clinically grounded."
+},
+{
+"req_id": "R3",
+"type": "must_have",
+"requirement": "Every summarized recommendation or evidence item should include hyperlinks to the underlying source.",
+"supporting_segments": ["S5", "S9", "S10"],
+"risk_if_ignored": "Users may be unable to verify claims quickly and may prefer to search manually instead."
+},
+{
+"req_id": "R4",
+"type": "avoid",
+"requirement": "Avoid long narrative reports, overloaded tables, full study titles in-line, and other visually noisy presentation choices.",
+"supporting_segments": ["S6", "S7", "S8"],
+"risk_if_ignored": "The message can get lost, and clinicians may decide it is faster to read the article or abstract themselves."
+},
+{
+"req_id": "R5",
+"type": "avoid",
+"requirement": "Avoid unnecessary subjective interpretation unless it is clearly separable from the objective evidence summary.",
+"supporting_segments": ["S11", "S13"],
+"risk_if_ignored": "A single questionable interpretation may collapse trust in the entire report."
+},
+{
+"req_id": "R6",
+"type": "nice_to_have",
+"requirement": "Optionally show how the AI analyzed the patient, but keep that reasoning distinct so clinicians can judge whether it matches their own framing.",
+"supporting_segments": ["S10"],
+"risk_if_ignored": "Some users who want to compare the model's patient framing to their own may lose a potentially useful calibration aid."
+}
+],
+"workflow_integration": {
+"current_workarounds": [
+"Use Google or Gemini for simple questions outside daily specialty practice.",
+"Use AI as a pointer to trials or references, then go directly to the cited source.",
+"Read the journal article or abstract directly when the AI report is too long."
+],
+"intended_use_cases": [
+"Quick consultation between patients.",
+"Rapid identification of relevant trials, guidelines, and supporting references.",
+"Brief review of recommendation-supporting evidence before deciding how much deeper to read."
+],
+"constraints": [
+"Very limited time during clinic.",
+"Low tolerance for factual error.",
+"Low tolerance for subjective interpretation mixed with objective evidence.",
+"Need for concise presentation that preserves independent clinician judgment."
+],
+"output_format_preferences": [
+"Bullet points.",
+"Top-loaded key summary recommendations.",
+"One page to one and a half pages maximum.",
+"Hyperlinks or numbered links to sources.",
+"Trial phase and key outcomes displayed clearly.",
+"Avoid dense tables and long titles inside cells."
+]
+},
+"trust_and_safety": {
+"trust_drivers": [
+"Visible grounding in NCCN, ESMO, and other named societies.",
+"Objective presentation of trial phase and outcomes.",
+"Direct access to source references via hyperlinks.",
+"Evidence summaries that help the clinician form their own conclusion."
+],
+"trust_erosions": [
+"Any single perceived factual error.",
+"Subjective AI commentary layered onto objective results.",
+"Missing key references.",
+"Overlong or cluttered outputs that feel like 'AI slop'."
+],
+"verification_behaviors": [
+"Go directly to cited references and read them.",
+"Compare the AI's patient framing with one's own thinking when such framing is shown.",
+"Ignore or discount subjective commentary and focus on objective data."
+],
+"medico_legal_or_policy_concerns": []
+},
+"quantified_mentions": {
+"top_codes_by_count": [
+{
+"code": "hyperlinks_support_deeper_review",
+"count": 3
+},
+{
+"code": "prefers_objective_data_over_ai_conclusions",
+"count": 3
+},
+{
+"code": "guideline_anchoring_builds_trust",
+"count": 2
+},
+{
+"code": "wants_trial_phase_and_outcomes",
+"count": 2
+},
+{
+"code": "prefers_one_page_or_less",
+"count": 2
+},
+{
+"code": "report_length_too_long",
+"count": 2
+}
+],
+"notes": "Counts are approximate because the transcript contains two participant speakers in one recording and some ideas span adjacent excerpts. Anonymization replacements may also slightly compress distinct references."
+},
+"analytic_memos": {
+"summary": "The participants describe a narrow, pragmatic role for AI-generated literature reports in oncology workflow. They want the tool to save time, especially in brief gaps between patients, by surfacing the most relevant guidance and trial evidence in a compact, highly readable format. Trust appears to come less from the model's voice and more from visible anchoring in major guidelines, clear trial phase labels, key outcomes, and direct source links. Both participants resist verbosity and describe a strong preference for bullet-point summaries with important content placed immediately at the top. They also distinguish sharply between objective data and AI interpretation, often preferring the former and treating the latter with caution. One participant is open to seeing how the AI analyzed the patient, but even that is used mainly to gauge whether the model is thinking along the same lines as the clinician. Across the transcript, the central design problem is how to provide enough evidence to support judgment without adding clutter, subjectivity, or trust-damaging mistakes.",
+"tensions_or_tradeoffs": [
+"Concise summary versus enough evidence detail to support trust.",
+"Objective data display versus AI-added interpretation.",
+"Fast between-patient usability versus inclusion of broader background material.",
+"Providing AI reasoning for calibration versus risking subjective overreach."
+],
+"open_questions_for_next_interview": [
+"When, if ever, does patient-specific AI interpretation become more helpful than risky for clinical decision support?",
+"What is the minimum evidence package needed for a report to feel trustworthy without becoming too long?",
+"Would users prefer a collapsible design that separates guideline summary, trial evidence, and AI interpretation?",
+"How should the system handle lower-level or conflicting evidence when no clear guideline recommendation exists?"
+]
+}
+}

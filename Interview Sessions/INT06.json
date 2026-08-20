@@ -1,0 +1,738 @@
+{
+"transcript_id": "TX001",
+"interview_context": {
+"participant_role": "oncologist",
+"setting_or_workflow_context": "Busy oncology clinic workflow focused on radiation oncology decision-making, patient preparation, note preparation, and complex cases that do not fit guidelines neatly.",
+"tools_mentioned_by_participant": ["ChatGPT", "open evidence", "EMR", "Therapencia"]
+},
+"segments": [
+{
+"segment_id": "S1",
+"timestamp_start": "00:00:19.270",
+"timestamp_end": "00:00:31.890",
+"speaker": "participant",
+"verbatim_excerpt": "Because if you're in a busy clinic, you don't have time to be reading, like, copies of information, one page max. So it's bite-sized, easy to digest, and then we keep going.",
+"codes": ["needs_one_page_output", "needs_bite_sized_summary", "clinic_time_pressure"],
+"valence": "negative",
+"object_of_evaluation": "length",
+"rationale": "The participant explicitly says long reports do not fit a busy clinic and sets a concrete preference of one page maximum. The excerpt emphasizes digestibility and speed."
+},
+{
+"segment_id": "S2",
+"timestamp_start": "00:00:37.840",
+"timestamp_end": "00:00:44.600",
+"speaker": "participant",
+"verbatim_excerpt": "The yellow, part on the prostate cancer one. That one seemed like it'd be okay.",
+"codes": ["acceptable_short_report", "conditional_report_acceptance"],
+"valence": "positive",
+"object_of_evaluation": "workflow fit",
+"rationale": "The participant identifies one report as acceptable, suggesting at least one format was close to usable. The approval is brief and conditional rather than enthusiastic."
+},
+{
+"segment_id": "S3",
+"timestamp_start": "00:00:59.310",
+"timestamp_end": "00:01:38.189",
+"speaker": "participant",
+"verbatim_excerpt": "I think, because there was one that had, for the breast cancer, it was, like, table format. But then when I went to the prostate cancer, that same report in table format, I didn't like, because I was like, there are no specific outcomes.",
+"codes": ["table_format_depends_on_content", "needs_specific_outcomes", "wants_quantitative_results"],
+"valence": "mixed",
+"object_of_evaluation": "tables and evidence display",
+"rationale": "The participant does not reject tables outright; the issue is whether the table includes useful outcomes. This shows format alone is insufficient without quantitative content."
+},
+{
+"segment_id": "S4",
+"timestamp_start": "00:01:25.130",
+"timestamp_end": "00:01:38.189",
+"speaker": "participant",
+"verbatim_excerpt": "If I am asking AI to help me with my clinical decision making, I want to know the outcomes, the study, like, the percentages, like, PFS benefit, was it 30%, was it, you know.",
+"codes": ["ai_for_clinical_decision_support", "wants_quantitative_results", "needs_study_level_detail"],
+"valence": "neutral",
+"object_of_evaluation": "outcomes and study detail",
+"rationale": "The participant clearly defines what decision-support output should contain: outcomes, study information, and percentages. The statement is framed as a requirement rather than praise or criticism."
+},
+{
+"segment_id": "S5",
+"timestamp_start": "00:02:40.140",
+"timestamp_end": "00:03:09.859",
+"speaker": "participant",
+"verbatim_excerpt": "On that one pager, I would want to see, like, the synthesis of the latest, data, also with including the outcomes in there, that, okay, overall, this is the data is showing, like, from these major studies, that there's, like, a 30% PFS benefit.",
+"codes": ["needs_one_page_output", "needs_latest_data_synthesis", "wants_quantitative_results", "wants_patient_specific_guidance"],
+"valence": "positive",
+"object_of_evaluation": "summary structure and evidence synthesis",
+"rationale": "The participant describes an ideal report structure: one page, latest data, major studies, and concrete benefits. This is a constructive positive description of desired output."
+},
+{
+"segment_id": "S6",
+"timestamp_start": "00:03:21.300",
+"timestamp_end": "00:03:53.709",
+"speaker": "participant",
+"verbatim_excerpt": "There wasn't any that I really disliked. Well, the, for, the prostate cancer, table one, it didn't really have… it just, like, had, like, just a summary at the top, and then the table. It was just, like, what am I doing with this table?",
+"codes": ["unclear_table_utility", "summary_without_actionability", "conditional_report_acceptance"],
+"valence": "negative",
+"object_of_evaluation": "tables and actionability",
+"rationale": "The participant's criticism is not about table format itself but about lack of usefulness. The phrase 'what am I doing with this table?' signals low actionability."
+},
+{
+"segment_id": "S7",
+"timestamp_start": "00:03:53.709",
+"timestamp_end": "00:04:07.520",
+"speaker": "participant",
+"verbatim_excerpt": "It was almost like a summary of the clinical practice guidelines, which can be helpful in certain contexts, but not when, like, I'm asking a specific question to inquire about, you know, what does the data say about this specific clinical scenario.",
+"codes": ["guideline_summary_not_enough", "needs_scenario_specific_answer", "context_dependent_usefulness"],
+"valence": "mixed",
+"object_of_evaluation": "guideline content and specificity",
+"rationale": "The participant allows that guideline summaries can help in some contexts but says they fail when the task is a specific clinical question. The tension is between general guidance and scenario-specific evidence."
+},
+{
+"segment_id": "S8",
+"timestamp_start": "00:04:08.310",
+"timestamp_end": "00:04:48.500",
+"speaker": "participant",
+"verbatim_excerpt": "Typically, it's the more complex patients that… the patients that come in and they don't read the textbook, right? The clinical scenario is just… Like, it doesn't follow any specific consensus guideline, per se.",
+"codes": ["used_for_complex_cases", "patients_do_not_fit_guidelines", "exception_case_use"],
+"valence": "neutral",
+"object_of_evaluation": "workflow fit",
+"rationale": "The participant describes when they reach for AI tools: complex cases that do not match textbook or guideline pathways. This is a use-case description rather than an evaluation of quality."
+},
+{
+"segment_id": "S9",
+"timestamp_start": "00:04:42.330",
+"timestamp_end": "00:05:12.099",
+"speaker": "participant",
+"verbatim_excerpt": "those patients don't neatly fit into inclusion criterias of study, so you're having to extrapolate from one study to the other... if I'm going to implement a specific study in my practice, what… does this specific patient meet the inclusion criteria of that study?",
+"codes": ["needs_inclusion_criteria_match", "cross_study_extrapolation", "patient_trial_fit_matters"],
+"valence": "neutral",
+"object_of_evaluation": "study applicability",
+"rationale": "The participant emphasizes trial inclusion criteria and the need to judge whether a patient matches study populations. The excerpt directly links evidence use to patient-specific applicability."
+},
+{
+"segment_id": "S10",
+"timestamp_start": "00:05:42.640",
+"timestamp_end": "00:06:28.080",
+"speaker": "participant",
+"verbatim_excerpt": "you kind of build your own database of clinical information, so even sometimes with open evidence, you use it and it says something, and you're like, that's incorrect.",
+"codes": ["clinician_internal_knowledge_base", "tool_can_be_incorrect", "trust_requires_clinician_judgment"],
+"valence": "negative",
+"object_of_evaluation": "trust and accuracy",
+"rationale": "The participant says existing tools can produce incorrect information and contrasts that with accumulated clinician knowledge. This shows skepticism and active oversight."
+},
+{
+"segment_id": "S11",
+"timestamp_start": "00:06:13.309",
+"timestamp_end": "00:06:28.080",
+"speaker": "participant",
+"verbatim_excerpt": "sometimes with these AI tools, they help with when, like, you go to [SERVICE] and everybody's like, well… I mean, you could or you couldn't... so in that scenario where it doesn't fit into a box, really.",
+"codes": ["helps_when_team_is_uncertain", "used_for_ambiguous_cases", "exception_case_use"],
+"valence": "positive",
+"object_of_evaluation": "workflow fit",
+"rationale": "The participant sees AI as useful when the team is uncertain and the case resists standard categorization. The quote was anonymized by replacing a potentially identifying program name."
+},
+{
+"segment_id": "S12",
+"timestamp_start": "00:07:05.730",
+"timestamp_end": "00:08:21.280",
+"speaker": "participant",
+"verbatim_excerpt": "it's about having that tool do the deep search, right?... I spent a considerable amount of time in my patient. I want to know what the name of their dog is... going through the EMR, you get to find a lot about their social history that can help you.",
+"codes": ["wants_deep_search_support", "values_patient_context", "uses_emr_for_social_history", "time_intensive_preparation"],
+"valence": "mixed",
+"object_of_evaluation": "workflow integration",
+"rationale": "The participant wants AI to handle deep search but also values rich personal context from chart review. This shows both a need for efficiency and a commitment to individualized care."
+},
+{
+"segment_id": "S13",
+"timestamp_start": "00:08:21.280",
+"timestamp_end": "00:09:04.300",
+"speaker": "participant",
+"verbatim_excerpt": "some people use, Therapencia and all of these AI... so that the normal tissues are already done for you, but it's not all right... we just edit, and I don't think it's fed back into, you know, the program, for the program to learn.",
+"codes": ["partial_automation_is_incomplete", "needs_learning_feedback_loop", "human_editing_still_required"],
+"valence": "mixed",
+"object_of_evaluation": "AI tooling and learning behavior",
+"rationale": "The participant acknowledges helpful automation but says it remains imperfect and may not learn from edits. The critique centers on limited adaptation and continued manual correction."
+},
+{
+"segment_id": "S14",
+"timestamp_start": "00:09:24.750",
+"timestamp_end": "00:10:10.069",
+"speaker": "participant",
+"verbatim_excerpt": "medical decision-making, number one, and, you know, being able to free up that time for the patient, right? If I can cut out all the fluff and spend more time with my patients, that's what I would want.",
+"codes": ["medical_decision_making_priority", "cut_fluff_to_save_time", "reallocate_time_to_patient"],
+"valence": "positive",
+"object_of_evaluation": "workflow fit and efficiency",
+"rationale": "The participant clearly states the top priority is decision support that frees time for patient care. The desired benefit is more meaningful patient interaction."
+},
+{
+"segment_id": "S15",
+"timestamp_start": "00:10:10.070",
+"timestamp_end": "00:10:32.470",
+"speaker": "participant",
+"verbatim_excerpt": "the research can get kicked out to the AI, and I could be able to, you know, better understand their goals of care, because that's important, because two patients can have the same disease, they won't choose the same treatment.",
+"codes": ["delegate_research_to_ai", "protect_goals_of_care_conversation", "individualized_treatment_choices"],
+"valence": "positive",
+"object_of_evaluation": "workflow fit and shared decision-making",
+"rationale": "The participant wants AI to offload research so clinician time can focus on goals of care. The excerpt ties workflow support directly to individualized advocacy."
+},
+{
+"segment_id": "S16",
+"timestamp_start": "00:10:19.760",
+"timestamp_end": "00:10:48.999",
+"speaker": "participant",
+"verbatim_excerpt": "I definitely see an avenue there, but I haven't quite used it yet. Typically, I'm just using ChatGPT to, like, I mean, typically refine my note, or polish my note down.",
+"codes": ["limited_current_ai_use", "uses_chatgpt_for_note_polish", "future_shared_decision_support_possible"],
+"valence": "mixed",
+"object_of_evaluation": "current use patterns",
+"rationale": "The participant distinguishes current modest use from future possible use. Presently, ChatGPT is used for note refinement rather than deeper decision support."
+},
+{
+"segment_id": "S17",
+"timestamp_start": "00:11:29.540",
+"timestamp_end": "00:12:05.969",
+"speaker": "participant",
+"verbatim_excerpt": "in my perfect world, right, if I'm prepping a patient, having the AI, like, dig through the EMR, right, give me a summary... maybe that's great, but did you consider there's a latest study that just came out, right?",
+"codes": ["ideal_emr_summarization", "wants_latest_study_alerts", "ai_as_safety_net"],
+"valence": "positive",
+"object_of_evaluation": "EMR integration and freshness",
+"rationale": "The participant describes a preferred integrated workflow: EMR summarization plus proactive surfacing of newly relevant evidence. This is framed as an aspirational product design."
+},
+{
+"segment_id": "S18",
+"timestamp_start": "00:13:05.680",
+"timestamp_end": "00:13:24.389",
+"speaker": "participant",
+"verbatim_excerpt": "I'm barely 5 minutes outside residency, and some of my best practices are no longer relevant. Like, I'm having to… memorize all new paradigms, so, yeah.",
+"codes": ["rapidly_changing_practice", "keeping_up_is_hard", "fresh_data_needed"],
+"valence": "negative",
+"object_of_evaluation": "freshness of medical knowledge",
+"rationale": "The participant highlights how quickly practice changes and how burdensome it is to keep up. The statement reinforces need for up-to-date evidence support."
+},
+{
+"segment_id": "S19",
+"timestamp_start": "00:13:36.310",
+"timestamp_end": "00:14:23.400",
+"speaker": "participant",
+"verbatim_excerpt": "keeping up with the latest data, right? Practice changing. Data that we need to be aware of, you know, and specifically applying it to specific clinical scenarios... Or even, like, the more esoteric things that we don't see all the time in the clinic.",
+"codes": ["needs_latest_data_synthesis", "needs_scenario_specific_answer", "support_for_rare_or_esoteric_cases"],
+"valence": "positive",
+"object_of_evaluation": "freshness and clinical applicability",
+"rationale": "The participant repeats that the most helpful product function would be current, practice-changing data applied to specific scenarios, including rare cases. This is one of the strongest recurring priorities."
+}
+],
+"codebook": [
+{
+"code": "needs_one_page_output",
+"definition": "The participant wants the report constrained to a very short format, ideally one page, so it fits clinic workflow.",
+"inclusion_criteria": ["Mentions one page max", "Emphasizes short report length as a requirement"],
+"exclusion_criteria": ["General praise of readability without length limit", "Comments about tables alone"],
+"example_segment_ids": ["S1", "S5"]
+},
+{
+"code": "needs_bite_sized_summary",
+"definition": "The participant wants information to be easy to digest quickly rather than dense or repetitive.",
+"inclusion_criteria": ["Uses phrases like bite-sized or easy to digest", "Focuses on fast comprehension"],
+"exclusion_criteria": ["Requests for more detail or more data", "Comments only about accuracy"],
+"example_segment_ids": ["S1"]
+},
+{
+"code": "clinic_time_pressure",
+"definition": "The participant frames report use within the realities of a busy clinic and limited reading time.",
+"inclusion_criteria": ["Mentions busy clinic", "Describes time limits during care"],
+"exclusion_criteria": ["General efficiency comments without clinic context"],
+"example_segment_ids": ["S1"]
+},
+{
+"code": "acceptable_short_report",
+"definition": "A report is acceptable when it is sufficiently concise for real use.",
+"inclusion_criteria": ["Identifies a report as okay because it seems short enough"],
+"exclusion_criteria": ["Generic positive comments not tied to usability"],
+"example_segment_ids": ["S2"]
+},
+{
+"code": "table_format_depends_on_content",
+"definition": "The participant's view of tables changes depending on whether the table contains useful outcomes and details.",
+"inclusion_criteria": ["Compares two tables differently", "Says one table worked and another did not"],
+"exclusion_criteria": ["Blanket rejection of all tables", "Praise of outcomes without reference to format"],
+"example_segment_ids": ["S3"]
+},
+{
+"code": "needs_specific_outcomes",
+"definition": "The participant wants concrete outcomes rather than generic summaries.",
+"inclusion_criteria": ["Requests specific outcomes", "Says a report lacked outcomes"],
+"exclusion_criteria": ["General request for more evidence without outcomes"],
+"example_segment_ids": ["S3", "S4"]
+},
+{
+"code": "wants_quantitative_results",
+"definition": "The participant wants percentages or measurable benefit estimates in the output.",
+"inclusion_criteria": ["Mentions percentages", "Requests PFS or OS benefit numbers"],
+"exclusion_criteria": ["Asks for qualitative synthesis only"],
+"example_segment_ids": ["S4", "S5"]
+},
+{
+"code": "needs_study_level_detail",
+"definition": "The participant wants reports to state what study the evidence comes from, not just give a conclusion.",
+"inclusion_criteria": ["Requests the study plus outcomes", "Emphasizes study-level source detail"],
+"exclusion_criteria": ["Generic citation requests without mention of studies"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "needs_latest_data_synthesis",
+"definition": "The participant wants the newest evidence synthesized, especially practice-changing data.",
+"inclusion_criteria": ["Mentions latest data", "Wants recent studies surfaced or synthesized"],
+"exclusion_criteria": ["Requests background information without recency"],
+"example_segment_ids": ["S5", "S19"]
+},
+{
+"code": "wants_patient_specific_guidance",
+"definition": "The participant wants evidence summarized in a way that directly guides management for the patient in front of them.",
+"inclusion_criteria": ["Asks what to consider for this patient", "Requests counseling relevance"],
+"exclusion_criteria": ["General guideline summaries"],
+"example_segment_ids": ["S5"]
+},
+{
+"code": "unclear_table_utility",
+"definition": "The participant perceives a table as not useful because it does not show what to do with the information.",
+"inclusion_criteria": ["Questions what to do with a table", "Says table is not useful"],
+"exclusion_criteria": ["Critiques about table aesthetics only"],
+"example_segment_ids": ["S6"]
+},
+{
+"code": "summary_without_actionability",
+"definition": "The participant sees top-line summary content as insufficient when it does not support action.",
+"inclusion_criteria": ["Says summary is present but not helpful", "Contrasts summary with actionable answer"],
+"exclusion_criteria": ["Simple comments on brevity"],
+"example_segment_ids": ["S6"]
+},
+{
+"code": "guideline_summary_not_enough",
+"definition": "A guideline-like summary may be useful sometimes but does not answer the participant's specific question in difficult cases.",
+"inclusion_criteria": ["Says it felt like guidelines only", "Explains why guideline summary is insufficient"],
+"exclusion_criteria": ["General dislike of guidelines"],
+"example_segment_ids": ["S7"]
+},
+{
+"code": "needs_scenario_specific_answer",
+"definition": "The participant wants answers tailored to a particular clinical scenario rather than generic disease-level information.",
+"inclusion_criteria": ["Mentions specific clinical scenario", "Asks what the data say for this exact case"],
+"exclusion_criteria": ["General educational use"],
+"example_segment_ids": ["S7", "S19"]
+},
+{
+"code": "used_for_complex_cases",
+"definition": "The participant reaches for AI mainly when cases are complex or atypical.",
+"inclusion_criteria": ["Says use is typically for more complex patients", "Describes non-textbook cases"],
+"exclusion_criteria": ["Routine everyday use without complexity"],
+"example_segment_ids": ["S8"]
+},
+{
+"code": "patients_do_not_fit_guidelines",
+"definition": "The participant describes patients whose situations do not align neatly with consensus guidance.",
+"inclusion_criteria": ["States cases do not follow guidelines", "Describes mismatch with consensus recommendations"],
+"exclusion_criteria": ["Mentions guideline updates without patient mismatch"],
+"example_segment_ids": ["S8"]
+},
+{
+"code": "needs_inclusion_criteria_match",
+"definition": "The participant wants to know whether a specific patient fits the population studied in a trial.",
+"inclusion_criteria": ["Mentions inclusion criteria", "Asks whether patient meets study criteria"],
+"exclusion_criteria": ["General desire for citations"],
+"example_segment_ids": ["S9"]
+},
+{
+"code": "cross_study_extrapolation",
+"definition": "The participant uses or wants AI in settings where evidence must be pieced together across studies because no trial cleanly fits.",
+"inclusion_criteria": ["Mentions extrapolating from one study to another"],
+"exclusion_criteria": ["Using one directly applicable study"],
+"example_segment_ids": ["S9"]
+},
+{
+"code": "tool_can_be_incorrect",
+"definition": "The participant has seen AI tools produce statements they judge to be wrong.",
+"inclusion_criteria": ["Says a tool says something incorrect", "Describes error detection by clinician"],
+"exclusion_criteria": ["General caution without example of incorrectness"],
+"example_segment_ids": ["S10"]
+},
+{
+"code": "trust_requires_clinician_judgment",
+"definition": "The participant treats AI output as something that must be evaluated against personal clinical knowledge.",
+"inclusion_criteria": ["Contrasts tool output with own judgment", "Implies clinician must arbitrate correctness"],
+"exclusion_criteria": ["Simple liking of AI support"],
+"example_segment_ids": ["S10"]
+},
+{
+"code": "wants_deep_search_support",
+"definition": "The participant wants AI to perform deep chart or literature search work that currently consumes time.",
+"inclusion_criteria": ["Mentions deep search", "Wants AI to dig through EMR or literature"],
+"exclusion_criteria": ["Minor note polishing only"],
+"example_segment_ids": ["S12", "S17"]
+},
+{
+"code": "values_patient_context",
+"definition": "The participant values knowing personal and social context about the patient and does not want efficiency to erase that.",
+"inclusion_criteria": ["Mentions wanting to know personal details", "Highlights social history as clinically useful"],
+"exclusion_criteria": ["Generic patient-centered language without specific context"],
+"example_segment_ids": ["S12"]
+},
+{
+"code": "partial_automation_is_incomplete",
+"definition": "Existing AI automation helps somewhat but still requires substantial manual correction.",
+"inclusion_criteria": ["Says tool gets partway there", "Mentions outputs are not all right"],
+"exclusion_criteria": ["Fully manual process with no automation"],
+"example_segment_ids": ["S13"]
+},
+{
+"code": "needs_learning_feedback_loop",
+"definition": "The participant wants tools to improve from user edits rather than remain static.",
+"inclusion_criteria": ["Says edits do not feed back into the system", "Mentions tool is not learning"],
+"exclusion_criteria": ["General accuracy complaints without reference to learning"],
+"example_segment_ids": ["S13"]
+},
+{
+"code": "medical_decision_making_priority",
+"definition": "The participant places clinical decision-making support above other possible AI uses.",
+"inclusion_criteria": ["Calls medical decision-making number one", "Prioritizes decision support"],
+"exclusion_criteria": ["Note writing or documentation support only"],
+"example_segment_ids": ["S14"]
+},
+{
+"code": "reallocate_time_to_patient",
+"definition": "The participant wants time saved by AI to be redirected toward talking with and understanding patients.",
+"inclusion_criteria": ["Wants more time with patients", "Links AI efficiency to patient interaction"],
+"exclusion_criteria": ["Efficiency for its own sake"],
+"example_segment_ids": ["S14", "S15"]
+},
+{
+"code": "delegate_research_to_ai",
+"definition": "The participant wants the research burden handled by AI while the clinician focuses on care conversations.",
+"inclusion_criteria": ["Says research can get kicked out to AI", "Frames AI as doing literature work"],
+"exclusion_criteria": ["Using AI only for note cleanup"],
+"example_segment_ids": ["S15"]
+},
+{
+"code": "uses_chatgpt_for_note_polish",
+"definition": "The participant currently uses ChatGPT in a limited way to refine or polish notes.",
+"inclusion_criteria": ["Mentions refining notes with ChatGPT", "Describes rudimentary current use"],
+"exclusion_criteria": ["Using ChatGPT for full decision support"],
+"example_segment_ids": ["S16"]
+},
+{
+"code": "ideal_emr_summarization",
+"definition": "The participant wants AI integrated into chart review to summarize relevant patient information before the visit.",
+"inclusion_criteria": ["Mentions AI digging through EMR", "Wants prep summary for a patient"],
+"exclusion_criteria": ["Standalone report generation with no EMR context"],
+"example_segment_ids": ["S17"]
+},
+{
+"code": "wants_latest_study_alerts",
+"definition": "The participant wants AI to proactively surface newly published studies relevant to the treatment plan.",
+"inclusion_criteria": ["Mentions latest study that just came out", "Desires proactive evidence alerting"],
+"exclusion_criteria": ["Static summaries of old evidence"],
+"example_segment_ids": ["S17"]
+},
+{
+"code": "rapidly_changing_practice",
+"definition": "The participant experiences oncology knowledge as changing so quickly that prior best practices become outdated fast.",
+"inclusion_criteria": ["Says best practices are no longer relevant", "Describes constant paradigm change"],
+"exclusion_criteria": ["General comments about staying current"],
+"example_segment_ids": ["S18"]
+},
+{
+"code": "support_for_rare_or_esoteric_cases",
+"definition": "The participant especially wants help for unusual problems not commonly seen in clinic.",
+"inclusion_criteria": ["Mentions esoteric things not seen all the time", "Requests support for rare scenarios"],
+"exclusion_criteria": ["General complex-case comments without rarity"],
+"example_segment_ids": ["S19"]
+}
+],
+"themes": [
+{
+"theme_id": "T1",
+"theme_name": "One-page, outcome-rich answers for real clinic use",
+"theme_definition": "The participant repeatedly evaluates reports through the lens of a busy clinic. They want something short enough to read quickly, but still dense with decision-relevant content such as outcomes, percentages, and major-study takeaways. Brevity alone is not enough; the report has to remain clinically useful.",
+"supporting_segments": ["S1", "S3", "S4", "S5", "S6"],
+"representative_quotes": [
+{
+"segment_id": "S1",
+"quote": "one page max. So it's bite-sized, easy to digest"
+},
+{
+"segment_id": "S4",
+"quote": "I want to know the outcomes, the study, like, the percentages"
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Repeated across multiple early segments with concrete examples and explicit requirements."
+},
+{
+"theme_id": "T2",
+"theme_name": "Useful for the patients who do not read the textbook",
+"theme_definition": "The participant sees the strongest value of AI in complex cases that do not fit consensus guidance or trial inclusion criteria neatly. In those cases, they want help finding relevant evidence, comparing across studies, and deciding how closely a patient resembles the study populations. The tool is less about routine cases and more about exceptions.",
+"supporting_segments": ["S7", "S8", "S9", "S11", "S19"],
+"representative_quotes": [
+{
+"segment_id": "S8",
+"quote": "Typically, it's the more complex patients that… they don't read the textbook"
+},
+{
+"segment_id": "S9",
+"quote": "does this specific patient meet the inclusion criteria of that study?"
+}
+],
+"overall_valence": "positive",
+"confidence": "high",
+"confidence_basis": "This use case is described clearly in several separate parts of the interview."
+},
+{
+"theme_id": "T3",
+"theme_name": "AI should handle the research so I can focus on the patient",
+"theme_definition": "The participant wants AI to absorb the burden of searching charts and literature, freeing clinician attention for human parts of care. They explicitly connect time savings to understanding goals of care, social context, and patient preferences. Efficiency matters because it enables more patient-centered work, not because speed is inherently desirable.",
+"supporting_segments": ["S12", "S14", "S15", "S17"],
+"representative_quotes": [
+{
+"segment_id": "S14",
+"quote": "If I can cut out all the fluff and spend more time with my patients"
+},
+{
+"segment_id": "S15",
+"quote": "the research can get kicked out to the AI"
+}
+],
+"overall_valence": "positive",
+"confidence": "high",
+"confidence_basis": "The participant states this directly and elaborates on why the saved time matters."
+},
+{
+"theme_id": "T4",
+"theme_name": "Trust depends on freshness, correctness, and relevance",
+"theme_definition": "The participant wants AI that keeps up with practice-changing evidence and applies it to the current case, but they also describe existing tools as sometimes wrong. Their trust is conditional: AI should act as a helpful safety net, yet clinician judgment remains necessary. Freshness is especially important because the field changes quickly.",
+"supporting_segments": ["S10", "S17", "S18", "S19"],
+"representative_quotes": [
+{
+"segment_id": "S10",
+"quote": "sometimes with open evidence, you use it and it says something, and you're like, that's incorrect"
+},
+{
+"segment_id": "S19",
+"quote": "keeping up with the latest data, right? Practice changing"
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Trust, accuracy, and freshness recur explicitly and are tied to current tool limitations and desired future design."
+}
+],
+"likes": [
+{
+"like_id": "L1",
+"statement": "A shorter report format felt potentially usable in clinic.",
+"supporting_segments": ["S2"],
+"representative_quote": "That one seemed like it'd be okay."
+},
+{
+"like_id": "L2",
+"statement": "A one-page synthesis with latest data and outcomes from major studies would be valuable.",
+"supporting_segments": ["S5"],
+"representative_quote": "On that one pager, I would want to see... the synthesis of the latest, data"
+},
+{
+"like_id": "L3",
+"statement": "AI is appealing for complex cases that do not fit standard boxes.",
+"supporting_segments": ["S8", "S11"],
+"representative_quote": "it doesn't fit into a box, really"
+},
+{
+"like_id": "L4",
+"statement": "AI could help by offloading research and freeing time for patient care and goals-of-care discussions.",
+"supporting_segments": ["S14", "S15"],
+"representative_quote": "the research can get kicked out to the AI"
+},
+{
+"like_id": "L5",
+"statement": "An integrated tool that summarizes the EMR and flags newly relevant studies would fit the participant's ideal workflow.",
+"supporting_segments": ["S17"],
+"representative_quote": "having the AI, like, dig through the EMR, right, give me a summary"
+}
+],
+"dislikes": [
+{
+"dislike_id": "D1",
+"statement": "Reports were generally too long for busy clinic use.",
+"supporting_segments": ["S1"],
+"representative_quote": "you don't have time to be reading, like, copies of information"
+},
+{
+"dislike_id": "D2",
+"statement": "Table outputs without specific outcomes or clear use were not helpful.",
+"supporting_segments": ["S3", "S6"],
+"representative_quote": "what am I doing with this table?"
+},
+{
+"dislike_id": "D3",
+"statement": "Guideline-style summaries were insufficient when asking a specific clinical question.",
+"supporting_segments": ["S7"],
+"representative_quote": "not when... I'm asking a specific question"
+},
+{
+"dislike_id": "D4",
+"statement": "Existing AI tools can sometimes produce information the participant considers incorrect.",
+"supporting_segments": ["S10"],
+"representative_quote": "it says something, and you're like, that's incorrect"
+},
+{
+"dislike_id": "D5",
+"statement": "Some current AI-assisted tools require editing but do not seem to learn from those edits.",
+"supporting_segments": ["S13"],
+"representative_quote": "I don't think it's fed back into... the program, for the program to learn"
+}
+],
+"requirements": [
+{
+"req_id": "R1",
+"type": "must_have",
+"requirement": "The report should fit on one page and be easy to digest quickly in clinic.",
+"supporting_segments": ["S1", "S5"],
+"risk_if_ignored": "The output will be too burdensome to read during clinic and may not be used."
+},
+{
+"req_id": "R2",
+"type": "must_have",
+"requirement": "The output should include specific outcomes, study details, and quantitative benefit estimates rather than generic summaries.",
+"supporting_segments": ["S3", "S4", "S5"],
+"risk_if_ignored": "The participant will not trust the report for clinical decision-making."
+},
+{
+"req_id": "R3",
+"type": "avoid",
+"requirement": "Avoid table formats that summarize guidelines without showing why the information matters for the exact case.",
+"supporting_segments": ["S6", "S7"],
+"risk_if_ignored": "The report may feel non-actionable and disconnected from the clinician's question."
+},
+{
+"req_id": "R4",
+"type": "must_have",
+"requirement": "The system should help determine whether the patient matches study inclusion criteria and where extrapolation is required.",
+"supporting_segments": ["S8", "S9"],
+"risk_if_ignored": "Evidence may be applied to the wrong patient context or remain too generic to support care."
+},
+{
+"req_id": "R5",
+"type": "must_have",
+"requirement": "The system should stay current with practice-changing studies and proactively surface newly relevant evidence.",
+"supporting_segments": ["S17", "S18", "S19"],
+"risk_if_ignored": "Recommendations may become outdated quickly in a fast-moving field."
+},
+{
+"req_id": "R6",
+"type": "nice_to_have",
+"requirement": "The tool should integrate with the EMR to summarize the patient chart and support visit preparation.",
+"supporting_segments": ["S12", "S17"],
+"risk_if_ignored": "The clinician will continue spending substantial manual time piecing together context before visits."
+},
+{
+"req_id": "R7",
+"type": "avoid",
+"requirement": "Avoid workflows where clinicians must repeatedly correct outputs without the tool improving from those corrections.",
+"supporting_segments": ["S13"],
+"risk_if_ignored": "Users may see the system as inefficient and static rather than adaptive."
+}
+],
+"workflow_integration": {
+"current_workarounds": [
+"Uses personal accumulated clinical knowledge as an internal reference point.",
+"Uses open evidence selectively but checks it against their own judgment.",
+"Uses ChatGPT mainly to refine or polish notes.",
+"Reviews the EMR manually to learn social history and patient context.",
+"Manually edits partially automated outputs from other AI-assisted tools."
+],
+"intended_use_cases": [
+"Support clinical decision-making for complex or atypical cases.",
+"Search literature for scenarios that do not fit guidelines neatly.",
+"Assess whether a patient's characteristics match study inclusion criteria.",
+"Summarize the EMR before patient preparation.",
+"Surface newly published, practice-changing evidence relevant to a treatment plan.",
+"Potential future support for shared decision-making."
+],
+"constraints": [
+"Busy clinic with little time to read long outputs.",
+"Need to preserve time for patient interaction and goals-of-care discussions.",
+"Need for trustworthy, correct, and current evidence.",
+"Complex cases often require extrapolation across studies.",
+"The participant values social history and nuanced patient context."
+],
+"output_format_preferences": [
+"One-page maximum",
+"Bite-sized and easy to digest",
+"Include latest data synthesis",
+"Include outcomes and percentages such as PFS or OS benefit",
+"Show major studies",
+"Apply evidence to the exact clinical scenario",
+"Avoid tables that lack specific outcomes or actionability"
+]
+},
+"trust_and_safety": {
+"trust_drivers": [
+"Concrete outcomes and percentages",
+"Clear study-level detail",
+"Fresh, practice-changing evidence",
+"Evidence tied to the patient's specific scenario",
+"Assessment of whether the patient fits study inclusion criteria"
+],
+"trust_erosions": [
+"Reports that are too long to use",
+"Tables without clear purpose",
+"Guideline-like summaries that do not answer the specific question",
+"AI outputs the clinician believes are incorrect",
+"Tools that do not appear to learn from user corrections"
+],
+"verification_behaviors": [
+"Checks AI output against personal clinical knowledge.",
+"Looks for whether the patient matches the inclusion criteria of the cited study.",
+"Uses their own understanding to judge when tool output seems incorrect."
+],
+"medico_legal_or_policy_concerns": []
+},
+"quantified_mentions": {
+"top_codes_by_count": [
+{
+"code": "needs_latest_data_synthesis",
+"count": 3
+},
+{
+"code": "needs_scenario_specific_answer",
+"count": 2
+},
+{
+"code": "wants_quantitative_results",
+"count": 2
+},
+{
+"code": "needs_one_page_output",
+"count": 2
+},
+{
+"code": "reallocate_time_to_patient",
+"count": 2
+},
+{
+"code": "used_for_complex_cases",
+"count": 2
+}
+],
+"notes": "Counts are approximate because segments sometimes contain overlapping ideas, and the transcript format is conversational with some fragmented utterances."
+},
+"analytic_memos": {
+"summary": "The participant evaluates AI reports primarily through workflow utility in a busy clinic. They want short, one-page outputs, but not at the expense of clinically meaningful details such as outcomes, study information, and percentages. Their strongest use case for AI is complex oncology cases that do not fit standard guidelines or trial populations neatly. They also want help mapping a patient's characteristics to study inclusion criteria and extrapolating across studies when direct evidence is lacking. The participant sees AI as most valuable when it can take over research and chart-summarization work, allowing more time for patient-facing conversations and understanding goals of care. At the same time, trust is conditional because current tools can be incorrect, and some existing automation still requires substantial editing without clear learning from those edits. Freshness is central: the participant repeatedly emphasizes the need to keep up with rapidly changing, practice-changing evidence and to apply that evidence to the exact clinical scenario.",
+"tensions_or_tradeoffs": [
+"The participant wants shorter outputs, but also wants study-level detail and quantitative outcomes.",
+"They want AI to increase efficiency, but not in a way that reduces attention to patient social context and goals of care.",
+"They see strong promise in AI for decision support, but current trust is limited because tools can be wrong.",
+"They appreciate automation that gets partway there, but want systems that improve from clinician edits rather than staying static."
+],
+"open_questions_for_next_interview": [
+"When a report includes outcomes and percentages, what is the minimum detail needed to feel decision-ready without becoming too long?",
+"What is the best way to show patient-to-trial fit, especially inclusion criteria, in a concise report?",
+"How should a tool distinguish between a guideline summary and a truly scenario-specific recommendation?",
+"What kinds of proactive alerts about new studies would feel helpful rather than distracting?",
+"What would make the participant trust that corrections they make are actually improving the system over time?"
+]
+}
+}

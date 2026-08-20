@@ -1,0 +1,575 @@
+{
+"transcript_id": "TX001",
+"interview_context": {
+"participant_role": "unknown",
+"setting_or_workflow_context": "oncology clinical decision-making and literature-review workflow",
+"tools_mentioned_by_participant": ["OpenEvidence", "ChatGPT", "Claude", "NCCN", "ASCO"]
+},
+"segments": [
+{
+"segment_id": "S1",
+"timestamp_start": "00:00:29.080",
+"timestamp_end": "00:00:37.429",
+"speaker": "participant",
+"verbatim_excerpt": "I like the reports that were more data, like, driven, less… not the ones that didn't really discuss the different trials.",
+"codes": ["prefers_data_driven_reports", "wants_trial_discussion"],
+"valence": "positive",
+"object_of_evaluation": "trial evidence presentation",
+"rationale": "The participant explicitly prefers reports centered on data and discussion of trials. The excerpt evaluates the content emphasis of the report rather than its tone or workflow."
+},
+{
+"segment_id": "S2",
+"timestamp_start": "00:00:43.950",
+"timestamp_end": "00:01:03.430",
+"speaker": "participant",
+"verbatim_excerpt": "it lifted, like, the table of actual, like, what it was, and just had a great summary. Maybe sometimes got very long, which was, maybe too much, but actually knowing, like, what the data… where the data was coming from, and what type of trial it was was most helpful",
+"codes": ["likes_table_plus_summary", "wants_source_transparency", "values_trial_type_labeling", "too_wordy"],
+"valence": "mixed",
+"object_of_evaluation": "tables, summary, source transparency, length",
+"rationale": "The participant praises the table and summary while also criticizing excessive length. The most helpful part is seeing where data came from and what trial type it was."
+},
+{
+"segment_id": "S3",
+"timestamp_start": "00:01:10.160",
+"timestamp_end": "00:01:26.260",
+"speaker": "participant",
+"verbatim_excerpt": "I liked the table, but I did feel like the table was too long, so my preference was the blue one that I felt like described the data well, but then was also wordy.",
+"codes": ["likes_tables", "too_long_table", "describes_data_well", "too_wordy"],
+"valence": "mixed",
+"object_of_evaluation": "table length and data summary",
+"rationale": "The participant values the table and good data description, but length and wordiness reduce utility. This excerpt reflects a tradeoff between completeness and efficiency."
+},
+{
+"segment_id": "S4",
+"timestamp_start": "00:01:46.960",
+"timestamp_end": "00:02:42.190",
+"speaker": "participant",
+"verbatim_excerpt": "I did like the pinks format for the table and discussion, like, actually showing you the different types of studies and recommendations, but it got a little bit too long, and it seemed more like a glorified search engine",
+"codes": ["likes_study_type_breakdown", "likes_recommendation_plus_table", "too_wordy", "glorified_search_engine_concern"],
+"valence": "mixed",
+"object_of_evaluation": "study categorization, recommendations, synthesis quality",
+"rationale": "The participant appreciates seeing study types and recommendations together, but criticizes the output when it feels like search retrieval rather than synthesis. Length is again a concern."
+},
+{
+"segment_id": "S5",
+"timestamp_start": "00:02:09.860",
+"timestamp_end": "00:02:42.190",
+"speaker": "participant",
+"verbatim_excerpt": "when you actually hone in on the key articles that are important, and discuss those in further detail, or even show, some of the data. Like, one of the reports did show some of the data from the primary source, which I thought was good, although that report then didn't actually discuss the figure",
+"codes": ["prioritize_key_articles", "likes_primary_source_data", "wants_figure_interpretation"],
+"valence": "mixed",
+"object_of_evaluation": "evidence prioritization and figure use",
+"rationale": "The participant values focus on key articles and inclusion of primary-source data, but expects the figure to be interpreted rather than merely displayed. The excerpt points to a missing explanatory step."
+},
+{
+"segment_id": "S6",
+"timestamp_start": "00:03:14.690",
+"timestamp_end": "00:04:15.560",
+"speaker": "participant",
+"verbatim_excerpt": "some of the reports cited via, like, a hyperlink, which I found was nice, but then in that particular report, the hyperlink it, like, didn't actually describe what the citation was, which I didn't like",
+"codes": ["likes_clickable_citations", "wants_descriptive_citation_labels", "citation_opacity_reduces_trust"],
+"valence": "mixed",
+"object_of_evaluation": "citation design and transparency",
+"rationale": "The participant likes clickable citations in principle, but distrust grows when the links are not labeled clearly. The issue here is transparency of evidence presentation."
+},
+{
+"segment_id": "S7",
+"timestamp_start": "00:03:28.160",
+"timestamp_end": "00:04:38.919",
+"speaker": "participant",
+"verbatim_excerpt": "when I actually click on them, they take you to these very, like, low-quality evidence, sites, which, like, generated a lot more distrust in that report... a lot of the cited resources were for, like, follicular lymphoma, which I thought was not good",
+"codes": ["low_quality_citations_reduce_trust", "mismatched_citations_reduce_trust", "wants_relevance_justification"],
+"valence": "negative",
+"object_of_evaluation": "citation quality and relevance",
+"rationale": "The participant directly links low-quality and mismatched citations to distrust. The excerpt also indicates that evidence must be relevant to the clinical scenario being discussed."
+},
+{
+"segment_id": "S8",
+"timestamp_start": "00:05:28.790",
+"timestamp_end": "00:06:17.409",
+"speaker": "participant",
+"verbatim_excerpt": "I use open evidence a lot... to quickly remind myself inclusion and exclusion criteria for certain trials... I prefer ChatGPT when I'm writing emails... I've started using Claude to help me... Claude has bridged that gap for me now",
+"codes": ["uses_ai_for_trial_criteria", "uses_ai_for_writing_support", "uses_ai_for_coding_support"],
+"valence": "positive",
+"object_of_evaluation": "current AI tool use",
+"rationale": "The participant describes active use of several AI tools for distinct tasks: trial criteria lookup, writing assistance, and coding help. This segment is about real workflow integration rather than report preference."
+},
+{
+"segment_id": "S9",
+"timestamp_start": "00:06:49.590",
+"timestamp_end": "00:07:42.250",
+"speaker": "participant",
+"verbatim_excerpt": "if... there was a patient who had a borderline size of tumor... does this qualify her for this particular, like, adjuvant treatment or not, based on the trial... now it's gotten more decisive in its recommendations, it seems",
+"codes": ["uses_ai_for_edge_case_eligibility", "values_decisive_answers", "management_question_support"],
+"valence": "positive",
+"object_of_evaluation": "decision support usefulness",
+"rationale": "The participant uses AI to resolve borderline eligibility questions and reports that the tool has become more decisive. The excerpt suggests value in time-sensitive clinical ambiguity."
+},
+{
+"segment_id": "S10",
+"timestamp_start": "00:08:23.040",
+"timestamp_end": "00:09:24.440",
+"speaker": "participant",
+"verbatim_excerpt": "I've used it for just... what line of therapy is this, is this drug for?... I have used it for, what is the literature that supports this... it's hit or miss whether or not the resources were what I was looking for.",
+"codes": ["uses_ai_for_line_of_therapy_checks", "uses_ai_for_literature_lookup", "resource_quality_is_hit_or_miss"],
+"valence": "mixed",
+"object_of_evaluation": "quick factual checks and literature retrieval",
+"rationale": "The participant finds the tool useful for quick checks and literature gathering, but reliability of retrieved resources is inconsistent. This reflects partial usefulness with variable evidence quality."
+},
+{
+"segment_id": "S11",
+"timestamp_start": "00:09:49.350",
+"timestamp_end": "00:10:46.109",
+"speaker": "participant",
+"verbatim_excerpt": "Very explicit statement, just, like, with this situation, this is what the recommendation is... you just want, like, a two-sentence statement answering your question.",
+"codes": ["wants_upfront_recommendation", "wants_two_sentence_answer", "time_saving_priority"],
+"valence": "positive",
+"object_of_evaluation": "report structure and brevity",
+"rationale": "The participant clearly asks for a concise recommendation at the top of the report. Time-saving is presented as a central design goal."
+},
+{
+"segment_id": "S12",
+"timestamp_start": "00:10:53.950",
+"timestamp_end": "00:11:34.260",
+"speaker": "participant",
+"verbatim_excerpt": "I would want, first, the, like. a summary of the trials, and then next section, a summary of the guidelines... Summary of what this means for your patient. But... other questions... I don't need the data behind that.",
+"codes": ["wants_ordered_report_structure", "wants_trials_then_guidelines_then_patient_implication", "question_specific_depth"],
+"valence": "positive",
+"object_of_evaluation": "report ordering and tailoring by question type",
+"rationale": "The participant proposes a specific section order and also distinguishes oncology evidence-heavy questions from simpler medication questions. This indicates a need for adaptive depth."
+},
+{
+"segment_id": "S13",
+"timestamp_start": "00:11:38.440",
+"timestamp_end": "00:13:05.689",
+"speaker": "participant",
+"verbatim_excerpt": "AI should... aim for, instead of just being, like, a glorified search engine, is to eventually help synthesize the data... there have been these key studies that are randomized controlled trials... and then... what guidelines say",
+"codes": ["wants_synthesized_evidence_review", "wants_evidence_hierarchy", "wants_guidelines_plus_key_studies", "glorified_search_engine_concern"],
+"valence": "positive",
+"object_of_evaluation": "evidence synthesis",
+"rationale": "The participant wants AI to synthesize and rank evidence rather than merely retrieve it. The excerpt specifically calls for differentiating key randomized studies, other study types, and guidelines."
+},
+{
+"segment_id": "S14",
+"timestamp_start": "00:12:48.850",
+"timestamp_end": "00:13:05.689",
+"speaker": "participant",
+"verbatim_excerpt": "if it were to cite something, I want it to be, like, high quality... if the citations seem like they actually don't... are not relevant, then it should provide justification... it can lead you to the area in the paper",
+"codes": ["wants_high_quality_citations", "wants_relevance_justification", "likes_deep_link_to_evidence"],
+"valence": "positive",
+"object_of_evaluation": "citation quality and evidence traceability",
+"rationale": "The participant states clear conditions for trust: high-quality evidence, relevance justification, and direct linking to the cited section of the paper. These are concrete trust-building features."
+},
+{
+"segment_id": "S15",
+"timestamp_start": "00:13:40.920",
+"timestamp_end": "00:14:30.329",
+"speaker": "participant",
+"verbatim_excerpt": "Open Evidence does a good thing of when they cite, it's very clear, like, where they're getting it from, and it, like, jumps exactly to the table... I think open evidence provides resources that are, lower tier... retrospective study... whereas I feel like they should have cited... a randomized trial",
+"codes": ["likes_precise_source_linking", "wants_exact_table_jump", "evidence_tier_mismatch"],
+"valence": "mixed",
+"object_of_evaluation": "citation mechanics and evidence tier",
+"rationale": "The participants praise precise linking into the paper while also criticizing the evidence tier sometimes selected. The excerpt separates good interface behavior from imperfect source selection."
+}
+],
+"codebook": [
+{
+"code": "prefers_data_driven_reports",
+"definition": "Participant favors reports that foreground data rather than generic narrative. The emphasis is on evidence-centered presentation.",
+"inclusion_criteria": ["Explicit preference for data-driven reports", "Positive comparison against less evidence-focused reports"],
+"exclusion_criteria": ["General praise without mention of data", "Comments only about brevity"],
+"example_segment_ids": ["S1"]
+},
+{
+"code": "wants_trial_discussion",
+"definition": "Participant wants the report to discuss specific trials rather than only provide general conclusions. Trial-level detail is valued.",
+"inclusion_criteria": ["Mentions different trials", "Requests trial summaries or descriptions"],
+"exclusion_criteria": ["Guideline-only comments", "Pure citation format comments"],
+"example_segment_ids": ["S1", "S12"]
+},
+{
+"code": "too_wordy",
+"definition": "Participant experiences the reports or tables as longer than needed. Wordiness is treated as a barrier to practical use.",
+"inclusion_criteria": ["Uses terms like long, too much, wordy", "Says they do not want to log through the whole report"],
+"exclusion_criteria": ["Requests more data without mentioning length", "Critiques evidence quality only"],
+"example_segment_ids": ["S2", "S3", "S4"]
+},
+{
+"code": "likes_table_plus_summary",
+"definition": "Participant likes a report that pairs a structured table with a concise summary. The combination is seen as useful for quick review.",
+"inclusion_criteria": ["Praise for a table and summary together", "Positive comments on table-based presentation"],
+"exclusion_criteria": ["Table criticism only", "Comments on figures without summary"],
+"example_segment_ids": ["S2"]
+},
+{
+"code": "wants_source_transparency",
+"definition": "Participant wants to know where the data came from and what evidence type supports it. Transparency improves usability and trust.",
+"inclusion_criteria": ["Requests where data came from", "Wants trial type labeling or exact cited location"],
+"exclusion_criteria": ["General trust comments without source details", "Comments only on speed"],
+"example_segment_ids": ["S2", "S14", "S15"]
+},
+{
+"code": "glorified_search_engine_concern",
+"definition": "Participant criticizes outputs that merely retrieve information without meaningful synthesis. Search-like behavior is viewed as insufficient for higher-value clinical use.",
+"inclusion_criteria": ["Uses or echoes glorified search engine language", "Contrasts retrieval with synthesis"],
+"exclusion_criteria": ["Mentions citations only", "General AI use outside report evaluation"],
+"example_segment_ids": ["S4", "S13"]
+},
+{
+"code": "prioritize_key_articles",
+"definition": "Participant wants the report to focus on the most important studies rather than an exhaustive list. Prioritization is valued over volume.",
+"inclusion_criteria": ["Hone in on key articles", "Discuss important studies in more detail"],
+"exclusion_criteria": ["Broad request for all literature", "Comments only on guidelines"],
+"example_segment_ids": ["S5", "S13"]
+},
+{
+"code": "likes_clickable_citations",
+"definition": "Participant appreciates citations that can be clicked and explored. Interactivity itself is useful when paired with adequate labeling.",
+"inclusion_criteria": ["Positive mention of hyperlinks", "Positive mention of jumping to source location"],
+"exclusion_criteria": ["Negative citation comments without positive aspect", "General comments on trial quality"],
+"example_segment_ids": ["S6", "S15"]
+},
+{
+"code": "low_quality_citations_reduce_trust",
+"definition": "Participant loses trust when cited sources seem weak or low-value. Poor source quality undermines confidence in the report.",
+"inclusion_criteria": ["Low-quality evidence sites", "Low-impact or very small studies used as support"],
+"exclusion_criteria": ["Mismatched disease citations without quality judgment", "Comments only on unclear labels"],
+"example_segment_ids": ["S7"]
+},
+{
+"code": "mismatched_citations_reduce_trust",
+"definition": "Participant distrusts the report when cited sources do not match the disease or question at hand. Relevance matters as much as citation presence.",
+"inclusion_criteria": ["Cites the wrong disease context", "Says references were not relevant"],
+"exclusion_criteria": ["Low-quality but relevant studies", "General distrust without citation mismatch"],
+"example_segment_ids": ["S7", "S14"]
+},
+{
+"code": "uses_ai_for_trial_criteria",
+"definition": "Participant uses AI tools to quickly retrieve inclusion and exclusion criteria from trials. This supports fast clinical recall.",
+"inclusion_criteria": ["Mentions inclusion/exclusion criteria lookup", "Uses AI to answer eligibility questions"],
+"exclusion_criteria": ["General literature search", "Email writing or coding help"],
+"example_segment_ids": ["S8", "S9"]
+},
+{
+"code": "uses_ai_for_writing_support",
+"definition": "Participant uses AI for drafting or improving written communication. This use case is distinct from clinical evidence retrieval.",
+"inclusion_criteria": ["Uses ChatGPT for emails", "Mentions writing assistance"],
+"exclusion_criteria": ["Coding support", "Clinical management questions"],
+"example_segment_ids": ["S8"]
+},
+{
+"code": "uses_ai_for_coding_support",
+"definition": "Participant uses AI to bridge technical or coding skill gaps. The tool serves as practical productivity support.",
+"inclusion_criteria": ["Uses Claude for software or coding language help", "Says it bridged a gap"],
+"exclusion_criteria": ["Clinical decision support", "Writing assistance"],
+"example_segment_ids": ["S8"]
+},
+{
+"code": "wants_upfront_recommendation",
+"definition": "Participant wants a direct recommendation placed at the top of the report. The answer should be immediately visible.",
+"inclusion_criteria": ["Very explicit statement at beginning", "Quick answer first"],
+"exclusion_criteria": ["General summary requests without placement", "Requests for evidence details only"],
+"example_segment_ids": ["S11"]
+},
+{
+"code": "time_saving_priority",
+"definition": "Participant frames the ideal tool as something that saves time in clinic. Efficiency is a core criterion for usefulness.",
+"inclusion_criteria": ["Quick clinic context", "Easy thing to save time", "Two-sentence answer"],
+"exclusion_criteria": ["Length comments without time framing", "Trust comments without workflow relevance"],
+"example_segment_ids": ["S11"]
+},
+{
+"code": "question_specific_depth",
+"definition": "Participant wants different levels of detail depending on the question. Some questions need trials and guidelines; others need only a direct answer.",
+"inclusion_criteria": ["Depends on the question", "Different depth for oncology versus dosing questions"],
+"exclusion_criteria": ["Single fixed report structure only", "General brevity comments"],
+"example_segment_ids": ["S12"]
+},
+{
+"code": "wants_synthesized_evidence_review",
+"definition": "Participant wants AI to synthesize evidence across studies rather than simply list sources. Synthesis is seen as the higher-value function.",
+"inclusion_criteria": ["Help synthesize the data", "Give me a review of the data"],
+"exclusion_criteria": ["Search or retrieval only", "Simple recommendation without evidence integration"],
+"example_segment_ids": ["S13"]
+},
+{
+"code": "wants_evidence_hierarchy",
+"definition": "Participant wants studies differentiated by strength or design, such as randomized trials versus cohort or retrospective studies. Evidence ranking supports interpretation.",
+"inclusion_criteria": ["Randomized controlled trials versus cohort/retrospective", "Wants higher-tier evidence cited"],
+"exclusion_criteria": ["Generic request for more studies", "Citation format only"],
+"example_segment_ids": ["S13", "S15"]
+}
+],
+"themes": [
+{
+"theme_id": "T1",
+"theme_name": "Concise answer first, evidence underneath",
+"theme_definition": "Participants repeatedly asked for a report that begins with a clear recommendation and then allows optional deeper review. They want enough supporting evidence to feel grounded, but not so much text that the report becomes burdensome in clinic.",
+"supporting_segments": ["S2", "S3", "S11", "S12"],
+"representative_quotes": [
+{
+"segment_id": "S11",
+"quote": "you just want, like, a two-sentence statement answering your question."
+},
+{
+"segment_id": "S3",
+"quote": "I liked the table, but I did feel like the table was too long"
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Repeated across several participant segments with consistent language about quick answers, summaries, and excessive length."
+},
+{
+"theme_id": "T2",
+"theme_name": "Trust depends on seeing exactly where the evidence comes from",
+"theme_definition": "Participants linked trust to transparent citations, explicit study type labeling, and direct paths into the underlying paper. Trust eroded when links were unlabeled, sources seemed weak, or cited studies did not match the clinical scenario.",
+"supporting_segments": ["S2", "S6", "S7", "S14", "S15"],
+"representative_quotes": [
+{
+"segment_id": "S14",
+"quote": "it can lead you to the area in the paper that shows XYZ"
+},
+{
+"segment_id": "S7",
+"quote": "generated a lot more distrust in that report"
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Multiple participants described both trust-building and trust-eroding citation features in concrete terms."
+},
+{
+"theme_id": "T3",
+"theme_name": "AI should synthesize, not just retrieve",
+"theme_definition": "Participants wanted more than a search-style dump of sources. The desired tool would identify key studies, distinguish evidence tiers, incorporate guidelines, and help with edge cases that sit outside routine guideline lookups.",
+"supporting_segments": ["S4", "S5", "S9", "S13"],
+"representative_quotes": [
+{
+"segment_id": "S13",
+"quote": "AI should... instead of just being, like, a glorified search engine, is to eventually help synthesize the data"
+}
+],
+"overall_valence": "positive",
+"confidence": "high",
+"confidence_basis": "This idea was stated directly and supported by several segments describing desired synthesis and key-study prioritization."
+},
+{
+"theme_id": "T4",
+"theme_name": "Usefulness changes with the question",
+"theme_definition": "Participants did not want one fixed report depth for all tasks. For complex oncology decisions they wanted trials, guidelines, and patient-level interpretation, while for simpler questions they wanted a direct answer without unnecessary evidence detail.",
+"supporting_segments": ["S9", "S10", "S12"],
+"representative_quotes": [
+{
+"segment_id": "S12",
+"quote": "I think it depends on the question, too."
+}
+],
+"overall_valence": "positive",
+"confidence": "medium",
+"confidence_basis": "The point is clearly articulated, though it appears in fewer segments than the themes on brevity and citation trust."
+}
+],
+"likes": [
+{
+"like_id": "L1",
+"statement": "Reports that clearly discuss different trials and are data-driven.",
+"supporting_segments": ["S1"],
+"representative_quote": "I like the reports that were more data, like, driven"
+},
+{
+"like_id": "L2",
+"statement": "A combination of a table plus a strong summary.",
+"supporting_segments": ["S2", "S3"],
+"representative_quote": "I liked the table"
+},
+{
+"like_id": "L3",
+"statement": "Showing where the data came from and what type of trial it was.",
+"supporting_segments": ["S2"],
+"representative_quote": "what type of trial it was was most helpful"
+},
+{
+"like_id": "L4",
+"statement": "Focusing on key articles and showing data from the primary source.",
+"supporting_segments": ["S5"],
+"representative_quote": "hone in on the key articles that are important"
+},
+{
+"like_id": "L5",
+"statement": "Clickable citations that jump to the exact table or cited section in the paper.",
+"supporting_segments": ["S6", "S14", "S15"],
+"representative_quote": "it, like, jumps exactly to the table"
+},
+{
+"like_id": "L6",
+"statement": "An upfront, very brief recommendation that saves time.",
+"supporting_segments": ["S11"],
+"representative_quote": "a two-sentence statement answering your question"
+}
+],
+"dislikes": [
+{
+"dislike_id": "D1",
+"statement": "Reports and tables that are too long or wordy.",
+"supporting_segments": ["S2", "S3", "S4", "S11"],
+"representative_quote": "the table was too long"
+},
+{
+"dislike_id": "D2",
+"statement": "Outputs that feel like a glorified search engine rather than a synthesis.",
+"supporting_segments": ["S4", "S13"],
+"representative_quote": "it seemed more like a glorified search engine"
+},
+{
+"dislike_id": "D3",
+"statement": "Citations that are unlabeled, low-quality, or mismatched to the clinical question.",
+"supporting_segments": ["S6", "S7", "S14", "S15"],
+"representative_quote": "generated a lot more distrust in that report"
+},
+{
+"dislike_id": "D4",
+"statement": "Figures shown without explanation of what they mean.",
+"supporting_segments": ["S5"],
+"representative_quote": "didn't actually discuss the figure"
+}
+],
+"requirements": [
+{
+"req_id": "R1",
+"type": "must_have",
+"requirement": "The report should begin with a direct recommendation in one to two sentences before the detailed evidence.",
+"supporting_segments": ["S11"],
+"risk_if_ignored": "Clinicians may feel the tool is too slow and burdensome for quick clinical use."
+},
+{
+"req_id": "R2",
+"type": "must_have",
+"requirement": "The system should summarize key trials, then guidelines, then explain what the evidence means for the patient.",
+"supporting_segments": ["S12", "S13"],
+"risk_if_ignored": "The report may feel disorganized and less useful for oncology-specific decision-making."
+},
+{
+"req_id": "R3",
+"type": "must_have",
+"requirement": "Citations should be clearly labeled, relevant to the exact scenario, and linked to the precise location in the source paper when possible.",
+"supporting_segments": ["S6", "S7", "S14", "S15"],
+"risk_if_ignored": "Users may lose trust quickly and doubt whether the recommendation is evidence-based."
+},
+{
+"req_id": "R4",
+"type": "must_have",
+"requirement": "The system should distinguish evidence tiers, such as randomized trials versus cohort or retrospective studies.",
+"supporting_segments": ["S2", "S13", "S15"],
+"risk_if_ignored": "Clinicians may not be able to judge how much weight to place on the recommendation."
+},
+{
+"req_id": "R5",
+"type": "nice_to_have",
+"requirement": "When figures or tables from primary sources are shown, the report should also explain their relevance.",
+"supporting_segments": ["S5"],
+"risk_if_ignored": "Important evidence may be displayed but not interpreted in a way that helps decision-making."
+},
+{
+"req_id": "R6",
+"type": "avoid",
+"requirement": "Avoid exhaustive, overly long tables or long narrative sections when a shorter answer would suffice.",
+"supporting_segments": ["S2", "S3", "S4", "S11"],
+"risk_if_ignored": "Users may stop reading or prefer faster tools for quick clinical questions."
+}
+],
+"workflow_integration": {
+"current_workarounds": [
+"Uses OpenEvidence to quickly check inclusion and exclusion criteria for trials.",
+"Uses AI to check line of therapy or whether a drug can be offered.",
+"Uses ChatGPT for help writing emails.",
+"Uses Claude to bridge coding or software-related tasks."
+],
+"intended_use_cases": [
+"Quick answers in clinic.",
+"Checking trial eligibility or borderline treatment qualification.",
+"Retrieving literature support for a clinical decision.",
+"Reviewing key studies and guideline-backed recommendations for oncology decisions.",
+"Helping with edge cases outside straightforward guideline scenarios."
+],
+"constraints": [
+"Limited time in clinic.",
+"Need for trust in evidence quality and relevance.",
+"Cognitive burden from overly long outputs.",
+"Uncertainty when resources are hit or miss.",
+"Need to separate AI synthesis from what the underlying paper actually says."
+],
+"output_format_preferences": [
+"Very brief recommendation at the top.",
+"Table plus concise summary.",
+"Summary of trials followed by guidelines, then patient-level implication.",
+"Explicit trial type labels.",
+"Direct links to the exact cited passage or table in the source.",
+"Less exhaustive tables when the question is simple."
+]
+},
+"trust_and_safety": {
+"trust_drivers": [
+"Seeing where the data came from.",
+"Knowing what type of trial supports the recommendation.",
+"Clickable citations that jump to the exact cited location.",
+"Use of higher-quality and more relevant studies.",
+"Justification when a citation is included despite imperfect relevance."
+],
+"trust_erosions": [
+"Unlabeled hyperlinks.",
+"Low-quality or low-impact sources.",
+"Citations that do not match the disease context or exact question.",
+"Reports that feel like search dumps rather than real synthesis.",
+"Resources that are hit or miss for what the user was actually looking for."
+],
+"verification_behaviors": [
+"Clicks through citations to inspect the source.",
+"Looks up referenced resources to see whether they match the need.",
+"Uses exact source location, such as a table in the paper, to verify support."
+],
+"medico_legal_or_policy_concerns": []
+},
+"quantified_mentions": {
+"top_codes_by_count": [
+{
+"code": "too_wordy",
+"count": 4
+},
+{
+"code": "wants_source_transparency",
+"count": 4
+},
+{
+"code": "wants_evidence_hierarchy",
+"count": 3
+},
+{
+"code": "glorified_search_engine_concern",
+"count": 2
+},
+{
+"code": "question_specific_depth",
+"count": 1
+}
+],
+"notes": "Counts are approximate because the transcript contains multiple participant speakers in one file, and the analysis treats participant speech collectively while excluding interviewer speech."
+},
+"analytic_memos": {
+"summary": "This transcript contains multiple participant speakers rather than a single clearly bounded participant, so the analysis summarizes participant speech collectively. Across speakers, the strongest preference is for reports that are concise up front but still grounded in explicit trial data and guidelines when needed. Participants liked tables, summaries, study-type labels, and direct visibility into where the evidence came from. They repeatedly criticized outputs that were too long, felt like a glorified search engine, or cited weak or mismatched evidence. Trust was closely tied to citation quality, transparent linking, and the ability to jump directly to the relevant part of a source. Participants also described real current AI use for quick clinical recall, literature lookup, writing support, and coding help. A recurring design preference was adaptive depth: complex oncology questions should include synthesis of key trials and guidelines, while simpler questions should produce a fast direct answer. Overall, participants appear open to AI support but only when it saves time without obscuring or weakening the evidentiary basis.",
+"tensions_or_tradeoffs": [
+"Brevity versus completeness of evidence presentation.",
+"Direct recommendation versus detailed supporting data.",
+"AI synthesis versus a risk of blurring what the model inferred versus what the source explicitly said.",
+"Convenient retrieval versus the need for high-quality, scenario-matched citations.",
+"General-purpose report structure versus tailoring depth to the specific question."
+],
+"open_questions_for_next_interview": [
+"When clinicians ask for a quick answer first, what is the minimum evidence they still need visible before they will trust it?",
+"How should a report visually separate AI synthesis from direct source content so that users do not confuse the two?",
+"What is the preferred way to show evidence hierarchy without making the report too long?",
+"In edge cases outside guidelines, what kind of synthesis feels most helpful rather than overly speculative?",
+"For simple medication or dosing questions, what evidence display, if any, is still worth showing?"
+]
+}
+}

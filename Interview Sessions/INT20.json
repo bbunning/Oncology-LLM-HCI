@@ -1,0 +1,925 @@
+{
+"transcript_id": "TX001",
+"interview_context": {
+"participant_role": "unknown",
+"setting_or_workflow_context": "Outpatient oncology clinic workflow with limited visit time and interest in patient-specific literature summaries for decision support.",
+"tools_mentioned_by_participant": [
+"UpToDate",
+"Epic",
+"AI"
+]
+},
+"segments": [
+{
+"segment_id": "S1",
+"timestamp_start": "00:00:13.850",
+"timestamp_end": "00:00:56.830",
+"speaker": "participant",
+"verbatim_excerpt": "I've mainly used UpToDate for most of my time in medical training... it was nice to see how things were organized very differently with, like, clear sections. Here's the summary, here's the citations, etc.",
+"codes": [
+"familiarity_with_existing_reference_tools",
+"values_clear_sectioned_organization",
+"clinic_time_pressure_limits_use"
+],
+"valence": "mixed",
+"object_of_evaluation": "organization, workflow fit",
+"rationale": "The participant contrasts the reports with a familiar reference tool and positively notes clear sections. In the same segment, the participant immediately frames use in a busy clinic day as potentially too time-consuming."
+},
+{
+"segment_id": "S2",
+"timestamp_start": "00:00:57.020",
+"timestamp_end": "00:02:26.690",
+"speaker": "participant",
+"verbatim_excerpt": "the hard part is, on the spot, being able to suss through all the different citations to know which one's credible and which one's not... I liked... in the pink report, it has all the different rankings of citations",
+"codes": [
+"difficulty_assessing_citation_credibility_quickly",
+"wants_ranked_evidence",
+"wants_study_design_and_sample_size_details",
+"not_ready_to_fully_rely_on_tool"
+],
+"valence": "mixed",
+"object_of_evaluation": "citations, trust, evidence display",
+"rationale": "The participant says citation appraisal is hard in real time and asks for credibility cues such as rankings, study type, and sample size. The participant also states they are not convinced enough to rely on the report alone."
+},
+{
+"segment_id": "S3",
+"timestamp_start": "00:03:05.970",
+"timestamp_end": "00:03:54.690",
+"speaker": "participant",
+"verbatim_excerpt": "if we're able to take sections of all four of the different, colors you gave, and combine them, that actually would be helpful... I liked, in the pink one, the rankings.",
+"codes": [
+"prefers_hybrid_best_of_all_formats",
+"wants_ranked_evidence",
+"data_driven_orientation"
+],
+"valence": "positive",
+"object_of_evaluation": "report format, evidence display",
+"rationale": "The participant explicitly proposes combining strengths from multiple report styles rather than choosing one unchanged format. The excerpt ties this preference to ranked evidence and a desire to see primary literature."
+},
+{
+"segment_id": "S4",
+"timestamp_start": "00:03:20.700",
+"timestamp_end": "00:04:00.699",
+"speaker": "participant",
+"verbatim_excerpt": "I liked, overall, the red format, I think, the most. I liked having the bottom line of where it's what it's thinking... if there was a... link to just have all the citations somewhere in a ranking format... that would be nice.",
+"codes": [
+"prefers_bottom_line_up_front",
+"likes_red_format",
+"wants_separate_link_for_detailed_citations"
+],
+"valence": "positive",
+"object_of_evaluation": "summary, citations, format",
+"rationale": "The participant clearly identifies the red format as preferred because it starts with the bottom line. They also suggests offloading citation detail into a separate linked ranked resource."
+},
+{
+"segment_id": "S5",
+"timestamp_start": "00:04:11.850",
+"timestamp_end": "00:04:53.849",
+"speaker": "participant",
+"verbatim_excerpt": "I think the organization, and also I felt like the language was friendly, that anyone could follow along... I liked how I tailored it back to your patient.",
+"codes": [
+"friendly_accessible_language",
+"values_clear_organization",
+"likes_patient_specific_tailoring"
+],
+"valence": "positive",
+"object_of_evaluation": "language, organization, personalization",
+"rationale": "The participant praises both tone and structure and specifically says the report was easy to follow. The excerpt also highlights patient-specific tailoring as a valued feature."
+},
+{
+"segment_id": "S6",
+"timestamp_start": "00:04:32.250",
+"timestamp_end": "00:06:06.169",
+"speaker": "participant",
+"verbatim_excerpt": "it kind of gave you steps of how to think... think about another appointment in so-and-so months, this lab test in so-and-so months... Concrete next steps... is helpful.",
+"codes": [
+"values_concrete_next_steps",
+"supports_shared_decision_making",
+"likes_future_planning_prompts",
+"patient_specific_risk_management"
+],
+"valence": "positive",
+"object_of_evaluation": "clinical actionability, workflow fit",
+"rationale": "The participant values prompts that translate evidence into follow-up actions and contingency planning. The same segment links those prompts to making shared decision-making easier in clinic."
+},
+{
+"segment_id": "S7",
+"timestamp_start": "00:06:30.190",
+"timestamp_end": "00:07:43.400",
+"speaker": "participant",
+"verbatim_excerpt": "red just read to me, like, something I would do, because it was streamlined to how I like to see things... Blue was just kind of, like, in the middle... Pink, I like the ranking.",
+"codes": [
+"prefers_streamlined_presentation",
+"likes_red_format",
+"blue_feels_underwhelming",
+"pink_needs_more_interpretive_logic"
+],
+"valence": "mixed",
+"object_of_evaluation": "comparative format preference",
+"rationale": "The participant explains why the red report matched their preferred way of thinking while blue did not provide enough. Pink remains appealing for evidence ranking but seems incomplete without more interpretive guidance."
+},
+{
+"segment_id": "S8",
+"timestamp_start": "00:07:10.440",
+"timestamp_end": "00:07:43.400",
+"speaker": "participant",
+"verbatim_excerpt": "I want to see the end value of, okay, you had this cohort study, you had this clinical trial, how many patients is the trial? Why did the trial not go through? Why was the trial ended early?",
+"codes": [
+"wants_study_design_and_sample_size_details",
+"wants_trial_context_and_failure_reasons",
+"data_driven_orientation"
+],
+"valence": "neutral",
+"object_of_evaluation": "evidence detail",
+"rationale": "This excerpt is a direct request for deeper evidence metadata, especially sample size and trial context. The participant frames these details as important for interpreting the literature."
+},
+{
+"segment_id": "S9",
+"timestamp_start": "00:08:03.000",
+"timestamp_end": "00:08:32.129",
+"speaker": "participant",
+"verbatim_excerpt": "Yeah, I think the length was fine... Two pages is sufficient... I don't think having to have [IDENTIFIER] listed out to make it 4 pages long is necessary.",
+"codes": [
+"prefers_two_page_limit",
+"wants_concise_main_report",
+"rejects_overlong_citation_heavy_output"
+],
+"valence": "positive",
+"object_of_evaluation": "length, formatting",
+"rationale": "The participant gives a concrete preferred length and explicitly rejects expanding the report into a much longer document. The quote contains a likely dictated or transcript artifact, so it is anonymized conservatively."
+},
+{
+"segment_id": "S10",
+"timestamp_start": "00:08:51.070",
+"timestamp_end": "00:09:17.759",
+"speaker": "participant",
+"verbatim_excerpt": "there's an aspect of, I think helping even scribes who prep clinic notes would be very helpful... the question would... need to be phrased it in a way that a scribe someone who does not know the field is able to easily access this data",
+"codes": [
+"potential_use_for_scribes",
+"prompting_must_be_accessible_to_nonspecialists",
+"previsit_preparation_use_case"
+],
+"valence": "positive",
+"object_of_evaluation": "workflow integration, usability",
+"rationale": "The participant extends the use case beyond physicians to support staff preparing clinic materials. They also note a usability constraint: prompts or queries must work for someone without deep field knowledge."
+},
+{
+"segment_id": "S11",
+"timestamp_start": "00:09:32.960",
+"timestamp_end": "00:10:15.860",
+"speaker": "participant",
+"verbatim_excerpt": "I liked the organization. I liked how it was able to quickly pop out an answer... I definitely see the utility of using AI informing, or at least supporting clinicians in their investigations.",
+"codes": [
+"pleasantly_surprised_by_capability",
+"values_speed_of_answer_generation",
+"sees_ai_as_support_not_replacement"
+],
+"valence": "positive",
+"object_of_evaluation": "overall utility, speed",
+"rationale": "The participant reports that the tools performed better than expected and highlights speed plus organization as strengths. They define the role of AI as supportive rather than substitutive."
+},
+{
+"segment_id": "S12",
+"timestamp_start": "00:11:35.740",
+"timestamp_end": "00:12:42.900",
+"speaker": "participant",
+"verbatim_excerpt": "They were all fairly open-minded, where it's a shared decision-making approach... I don't think I would... want AI to tell me, oh, here's how you should do something... I liked how I gave you different options",
+"codes": [
+"supports_shared_decision_making",
+"rejects_ai_as_final_decision_maker",
+"values_multiple_options_and_framing"
+],
+"valence": "positive",
+"object_of_evaluation": "decision support philosophy",
+"rationale": "The participant values reports that preserve clinician judgment and present options rather than directives. This segment directly states a boundary on acceptable AI autonomy."
+},
+{
+"segment_id": "S13",
+"timestamp_start": "00:13:01.269",
+"timestamp_end": "00:13:01.269",
+"speaker": "participant",
+"verbatim_excerpt": "someone who had, like, the pink model, that'd be very helpful, because it kind of spits out all the major papers in the field",
+"codes": [
+"evidence_heavy_mode_useful_for_some_patients",
+"wants_audience_specific_output_options",
+"pink_useful_for_reference_seeking"
+],
+"valence": "positive",
+"object_of_evaluation": "patient communication, evidence display",
+"rationale": "The participant ties evidence-dense output to a specific kind of patient interaction, showing that preferred output may vary by audience. The statement also reinforces the value of a paper-forward mode."
+}
+],
+"codebook": [
+{
+"code": "familiarity_with_existing_reference_tools",
+"definition": "Participant compares the reports to established non-AI resources already used in training or practice.",
+"inclusion_criteria": [
+"Mentions prior reliance on a named reference resource",
+"Uses existing tools as a benchmark"
+],
+"exclusion_criteria": [
+"General comments about AI without comparison",
+"Mentions of tools only as future possibilities"
+],
+"example_segment_ids": [
+"S1"
+]
+},
+{
+"code": "values_clear_sectioned_organization",
+"definition": "Participant likes reports that are clearly structured into sections such as summary and citations.",
+"inclusion_criteria": [
+"Praises organization or flow",
+"References clear sections or easy-to-follow structure"
+],
+"exclusion_criteria": [
+"Comments only about length",
+"Comments only about citations without structure"
+],
+"example_segment_ids": [
+"S1",
+"S5",
+"S11"
+]
+},
+{
+"code": "clinic_time_pressure_limits_use",
+"definition": "Participant says busy clinic schedules and short visits constrain how much report detail can be used in real time.",
+"inclusion_criteria": [
+"Mentions full clinic days",
+"Mentions short patient visits or time-consuming review"
+],
+"exclusion_criteria": [
+"General comments about efficiency without clinic timing"
+],
+"example_segment_ids": [
+"S1"
+]
+},
+{
+"code": "difficulty_assessing_citation_credibility_quickly",
+"definition": "Participant finds it hard to determine which citations are credible during clinical workflow.",
+"inclusion_criteria": [
+"Questions credibility of references",
+"Says it is hard to sort through citations on the spot"
+],
+"exclusion_criteria": [
+"Requests more citations without discussing credibility"
+],
+"example_segment_ids": [
+"S2"
+]
+},
+{
+"code": "wants_ranked_evidence",
+"definition": "Participant wants citations organized by evidence strength or study type to support quick appraisal.",
+"inclusion_criteria": [
+"Mentions rankings",
+"Mentions cohort versus retrospective or similar hierarchy"
+],
+"exclusion_criteria": [
+"Requests more citations with no ranking feature"
+],
+"example_segment_ids": [
+"S2",
+"S3",
+"S13"
+]
+},
+{
+"code": "wants_study_design_and_sample_size_details",
+"definition": "Participant wants key trial metadata such as study design and number of patients.",
+"inclusion_criteria": [
+"Requests cohort type, trial type, or sample size",
+"Mentions end value or number of patients"
+],
+"exclusion_criteria": [
+"General requests for more evidence without specifics"
+],
+"example_segment_ids": [
+"S2",
+"S8"
+]
+},
+{
+"code": "not_ready_to_fully_rely_on_tool",
+"definition": "Participant sees value but does not feel comfortable replacing independent homework or judgment with the report.",
+"inclusion_criteria": [
+"States they are not fully convinced",
+"Says they would not rely on it alone"
+],
+"exclusion_criteria": [
+"General caution about AI without discussing reliance"
+],
+"example_segment_ids": [
+"S2"
+]
+},
+{
+"code": "prefers_hybrid_best_of_all_formats",
+"definition": "Participant wants a combined report that merges the best parts of multiple presented formats.",
+"inclusion_criteria": [
+"Suggests combining sections from different reports",
+"Describes value in different colors/styles"
+],
+"exclusion_criteria": [
+"Simple preference for one format only"
+],
+"example_segment_ids": [
+"S3"
+]
+},
+{
+"code": "prefers_bottom_line_up_front",
+"definition": "Participant prefers reports that state the bottom line early before supporting detail.",
+"inclusion_criteria": [
+"Mentions bottom line at the top",
+"Prefers immediate summary of the report's thinking"
+],
+"exclusion_criteria": [
+"General liking of summaries without emphasis on placement"
+],
+"example_segment_ids": [
+"S4"
+]
+},
+{
+"code": "wants_separate_link_for_detailed_citations",
+"definition": "Participant wants concise main output with optional access to detailed ranked references elsewhere.",
+"inclusion_criteria": [
+"Requests hyperlink or separate citation section",
+"Separates main report from deeper evidence view"
+],
+"exclusion_criteria": [
+"Requests citation detail inline in the main report"
+],
+"example_segment_ids": [
+"S4",
+"S9"
+]
+},
+{
+"code": "friendly_accessible_language",
+"definition": "Participant values language that is readable and approachable rather than overly technical or opaque.",
+"inclusion_criteria": [
+"Says language was friendly",
+"Says anyone could follow along"
+],
+"exclusion_criteria": [
+"Comments only about content accuracy"
+],
+"example_segment_ids": [
+"S5"
+]
+},
+{
+"code": "likes_patient_specific_tailoring",
+"definition": "Participant values reports that tie recommendations back to the specific patient's characteristics.",
+"inclusion_criteria": [
+"Mentions tailoring to your patient",
+"Contrasts general options with patient-specific modification"
+],
+"exclusion_criteria": [
+"General clinical reasoning without patient-specific tie-back"
+],
+"example_segment_ids": [
+"S5",
+"S6"
+]
+},
+{
+"code": "values_concrete_next_steps",
+"definition": "Participant likes outputs that translate evidence into actionable next steps, monitoring, or follow-up tasks.",
+"inclusion_criteria": [
+"Mentions labs, appointments, or monitoring plans",
+"Uses phrases like concrete next steps"
+],
+"exclusion_criteria": [
+"High-level discussion of treatment choices without action steps"
+],
+"example_segment_ids": [
+"S6"
+]
+},
+{
+"code": "supports_shared_decision_making",
+"definition": "Participant values outputs that help structure options and discussions rather than dictate a single decision.",
+"inclusion_criteria": [
+"Uses phrase shared decision-making",
+"Discusses explaining tradeoffs or options to patients"
+],
+"exclusion_criteria": [
+"Purely clinician-facing efficiency comments"
+],
+"example_segment_ids": [
+"S6",
+"S12"
+]
+},
+{
+"code": "prefers_streamlined_presentation",
+"definition": "Participant prefers a streamlined report that matches their usual style of processing information.",
+"inclusion_criteria": [
+"Calls a format streamlined",
+"Says a report reads like something they would do"
+],
+"exclusion_criteria": [
+"General liking of a report without reference to streamlining"
+],
+"example_segment_ids": [
+"S7"
+]
+},
+{
+"code": "blue_feels_underwhelming",
+"definition": "Participant describes the blue report as not delivering what they wanted.",
+"inclusion_criteria": [
+"Names blue as least favorite",
+"Says blue was in the middle or insufficient"
+],
+"exclusion_criteria": [
+"General dislike without naming blue"
+],
+"example_segment_ids": [
+"S7"
+]
+},
+{
+"code": "pink_needs_more_interpretive_logic",
+"definition": "Participant likes pink for evidence ranking but wants more summary logic or bottom-line interpretation.",
+"inclusion_criteria": [
+"Says pink should have more bottom line",
+"Contrasts pink's evidence detail with red's logic"
+],
+"exclusion_criteria": [
+"Praise for pink without noting what is missing"
+],
+"example_segment_ids": [
+"S7"
+]
+},
+{
+"code": "prefers_two_page_limit",
+"definition": "Participant states a concrete desired report length around two pages.",
+"inclusion_criteria": [
+"Says two pages is sufficient",
+"Sets a concise target length"
+],
+"exclusion_criteria": [
+"General praise for brevity without a concrete length"
+],
+"example_segment_ids": [
+"S9"
+]
+},
+{
+"code": "potential_use_for_scribes",
+"definition": "Participant sees possible use for support staff preparing clinic notes or previsit materials.",
+"inclusion_criteria": [
+"Mentions scribes",
+"Mentions prep of clinic notes"
+],
+"exclusion_criteria": [
+"General previsit use without naming support staff"
+],
+"example_segment_ids": [
+"S10"
+]
+},
+{
+"code": "prompting_must_be_accessible_to_nonspecialists",
+"definition": "Participant says the querying or prompting process should work for people without deep specialty knowledge.",
+"inclusion_criteria": [
+"Mentions phrasing questions for someone who does not know the field",
+"Frames usability around non-experts"
+],
+"exclusion_criteria": [
+"General usability comments not tied to user knowledge level"
+],
+"example_segment_ids": [
+"S10"
+]
+},
+{
+"code": "pleasantly_surprised_by_capability",
+"definition": "Participant says the tools performed better than expected or landed well relative to expectations.",
+"inclusion_criteria": [
+"Says it landed well",
+"Indicates positive surprise"
+],
+"exclusion_criteria": [
+"General positive comments without expectation comparison"
+],
+"example_segment_ids": [
+"S11"
+]
+},
+{
+"code": "sees_ai_as_support_not_replacement",
+"definition": "Participant sees AI as useful support for clinician investigation but not as a substitute for clinical training or judgment.",
+"inclusion_criteria": [
+"Says AI should support clinicians",
+"Rejects full switch-over or replacement"
+],
+"exclusion_criteria": [
+"General skepticism without describing supportive role"
+],
+"example_segment_ids": [
+"S11",
+"S12"
+]
+},
+{
+"code": "rejects_ai_as_final_decision_maker",
+"definition": "Participant explicitly does not want AI to tell them what to do and prefers preserved clinician agency.",
+"inclusion_criteria": [
+"Says AI should not tell them how to do something",
+"References years of medical training as justification"
+],
+"exclusion_criteria": [
+"General support for shared decision-making without explicit boundary"
+],
+"example_segment_ids": [
+"S12"
+]
+},
+{
+"code": "evidence_heavy_mode_useful_for_some_patients",
+"definition": "Participant says some patient encounters call for a more citation-dense output than others.",
+"inclusion_criteria": [
+"Discusses patients wanting all references",
+"Links detailed evidence mode to specific patient communication needs"
+],
+"exclusion_criteria": [
+"General desire for more citations without patient-facing context"
+],
+"example_segment_ids": [
+"S13"
+]
+}
+],
+"themes": [
+{
+"theme_id": "T1",
+"theme_name": "Concise summary first, deeper evidence optional",
+"theme_definition": "The participant repeatedly prefers a streamlined main report that starts with the bottom line, stays short enough for clinic, and gives optional access to ranked evidence detail elsewhere. This reflects a desire to balance speed with credibility rather than maximizing detail in the main view.",
+"supporting_segments": [
+"S4",
+"S7",
+"S8",
+"S9"
+],
+"representative_quotes": [
+{
+"segment_id": "S4",
+"quote": "I liked having the bottom line of where it's what it's thinking"
+},
+{
+"segment_id": "S9",
+"quote": "Two pages is sufficient."
+}
+],
+"overall_valence": "positive",
+"confidence": "high",
+"confidence_basis": "Repeated directly across several segments with concrete preferences about summary placement, page length, and optional citation access."
+},
+{
+"theme_id": "T2",
+"theme_name": "Evidence needs credibility cues to be clinically usable",
+"theme_definition": "The participant does not reject citations; instead, they want them made easier to interpret through rankings, study-type labels, sample sizes, and trial context. Without these cues, the participant does not feel ready to rely on the tool during real clinical work.",
+"supporting_segments": [
+"S2",
+"S3",
+"S8"
+],
+"representative_quotes": [
+{
+"segment_id": "S2",
+"quote": "being able to suss through all the different citations to know which one's credible and which one's not"
+},
+{
+"segment_id": "S8",
+"quote": "how many patients is the trial? Why did the trial not go through?"
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "This concern appears early and returns multiple times with specific requested additions."
+},
+{
+"theme_id": "T3",
+"theme_name": "Patient-specific framing and next steps make the report useful",
+"theme_definition": "The participant especially values outputs that move from general evidence to the specific patient, then translate that into concrete follow-up actions and alternative pathways. That feature makes the tool feel more relevant to real clinic conversations and shared decision-making.",
+"supporting_segments": [
+"S5",
+"S6",
+"S12"
+],
+"representative_quotes": [
+{
+"segment_id": "S5",
+"quote": "I liked how I tailored it back to your patient."
+},
+{
+"segment_id": "S6",
+"quote": "Concrete next steps... is helpful."
+}
+],
+"overall_valence": "positive",
+"confidence": "high",
+"confidence_basis": "The participant provides several specific examples and revisits this idea in both report preference and AI-role discussion."
+},
+{
+"theme_id": "T4",
+"theme_name": "AI should support clinician reasoning, not replace it",
+"theme_definition": "The participant sees clear utility in AI for organizing information and generating answers quickly, but sets a firm boundary against AI making the decision. The preferred role is to support investigation, framing, and discussion while leaving judgment to the clinician.",
+"supporting_segments": [
+"S2",
+"S11",
+"S12"
+],
+"representative_quotes": [
+{
+"segment_id": "S11",
+"quote": "supporting clinicians in their investigations"
+},
+{
+"segment_id": "S12",
+"quote": "I don't think I would... want AI to tell me, oh, here's how you should do something"
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "The participant states both the benefit and the boundary explicitly in multiple places."
+}
+],
+"likes": [
+{
+"like_id": "L1",
+"statement": "Clear organization with distinct sections such as summary and citations.",
+"supporting_segments": [
+"S1",
+"S5",
+"S11"
+],
+"representative_quote": "it was nice to see how things were organized very differently with, like, clear sections"
+},
+{
+"like_id": "L2",
+"statement": "A bottom-line summary presented up front.",
+"supporting_segments": [
+"S4",
+"S7"
+],
+"representative_quote": "I liked having the bottom line"
+},
+{
+"like_id": "L3",
+"statement": "Patient-specific tailoring that adjusts general guidance to the particular case.",
+"supporting_segments": [
+"S5",
+"S6",
+"S12"
+],
+"representative_quote": "I liked how I tailored it back to your patient."
+},
+{
+"like_id": "L4",
+"statement": "Concrete next steps and prompts for follow-up, monitoring, or alternate plans.",
+"supporting_segments": [
+"S6"
+],
+"representative_quote": "Concrete next steps... is helpful."
+},
+{
+"like_id": "L5",
+"statement": "Ranked evidence displays that surface major papers and study types.",
+"supporting_segments": [
+"S2",
+"S3",
+"S13"
+],
+"representative_quote": "I liked... the rankings."
+},
+{
+"like_id": "L6",
+"statement": "Friendly language that feels readable and accessible.",
+"supporting_segments": [
+"S5"
+],
+"representative_quote": "the language was friendly, that anyone could follow along"
+}
+],
+"dislikes": [
+{
+"dislike_id": "D1",
+"statement": "It is difficult to judge citation credibility quickly during clinic.",
+"supporting_segments": [
+"S2"
+],
+"representative_quote": "the hard part is... being able to suss through all the different citations"
+},
+{
+"dislike_id": "D2",
+"statement": "Blue felt middling and did not provide what the participant wanted.",
+"supporting_segments": [
+"S7"
+],
+"representative_quote": "Blue was just kind of, like, in the middle."
+},
+{
+"dislike_id": "D3",
+"statement": "Pink needed more of the bottom-line logic offered by red.",
+"supporting_segments": [
+"S7"
+],
+"representative_quote": "pink could have had more of the bottom line that red provided"
+},
+{
+"dislike_id": "D4",
+"statement": "A long report packed with detailed citations in the main body would not fit clinic workflow.",
+"supporting_segments": [
+"S9"
+],
+"representative_quote": "Two pages is sufficient."
+},
+{
+"dislike_id": "D5",
+"statement": "The participant is not comfortable relying on the tool alone without doing their own homework.",
+"supporting_segments": [
+"S2"
+],
+"representative_quote": "I'm not fully convinced."
+}
+],
+"requirements": [
+{
+"req_id": "R1",
+"type": "must_have",
+"requirement": "The main report should begin with a concise bottom-line summary that can be read quickly in clinic.",
+"supporting_segments": [
+"S4",
+"S7",
+"S9"
+],
+"risk_if_ignored": "Clinicians may not be able to extract the key message fast enough to use the report during patient visits."
+},
+{
+"req_id": "R2",
+"type": "must_have",
+"requirement": "Evidence should be presented with credibility cues such as ranking, study type, sample size, and relevant trial context.",
+"supporting_segments": [
+"S2",
+"S3",
+"S8"
+],
+"risk_if_ignored": "Users may not trust the evidence base or may feel unable to judge whether the citations support the recommendation."
+},
+{
+"req_id": "R3",
+"type": "must_have",
+"requirement": "The report should explicitly connect evidence back to the individual patient and offer concrete next steps or alternative pathways.",
+"supporting_segments": [
+"S5",
+"S6",
+"S12"
+],
+"risk_if_ignored": "The tool may feel generic and less helpful for real-time decision discussions with patients."
+},
+{
+"req_id": "R4",
+"type": "nice_to_have",
+"requirement": "Detailed ranked citations should be accessible through a separate link or expanded view rather than forcing all details into the main report.",
+"supporting_segments": [
+"S4",
+"S9",
+"S13"
+],
+"risk_if_ignored": "Either the report becomes too long for routine use or users who want more depth cannot easily access it."
+},
+{
+"req_id": "R5",
+"type": "nice_to_have",
+"requirement": "The system should support multiple output modes or a hybrid format that combines strong summary logic with strong evidence display.",
+"supporting_segments": [
+"S3",
+"S7",
+"S13"
+],
+"risk_if_ignored": "A single fixed format may not fit different clinician preferences or patient communication scenarios."
+},
+{
+"req_id": "R6",
+"type": "avoid",
+"requirement": "The tool should avoid presenting itself as the final decision-maker and instead frame options for clinician judgment.",
+"supporting_segments": [
+"S11",
+"S12"
+],
+"risk_if_ignored": "Users may reject the tool as overreaching or misaligned with the role of clinical training and responsibility."
+}
+],
+"workflow_integration": {
+"current_workarounds": [
+"Uses UpToDate for most reference needs in training and practice.",
+"Relies on own homework and existing knowledge to judge the literature rather than trusting the report alone."
+],
+"intended_use_cases": [
+"Real-time clinic decision support during short visits.",
+"Previsit preparation for upcoming patient appointments.",
+"Support for scribes preparing clinic notes or gathering relevant information.",
+"Patient discussions where some patients may want detailed citations and major papers."
+],
+"constraints": [
+"Busy clinic days with up to 12 to 14 patients.",
+"Only 15 to 30 minutes maximum with a patient.",
+"Limited time to appraise citation credibility on the spot.",
+"Need to preserve clinician judgment rather than outsourcing decisions to AI."
+],
+"output_format_preferences": [
+"Bottom line first.",
+"Approximately two pages for the main report.",
+"Friendly, easy-to-follow language.",
+"Patient-specific tailoring.",
+"Concrete next-step prompts.",
+"Optional linked ranked citation view.",
+"Potential hybrid of red-style summary logic with pink-style evidence ranking."
+]
+},
+"trust_and_safety": {
+"trust_drivers": [
+"Ranked citations and study-type labels.",
+"Sample size and trial context.",
+"Clear organization.",
+"Bottom-line summary plus reasoning.",
+"Patient-specific tailoring.",
+"Presentation of multiple options rather than a single directive."
+],
+"trust_erosions": [
+"Difficulty judging which citations are credible in real time.",
+"Insufficient evidence detail in the main explanation.",
+"Feeling that the tool is not yet reliable enough to replace independent homework.",
+"A format that is too middling or not aligned with the participant's reasoning style."
+],
+"verification_behaviors": [
+"Would still do homework otherwise rather than rely entirely on the report.",
+"Would use personal knowledge of subspecialty data to quickly interpret the evidence when possible."
+],
+"medico_legal_or_policy_concerns": [
+"Implicit concern that clinical decisions should remain with the trained clinician rather than being delegated to AI."
+]
+},
+"quantified_mentions": {
+"top_codes_by_count": [
+{
+"code": "values_clear_sectioned_organization",
+"count": 3
+},
+{
+"code": "supports_shared_decision_making",
+"count": 2
+},
+{
+"code": "wants_ranked_evidence",
+"count": 3
+},
+{
+"code": "wants_study_design_and_sample_size_details",
+"count": 2
+},
+{
+"code": "likes_patient_specific_tailoring",
+"count": 2
+},
+{
+"code": "likes_red_format",
+"count": 2
+},
+{
+"code": "sees_ai_as_support_not_replacement",
+"count": 2
+},
+{
+"code": "clinic_time_pressure_limits_use",
+"count": 1
+}
+],
+"notes": "Counts are approximate and based on coded meaningful segments rather than exact transcript line frequencies. One excerpt contained a likely transcript artifact and was anonymized conservatively."
+},
+"analytic_memos": {
+"summary": "The participant sees genuine promise in AI-generated literature reports but views them as support tools rather than replacements for clinician judgment. The strongest positive reactions center on organization, readability, a clear bottom line, and patient-specific framing that leads to concrete next steps. The participant consistently prefers a streamlined summary-first format for routine clinic use, especially under time pressure. At the same time, the participant wants stronger credibility scaffolding around citations, including ranking, study type, sample size, and trial context. A recurring pattern is the desire to separate concise main output from optional deeper evidence access, rather than forcing both into one long report. The participant also sees a role for these tools in previsit preparation and even for scribes, provided the prompting process is usable by someone without specialty expertise. Overall, the participant is cautiously positive: impressed by utility and speed, but not yet ready to trust the tool independently of their own review.",
+"tensions_or_tradeoffs": [
+"Brevity for clinic speed versus enough evidence detail to establish trust.",
+"A single streamlined format versus different modes for different users or encounters.",
+"Supportive option-framing versus overly directive AI recommendations.",
+"General evidence summaries versus patient-specific actionable guidance."
+],
+"open_questions_for_next_interview": [
+"What exact evidence-ranking fields would make the participant trust a citation list most in clinic?",
+"How should a report decide what stays in the two-page main output versus what moves to an expandable evidence view?",
+"Would the participant want different versions of the report for clinicians, scribes, and patients?",
+"What kinds of patient-specific prompts feel most useful without becoming too prescriptive?",
+"What would make the participant comfortable moving from cautious interest to regular workflow use?"
+]
+}
+}

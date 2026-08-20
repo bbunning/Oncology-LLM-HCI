@@ -1,0 +1,573 @@
+{
+"transcript_id": "TX001",
+"interview_context": {
+"participant_role": "unknown",
+"setting_or_workflow_context": "Participant discusses oncology-related clinical decision support and radiation planning, mainly during preparation before clinic.",
+"tools_mentioned_by_participant": ["ChatGPT", "AI search engines"]
+},
+"segments": [
+{
+"segment_id": "S1",
+"timestamp_start": "00:00:19.570",
+"timestamp_end": "00:01:15.660",
+"speaker": "participant",
+"verbatim_excerpt": "Yeah, personally, I don't like to read through a bunch of text, so I think that the pink one with that table was very helpful... having the prospective data show up first is very helpful.",
+"codes": ["prefers_table_format", "prefers_ranked_evidence", "avoids_long_text"],
+"valence": "positive",
+"object_of_evaluation": "tables, evidence ordering, concision",
+"rationale": "The participant explicitly favors the table-based report and says they do not like reading large amounts of text. They also values evidence being sequenced so higher-level prospective data appears first."
+},
+{
+"segment_id": "S2",
+"timestamp_start": "00:01:48.080",
+"timestamp_end": "00:02:44.860",
+"speaker": "participant",
+"verbatim_excerpt": "I would like to see... what patients are being treated, and the... outcomes, endpoints. Usually just, like, efficacy and possibly toxicity endpoints... If that can be put into, like, 2 extra, like, columns or something like that.",
+"codes": ["wants_patient_population", "wants_endpoints_and_toxicity", "prefers_structured_columns"],
+"valence": "mixed",
+"object_of_evaluation": "content fields, table structure",
+"rationale": "The participant asks for patient populations, efficacy outcomes, and toxicity endpoints, and suggests adding columns. This reflects both approval of the format and a concrete request for missing content."
+},
+{
+"segment_id": "S3",
+"timestamp_start": "00:12:32.770",
+"timestamp_end": "00:13:07.420",
+"speaker": "participant",
+"verbatim_excerpt": "I would just look for, like, the overall evidence itself... and having some... overall conclusions... was... helpful. I think... just adding, like, the patient population, the outcomes themselves... is helpful.",
+"codes": ["wants_overall_conclusion", "wants_patient_population", "wants_endpoints_and_toxicity"],
+"valence": "positive",
+"object_of_evaluation": "summary conclusions, evidence highlights",
+"rationale": "The excerpt emphasizes a need for overall conclusions plus highlighted evidence details. The participant again points to patient population and outcomes as key additions."
+},
+{
+"segment_id": "S4",
+"timestamp_start": "00:13:40.050",
+"timestamp_end": "00:15:21.860",
+"speaker": "participant",
+"verbatim_excerpt": "Sometimes... I use it more for... details of... radiation planning... Sometimes there's, like, decent literature on it, sometimes it's not as easily found... usually I just use it to... go look for the... literature itself, and then the paper specifically.",
+"codes": ["uses_ai_for_nuanced_questions", "ai_as_literature_finder", "limited_literature_in_small_field"],
+"valence": "mixed",
+"object_of_evaluation": "workflow fit, use cases",
+"rationale": "The participant describes using AI for radiation-planning details and locating literature, but also notes uneven availability of relevant literature. This indicates a bounded, search-oriented use case rather than full decision delegation."
+},
+{
+"segment_id": "S5",
+"timestamp_start": "00:15:44.890",
+"timestamp_end": "00:16:02.940",
+"speaker": "participant",
+"verbatim_excerpt": "I feel like the red one was... my least favorite. I feel like it just had too much text. I feel like it tried to fluff things up too much, too... that is not necessarily what... not what I need.",
+"codes": ["dislikes_fluffy_language", "avoids_long_text"],
+"valence": "negative",
+"object_of_evaluation": "tone, verbosity",
+"rationale": "The participant clearly rejects a text-heavy, embellished style and says it did not match their needs. The language directly supports codes about fluff and excessive length."
+},
+{
+"segment_id": "S6",
+"timestamp_start": "00:16:26.310",
+"timestamp_end": "00:16:55.340",
+"speaker": "participant",
+"verbatim_excerpt": "I think just an overview summary is, like, enough... and just... the conclusions of... the evidence, or... the data that's provided in the evidence... In any case, I have to review whatever AI thinks in the end anyways.",
+"codes": ["wants_brief_overview", "human_must_verify_ai"],
+"valence": "mixed",
+"object_of_evaluation": "summary depth, trust",
+"rationale": "The participant wants only a brief overview plus evidence conclusions, while also stating they must review AI output themselves. This shows both a desired format and a verification stance."
+},
+{
+"segment_id": "S7",
+"timestamp_start": "00:17:10.130",
+"timestamp_end": "00:17:54.390",
+"speaker": "participant",
+"verbatim_excerpt": "If the AI is... good enough... to... extract data from all the subgroup analyses, too... incorporating the patient data... could be very helpful... [the report] basically didn't include anything considering our specific patient... not... a deal-breaker, as long as it does include... detail about the patient populations from the data itself.",
+"codes": ["wants_subgroup_analysis", "wants_patient_specific_matching", "wants_patient_population"],
+"valence": "mixed",
+"object_of_evaluation": "patient matching, subgroup evidence",
+"rationale": "The participant identifies subgroup extraction and patient-specific relevance as an ideal feature. They also soften the critique by saying absence of patient-specific integration is not a deal-breaker if population details are present."
+},
+{
+"segment_id": "S8",
+"timestamp_start": "00:18:36.790",
+"timestamp_end": "00:19:59.949",
+"speaker": "participant",
+"verbatim_excerpt": "Including... the overall study results and also the subgroup results would be the most helpful... reading an abstract... doesn't necessarily get us into... the specific subgroups... it would take more time to... find that data and extract it ourselves.",
+"codes": ["wants_subgroup_analysis", "time_saving_value", "ai_should_surface_hidden_details"],
+"valence": "positive",
+"object_of_evaluation": "subgroup detail, workflow efficiency",
+"rationale": "The participant says subgroup and overall study results would be most helpful because clinicians moving quickly often miss subgroup details. They frame AI's value as saving time on manual extraction."
+},
+{
+"segment_id": "S9",
+"timestamp_start": "00:20:39.120",
+"timestamp_end": "00:22:24.160",
+"speaker": "participant",
+"verbatim_excerpt": "Yeah, the go-to would always be looking for Phase 3 trials... having... NCCN recommendations is helpful, too... Large, randomized clinical trial data is... probably the highest yield... Mouse models, phase one... not very helpful.",
+"codes": ["prioritizes_high_level_evidence", "wants_guideline_content", "deprioritizes_early_phase_and_preclinical"],
+"valence": "positive",
+"object_of_evaluation": "evidence hierarchy",
+"rationale": "The participant explicitly prioritizes Phase 3 trials, large randomized data, and NCCN recommendations. They also state that mouse models and phase 1 evidence are usually not helpful."
+},
+{
+"segment_id": "S10",
+"timestamp_start": "00:23:18.840",
+"timestamp_end": "00:24:30.110",
+"speaker": "participant",
+"verbatim_excerpt": "If there's a way to... have the settings there, just... with, like, an extra click... then I think that would probably be most helpful... we don't want to type in... please present this in table form... every time... that takes up too much extra time.",
+"codes": ["wants_easy_customization", "typing_is_friction", "prefers_low_click_workflow"],
+"valence": "positive",
+"object_of_evaluation": "UI, workflow friction",
+"rationale": "The participant wants formatting preferences available through a simple settings click instead of repeated prompting. The excerpt clearly frames manual typing as an avoidable friction point."
+},
+{
+"segment_id": "S11",
+"timestamp_start": "00:24:43.060",
+"timestamp_end": "00:25:11.190",
+"speaker": "participant",
+"verbatim_excerpt": "Yeah, I mostly... would do it on computer... because that's when the most preparation would be, because we do a lot of... preparation before clinic and seeing the patient itself.",
+"codes": ["prep_before_clinic_use_case", "computer_primary_context"],
+"valence": "neutral",
+"object_of_evaluation": "workflow integration",
+"rationale": "The participant identifies pre-clinic preparation on a computer as the main context for use. This is descriptive of workflow rather than praise or criticism."
+},
+{
+"segment_id": "S12",
+"timestamp_start": "00:25:39.410",
+"timestamp_end": "00:27:10.190",
+"speaker": "participant",
+"verbatim_excerpt": "If it is drug-related... what is FDA approved or not?... a big Phase 3 study can be published, and then it takes... half a year, a year... to be FDA approved... I think it could still be included... just having... this is FDA approved... might be helpful.",
+"codes": ["wants_regulatory_status", "standard_of_care_lag_matters", "wants_actionability_context"],
+"valence": "mixed",
+"object_of_evaluation": "regulatory status, clinical actionability",
+"rationale": "The participant highlights a gap between published evidence and actual clinical usability, and wants approval status shown. They still want non-approved evidence included, but labeled appropriately."
+},
+{
+"segment_id": "S13",
+"timestamp_start": "00:27:28.190",
+"timestamp_end": "00:28:36.820",
+"speaker": "participant",
+"verbatim_excerpt": "Making sure the literature... that AI can found is up-to-date... I've used... multiple... AI search engines... give me... Phase 3 trials... oftentimes, there is data that is not presented when I ask for that.",
+"codes": ["needs_up_to_date_literature", "missing_trials_reduce_trust", "broad_search_recall_needed"],
+"valence": "negative",
+"object_of_evaluation": "retrieval completeness, recency",
+"rationale": "The participant is concerned that AI misses known trials and may not surface current literature. This directly signals trust erosion from incomplete retrieval."
+}
+],
+"codebook": [
+{
+"code": "prefers_table_format",
+"definition": "Participant favors presenting evidence in a table rather than prose-heavy text.",
+"inclusion_criteria": ["Mentions tables as helpful", "Contrasts tables with text-heavy reports"],
+"exclusion_criteria": ["General comments about summary quality without format preference"],
+"example_segment_ids": ["S1", "S2"]
+},
+{
+"code": "prefers_ranked_evidence",
+"definition": "Participant wants evidence ordered so higher-value evidence appears first.",
+"inclusion_criteria": ["References sequencing by evidence level", "Prioritizes prospective or stronger studies at the top"],
+"exclusion_criteria": ["General interest in evidence without ordering preference"],
+"example_segment_ids": ["S1", "S9"]
+},
+{
+"code": "avoids_long_text",
+"definition": "Participant dislikes long, dense, or overly wordy reports.",
+"inclusion_criteria": ["Says they do not like reading lots of text", "Criticizes reports for too much text"],
+"exclusion_criteria": ["Requests more detail in structured format"],
+"example_segment_ids": ["S1", "S5"]
+},
+{
+"code": "wants_patient_population",
+"definition": "Participant wants study summaries to clearly state which patients were studied.",
+"inclusion_criteria": ["Requests patient population fields", "Links decision-making to who was treated in the evidence"],
+"exclusion_criteria": ["Requests patient-specific recommendations without mentioning study populations"],
+"example_segment_ids": ["S2", "S3", "S7"]
+},
+{
+"code": "wants_endpoints_and_toxicity",
+"definition": "Participant wants efficacy outcomes, endpoints, and possibly toxicity shown explicitly.",
+"inclusion_criteria": ["Mentions outcomes, endpoints, efficacy, toxicity", "Suggests adding columns for these items"],
+"exclusion_criteria": ["Broad requests for more detail without naming outcomes"],
+"example_segment_ids": ["S2", "S3"]
+},
+{
+"code": "wants_overall_conclusion",
+"definition": "Participant wants a brief umbrella conclusion that summarizes what the evidence shows.",
+"inclusion_criteria": ["Requests overall conclusions", "Prefers a high-level takeaway"],
+"exclusion_criteria": ["Requests model opinion detached from evidence"],
+"example_segment_ids": ["S3", "S6"]
+},
+{
+"code": "uses_ai_for_nuanced_questions",
+"definition": "Participant uses AI selectively for narrower or more complex questions rather than broad replacement of clinical judgment.",
+"inclusion_criteria": ["Describes AI use for radiation planning details", "Mentions nuanced cases"],
+"exclusion_criteria": ["General comments about AI design preferences"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "ai_as_literature_finder",
+"definition": "Participant primarily values AI for locating papers and literature rather than for standalone recommendations.",
+"inclusion_criteria": ["Uses AI to look for literature", "Looks for papers specifically"],
+"exclusion_criteria": ["Comments on formatting alone"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "dislikes_fluffy_language",
+"definition": "Participant rejects embellished or advisory wording that feels unnecessary to the task.",
+"inclusion_criteria": ["Mentions fluff", "Criticizes fancy words or guardrail language"],
+"exclusion_criteria": ["Criticism of length without tone concerns"],
+"example_segment_ids": ["S5"]
+},
+{
+"code": "human_must_verify_ai",
+"definition": "Participant treats AI output as something that still requires their own review and judgment.",
+"inclusion_criteria": ["Says they have to review what AI thinks", "Signals that AI output is not taken at face value"],
+"exclusion_criteria": ["General concern about missing data without reference to personal verification"],
+"example_segment_ids": ["S6"]
+},
+{
+"code": "wants_subgroup_analysis",
+"definition": "Participant wants subgroup results surfaced because abstracts and top-line summaries often miss them.",
+"inclusion_criteria": ["Requests subgroup analyses", "Links value to subgroup extraction"],
+"exclusion_criteria": ["General patient population discussion without subgroup mention"],
+"example_segment_ids": ["S7", "S8"]
+},
+{
+"code": "wants_patient_specific_matching",
+"definition": "Participant wants AI to connect patient details to relevant subgroup evidence when possible.",
+"inclusion_criteria": ["Mentions integrating patient data", "Wants report to consider the specific patient"],
+"exclusion_criteria": ["Only asks for study population descriptions"],
+"example_segment_ids": ["S7"]
+},
+{
+"code": "time_saving_value",
+"definition": "Participant values AI when it reduces manual searching and extraction time.",
+"inclusion_criteria": ["Mentions moving quickly", "Says AI could save time finding subgroup data"],
+"exclusion_criteria": ["General preference for convenience without a time rationale"],
+"example_segment_ids": ["S8", "S10"]
+},
+{
+"code": "prioritizes_high_level_evidence",
+"definition": "Participant prefers higher-tier evidence such as Phase 3 trials and large randomized studies.",
+"inclusion_criteria": ["Names Phase 3 or large randomized data as highest yield", "Frames these as go-to evidence"],
+"exclusion_criteria": ["Mentions evidence broadly without hierarchy"],
+"example_segment_ids": ["S9"]
+},
+{
+"code": "wants_guideline_content",
+"definition": "Participant wants guideline recommendations included alongside primary trial evidence.",
+"inclusion_criteria": ["Mentions NCCN recommendations as helpful"],
+"exclusion_criteria": ["Mentions standard of care generally without guideline source"],
+"example_segment_ids": ["S9"]
+},
+{
+"code": "deprioritizes_early_phase_and_preclinical",
+"definition": "Participant sees early-phase or preclinical evidence as low value unless no better evidence exists.",
+"inclusion_criteria": ["Says mouse models or phase 1 are not very helpful", "Would not really look at early stage trials"],
+"exclusion_criteria": ["General evidence hierarchy statements without rejecting low-tier evidence"],
+"example_segment_ids": ["S9"]
+},
+{
+"code": "wants_easy_customization",
+"definition": "Participant wants preferred output style available through simple built-in settings rather than repeated prompting.",
+"inclusion_criteria": ["Requests settings or one-click customization", "Mentions table presentation as a configurable preference"],
+"exclusion_criteria": ["General request for better reports without UI suggestion"],
+"example_segment_ids": ["S10"]
+},
+{
+"code": "typing_is_friction",
+"definition": "Participant sees extra prompt-writing as a meaningful workflow burden.",
+"inclusion_criteria": ["Says they do not want to type extra instructions each time", "Mentions phone or fast contexts"],
+"exclusion_criteria": ["General comments about time pressure not tied to prompting"],
+"example_segment_ids": ["S10"]
+},
+{
+"code": "prep_before_clinic_use_case",
+"definition": "Participant situates AI use mainly in pre-visit preparation rather than in-room patient encounters.",
+"inclusion_criteria": ["Mentions using it before clinic", "Describes preparation as the main use timing"],
+"exclusion_criteria": ["General workflow mentions without timing"],
+"example_segment_ids": ["S11"]
+},
+{
+"code": "wants_regulatory_status",
+"definition": "Participant wants reports to indicate whether a therapy is FDA approved.",
+"inclusion_criteria": ["Asks what is FDA approved", "Wants an explicit approval-status field"],
+"exclusion_criteria": ["Mentions guidelines or evidence only"],
+"example_segment_ids": ["S12"]
+},
+{
+"code": "standard_of_care_lag_matters",
+"definition": "Participant notes that publication, approval, and actual standard-of-care adoption happen on different timelines.",
+"inclusion_criteria": ["Describes lag after Phase 3 publication", "Mentions delay before something becomes standard of care"],
+"exclusion_criteria": ["General desire for up-to-date literature without adoption context"],
+"example_segment_ids": ["S12"]
+},
+{
+"code": "needs_up_to_date_literature",
+"definition": "Participant expects retrieved literature to be current and complete.",
+"inclusion_criteria": ["Requests up-to-date literature", "Complains that AI omits expected studies"],
+"exclusion_criteria": ["General trust concerns without retrieval or recency issue"],
+"example_segment_ids": ["S13"]
+},
+{
+"code": "missing_trials_reduce_trust",
+"definition": "Participant loses confidence when AI fails to return known relevant trials.",
+"inclusion_criteria": ["States data is not presented despite asking", "Knows trials should be there but they do not appear"],
+"exclusion_criteria": ["Concerns about wording or formatting only"],
+"example_segment_ids": ["S13"]
+}
+],
+"themes": [
+{
+"theme_id": "T1",
+"theme_name": "Give me the data in a concise table",
+"theme_definition": "The participant consistently favors compact, structured presentation over long prose. They want a table with the key evidence, ranked by strength, plus a brief top-level conclusion rather than a text-heavy narrative.",
+"supporting_segments": ["S1", "S2", "S3", "S5", "S6"],
+"representative_quotes": [
+{
+"segment_id": "S1",
+"quote": "I don't like to read through a bunch of text, so I think that the pink one with that table was very helpful."
+},
+{
+"segment_id": "S5",
+"quote": "I feel like it just had too much text. I feel like it tried to fluff things up too much."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Repeated across multiple segments with direct contrasts between preferred and disliked report styles."
+},
+{
+"theme_id": "T2",
+"theme_name": "High-yield evidence should come first, with subgroup detail when possible",
+"theme_definition": "The participant wants reports centered on the strongest and most decision-relevant evidence, especially Phase 3 trials, large randomized data, and guidelines. At the same time, they see subgroup results as a major added value because those details are time-consuming to find manually and often absent from abstracts.",
+"supporting_segments": ["S1", "S7", "S8", "S9"],
+"representative_quotes": [
+{
+"segment_id": "S9",
+"quote": "The go-to would always be looking for Phase 3 trials."
+},
+{
+"segment_id": "S8",
+"quote": "Including... the overall study results and also the subgroup results would be the most helpful."
+}
+],
+"overall_valence": "positive",
+"confidence": "high",
+"confidence_basis": "The participant returns repeatedly to evidence hierarchy and subgroup extraction as core needs."
+},
+{
+"theme_id": "T3",
+"theme_name": "AI is most useful as a fast literature helper, not a final thinker",
+"theme_definition": "The participant describes AI as useful for locating literature and synthesizing hard-to-find details, especially in narrower clinical areas. But they still view themselves as responsible for reviewing the output, and do not appear to want expansive AI-generated interpretation.",
+"supporting_segments": ["S4", "S6", "S8"],
+"representative_quotes": [
+{
+"segment_id": "S4",
+"quote": "Usually I just use it to... go look for the... literature itself, and then the paper specifically."
+},
+{
+"segment_id": "S6",
+"quote": "In any case, I have to review whatever AI thinks in the end anyways."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "This theme is directly stated in the participant's use-case descriptions and trust comments."
+},
+{
+"theme_id": "T4",
+"theme_name": "Workflow adoption depends on low friction and actionable context",
+"theme_definition": "The participant wants customization through a simple setting rather than repeated prompt-writing, especially in time-constrained settings. They also want reports to bridge evidence and real-world actionability by indicating FDA approval, standard-of-care timing, and whether the literature retrieved is current and complete.",
+"supporting_segments": ["S10", "S11", "S12", "S13"],
+"representative_quotes": [
+{
+"segment_id": "S10",
+"quote": "We don't want to type in... please present this in table form... every time."
+},
+{
+"segment_id": "S12",
+"quote": "Just having... this is FDA approved... might be helpful."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "The participant gives multiple concrete workflow and implementation constraints tied to adoption."
+}
+],
+"likes": [
+{
+"like_id": "L1",
+"statement": "The participant liked the table-based report because it made evidence easier to scan.",
+"supporting_segments": ["S1"],
+"representative_quote": "the pink one with that table was very helpful"
+},
+{
+"like_id": "L2",
+"statement": "The participant liked evidence being sequenced so higher-level prospective data appeared first.",
+"supporting_segments": ["S1", "S9"],
+"representative_quote": "having the prospective data show up first is very helpful"
+},
+{
+"like_id": "L3",
+"statement": "The participant liked brief umbrella conclusions paired with the evidence.",
+"supporting_segments": ["S3", "S6"],
+"representative_quote": "having some... overall conclusions... was... helpful"
+},
+{
+"like_id": "L4",
+"statement": "The participant would value simple settings-based customization for report presentation.",
+"supporting_segments": ["S10"],
+"representative_quote": "with, like, an extra click... that would probably be most helpful"
+}
+],
+"dislikes": [
+{
+"dislike_id": "D1",
+"statement": "The participant disliked text-heavy reports.",
+"supporting_segments": ["S1", "S5"],
+"representative_quote": "I feel like it just had too much text"
+},
+{
+"dislike_id": "D2",
+"statement": "The participant disliked embellished or fluffy wording that did not help decision-making.",
+"supporting_segments": ["S5"],
+"representative_quote": "I feel like it tried to fluff things up too much"
+},
+{
+"dislike_id": "D3",
+"statement": "The participant was dissatisfied when AI failed to surface expected trials or current literature.",
+"supporting_segments": ["S13"],
+"representative_quote": "oftentimes, there is data that is not presented"
+}
+],
+"requirements": [
+{
+"req_id": "R1",
+"type": "must_have",
+"requirement": "Reports should present evidence in a concise table with patient population, key outcomes, and brief conclusions.",
+"supporting_segments": ["S1", "S2", "S3", "S6"],
+"risk_if_ignored": "The output may feel too long and less usable for rapid clinical preparation."
+},
+{
+"req_id": "R2",
+"type": "must_have",
+"requirement": "Reports should prioritize Phase 3 trials, large randomized data, and guideline content before lower-tier evidence.",
+"supporting_segments": ["S1", "S9"],
+"risk_if_ignored": "Clinicians may see the report as noisy or poorly aligned with what they consider highest yield."
+},
+{
+"req_id": "R3",
+"type": "must_have",
+"requirement": "When available, reports should surface subgroup analyses and connect them to patient-relevant characteristics.",
+"supporting_segments": ["S7", "S8"],
+"risk_if_ignored": "Clinicians may still need to spend extra time manually searching for the most decision-relevant details."
+},
+{
+"req_id": "R4",
+"type": "nice_to_have",
+"requirement": "The interface should let users choose preferred formatting through a simple settings button or similar low-click control.",
+"supporting_segments": ["S10"],
+"risk_if_ignored": "Repeated prompt-writing may create enough friction to reduce routine use."
+},
+{
+"req_id": "R5",
+"type": "must_have",
+"requirement": "Drug-related reports should clearly indicate whether therapies are FDA approved and distinguish promising evidence from current standard-of-care usability.",
+"supporting_segments": ["S12"],
+"risk_if_ignored": "Clinicians may have difficulty translating evidence summaries into practical treatment decisions."
+},
+{
+"req_id": "R6",
+"type": "avoid",
+"requirement": "Avoid overly verbose, fluffy, or advisory language that is not tightly tied to evidence.",
+"supporting_segments": ["S5"],
+"risk_if_ignored": "Users may dismiss the report as burdensome or not clinically useful."
+},
+{
+"req_id": "R7",
+"type": "must_have",
+"requirement": "Literature retrieval should be current and as complete as possible, especially for known Phase 3 trials.",
+"supporting_segments": ["S13"],
+"risk_if_ignored": "Missing expected studies may undermine trust in the system's search and synthesis."
+}
+],
+"workflow_integration": {
+"current_workarounds": [
+"Uses AI to help locate literature and then looks for the paper specifically.",
+"Reads abstracts when moving quickly, while recognizing that subgroup details may be missed.",
+"Manually searches for subgroup analyses or follow-up papers when needed."
+],
+"intended_use_cases": [
+"Pre-clinic preparation on a computer.",
+"Radiation-planning questions and other nuanced cases.",
+"Rapid review of evidence relevant to management decisions."
+],
+"constraints": [
+"Limited tolerance for long text.",
+"Time pressure makes extra typing feel burdensome.",
+"Need to verify AI output personally.",
+"Not all studies contain subgroup analyses.",
+"Published evidence may not yet be FDA approved or standard of care.",
+"AI may miss relevant literature."
+],
+"output_format_preferences": [
+"Table format",
+"Evidence ordered by strength",
+"Patient population listed explicitly",
+"Outcomes/endpoints and possibly toxicity included",
+"Brief overall conclusion or TLDR",
+"Minimal fluff"
+]
+},
+"trust_and_safety": {
+"trust_drivers": [
+"Evidence shown in a structured table",
+"Higher-level evidence presented first",
+"Clear patient population and outcome details",
+"Inclusion of subgroup analyses when available",
+"Explicit indication of FDA approval status",
+"Current and complete literature retrieval"
+],
+"trust_erosions": [
+"Too much text",
+"Fluffy or fancy language",
+"Reports that omit expected studies",
+"Lack of clarity about whether evidence is actually actionable in current practice"
+],
+"verification_behaviors": [
+"Reviews whatever the AI says personally.",
+"Looks for the paper specifically after using AI.",
+"Checks whether subgroup analyses exist in the original or follow-up papers."
+],
+"medico_legal_or_policy_concerns": [
+"Whether a drug is FDA approved",
+"Whether evidence has actually become standard of care"
+]
+},
+"quantified_mentions": {
+"top_codes_by_count": [
+{ "code": "wants_patient_population", "count": 3 },
+{ "code": "wants_subgroup_analysis", "count": 2 },
+{ "code": "avoids_long_text", "count": 2 },
+{ "code": "wants_endpoints_and_toxicity", "count": 2 },
+{ "code": "time_saving_value", "count": 2 },
+{ "code": "prioritizes_high_level_evidence", "count": 1 },
+{ "code": "wants_regulatory_status", "count": 1 },
+{ "code": "needs_up_to_date_literature", "count": 1 }
+],
+"notes": "Counts are approximate and based on segmented participant speech. Some ideas overlap within the same excerpt, and transcript phrasing occasionally appears disfluent."
+},
+"analytic_memos": {
+"summary": "This participant wants AI-generated literature reports to function primarily as concise, structured evidence summaries rather than expansive narrative explanations. Their clearest preference is for a table that ranks stronger evidence first and highlights the patient population, key outcomes, and a brief take-home conclusion. They especially value subgroup analyses because these details are hard to extract quickly from abstracts and often require extra manual searching. The participant appears to see AI mainly as a literature-finding and synthesis aid, not as a substitute for clinician judgment, and explicitly says they still need to review whatever the AI says. Adoption into workflow seems tied to low friction: they do not want to repeatedly type formatting instructions and would prefer a simple settings-based way to shape output. They also want reports to be more actionable by indicating FDA approval status and recognizing that publication, approval, and standard-of-care uptake do not happen at the same time. Finally, trust depends heavily on retrieval quality; when AI misses expected trials or seems out of date, confidence drops.",
+"tensions_or_tradeoffs": [
+"The participant wants concise summaries but also wants richer detail on subgroup analyses and patient populations.",
+"They want patient-specific relevance, but acknowledge that not every study contains subgroup data needed for that matching.",
+"They want cutting-edge evidence included, but also need clarity about whether that evidence is FDA approved or truly usable in practice.",
+"They value customization, but only if it does not add prompt-writing burden."
+],
+"open_questions_for_next_interview": [
+"When subgroup analyses are missing, what is the minimum evidence summary that still feels useful?",
+"How should approval status, guideline support, and standard-of-care maturity be displayed together without cluttering the report?",
+"Would the participant prefer one default oncology-focused report style, or a few preset templates for different tasks?",
+"What level of patient-specific matching would feel helpful without overclaiming relevance?",
+"When AI misses a known study, what kind of transparency or warning would rebuild trust?"
+]
+}
+}

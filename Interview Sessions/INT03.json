@@ -1,0 +1,885 @@
+{
+"transcript_id": "TX001",
+"interview_context": {
+"participant_role": "unknown",
+"setting_or_workflow_context": "Discussion of oncology clinical information workflows and AI-generated literature review reports in busy clinical and academic use contexts.",
+"tools_mentioned_by_participant": ["UpToDate", "Open Evidence", "Gemini", "NCCN", "ASCO", "ESMO", "ACOG", "ChatGPT", "Doximity GPT"]
+},
+"segments": [
+{
+"segment_id": "S1",
+"timestamp_start": "00:00:18.590",
+"timestamp_end": "00:00:46.230",
+"speaker": "participant",
+"verbatim_excerpt": "I think it's a really helpful resource... it's nice to have a [SYSTEM] that you can kind of engage with and ask questions to and have more tailored advice... I envision myself continuing to use in the future.",
+"codes": ["interactive_querying", "tailored_advice", "future_use_intent"],
+"valence": "positive",
+"object_of_evaluation": "workflow fit",
+"rationale": "The participant describes AI tools as helpful because they can be queried interactively and return tailored advice. The statement that they expect to keep using them supports ongoing workflow fit."
+},
+{
+"segment_id": "S2",
+"timestamp_start": "00:00:52.980",
+"timestamp_end": "00:00:59.889",
+"speaker": "participant",
+"verbatim_excerpt": "Yeah, yeah, so I... I use Open Evidence, and then I also use Gemini as well.",
+"codes": ["current_tool_use"],
+"valence": "neutral",
+"object_of_evaluation": "tool adoption",
+"rationale": "This segment directly states current clinical use of named tools without adding positive or negative evaluation."
+},
+{
+"segment_id": "S3",
+"timestamp_start": "00:01:02.830",
+"timestamp_end": "00:01:46.550",
+"speaker": "participant",
+"verbatim_excerpt": "I mainly use open evidence and [SYSTEM] right now... it's a really great way to quickly summarize... UpToDate... is much too wordy, and it's not specifically applicable to your patient.",
+"codes": ["quick_summarization", "uptodate_too_wordy", "patient_specificity", "current_tool_use"],
+"valence": "positive",
+"object_of_evaluation": "summarization and patient specificity",
+"rationale": "The participant contrasts AI tools with UpToDate, valuing speed and patient-specific applicability. The criticism of UpToDate grounds the code about excessive wordiness."
+},
+{
+"segment_id": "S4",
+"timestamp_start": "00:01:46.550",
+"timestamp_end": "00:01:58.799",
+"speaker": "participant",
+"verbatim_excerpt": "At least links you to some important data and studies that might be out there that you may have more trouble finding otherwise.",
+"codes": ["helps_find_studies", "access_to_relevant_sources"],
+"valence": "positive",
+"object_of_evaluation": "evidence retrieval",
+"rationale": "The participant values the tool for surfacing important studies that are otherwise harder to locate."
+},
+{
+"segment_id": "S5",
+"timestamp_start": "00:02:10.590",
+"timestamp_end": "00:02:30.909",
+"speaker": "participant",
+"verbatim_excerpt": "I don't think it... I didn't find most of the examples too wordy... while the references in UpToDate are probably the highest quality... It can take a little bit more time to find what you're looking for.",
+"codes": ["reports_not_too_wordy", "high_quality_references_matter", "time_to_find_information"],
+"valence": "mixed",
+"object_of_evaluation": "length and source quality",
+"rationale": "The participant does not find the example reports too long, while also noting UpToDate may contain higher-quality references. The segment balances efficiency with source quality."
+},
+{
+"segment_id": "S6",
+"timestamp_start": "00:02:32.000",
+"timestamp_end": "00:03:11.780",
+"speaker": "participant",
+"verbatim_excerpt": "I personally thought these reports were actually much shorter than what I would see in UpToDate... these tools are really taking into account... your specific patient, and then it's giving more specific recommendations to that patient.",
+"codes": ["reports_shorter_than_uptodate", "patient_specificity", "specific_recommendations"],
+"valence": "positive",
+"object_of_evaluation": "length and personalization",
+"rationale": "The participant explicitly prefers the shorter length and patient-tailored recommendations compared with broader reference material."
+},
+{
+"segment_id": "S7",
+"timestamp_start": "00:03:20.940",
+"timestamp_end": "00:03:40.240",
+"speaker": "participant",
+"verbatim_excerpt": "I really like the RED report... it had a section for some of the diseases, it had a section for, like, practical language for what you could actually say to the patient.",
+"codes": ["preferred_red_report", "patient_communication_language", "practical_structure"],
+"valence": "positive",
+"object_of_evaluation": "report content and structure",
+"rationale": "The participant identifies a favorite report and explains that patient-facing language and disease-specific sections made it useful."
+},
+{
+"segment_id": "S8",
+"timestamp_start": "00:03:49.270",
+"timestamp_end": "00:04:28.150",
+"speaker": "participant",
+"verbatim_excerpt": "I thought it stood out to me... above the rest... the pink report... was just kind of like a table summary, and I didn't really enjoy that, because I felt like the table was really long.",
+"codes": ["preferred_red_report", "disliked_long_table", "pink_report_low_preference"],
+"valence": "mixed",
+"object_of_evaluation": "format and comparative preference",
+"rationale": "The participant positively distinguishes the red report while negatively evaluating the long table-based pink report."
+},
+{
+"segment_id": "S9",
+"timestamp_start": "00:04:28.150",
+"timestamp_end": "00:05:13.720",
+"speaker": "participant",
+"verbatim_excerpt": "It could have been more helpful if it was shorter, and if... the quality of the study designs were vetted, so then you're... really looking at only the key studies that really matter... the NCCN guidelines... that's definitely... a gold standard.",
+"codes": ["need_vetted_study_quality", "prioritize_key_studies", "guidelines_as_gold_standard", "desire_shorter_output"],
+"valence": "mixed",
+"object_of_evaluation": "evidence ranking and length",
+"rationale": "The participant wants fewer, more important studies and explicitly values vetted study quality and guideline-based evidence."
+},
+{
+"segment_id": "S10",
+"timestamp_start": "00:05:32.790",
+"timestamp_end": "00:06:05.399",
+"speaker": "participant",
+"verbatim_excerpt": "I like the red one as well... I was looking for specific numbers in the reports... [the blue one] didn't really show me... specific numbers, and it didn't really present... the most relevant trials.",
+"codes": ["preferred_red_report", "wants_specific_numbers", "wants_relevant_trials", "guideline_only_not_enough"],
+"valence": "mixed",
+"object_of_evaluation": "evidence detail",
+"rationale": "The participant prefers reports that include concrete numerical results and relevant trials rather than only broad guideline material."
+},
+{
+"segment_id": "S11",
+"timestamp_start": "00:06:19.970",
+"timestamp_end": "00:06:35.830",
+"speaker": "participant",
+"verbatim_excerpt": "I found the red report was pretty nicely formatted... it kind of cited the most high-quality sources... And then it kind of gave you more patient-specific considerations.",
+"codes": ["good_formatting", "high_quality_sources", "patient_specific_considerations"],
+"valence": "positive",
+"object_of_evaluation": "format and trust",
+"rationale": "The participant links strong formatting with higher-quality sources and patient-specific considerations, all framed positively."
+},
+{
+"segment_id": "S12",
+"timestamp_start": "00:06:36.980",
+"timestamp_end": "00:07:10.419",
+"speaker": "participant",
+"verbatim_excerpt": "The worst one was... the pink one... I did like the table format, but it was not clear to me... some of the animal model stuff... I didn't think was relevant, and... Phase 1, Phase 2 areas were... blank.",
+"codes": ["table_format_conditional_value", "irrelevant_animal_model_evidence", "blank_sections_reduce_value", "pink_report_low_preference"],
+"valence": "mixed",
+"object_of_evaluation": "table content relevance",
+"rationale": "The participant does not reject tables outright, but finds this table less useful because of irrelevant animal-model content and empty sections."
+},
+{
+"segment_id": "S13",
+"timestamp_start": "00:07:11.900",
+"timestamp_end": "00:07:52.289",
+"speaker": "participant",
+"verbatim_excerpt": "I found maybe some of the sources in the table were not of the highest quality... I don't need a column for... the authors and the journal, but it's helpful to have the column of... the summary.",
+"codes": ["source_quality_concerns", "remove_low_value_columns", "summary_column_helpful"],
+"valence": "mixed",
+"object_of_evaluation": "table design",
+"rationale": "The participant criticizes source quality and some table columns while explicitly valuing concise study summaries."
+},
+{
+"segment_id": "S14",
+"timestamp_start": "00:07:59.220",
+"timestamp_end": "00:08:26.549",
+"speaker": "participant",
+"verbatim_excerpt": "That summary column for each study was helpful. It did reference some specific numbers and bolded them, so that was helpful... I am looking for both guidelines and also the most relevant... largest kind of clinical trials.",
+"codes": ["summary_column_helpful", "highlighted_numbers_helpful", "guidelines_plus_major_trials"],
+"valence": "positive",
+"object_of_evaluation": "evidence presentation",
+"rationale": "The participant identifies specific table features that worked well and clarifies the desired evidence mix of guidelines plus major trials."
+},
+{
+"segment_id": "S15",
+"timestamp_start": "00:08:52.100",
+"timestamp_end": "00:10:04.290",
+"speaker": "participant",
+"verbatim_excerpt": "I think it's... summarizing in the beginning what the overall recommendation would be. I like the bullet points, I like the bolded language... I really liked... a very practical suggestion for... what I would actually do as my clinical action.",
+"codes": ["front_loaded_recommendation", "bullet_preference", "bolding_improves_scanability", "practical_next_steps"],
+"valence": "positive",
+"object_of_evaluation": "output format preferences",
+"rationale": "The participant endorses a concise beginning summary, bullet formatting, bold emphasis, and explicit clinical actions."
+},
+{
+"segment_id": "S16",
+"timestamp_start": "00:10:04.290",
+"timestamp_end": "00:10:20.049",
+"speaker": "participant",
+"verbatim_excerpt": "I also really love having some language around how you might talk to the patient... with these gray areas of shared decision making, it can be hard to kind of think how exactly you want to phrase something.",
+"codes": ["patient_communication_language", "supports_shared_decision_making", "practical_clinician_language"],
+"valence": "positive",
+"object_of_evaluation": "patient communication support",
+"rationale": "The participant values suggested wording for patient conversations, especially when decisions are nuanced."
+},
+{
+"segment_id": "S17",
+"timestamp_start": "00:10:21.980",
+"timestamp_end": "00:11:21.829",
+"speaker": "participant",
+"verbatim_excerpt": "I would want... the most prominent guidelines... and then also referencing... the most relevant Trials... One thing I didn't like about the red one was... at the beginning, it was kind of paragraph, and then it went to bulleted... I would prefer... bullets.",
+"codes": ["prominent_guidelines", "relevant_trials", "format_consistency", "bullet_preference"],
+"valence": "mixed",
+"object_of_evaluation": "content and formatting",
+"rationale": "The participant specifies desired evidence sources while also pointing out an inconsistency in paragraph-to-bullet formatting."
+},
+{
+"segment_id": "S18",
+"timestamp_start": "00:11:15.680",
+"timestamp_end": "00:11:21.829",
+"speaker": "participant",
+"verbatim_excerpt": "I do prefer... references that spell out the name of the journal, because then I can see, oh, this was from [JOURNAL], this was from [JOURNAL]... rather than having to go all the way to the end to find the reference.",
+"codes": ["journal_name_visibility", "inline_reference_context", "rapid_quality_assessment"],
+"valence": "positive",
+"object_of_evaluation": "citation display",
+"rationale": "The participant wants journal names visible inline to assess source familiarity and quality without extra navigation."
+},
+{
+"segment_id": "S19",
+"timestamp_start": "00:11:49.540",
+"timestamp_end": "00:12:12.790",
+"speaker": "participant",
+"verbatim_excerpt": "If you're... in a busy clinic and you don't have much time, it's just so much easier to just read bullet points... having... the journal listed out also kind of already tells you about the quality of the study.",
+"codes": ["busy_clinic_time_pressure", "bullet_preference", "journal_name_as_quality_signal"],
+"valence": "positive",
+"object_of_evaluation": "workflow fit and trust",
+"rationale": "The participant ties formatting preferences directly to time pressure in clinic and uses journal naming as a trust cue."
+},
+{
+"segment_id": "S20",
+"timestamp_start": "00:12:27.770",
+"timestamp_end": "00:12:47.260",
+"speaker": "participant",
+"verbatim_excerpt": "I think the pink one was definitely too short... the red, yellow, and blue, I didn't feel like there were significant differences... if I was in clinic and I had this report, it's not like I wouldn't read it.",
+"codes": ["pink_too_short", "acceptable_length_for_clinic", "small_length_differences_tolerable"],
+"valence": "mixed",
+"object_of_evaluation": "length",
+"rationale": "The participant finds the pink report too short but considers several other report lengths workable in clinic."
+},
+{
+"segment_id": "S21",
+"timestamp_start": "00:13:39.100",
+"timestamp_end": "00:13:52.620",
+"speaker": "participant",
+"verbatim_excerpt": "I'd want it just handed... to me, or if there are certain buttons you can click for customization, I would do that, but I don't think I'd want to make... my own version.",
+"codes": ["prefers_light_customization", "does_not_want_full_manual_configuration", "default_report_preference"],
+"valence": "positive",
+"object_of_evaluation": "customization",
+"rationale": "The participant accepts simple customization but does not want the burden of building a report format from scratch."
+},
+{
+"segment_id": "S22",
+"timestamp_start": "00:13:53.690",
+"timestamp_end": "00:14:13.740",
+"speaker": "participant",
+"verbatim_excerpt": "The AI does kind of think of its own... sections to include... if I made my own report, I may omit... an important question or detail... the [LLM] can present something that I may have not thought about.",
+"codes": ["ai_surfaces_unconsidered_points", "risk_of_user_omission", "value_of_model_structure"],
+"valence": "positive",
+"object_of_evaluation": "report generation strategy",
+"rationale": "The participant trusts the model to include useful sections and worries that manual specification could miss important content."
+},
+{
+"segment_id": "S23",
+"timestamp_start": "00:14:21.270",
+"timestamp_end": "00:14:37.929",
+"speaker": "participant",
+"verbatim_excerpt": "If there were options to say... give me... this type of reference style, or... Include this particular section again.",
+"codes": ["modular_customization_options", "reference_style_preference", "section_level_control"],
+"valence": "positive",
+"object_of_evaluation": "customization controls",
+"rationale": "The participant describes a preferred middle ground: selectable options for reference style and sections, rather than full manual design."
+},
+{
+"segment_id": "S24",
+"timestamp_start": "00:15:08.270",
+"timestamp_end": "00:16:02.699",
+"speaker": "participant",
+"verbatim_excerpt": "We had a 7-week-old [PATIENT] with this new hepatic mass... the biopsy showed a type of oncologic diagnosis that is very, very rare... that's when I... jumped to open evidence... what is the prognosis? How do we typically treat this?",
+"codes": ["rare_case_orientation", "diagnostic_support_use_case", "treatment_and_prognosis_queries"],
+"valence": "positive",
+"object_of_evaluation": "intended use case",
+"rationale": "The participant gives a concrete case where the tool was used to get oriented to a rare diagnosis and quickly ask prognosis and treatment questions."
+},
+{
+"segment_id": "S25",
+"timestamp_start": "00:16:02.940",
+"timestamp_end": "00:16:02.699",
+"speaker": "participant",
+"verbatim_excerpt": "I think it's really helpful for... diagnoses you've never seen before, or you want to learn more about.",
+"codes": ["novel_diagnosis_learning", "orientation_to_unfamiliar_cases"],
+"valence": "positive",
+"object_of_evaluation": "use case",
+"rationale": "The participant generalizes the prior example into a broader use case of learning about unfamiliar diagnoses."
+},
+{
+"segment_id": "S26",
+"timestamp_start": "00:16:17.750",
+"timestamp_end": "00:16:45.640",
+"speaker": "participant",
+"verbatim_excerpt": "I use open evidence both to summarize... a particular... diagnosis... and tell me... what the most important points are... but I also often use it for... medication questions... [it] can give you specific things... important... in your particular case.",
+"codes": ["summarization_use_case", "medication_question_use_case", "case_specific_filtering"],
+"valence": "positive",
+"object_of_evaluation": "workflow integration",
+"rationale": "The participant identifies two concrete uses: diagnosis summarization and medication-related questions filtered to the specific case."
+},
+{
+"segment_id": "S27",
+"timestamp_start": "00:17:04.280",
+"timestamp_end": "00:17:15.950",
+"speaker": "participant",
+"verbatim_excerpt": "This patient has this symptom and got this medication, like, is this potentially a side effect of this medication...?",
+"codes": ["adverse_effect_root_cause_query", "symptom_medication_linking"],
+"valence": "neutral",
+"object_of_evaluation": "medication reasoning use case",
+"rationale": "The participant describes a specific reasoning task: checking whether a symptom could be a medication side effect."
+},
+{
+"segment_id": "S28",
+"timestamp_start": "00:17:23.829",
+"timestamp_end": "00:17:35.929",
+"speaker": "participant",
+"verbatim_excerpt": "It's also really useful for a journal club, too. I've definitely used it to kind of do... a large scoping literature review, and also to help you summarize bullet points for a PowerPoint.",
+"codes": ["journal_club_use_case", "scoping_review_support", "presentation_bullet_generation"],
+"valence": "positive",
+"object_of_evaluation": "academic workflow fit",
+"rationale": "The participant explicitly extends use beyond clinic into journal club preparation, literature scoping, and presentation drafting."
+},
+{
+"segment_id": "S29",
+"timestamp_start": "00:19:26.670",
+"timestamp_end": "00:20:08.680",
+"speaker": "participant",
+"verbatim_excerpt": "I do feel like [SYSTEM] pulls in tables from studies more than any other model, and I really like that... A table can summarize a lot quickly... but... after [guidelines], some of the journals are not maybe the best.",
+"codes": ["likes_study_tables", "tables_speed_comprehension", "source_quality_concerns"],
+"valence": "mixed",
+"object_of_evaluation": "table utility and source quality",
+"rationale": "The participant strongly values study tables for rapid synthesis while still criticizing uneven source quality after the guideline layer."
+},
+{
+"segment_id": "S30",
+"timestamp_start": "00:20:31.060",
+"timestamp_end": "00:20:57.250",
+"speaker": "participant",
+"verbatim_excerpt": "Keeping it patient-centered... the reports that I've enjoyed the most... keeping the specific prompt, the specific patient in mind, and coming up with practical recommendations that are evidence-based... and language for how to talk to patients.",
+"codes": ["patient_centered_output", "prompt_specificity", "evidence_based_practical_recommendations", "patient_communication_language"],
+"valence": "positive",
+"object_of_evaluation": "overall report design",
+"rationale": "The participant summarizes the preferred design: patient-centered, specific to the prompt, practical, evidence-based, and helpful for patient communication."
+},
+{
+"segment_id": "S31",
+"timestamp_start": "00:21:17.890",
+"timestamp_end": "00:21:20.150",
+"speaker": "participant",
+"verbatim_excerpt": "Yeah, exactly, yeah.",
+"codes": ["agreement_with_general_plus_patient_specific_split"],
+"valence": "positive",
+"object_of_evaluation": "report structure",
+"rationale": "Although brief, this confirms the participant's support for separating general recommendations from patient-specific recommendations."
+}
+],
+"codebook": [
+{
+"code": "interactive_querying",
+"definition": "The participant values being able to ask questions back and forth rather than only reading static reference text.",
+"inclusion_criteria": ["Mentions engaging with a tool", "Describes asking questions to the system"],
+"exclusion_criteria": ["Generic statements that a tool is helpful without describing interaction"],
+"example_segment_ids": ["S1"]
+},
+{
+"code": "tailored_advice",
+"definition": "The tool is valued for producing advice tailored to a specific patient or prompt.",
+"inclusion_criteria": ["Mentions tailored advice", "Says output is specific to a patient or case"],
+"exclusion_criteria": ["General summaries not tied to a specific case"],
+"example_segment_ids": ["S1", "S6"]
+},
+{
+"code": "uptodate_too_wordy",
+"definition": "UpToDate or similar broad references are described as too long, too broad, or harder to navigate efficiently.",
+"inclusion_criteria": ["Calls UpToDate wordy", "Describes needing to dig through broad sections"],
+"exclusion_criteria": ["Any complaint about a report that does not compare to broader references"],
+"example_segment_ids": ["S3", "S18"]
+},
+{
+"code": "patient_specificity",
+"definition": "The participant prefers outputs that account for the specific patient rather than offering only general information.",
+"inclusion_criteria": ["Mentions the specific patient", "Prefers patient-specific recommendations or considerations"],
+"exclusion_criteria": ["General guideline references without patient tailoring"],
+"example_segment_ids": ["S3", "S6", "S11"]
+},
+{
+"code": "preferred_red_report",
+"definition": "The red report is explicitly identified as the most preferred report.",
+"inclusion_criteria": ["States red is favorite", "Says red stands above others"],
+"exclusion_criteria": ["General praise of a report without naming comparative preference"],
+"example_segment_ids": ["S7", "S8", "S10"]
+},
+{
+"code": "patient_communication_language",
+"definition": "The participant values text that helps explain options or recommendations to patients in practical language.",
+"inclusion_criteria": ["Mentions what to say to the patient", "Values language for patient discussion"],
+"exclusion_criteria": ["General practical recommendations not tied to communication"],
+"example_segment_ids": ["S7", "S16", "S30"]
+},
+{
+"code": "need_vetted_study_quality",
+"definition": "The participant wants reports to filter or vet studies so low-value or weakly designed studies do not clutter the output.",
+"inclusion_criteria": ["Mentions study design quality", "Wants only key studies that matter"],
+"exclusion_criteria": ["Simple desire for more references"],
+"example_segment_ids": ["S9"]
+},
+{
+"code": "guidelines_as_gold_standard",
+"definition": "Guidelines are treated as especially trusted or foundational evidence in the report.",
+"inclusion_criteria": ["Calls guidelines a gold standard", "Wants prominent guideline references"],
+"exclusion_criteria": ["Mentions trials without discussing guidelines"],
+"example_segment_ids": ["S9", "S17"]
+},
+{
+"code": "wants_specific_numbers",
+"definition": "The participant wants concrete numerical outcomes or results included in the report.",
+"inclusion_criteria": ["Asks for specific numbers", "Values bolded numerical summaries"],
+"exclusion_criteria": ["General desire for more detail without numeric emphasis"],
+"example_segment_ids": ["S10", "S14"]
+},
+{
+"code": "guidelines_plus_major_trials",
+"definition": "The ideal evidence mix includes both major guidelines and the most relevant large trials.",
+"inclusion_criteria": ["Mentions both guidelines and trials", "Says guideline-only information is insufficient"],
+"exclusion_criteria": ["Only guideline preference or only trial preference"],
+"example_segment_ids": ["S14", "S17"]
+},
+{
+"code": "table_format_conditional_value",
+"definition": "Tables are useful when they improve summarization, but not when they are long, irrelevant, or poorly structured.",
+"inclusion_criteria": ["Likes table format but with caveats", "Says tables can summarize quickly"],
+"exclusion_criteria": ["Pure praise or pure dislike of tables without conditions"],
+"example_segment_ids": ["S12", "S29"]
+},
+{
+"code": "summary_column_helpful",
+"definition": "Short study summaries within a table are specifically valued.",
+"inclusion_criteria": ["Mentions summary column as helpful", "Prefers concise summary fields"],
+"exclusion_criteria": ["General comments about tables without naming summaries"],
+"example_segment_ids": ["S13", "S14"]
+},
+{
+"code": "bullet_preference",
+"definition": "Bulleted formatting is preferred for speed, readability, and use in busy clinic settings.",
+"inclusion_criteria": ["Explicitly says they like bullet points", "Contrasts bullets with paragraph format"],
+"exclusion_criteria": ["General formatting praise without mentioning bullets"],
+"example_segment_ids": ["S15", "S17", "S19"]
+},
+{
+"code": "practical_next_steps",
+"definition": "The participant wants concrete recommendations for what to do next clinically.",
+"inclusion_criteria": ["Mentions practical approach", "Wants explicit next step or recommendation"],
+"exclusion_criteria": ["General evidence summary without actionability"],
+"example_segment_ids": ["S15", "S17"]
+},
+{
+"code": "format_consistency",
+"definition": "The participant wants a stable, internally consistent report format rather than mixed paragraph and bullet styles.",
+"inclusion_criteria": ["Comments on paragraph-to-bullet inconsistency", "Requests one format consistently"],
+"exclusion_criteria": ["Simple preference for bullets without mention of inconsistency"],
+"example_segment_ids": ["S17"]
+},
+{
+"code": "journal_name_visibility",
+"definition": "The participant wants journal names surfaced inline so source credibility can be judged quickly.",
+"inclusion_criteria": ["Wants journal names spelled out", "Uses journal names as quality cues"],
+"exclusion_criteria": ["Generic request for citations without journal visibility"],
+"example_segment_ids": ["S18", "S19"]
+},
+{
+"code": "prefers_light_customization",
+"definition": "The participant is open to simple options or buttons for customization but does not want to build the report manually.",
+"inclusion_criteria": ["Wants buttons or options", "Does not want to make own version from scratch"],
+"exclusion_criteria": ["Full custom report building enthusiasm"],
+"example_segment_ids": ["S21", "S23"]
+},
+{
+"code": "ai_surfaces_unconsidered_points",
+"definition": "The participant values the model's ability to introduce useful details or sections they might not have requested themselves.",
+"inclusion_criteria": ["Says AI can include things they had not thought about", "Worries manual design would omit important details"],
+"exclusion_criteria": ["General praise of AI without this comparative point"],
+"example_segment_ids": ["S22"]
+},
+{
+"code": "rare_case_orientation",
+"definition": "The tool is used to quickly orient the participant when a case falls outside ordinary experience.",
+"inclusion_criteria": ["Describes rare diagnosis", "Uses tool to get bearings on unfamiliar case"],
+"exclusion_criteria": ["Routine use for common conditions without novelty emphasis"],
+"example_segment_ids": ["S24", "S25"]
+},
+{
+"code": "medication_question_use_case",
+"definition": "The tool is used for medication-related reasoning, especially focused symptom or adverse-effect questions.",
+"inclusion_criteria": ["Mentions medication questions", "Asks whether a symptom is a side effect"],
+"exclusion_criteria": ["Treatment selection in general without medication-specific reasoning"],
+"example_segment_ids": ["S26", "S27"]
+},
+{
+"code": "journal_club_use_case",
+"definition": "The tool is used in academic or educational workflows such as journal club and presentation preparation.",
+"inclusion_criteria": ["Mentions journal club", "Uses for scoping review or PowerPoint bullets"],
+"exclusion_criteria": ["Clinical-only use cases"],
+"example_segment_ids": ["S28"]
+},
+{
+"code": "source_quality_concerns",
+"definition": "The participant worries that some cited sources are not among the strongest or most relevant available.",
+"inclusion_criteria": ["Says some sources are not highest quality", "Notes weaker journals or studies mixed in"],
+"exclusion_criteria": ["Complaints about formatting alone"],
+"example_segment_ids": ["S13", "S29"]
+},
+{
+"code": "patient_centered_output",
+"definition": "The preferred report keeps the specific patient and prompt central rather than drifting into generic advice.",
+"inclusion_criteria": ["Says keep it patient-centered", "Mentions specific patient in mind"],
+"exclusion_criteria": ["General actionability without patient focus"],
+"example_segment_ids": ["S30", "S31"]
+}
+],
+"themes": [
+{
+"theme_id": "T1",
+"theme_name": "Brief, scannable reports for busy clinic use",
+"theme_definition": "Across the transcript, participants repeatedly favored concise, quickly readable reports over broad, wordy references. Bullets, bolded text, front-loaded recommendations, and consistent structure were valued because they match time pressure in clinic.",
+"supporting_segments": ["S3", "S5", "S6", "S15", "S17", "S19", "S20"],
+"representative_quotes": [
+{
+"segment_id": "S19",
+"quote": "If you're... in a busy clinic and you don't have much time, it's just so much easier to just read bullet points."
+},
+{
+"segment_id": "S15",
+"quote": "I like the bullet points, I like the bolded language."
+}
+],
+"overall_valence": "positive",
+"confidence": "high",
+"confidence_basis": "Repeated across multiple segments and voiced by both participants."
+},
+{
+"theme_id": "T2",
+"theme_name": "Patient-specific, practical guidance is more useful than generic literature review",
+"theme_definition": "Participants preferred reports that translate evidence into patient-specific recommendations and practical next steps. They especially valued suggestions for what to do clinically and wording for how to discuss options with patients.",
+"supporting_segments": ["S1", "S6", "S7", "S11", "S15", "S16", "S30", "S31"],
+"representative_quotes": [
+{
+"segment_id": "S30",
+"quote": "Keeping it patient-centered... coming up with practical recommendations that are evidence-based... and language for how to talk to patients."
+},
+{
+"segment_id": "S16",
+"quote": "I also really love having some language around how you might talk to the patient."
+}
+],
+"overall_valence": "positive",
+"confidence": "high",
+"confidence_basis": "Strongly repeated and explicitly framed as a preferred design feature."
+},
+{
+"theme_id": "T3",
+"theme_name": "Trust depends on strong evidence selection, not just more citations",
+"theme_definition": "Participants wanted reports that foreground major guidelines and the most relevant, larger trials, while filtering out weaker or less relevant studies. Source quality mattered not only through citation presence, but through visible cues like guideline names, journal names, and concrete trial numbers.",
+"supporting_segments": ["S9", "S10", "S11", "S13", "S14", "S17", "S18", "S29"],
+"representative_quotes": [
+{
+"segment_id": "S9",
+"quote": "The quality of the study designs were vetted, so then you're... really looking at only the key studies that really matter."
+},
+{
+"segment_id": "S14",
+"quote": "I am looking for both guidelines and also the most relevant... largest kind of clinical trials."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Multiple repeated statements directly address evidence quality, relevance, and trust cues."
+},
+{
+"theme_id": "T4",
+"theme_name": "Tables help only when they reduce noise",
+"theme_definition": "Participants did not reject tables outright. They liked tables when they quickly summarized results and surfaced useful study details, but disliked long or cluttered tables that mixed weak evidence, irrelevant animal-model studies, empty sections, or low-value columns.",
+"supporting_segments": ["S8", "S12", "S13", "S14", "S29"],
+"representative_quotes": [
+{
+"segment_id": "S29",
+"quote": "A table can summarize a lot quickly."
+},
+{
+"segment_id": "S12",
+"quote": "Some of the animal model stuff... I didn't think was relevant."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "The transcript contains both positive and negative table-specific judgments with concrete examples."
+},
+{
+"theme_id": "T5",
+"theme_name": "Users want configurable reports, but not the burden of building them",
+"theme_definition": "Participants were open to selecting options such as reference style or sections, but did not want to manually design whole reports. One reason was that the model may surface useful details they would not have remembered to request themselves.",
+"supporting_segments": ["S21", "S22", "S23"],
+"representative_quotes": [
+{
+"segment_id": "S21",
+"quote": "If there are certain buttons you can click for customization, I would do that, but I don't think I'd want to make... my own version."
+},
+{
+"segment_id": "S22",
+"quote": "The [LLM] can present something that I may have not thought about."
+}
+],
+"overall_valence": "positive",
+"confidence": "medium",
+"confidence_basis": "Clear but limited to a smaller number of segments."
+},
+{
+"theme_id": "T6",
+"theme_name": "AI is used to get oriented quickly in unfamiliar clinical and academic tasks",
+"theme_definition": "Participants described using these tools when they needed fast orientation: rare diagnoses, treatment and prognosis questions, medication side-effect reasoning, journal club preparation, literature scoping, and slide drafting. The common thread is rapid synthesis and focusing attention on the most important points.",
+"supporting_segments": ["S24", "S25", "S26", "S27", "S28"],
+"representative_quotes": [
+{
+"segment_id": "S25",
+"quote": "It's really helpful for... diagnoses you've never seen before."
+},
+{
+"segment_id": "S28",
+"quote": "It's also really useful for a journal club, too."
+}
+],
+"overall_valence": "positive",
+"confidence": "high",
+"confidence_basis": "Several distinct use cases are described in detail."
+}
+],
+"likes": [
+{
+"like_id": "L1",
+"statement": "Interactive AI tools that can be queried and provide tailored advice.",
+"supporting_segments": ["S1"],
+"representative_quote": "It's nice to have a [SYSTEM] that you can kind of engage with and ask questions to and have more tailored advice."
+},
+{
+"like_id": "L2",
+"statement": "Reports that are shorter and more patient-specific than broad reference resources.",
+"supporting_segments": ["S3", "S6"],
+"representative_quote": "These tools are really taking into account... your specific patient, and then it's giving more specific recommendations."
+},
+{
+"like_id": "L3",
+"statement": "The red report's practical sections and patient-facing language.",
+"supporting_segments": ["S7", "S11"],
+"representative_quote": "I like that it had... practical language for what you could actually say to the patient."
+},
+{
+"like_id": "L4",
+"statement": "Bullet points, bolded text, and a front-loaded overall recommendation.",
+"supporting_segments": ["S15", "S19"],
+"representative_quote": "I like the bullet points, I like the bolded language."
+},
+{
+"like_id": "L5",
+"statement": "Prominent guidelines plus relevant trials with specific numerical results.",
+"supporting_segments": ["S10", "S14", "S17"],
+"representative_quote": "I am looking for both guidelines and also the most relevant... largest kind of clinical trials."
+},
+{
+"like_id": "L6",
+"statement": "Inline journal names and citation cues that help judge source quality quickly.",
+"supporting_segments": ["S18", "S19"],
+"representative_quote": "I do prefer... references that spell out the name of the journal."
+},
+{
+"like_id": "L7",
+"statement": "Tables when they quickly summarize study information.",
+"supporting_segments": ["S14", "S29"],
+"representative_quote": "A table can summarize a lot quickly."
+},
+{
+"like_id": "L8",
+"statement": "Simple customization options rather than full manual report building.",
+"supporting_segments": ["S21", "S23"],
+"representative_quote": "If there are certain buttons you can click for customization, I would do that."
+},
+{
+"like_id": "L9",
+"statement": "Use of AI for unfamiliar diagnoses, medication reasoning, journal club, and literature scoping.",
+"supporting_segments": ["S24", "S26", "S28"],
+"representative_quote": "It's really helpful for... diagnoses you've never seen before."
+}
+],
+"dislikes": [
+{
+"dislike_id": "D1",
+"statement": "Long, table-heavy reports that include too many references.",
+"supporting_segments": ["S8", "S9"],
+"representative_quote": "I felt like the table was really long."
+},
+{
+"dislike_id": "D2",
+"statement": "Reports that include lower-quality or weakly designed studies instead of only the most important evidence.",
+"supporting_segments": ["S9", "S13", "S29"],
+"representative_quote": "I found maybe some of the sources in the table were not of the highest quality."
+},
+{
+"dislike_id": "D3",
+"statement": "Evidence displays that omit specific numbers and the most relevant trials.",
+"supporting_segments": ["S10"],
+"representative_quote": "It didn't really show me... specific numbers, and it didn't really present... the most relevant trials."
+},
+{
+"dislike_id": "D4",
+"statement": "Irrelevant animal-model content and blank sections in evidence tables.",
+"supporting_segments": ["S12"],
+"representative_quote": "Some of the animal model stuff... I didn't think was relevant."
+},
+{
+"dislike_id": "D5",
+"statement": "Low-value table columns such as authors when more useful summary fields are available.",
+"supporting_segments": ["S13"],
+"representative_quote": "I don't need a column for... the authors and the journal."
+},
+{
+"dislike_id": "D6",
+"statement": "Inconsistent formatting that switches from paragraph text to bullets.",
+"supporting_segments": ["S17"],
+"representative_quote": "At the beginning, it was kind of paragraph, and then it went to bulleted."
+}
+],
+"requirements": [
+{
+"req_id": "R1",
+"type": "must_have",
+"requirement": "Start the report with a concise overall recommendation in bullet form with bolded key points.",
+"supporting_segments": ["S15", "S19"],
+"risk_if_ignored": "Clinicians may not extract the main recommendation quickly enough for busy workflow use."
+},
+{
+"req_id": "R2",
+"type": "must_have",
+"requirement": "Include patient-specific considerations and practical next steps, not just general evidence summaries.",
+"supporting_segments": ["S6", "S11", "S15", "S30", "S31"],
+"risk_if_ignored": "The output may feel generic and less actionable for the actual patient in front of the clinician."
+},
+{
+"req_id": "R3",
+"type": "must_have",
+"requirement": "Prioritize major guidelines and the most relevant larger trials, while filtering out weak or low-value studies.",
+"supporting_segments": ["S9", "S14", "S17", "S29"],
+"risk_if_ignored": "Trust may erode if high-value evidence is mixed with weaker or less relevant studies."
+},
+{
+"req_id": "R4",
+"type": "must_have",
+"requirement": "Surface concrete numerical outcomes from key studies when relevant.",
+"supporting_segments": ["S10", "S14"],
+"risk_if_ignored": "Clinicians may find the report insufficiently informative for comparing options or understanding evidence strength."
+},
+{
+"req_id": "R5",
+"type": "must_have",
+"requirement": "Provide suggested language for discussing recommendations and uncertainty with patients.",
+"supporting_segments": ["S7", "S16", "S30"],
+"risk_if_ignored": "The tool may fail to support shared decision making in communication-heavy clinical moments."
+},
+{
+"req_id": "R6",
+"type": "avoid",
+"requirement": "Avoid long tables populated with irrelevant animal-model evidence, blank sections, or excessive low-value columns.",
+"supporting_segments": ["S8", "S12", "S13"],
+"risk_if_ignored": "The report may become noisy, harder to scan, and less clinically relevant."
+},
+{
+"req_id": "R7",
+"type": "nice_to_have",
+"requirement": "Expose simple customization controls for reference style and optional sections without requiring full manual report design.",
+"supporting_segments": ["S21", "S23"],
+"risk_if_ignored": "Some users may feel constrained by a fixed template even if they do not want full customization burden."
+},
+{
+"req_id": "R8",
+"type": "nice_to_have",
+"requirement": "Display journal names inline or near cited findings so source quality can be assessed immediately.",
+"supporting_segments": ["S18", "S19"],
+"risk_if_ignored": "Users may need extra effort to judge credibility and may trust the output less."
+}
+],
+"workflow_integration": {
+"current_workarounds": [
+"Using UpToDate as a prior baseline reference despite its length and navigation burden.",
+"Using Open Evidence and other models to summarize key points more quickly.",
+"Using AI to produce scoping literature reviews and bullet points for presentations."
+],
+"intended_use_cases": [
+"Orienting to rare or unfamiliar diagnoses.",
+"Reviewing prognosis and treatment questions for specific cases.",
+"Reasoning about whether symptoms could be medication side effects.",
+"Preparing journal club materials.",
+"Creating concise bullet points for PowerPoint presentations."
+],
+"constraints": [
+"Busy clinic time pressure.",
+"Need to rapidly identify the most important evidence.",
+"Need for patient-specific recommendations rather than generic summaries.",
+"Need to avoid clutter from weak or irrelevant studies."
+],
+"output_format_preferences": [
+"Bullet points over paragraphs.",
+"Bolded key points.",
+"Front-loaded overall recommendation.",
+"Consistent formatting throughout.",
+"Visible journal names near cited content.",
+"Tables only when concise and high signal.",
+"Patient-communication language section."
+]
+},
+"trust_and_safety": {
+"trust_drivers": [
+"References to major guidelines.",
+"Inclusion of the most relevant larger trials.",
+"Concrete numerical results from studies.",
+"Visible journal names as a quick proxy for quality.",
+"Patient-specific considerations grounded in the prompt."
+],
+"trust_erosions": [
+"Mixing strong guideline evidence with weak or irrelevant studies.",
+"Including animal-model evidence in clinically oriented summaries.",
+"Source lists that are long but not clearly filtered for quality.",
+"Lack of specific numbers or insufficiently relevant trials."
+],
+"verification_behaviors": [
+"Looking at journal names to infer study quality quickly.",
+"Using guideline references as an anchor for trust.",
+"Preferring study summaries that make important numerical findings easy to inspect."
+],
+"medico_legal_or_policy_concerns": []
+},
+"quantified_mentions": {
+"top_codes_by_count": [
+{
+"code": "patient_specificity",
+"count": 5
+},
+{
+"code": "bullet_preference",
+"count": 4
+},
+{
+"code": "patient_communication_language",
+"count": 4
+},
+{
+"code": "preferred_red_report",
+"count": 4
+},
+{
+"code": "source_quality_concerns",
+"count": 3
+},
+{
+"code": "guidelines_plus_major_trials",
+"count": 2
+},
+{
+"code": "summary_column_helpful",
+"count": 2
+},
+{
+"code": "table_format_conditional_value",
+"count": 2
+}
+],
+"notes": "Counts are approximate because this transcript contains two participant speakers within one file, some ideas recur in overlapping ways, and anonymization placeholders slightly reduce specificity."
+},
+"analytic_memos": {
+"summary": "The participants describe AI literature-review tools as useful because they are interactive, quicker to navigate than broader references, and able to produce patient-specific guidance. They consistently prefer concise, bulleted, easy-to-scan outputs that foreground the recommendation and highlight key evidence. Their strongest positive reactions center on reports that translate evidence into practical next steps and even offer language for patient conversations. Trust is not built by citation volume alone; it depends on selective inclusion of major guidelines, relevant larger trials, visible source cues, and concrete numerical findings. Tables are viewed as helpful only when they summarize efficiently and avoid irrelevant or weak evidence. Participants do not want the burden of fully designing reports themselves, but they do want lightweight customization options. In day-to-day use, these tools fit both clinical and academic workflows, especially when confronting unfamiliar diagnoses, medication questions, journal club preparation, and rapid evidence synthesis.",
+"tensions_or_tradeoffs": [
+"Participants want concise outputs, but not so short that important evidence disappears.",
+"They like tables for fast synthesis, but dislike tables when they become long or include low-value content.",
+"They want customization options, but not full manual configuration burden.",
+"They value guideline authority, but also want specific trial-level numbers and patient-specific recommendations."
+],
+"open_questions_for_next_interview": [
+"When participants say they want major guidelines and relevant trials, how many citations or studies feel optimal before the report becomes noisy?",
+"What exact patient-communication language is most useful: risk framing, empathetic phrasing, or option comparison language?",
+"How should a report visually separate general guideline recommendations from patient-specific considerations?",
+"Which numerical results are most valuable to surface first for rapid decision support?",
+"What minimal set of customization controls would feel useful without becoming burdensome?"
+]
+}
+}

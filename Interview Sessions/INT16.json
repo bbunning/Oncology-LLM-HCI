@@ -1,0 +1,634 @@
+{
+"transcript_id": "TX001",
+"interview_context": {
+"participant_role": "unknown",
+"setting_or_workflow_context": "Group interview with oncology clinicians discussing AI-generated literature review reports for point-of-care clinical questions.",
+"tools_mentioned_by_participant": ["up to date", "open evidence", "NCCN"]
+},
+"segments": [
+{
+"segment_id": "S1",
+"timestamp_start": "00:00:27.400",
+"timestamp_end": "00:01:07.740",
+"speaker": "participant",
+"verbatim_excerpt": "some of them are long... if you're in clinic, in between patients... the lengthy reports are one of the negative sides... some of the reports... provide summary of recommendation at the end... supported by the references and citation.",
+"codes": ["report_too_long", "needs_bottom_line_summary", "citations_support_usefulness"],
+"valence": "mixed",
+"object_of_evaluation": "length, summary, citations, workflow fit",
+"rationale": "The participant explicitly criticizes lengthy reports in clinic and positively values a short recommendation summary supported by references and citations."
+},
+{
+"segment_id": "S2",
+"timestamp_start": "00:03:21.780",
+"timestamp_end": "00:03:53.450",
+"speaker": "participant",
+"verbatim_excerpt": "I really appreciate the use of them for summarizing information, but I do not really look to these tools for recommendations about what to do... that line is... just providing... a well-constructed summary.",
+"codes": ["summary_over_recommendation", "skepticism_toward_actionable_advice"],
+"valence": "mixed",
+"object_of_evaluation": "recommendation scope, trust",
+"rationale": "The participant draws a clear boundary: summaries are appreciated, while recommendations about what to do are not trusted."
+},
+{
+"segment_id": "S3",
+"timestamp_start": "00:04:00.790",
+"timestamp_end": "00:04:31.850",
+"speaker": "participant",
+"verbatim_excerpt": "if you want to get the answer, like, yes or no, or, like, what's the best recommended approach? that can be helpful to some extent... the dose of the gabapentin... this is, like, no, it's risky... I can just, like, get what it's better to do based on the evidence.",
+"codes": ["limited_value_of_high_level_answer", "unsafe_detailed_recommendations", "evidence_should_inform_not_replace_judgment"],
+"valence": "mixed",
+"object_of_evaluation": "recommendations, safety, level of detail",
+"rationale": "The participant allows some utility for high-level answers but rejects detailed treatment advice as risky, especially dosing-level guidance."
+},
+{
+"segment_id": "S4",
+"timestamp_start": "00:05:08.370",
+"timestamp_end": "00:05:40.029",
+"speaker": "participant",
+"verbatim_excerpt": "what I just really want is... the filtering or... the bottom line of all those references just provided in a couple of sentences, or, like, one small paragraph that gives me the pertinent information.",
+"codes": ["wants_filtered_bottom_line", "prefers_brief_paragraph"],
+"valence": "positive",
+"object_of_evaluation": "summary format",
+"rationale": "The participant clearly states a preferred output: filtered bottom-line evidence in a very short, pertinent summary."
+},
+{
+"segment_id": "S5",
+"timestamp_start": "00:05:55.710",
+"timestamp_end": "00:06:50.680",
+"speaker": "participant",
+"verbatim_excerpt": "the best thing has been comparing it to up-to-date... you'll type a question up to date... scroll down... try to find the section that's relevant... these tools do a good job... you can ask a specific question and at least get the relevant references.",
+"codes": ["better_than_manual_searching", "specific_question_retrieval", "relevant_references_are_useful"],
+"valence": "positive",
+"object_of_evaluation": "workflow fit, retrieval utility",
+"rationale": "The participant contrasts current tools with a more cumbersome existing resource and values direct retrieval of relevant references for specific questions."
+},
+{
+"segment_id": "S6",
+"timestamp_start": "00:06:42.390",
+"timestamp_end": "00:07:04.900",
+"speaker": "participant",
+"verbatim_excerpt": "to get that information summarized concisely, including, like, the top-level NCCN guideline of, like, no evidence. I think that that's very helpful.",
+"codes": ["guideline_status_matters", "concise_summary_is_helpful"],
+"valence": "positive",
+"object_of_evaluation": "guideline content, summary",
+"rationale": "The participant specifically values concise reporting that includes top-level guideline status, including when evidence is absent."
+},
+{
+"segment_id": "S7",
+"timestamp_start": "00:07:48.190",
+"timestamp_end": "00:08:24.460",
+"speaker": "participant",
+"verbatim_excerpt": "we're pretty simple... it's, like, ORR, like, 3-year progression-free survival, like, OS... we kind of have the core things that we want to see from the papers, and it extracts those pretty reliably.",
+"codes": ["wants_core_outcomes", "reliable_extraction_of_key_metrics"],
+"valence": "positive",
+"object_of_evaluation": "content extraction, evidence display",
+"rationale": "The participant identifies the specific study outputs they care about and says the tools usually extract those reliably."
+},
+{
+"segment_id": "S8",
+"timestamp_start": "00:08:34.090",
+"timestamp_end": "00:09:08.259",
+"speaker": "participant",
+"verbatim_excerpt": "I like when they bold the stuff that I already like... the table that was generated was very helpful... put the key information in there... especially, like, with the table... which phase, like, how strong this evidence is... the pros and cons.",
+"codes": ["formatting_aids_scanning", "table_for_key_information", "evidence_strength_should_be_visible"],
+"valence": "positive",
+"object_of_evaluation": "formatting, tables, evidence hierarchy",
+"rationale": "The participants endorse bolding and tables because these help them scan key information, evidence strength, and pros/cons."
+},
+{
+"segment_id": "S9",
+"timestamp_start": "00:09:30.520",
+"timestamp_end": "00:10:10.210",
+"speaker": "participant",
+"verbatim_excerpt": "make it, like, in three sections. The first section is... brief overview... Second section is, in a table, organize the pros and cons... with hyperlinked reference, and at the bottom, like, the practical recommendation... ideally one page or, like, one and a half maximum.",
+"codes": ["preferred_three_section_structure", "hyperlinked_references_needed", "one_page_limit", "table_for_pros_and_cons"],
+"valence": "positive",
+"object_of_evaluation": "report structure, length, references",
+"rationale": "The participant describes an ideal report architecture with a strict length preference, a table, hyperlinks, and a brief practical recommendation."
+},
+{
+"segment_id": "S10",
+"timestamp_start": "00:10:28.980",
+"timestamp_end": "00:10:51.490",
+"speaker": "participant",
+"verbatim_excerpt": "I take that into account... but without going further down about... more details about that recommendation... it's mainly just, like, an additive tool to my... thinking process, not... the backbone of my decision.",
+"codes": ["recommendation_as_additive_not_decisive", "retain_clinician_judgment"],
+"valence": "mixed",
+"object_of_evaluation": "decision support role, trust",
+"rationale": "The participant accepts recommendations only as input to thinking, not as the basis of the final decision."
+},
+{
+"segment_id": "S11",
+"timestamp_start": "00:11:02.580",
+"timestamp_end": "00:12:05.049",
+"speaker": "participant",
+"verbatim_excerpt": "it was, like, crazy long... having some way to... tier out the evidence... if there's a lot of... meta-analysis, phase three, support, then I think cutting it at that... whatever the highest level evidence is that you can still fit in... a short answer.",
+"codes": ["too_long_even_with_table", "tier_evidence_by_strength", "omit_lower_level_evidence_when_higher_exists", "short_answer_priority"],
+"valence": "mixed",
+"object_of_evaluation": "length, evidence selection",
+"rationale": "The participant wants evidence filtered by hierarchy so reports stay short and do not include lower-value studies when stronger evidence already exists."
+},
+{
+"segment_id": "S12",
+"timestamp_start": "00:12:21.540",
+"timestamp_end": "00:13:45.020",
+"speaker": "participant",
+"verbatim_excerpt": "I liked the blue one the most... it had hyperlinks and citations, which to me was super important... I use this as, like, a retrieval tool... I like the table, but... it wasn't hyperlinked, and then it was, like, kind of vague about what it was actually referencing.",
+"codes": ["hyperlinks_enable_verification", "retrieval_tool_orientation", "table_fails_without_traceability"],
+"valence": "mixed",
+"object_of_evaluation": "hyperlinks, citations, tables, traceability",
+"rationale": "The participant values a report with hyperlinks and citations because it supports literature retrieval, and criticizes a table that lacked clear, traceable references."
+},
+{
+"segment_id": "S13",
+"timestamp_start": "00:14:00.240",
+"timestamp_end": "00:17:18.639",
+"speaker": "participant",
+"verbatim_excerpt": "the style of the yellow report... provided some comparison and... summary of recommendation at the end... survival benefit... safety... strength of the evidence... retrospective, phase 3, phase 2... potentially... was it a first-line study, was it a second-line study? And then the N would also sometimes be helpful.",
+"codes": ["likes_comparison_plus_summary", "wants_survival_and_safety", "needs_study_phase_and_design", "line_of_therapy_matters", "sample_size_can_matter"],
+"valence": "positive",
+"object_of_evaluation": "table columns, report content",
+"rationale": "The participants specify concrete table fields and say they value comparison-oriented presentation plus a concluding recommendation summary."
+},
+{
+"segment_id": "S14",
+"timestamp_start": "00:17:53.620",
+"timestamp_end": "00:19:23.069",
+"speaker": "participant",
+"verbatim_excerpt": "there's... a lot of... inferential answers to questions that weren't asked... that just isn't relevant to me at all... I would just basically scroll right past them... there's a signal-to-noise ratio, and some things that are technically correct are just... a waste of your time.",
+"codes": ["irrelevant_inferential_padding", "poor_signal_to_noise", "technically_correct_but_low_value"],
+"valence": "negative",
+"object_of_evaluation": "relevance, verbosity, workflow fit",
+"rationale": "The participant rejects tangential, inferential content as low-value clutter that reduces efficiency despite being technically correct."
+}
+],
+"codebook": [
+{
+"code": "report_too_long",
+"definition": "Reports are experienced as excessively long for practical clinical use, especially when time is limited.",
+"inclusion_criteria": ["Mentions of lengthiness", "Comments about not reading or skimming due to length", "References to clinic time pressure"],
+"exclusion_criteria": ["General dislike not tied to length", "Critique of content quality without mention of report size"],
+"example_segment_ids": ["S1", "S11"]
+},
+{
+"code": "needs_bottom_line_summary",
+"definition": "The participant wants the report to end with a short, direct bottom line or summary recommendation.",
+"inclusion_criteria": ["Requests for couple-of-sentences summary", "Positive comments about summary at the end", "Bottom-line phrasing"],
+"exclusion_criteria": ["Long recommendations", "General praise for summaries without desire for brevity"],
+"example_segment_ids": ["S1", "S4"]
+},
+{
+"code": "citations_support_usefulness",
+"definition": "References and citations make a report more usable because they support the summary with source material.",
+"inclusion_criteria": ["Mentions references or citations as helpful", "Links citations to trust or use"],
+"exclusion_criteria": ["General mention of studies without citations", "Critique unrelated to source attribution"],
+"example_segment_ids": ["S1", "S12"]
+},
+{
+"code": "summary_over_recommendation",
+"definition": "The preferred role of the tool is to summarize information rather than tell the clinician what to do.",
+"inclusion_criteria": ["Statements preferring summaries", "Boundary between summary and recommendation"],
+"exclusion_criteria": ["General comments on usefulness", "Detailed recommendation preferences without summary comparison"],
+"example_segment_ids": ["S2", "S10"]
+},
+{
+"code": "skepticism_toward_actionable_advice",
+"definition": "The participant is wary of actionable or directive advice from the tool, especially when it approaches decision replacement.",
+"inclusion_criteria": ["Does not look to tools for recommendations", "Remains skeptical of recommendations"],
+"exclusion_criteria": ["Interest in any recommendation summary", "Concerns only about formatting"],
+"example_segment_ids": ["S2", "S10"]
+},
+{
+"code": "unsafe_detailed_recommendations",
+"definition": "Detailed treatment or dosing guidance is seen as risky and potentially harmful.",
+"inclusion_criteria": ["Mentions risk", "Examples of unsafe dose-level advice", "Harm to patient concerns"],
+"exclusion_criteria": ["General recommendation skepticism without safety framing", "Nonclinical detail concerns"],
+"example_segment_ids": ["S3"]
+},
+{
+"code": "wants_filtered_bottom_line",
+"definition": "The participant wants evidence filtered into the most pertinent bottom line rather than a broad narrative.",
+"inclusion_criteria": ["Filtering language", "Bottom line of references", "Pertinent information only"],
+"exclusion_criteria": ["Requests for exhaustive evidence lists", "Only table-content requests"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "better_than_manual_searching",
+"definition": "The tool is valued because it reduces the burden of searching through longer traditional resources.",
+"inclusion_criteria": ["Comparison to scrolling or Ctrl-F", "Replaces cumbersome search process"],
+"exclusion_criteria": ["General praise without workflow comparison", "Mentions of retrieval without contrast"],
+"example_segment_ids": ["S5"]
+},
+{
+"code": "specific_question_retrieval",
+"definition": "The participant values being able to ask a specific question and retrieve relevant evidence for that question.",
+"inclusion_criteria": ["Specific question phrasing", "Relevant references for the asked question"],
+"exclusion_criteria": ["General evidence summaries", "Recommendations not tied to retrieval"],
+"example_segment_ids": ["S5", "S12"]
+},
+{
+"code": "guideline_status_matters",
+"definition": "The participant wants top-level guideline status included, including when the answer is that there is no evidence.",
+"inclusion_criteria": ["Mentions NCCN", "Requests guideline presence", "Values explicit no-evidence signal"],
+"exclusion_criteria": ["Study-level evidence without guideline framing", "General trust statements"],
+"example_segment_ids": ["S6"]
+},
+{
+"code": "wants_core_outcomes",
+"definition": "The participant prioritizes a small set of clinical study outcomes and wants those surfaced clearly.",
+"inclusion_criteria": ["ORR", "PFS", "OS", "safety outcomes", "Survival benefit"],
+"exclusion_criteria": ["General comments on evidence quality", "Formatting-only preferences"],
+"example_segment_ids": ["S7", "S13"]
+},
+{
+"code": "reliable_extraction_of_key_metrics",
+"definition": "The participant believes the tools usually pull out the main study metrics reliably.",
+"inclusion_criteria": ["Extracts core things reliably", "Leads in the right direction to proper studies"],
+"exclusion_criteria": ["Praise only for retrieval", "Skepticism about recommendations"],
+"example_segment_ids": ["S7"]
+},
+{
+"code": "formatting_aids_scanning",
+"definition": "Visual emphasis such as bolding helps the participant scan reports quickly.",
+"inclusion_criteria": ["Likes bolded items", "Scanning help", "Readability support"],
+"exclusion_criteria": ["General style preferences without scanning function", "Table preferences alone"],
+"example_segment_ids": ["S8"]
+},
+{
+"code": "table_for_key_information",
+"definition": "Tables are useful when they condense the key evidence into a quick, readable format.",
+"inclusion_criteria": ["Table very helpful", "Puts key information in there", "Summarize pros and cons in a table"],
+"exclusion_criteria": ["Complaints about table traceability only", "Long prose requests"],
+"example_segment_ids": ["S8", "S9"]
+},
+{
+"code": "evidence_strength_should_be_visible",
+"definition": "Reports should make the strength or phase of evidence explicit so clinicians can judge how much weight to place on it.",
+"inclusion_criteria": ["Which phase", "How strong this evidence is", "Retrospective vs phase 3"],
+"exclusion_criteria": ["Outcome-only requests", "Hyperlink-only requests"],
+"example_segment_ids": ["S8", "S13"]
+},
+{
+"code": "preferred_three_section_structure",
+"definition": "The ideal report is organized into a brief overview, a structured evidence table, and a concise recommendation section.",
+"inclusion_criteria": ["Three sections", "Overview plus table plus recommendation"],
+"exclusion_criteria": ["General report preferences without structural ordering", "Single-format preferences"],
+"example_segment_ids": ["S9"]
+},
+{
+"code": "hyperlinked_references_needed",
+"definition": "The participant wants references to be directly hyperlinked so the evidence can be opened and checked immediately.",
+"inclusion_criteria": ["Hyperlinked reference", "Hyperlinks are super important"],
+"exclusion_criteria": ["Plain citations without need for direct access", "General evidence mentions"],
+"example_segment_ids": ["S9", "S12"]
+},
+{
+"code": "one_page_limit",
+"definition": "The preferred report length is about one page, or at most one and a half pages.",
+"inclusion_criteria": ["One page", "One and a half maximum", "One to two page thing"],
+"exclusion_criteria": ["General comments that reports are long without ideal target"],
+"example_segment_ids": ["S9", "S11"]
+},
+{
+"code": "recommendation_as_additive_not_decisive",
+"definition": "Recommendations are acceptable only as an additive input to thinking, not as the basis of the clinical decision.",
+"inclusion_criteria": ["Additive tool", "Not backbone of my decision", "Take it into account"],
+"exclusion_criteria": ["General mistrust without decision-role framing", "Pure summary preferences"],
+"example_segment_ids": ["S10"]
+},
+{
+"code": "tier_evidence_by_strength",
+"definition": "The report should privilege higher-level evidence and avoid cluttering the summary with lower-level evidence when stronger evidence exists.",
+"inclusion_criteria": ["Meta-analysis, phase 3 support", "Highest level evidence", "Tier out the evidence"],
+"exclusion_criteria": ["Any request for evidence strength visibility without selection rule", "Outcome preferences only"],
+"example_segment_ids": ["S11"]
+},
+{
+"code": "table_fails_without_traceability",
+"definition": "A table loses value when it does not clearly link each statement to identifiable, accessible evidence.",
+"inclusion_criteria": ["Not hyperlinked", "Vague about what it was referencing", "Could not look at the evidence"],
+"exclusion_criteria": ["General dislike of tables", "Praise for table structure alone"],
+"example_segment_ids": ["S12"]
+},
+{
+"code": "line_of_therapy_matters",
+"definition": "The participant wants studies contextualized by treatment line because that affects relevance to the case.",
+"inclusion_criteria": ["First-line study", "Second-line study"],
+"exclusion_criteria": ["General trial design comments without line-of-therapy context"],
+"example_segment_ids": ["S13"]
+},
+{
+"code": "sample_size_can_matter",
+"definition": "Sample size can be useful context, especially for weaker evidence such as retrospective studies.",
+"inclusion_criteria": ["The N would also sometimes be helpful", "Importance of sample size for retrospective studies"],
+"exclusion_criteria": ["General phase comments", "Outcome-only table preferences"],
+"example_segment_ids": ["S13"]
+},
+{
+"code": "irrelevant_inferential_padding",
+"definition": "The participant dislikes extra inferential or suppositional content that goes beyond the asked question.",
+"inclusion_criteria": ["Inferential answers to questions that weren't asked", "Frilly stuff", "Scroll right past"],
+"exclusion_criteria": ["Length complaints without relevance framing", "Unsafe recommendation critique"],
+"example_segment_ids": ["S14"]
+},
+{
+"code": "poor_signal_to_noise",
+"definition": "Technically correct but low-priority information reduces the practical value of the report by diluting important content.",
+"inclusion_criteria": ["Signal-to-noise ratio", "Waste of your time", "Trivial but true content"],
+"exclusion_criteria": ["General verbosity complaints", "Evidence hierarchy comments"],
+"example_segment_ids": ["S14"]
+}
+],
+"themes": [
+{
+"theme_id": "T1",
+"theme_name": "Keep it short and clinically pertinent",
+"theme_definition": "Across the transcript, participants repeatedly ask for a brief, filtered output that gets to the bottom line quickly. Reports lose value when they become long, include tangential information, or force clinicians to hunt for the few points they actually need between patients.",
+"supporting_segments": ["S1", "S4", "S9", "S11", "S14"],
+"representative_quotes": [
+{
+"segment_id": "S4",
+"quote": "the bottom line of all those references just provided in a couple of sentences"
+},
+{
+"segment_id": "S14",
+"quote": "some things that are technically correct are just... a waste of your time"
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Repeated across multiple segments by both participants with concrete examples of preferred length and unwanted padding."
+},
+{
+"theme_id": "T2",
+"theme_name": "Summarize evidence, do not overreach on decisions",
+"theme_definition": "Participants want the tool to function mainly as an evidence summarizer and retrieval aid rather than an autonomous recommender. High-level orientation can be useful, but detailed or dose-level recommendations are viewed as risky and should not replace clinician judgment.",
+"supporting_segments": ["S2", "S3", "S10"],
+"representative_quotes": [
+{
+"segment_id": "S2",
+"quote": "I do not really look to these tools for recommendations about what to do"
+},
+{
+"segment_id": "S10",
+"quote": "it's mainly just... an additive tool to my... thinking process"
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "The recommendation boundary is stated directly and consistently in several segments."
+},
+{
+"theme_id": "T3",
+"theme_name": "Trust depends on traceable evidence",
+"theme_definition": "Participants trust reports more when they can see exactly what evidence supports the answer and click through to the original literature. Hyperlinks, citations, and explicit evidence hierarchy make the report more actionable, while vague or non-hyperlinked references undermine its utility.",
+"supporting_segments": ["S1", "S5", "S6", "S9", "S12"],
+"representative_quotes": [
+{
+"segment_id": "S12",
+"quote": "it had hyperlinks and citations, which to me was super important"
+},
+{
+"segment_id": "S6",
+"quote": "including... the top-level NCCN guideline... I think that that's very helpful"
+}
+],
+"overall_valence": "positive",
+"confidence": "high",
+"confidence_basis": "This appears repeatedly in preferences for citations, hyperlinks, guideline status, and complaints about vague references."
+},
+{
+"theme_id": "T4",
+"theme_name": "Tables work when they surface the right evidence",
+"theme_definition": "Participants like tables as a compact display format, but only if the table contains the clinically meaningful fields and remains traceable to the source literature. Useful table content includes evidence strength, study phase, outcomes, safety, comparison structure, line of therapy, and sometimes sample size.",
+"supporting_segments": ["S8", "S9", "S11", "S12", "S13"],
+"representative_quotes": [
+{
+"segment_id": "S8",
+"quote": "the table that was generated was very helpful"
+},
+{
+"segment_id": "S13",
+"quote": "the survival benefit... the safety... strength of the evidence"
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Tables are discussed in depth across multiple segments, including both praise and reasons some tables failed."
+}
+],
+"likes": [
+{
+"like_id": "L1",
+"statement": "Brief bottom-line summaries supported by references and citations.",
+"supporting_segments": ["S1", "S4"],
+"representative_quote": "provide summary of recommendation at the end"
+},
+{
+"like_id": "L2",
+"statement": "Use of the tools for summarizing evidence and retrieving relevant studies for a specific question.",
+"supporting_segments": ["S2", "S5"],
+"representative_quote": "you can ask a specific question and at least get the relevant references"
+},
+{
+"like_id": "L3",
+"statement": "Concise inclusion of top-level guideline status, including when there is no evidence.",
+"supporting_segments": ["S6"],
+"representative_quote": "including... the top-level NCCN guideline... no evidence"
+},
+{
+"like_id": "L4",
+"statement": "Tables and bolded formatting that make key information easy to scan.",
+"supporting_segments": ["S8"],
+"representative_quote": "the table that was generated was very helpful"
+},
+{
+"like_id": "L5",
+"statement": "Hyperlinked citations that allow direct verification of the literature.",
+"supporting_segments": ["S9", "S12"],
+"representative_quote": "it had hyperlinks and citations, which to me was super important"
+},
+{
+"like_id": "L6",
+"statement": "Comparison-oriented reports that end with a short practical recommendation.",
+"supporting_segments": ["S13"],
+"representative_quote": "provided some comparison and... summary of recommendation at the end"
+}
+],
+"dislikes": [
+{
+"dislike_id": "D1",
+"statement": "Reports that are too long for in-clinic use.",
+"supporting_segments": ["S1", "S11"],
+"representative_quote": "the lengthy reports are one of the negative sides"
+},
+{
+"dislike_id": "D2",
+"statement": "Detailed treatment or dosing recommendations that could be unsafe.",
+"supporting_segments": ["S3"],
+"representative_quote": "the dose of the gabapentin... this is, like, no, it's risky"
+},
+{
+"dislike_id": "D3",
+"statement": "Tables that are not hyperlinked or are vague about what evidence they reference.",
+"supporting_segments": ["S12"],
+"representative_quote": "it wasn't hyperlinked"
+},
+{
+"dislike_id": "D4",
+"statement": "Inferential or tangential content that answers questions the clinician did not ask.",
+"supporting_segments": ["S14"],
+"representative_quote": "inferential answers to questions that weren't asked"
+}
+],
+"requirements": [
+{
+"req_id": "R1",
+"type": "must_have",
+"requirement": "The report should provide a short bottom-line summary of the evidence in a couple of sentences or a small paragraph.",
+"supporting_segments": ["S1", "S4"],
+"risk_if_ignored": "Clinicians may not read the report fully or may miss the pertinent information in time-constrained workflow."
+},
+{
+"req_id": "R2",
+"type": "must_have",
+"requirement": "Every evidence claim in the report, especially in tables, should be supported by clear citations and direct hyperlinks to the referenced literature.",
+"supporting_segments": ["S9", "S12"],
+"risk_if_ignored": "The report becomes hard to verify and loses practical trust as a retrieval tool."
+},
+{
+"req_id": "R3",
+"type": "must_have",
+"requirement": "The report should make evidence strength explicit, prioritizing higher-level evidence and omitting lower-level studies when stronger evidence already answers the question.",
+"supporting_segments": ["S8", "S11", "S13"],
+"risk_if_ignored": "Clinicians may spend time on less relevant studies and have more difficulty judging how much weight to place on the summary."
+},
+{
+"req_id": "R4",
+"type": "avoid",
+"requirement": "The report should avoid detailed actionable recommendations, especially dose-level advice, beyond a high-level orientation.",
+"supporting_segments": ["S2", "S3", "S10"],
+"risk_if_ignored": "Users may view the tool as unsafe or overreaching, which can erode trust and raise concern about harmful decision support."
+},
+{
+"req_id": "R5",
+"type": "nice_to_have",
+"requirement": "The ideal output should follow a compact structure with a brief overview, a table of evidence, and a short recommendation section within roughly one to one-and-a-half pages.",
+"supporting_segments": ["S9", "S11"],
+"risk_if_ignored": "The report may become harder to scan and less likely to fit into real clinical workflow."
+},
+{
+"req_id": "R6",
+"type": "must_have",
+"requirement": "Evidence tables should include clinically relevant fields such as survival benefit, safety, study phase, evidence strength, and, when relevant, line of therapy and sample size.",
+"supporting_segments": ["S13"],
+"risk_if_ignored": "The table may fail to support the specific clinical comparison the user is trying to make."
+},
+{
+"req_id": "R7",
+"type": "avoid",
+"requirement": "The report should avoid inferential, tangential, or technically correct but low-priority filler that does not answer the question asked.",
+"supporting_segments": ["S14"],
+"risk_if_ignored": "Signal-to-noise degrades and clinicians may disregard useful content along with the filler."
+}
+],
+"workflow_integration": {
+"current_workarounds": [
+"Using up to date and manually scrolling or using Ctrl-F to find the relevant section.",
+"Reviewing cited references directly to inspect the underlying data and analysis."
+],
+"intended_use_cases": [
+"Summarizing evidence for a specific oncology question.",
+"Retrieving relevant trials and guideline-level context for a patient-specific issue.",
+"Comparing regimens using survival, safety, and evidence-strength information."
+],
+"constraints": [
+"Very limited time in clinic between patients.",
+"Need to preserve clinician judgment rather than rely on tool-generated decisions.",
+"Need to verify supporting evidence quickly.",
+"Reports become less useful when signal-to-noise is poor."
+],
+"output_format_preferences": [
+"A short overview followed by a compact table and a brief recommendation section.",
+"One page or at most one and a half pages.",
+"Bolding of key items for fast scanning.",
+"Tables that summarize pros/cons, evidence strength, study phase, outcomes, and references.",
+"Hyperlinked citations."
+]
+},
+"trust_and_safety": {
+"trust_drivers": [
+"Hyperlinks and citations that allow direct review of the literature.",
+"Clear inclusion of top-level guideline status.",
+"Concise summaries tied to relevant studies.",
+"Visibility into evidence strength such as phase and trial design."
+],
+"trust_erosions": [
+"Dose-level or detailed recommendations that seem unsafe.",
+"Vague references that cannot be traced to source literature.",
+"Inferential or irrelevant content not tied to the question asked.",
+"Overly long reports that bury key information."
+],
+"verification_behaviors": [
+"Looking at the referenced studies directly.",
+"Using the report primarily as a retrieval aid rather than accepting the recommendation at face value.",
+"Checking whether the cited evidence and guideline status match the clinical question."
+],
+"medico_legal_or_policy_concerns": [
+"Concern that unsafe recommendations could enable bad decision-making.",
+"Uncertainty about what it means if such tools are positioned as guardrails rather than summaries."
+]
+},
+"quantified_mentions": {
+"top_codes_by_count": [
+{
+"code": "hyperlinked_references_needed",
+"count": 3
+},
+{
+"code": "report_too_long",
+"count": 2
+},
+{
+"code": "summary_over_recommendation",
+"count": 2
+},
+{
+"code": "table_for_key_information",
+"count": 2
+},
+{
+"code": "evidence_strength_should_be_visible",
+"count": 2
+},
+{
+"code": "wants_core_outcomes",
+"count": 2
+},
+{
+"code": "poor_signal_to_noise",
+"count": 1
+},
+{
+"code": "unsafe_detailed_recommendations",
+"count": 1
+}
+],
+"notes": "Counts are approximate because the transcript is a group interview with two participant voices, and several segments contain multiple closely related ideas."
+},
+"analytic_memos": {
+"summary": "The participants describe a fairly clear and bounded role for AI literature-review reports in oncology workflow. They value these tools most as a faster way to retrieve relevant studies and distill the bottom line of the evidence for a specific question. They repeatedly emphasize that the output must be short, easy to scan, and oriented toward clinically pertinent information rather than long narrative prose. Trust depends heavily on traceability: they want citations, hyperlinks, and visible evidence hierarchy so they can inspect the underlying literature themselves. They like tables when those tables surface outcomes, safety, study phase, and evidence strength, but they dislike tables that are long, vague, or disconnected from source evidence. They do not want the tool to become the backbone of decision-making and are especially wary of detailed recommendations that could be unsafe. A major tension in their feedback is that some amount of recommendation or conclusion is useful, but only when it remains high-level, clearly evidence-grounded, and subordinate to clinician judgment.",
+"tensions_or_tradeoffs": [
+"A brief recommendation can be useful, but detailed actionable advice is viewed as risky.",
+"Tables are valued for compression and comparison, but only if they remain short and traceable to source evidence.",
+"Some contextual guardrail information may help some users, but for these participants it often reads as noise.",
+"Lower-level evidence can be important when little else exists, but should be omitted when stronger evidence already answers the question."
+],
+"open_questions_for_next_interview": [
+"When participants say they want a short recommendation, what exact wording feels acceptable versus overreaching?",
+"How should reports adapt when only low-level evidence exists and there is no guideline support?",
+"What is the minimum set of table columns that preserves usefulness without making the report too long?",
+"Do preferences for guardrail content differ by practice setting or level of specialization?",
+"How much direct source traceability is needed for clinicians to trust a concise summary without reopening every cited paper?"
+]
+}
+}

@@ -1,0 +1,670 @@
+{
+"transcript_id": "TX001",
+"interview_context": {
+"participant_role": "oncologist",
+"setting_or_workflow_context": "oncology clinical care with trainee involvement, including treatment planning, report interpretation, and on-call workflow",
+"tools_mentioned_by_participant": ["open evidence", "AI"]
+},
+"segments": [
+{
+"segment_id": "S1",
+"timestamp_start": "00:00:23.660",
+"timestamp_end": "00:00:46.649",
+"speaker": "participant",
+"verbatim_excerpt": "Yeah, I would say I most commonly use open evidence. Gotcha. Mostly for… like… kind questions that I get that are a little… that don't have super clear… answers or questions about, like, side effects for a medication or something that I'm not as familiar with.",
+"codes": ["uses_ai_for_unclear_questions", "uses_ai_for_medication_side_effects"],
+"valence": "positive",
+"object_of_evaluation": "use cases",
+"rationale": "The participant describes routine use of a specific AI tool for questions that lack clear answers and for medication side-effect questions outside their familiarity. This is framed as a practical use case rather than a criticism."
+},
+{
+"segment_id": "S2",
+"timestamp_start": "00:01:12.900",
+"timestamp_end": "00:01:58.310",
+"speaker": "participant",
+"verbatim_excerpt": "sometimes I'll use it as well to… if there's certain… reports, like, that we get, like, for instance, we often get these very detailed pathology reports, and sometimes there's a lot of language in there that I don't fully understand. I will paste, like, that area of the report into open evidence for interpretation. And then sometimes I'll use it... if I'm considering, like, a plan for a [PATIENT]. I want to, like, validate what I'm thinking.",
+"codes": ["uses_ai_to_interpret_reports", "uses_ai_to_validate_plan", "ai_as_second_check"],
+"valence": "positive",
+"object_of_evaluation": "workflow fit",
+"rationale": "The excerpt shows two concrete uses: interpreting difficult report language and checking a tentative plan. The participant positions AI as interpretive support and validation rather than a sole decision-maker."
+},
+{
+"segment_id": "S3",
+"timestamp_start": "00:02:13.800",
+"timestamp_end": "00:02:59.589",
+"speaker": "participant",
+"verbatim_excerpt": "I think one positive was… in the pink report, I really enjoyed that it organized the references by strength of evidence, Just because I think my biggest, like, hesitancy is often around… While a lot of them give you references, wondering… like, what the actual strength of that reference is.",
+"codes": ["prefers_strength_of_evidence_ordering", "wants_evidence_quality_visible", "baseline_hesitancy_about_sources"],
+"valence": "positive",
+"object_of_evaluation": "evidence display",
+"rationale": "The participant explicitly praises evidence ordering by strength and links it to an existing concern about not knowing how strong cited references are. This grounds both a preference and a trust-related concern."
+},
+{
+"segment_id": "S4",
+"timestamp_start": "00:03:12.370",
+"timestamp_end": "00:03:54.269",
+"speaker": "participant",
+"verbatim_excerpt": "Yeah, yeah. One is just, like, an overall, like, hesitancy of, like, wondering where it's coming from... One is it can really be buried in there, and often find that, like, it's Making a statement based off of, like. one or two sentences that might be in that report, and not necessarily, like, the overall, findings from that report.",
+"codes": ["baseline_hesitancy_about_sources", "source_traceability_is_buried", "concern_about_overreading_single_sentences"],
+"valence": "negative",
+"object_of_evaluation": "trust",
+"rationale": "The participant identifies a trust problem: uncertainty about information origin and concern that outputs may rely on isolated sentences instead of overall study findings. The criticism is directed at how evidence is sourced and interpreted."
+},
+{
+"segment_id": "S5",
+"timestamp_start": "00:04:17.260",
+"timestamp_end": "00:05:33.199",
+"speaker": "participant",
+"verbatim_excerpt": "that one compared to the other reports... was really brief... It didn't really get into details of, like, nuances... And then the other thing was for the table. I just thought that the table was really busy... the first time I, like, saw the pink report, I was like, oh god, I hate this... But then once I took the time to... Actually, see what it was doing. I ended up liking it the best.",
+"codes": ["wants_more_nuance_in_assessment", "busy_table_hurts_readability", "good_content_hidden_by_bad_formatting", "prefers_concise_tables"],
+"valence": "mixed",
+"object_of_evaluation": "tables and summary depth",
+"rationale": "The participant critiques the brief assessment and visually busy table, yet ultimately values the report once its evidence-ordering function becomes clear. This reflects tension between content value and presentation burden."
+},
+{
+"segment_id": "S6",
+"timestamp_start": "00:05:34.540",
+"timestamp_end": "00:05:57.799",
+"speaker": "participant",
+"verbatim_excerpt": "I liked the structure of the… the tables and the overall structure, so the yellow one. Like, I liked the order that I presented things in, I thought it was very concise... but I liked the… order of strength of evidence from the pink one, and then I liked the… Verbiage in the blue one the best.",
+"codes": ["prefers_concise_structure", "prefers_strength_of_evidence_ordering", "prefers_blue_verbiage", "hybrid_best_of_reports_preference"],
+"valence": "positive",
+"object_of_evaluation": "format and language",
+"rationale": "The participant identifies preferred features across reports: concise structure, evidence ordering, and wording style. This directly supports a composite design preference."
+},
+{
+"segment_id": "S7",
+"timestamp_start": "00:06:06.140",
+"timestamp_end": "00:06:47.480",
+"speaker": "participant",
+"verbatim_excerpt": "The red one was my least favorite. I thought it was way too long... in a real-life scenario, like, I wouldn't have time to go through all that, and then by… because of that, I then wouldn't feel confident in just, like, reading the summary... and then I also didn't like that it, often gave things that, like, weren't prompted... So I thought it was, like, unnecessary filler.",
+"codes": ["too_long_reduces_use", "time_constraints_limit_reading", "extra_unprompted_content_is_filler", "length_reduces_confidence_in_summary"],
+"valence": "negative",
+"object_of_evaluation": "length and relevance",
+"rationale": "The participant links excessive length to real-world unusability and reduced trust in the summary. They also object to unprompted material as filler that does not match the question asked."
+},
+{
+"segment_id": "S8",
+"timestamp_start": "00:07:01.020",
+"timestamp_end": "00:09:33.319",
+"speaker": "participant",
+"verbatim_excerpt": "The yellow one gave very definitive answers without, like. Recognizing some of the nuances, like the blue one did... I did like that it gave… like, if you are going to, right?... I just thought that the labeling was confusing... I'd rather just, like, know at the beginning, like, this is nuanced, or this is a clear answer. Because I think it gives more confidence when you're reading it.",
+"codes": ["wants_nuance_flagged_up_front", "confusing_labels_mislead_readers", "likes_conditional_guidance_if_clear", "clear_topline_improves_confidence"],
+"valence": "mixed",
+"object_of_evaluation": "labeling and recommendation framing",
+"rationale": "The participant values early communication of nuance and conditional guidance, but finds ambiguous labeling risky and confusing. Confidence improves when the degree of certainty is stated up front."
+},
+{
+"segment_id": "S9",
+"timestamp_start": "00:10:02.860",
+"timestamp_end": "00:10:50.199",
+"speaker": "participant",
+"verbatim_excerpt": "I would say... The structure of the… yellow report... the length was the best. pasted with the way that the blue one, like, the verbiage in the blue ones, I liked better. And then the order of references in the pick one... I thought the pink one was the most helpful in the organization.",
+"codes": ["hybrid_best_of_reports_preference", "prefers_concise_structure", "prefers_blue_verbiage", "prefers_strength_of_evidence_ordering"],
+"valence": "positive",
+"object_of_evaluation": "ideal report design",
+"rationale": "The participant explicitly describes a preferred hybrid report combining structure, wording, and reference organization from different examples. This gives a direct design specification grounded in the participant's own comparisons."
+},
+{
+"segment_id": "S10",
+"timestamp_start": "00:11:12.580",
+"timestamp_end": "00:12:50.289",
+"speaker": "participant",
+"verbatim_excerpt": "I think, like, overall summary statement at the beginning is, like, Very important... definitely the... evidence that it's using to support the answer and the quality of that evidence... conciseness is very important, because when you see, like, 3 or 4 pages, I decide, like, I don't even want to, like, read it at all... I would say one to two pages... when you ask a question, you can then follow up... I think giving all of it at once is a little too much.",
+"codes": ["overall_summary_is_must_have", "wants_evidence_quality_visible", "prefers_one_to_two_pages", "follow_up_query_model_preferred", "too_much_at_once_overloads_reader"],
+"valence": "positive",
+"object_of_evaluation": "content requirements and length",
+"rationale": "The participant names must-have elements: top summary, supporting evidence, and evidence quality. They also gives a practical length target and prefers a system that allows follow-up rather than overloading the first output."
+},
+{
+"segment_id": "S11",
+"timestamp_start": "00:13:07.380",
+"timestamp_end": "00:14:21.409",
+"speaker": "participant",
+"verbatim_excerpt": "I would say I think the most important thing... is any way that it can make... Clinical duties that are, like, outside of, like. Face-to-face interaction with [PATIENTS] more efficient... I think some of the focus has been on, like. heavily on, ways that it can make decisions for you, which I don't think is necessarily what... I think that's where a lot of the hesitancy comes from... it's more so better to have as, like, a utility to make your time more efficient.",
+"codes": ["prioritizes_efficiency_for_non_patient_tasks", "hesitancy_about_ai_making_decisions", "prefers_ai_as_utility_not_replacement", "acceptance_linked_to_workflow_help"],
+"valence": "mixed",
+"object_of_evaluation": "role of AI in clinical workflow",
+"rationale": "The participant emphasizes efficiency gains for non-face-to-face work as the most valuable role for AI, while expressing hesitation about AI taking over decisions. Acceptance is framed as higher when AI functions as a utility."
+},
+{
+"segment_id": "S12",
+"timestamp_start": "00:14:47.560",
+"timestamp_end": "00:15:30.209",
+"speaker": "participant",
+"verbatim_excerpt": "I do, I think, like, to an extent... I don't think it should be used to make, like. major medical decisions... But I think it's incredibly helpful for things like could this cause these side effects? Or, is the symptoms that the [PATIENT] is complaining about, could it possibly be related to the treatment... Or, things about the medications, or summarizing reports so that you can make a clinical decision?",
+"codes": ["limits_ai_role_in_major_decisions", "uses_ai_for_side_effect_attribution", "uses_ai_for_medication_questions", "uses_ai_to_summarize_reports_for_decisions"],
+"valence": "mixed",
+"object_of_evaluation": "decision support boundaries",
+"rationale": "The participant draws a boundary between major decisions, which should remain clinician-made, and supportive tasks such as side-effect questions, medication issues, and summarizing information. The value lies in informing decisions rather than replacing them."
+},
+{
+"segment_id": "S13",
+"timestamp_start": "00:15:39.850",
+"timestamp_end": "00:16:24.330",
+"speaker": "participant",
+"verbatim_excerpt": "one, like, very niche use of AI... is we use it… we do something called contouring... drawing structures on images to plan radiation, and AI has been used to, like, speed that process up, and… I think that's something that people have quickly adopted because... it's... speeding up a lot of time that you would otherwise use that feels more wasted.",
+"codes": ["example_of_quick_adoption_when_time_saved", "prioritizes_efficiency_for_non_patient_tasks", "ai_accepted_when_easily_checked"],
+"valence": "positive",
+"object_of_evaluation": "workflow integration",
+"rationale": "The participant gives a concrete example of AI adoption where it saves time on a task perceived as necessary but burdensome. The acceptance appears linked to speed and the ability to check the output."
+}
+],
+"codebook": [
+{
+"code": "uses_ai_for_unclear_questions",
+"definition": "Participant uses AI for clinical questions that do not have obvious or straightforward answers.",
+"inclusion_criteria": ["Mentions using AI for ambiguous questions", "Describes AI use when participant is unsure"],
+"exclusion_criteria": ["General praise of AI without a use case", "Comments about report formatting only"],
+"example_segment_ids": ["S1"]
+},
+{
+"code": "uses_ai_for_medication_side_effects",
+"definition": "Participant uses AI to assess medication side effects or whether symptoms may relate to treatment.",
+"inclusion_criteria": ["Questions about side effects", "Symptoms possibly related to treatment"],
+"exclusion_criteria": ["Major treatment decisions", "General evidence-quality comments"],
+"example_segment_ids": ["S1", "S12"]
+},
+{
+"code": "uses_ai_to_interpret_reports",
+"definition": "Participant uses AI to help interpret difficult technical language in reports.",
+"inclusion_criteria": ["Pathology report interpretation", "Pasting report text for explanation"],
+"exclusion_criteria": ["Summaries of literature reports", "General workflow-efficiency statements"],
+"example_segment_ids": ["S2"]
+},
+{
+"code": "uses_ai_to_validate_plan",
+"definition": "Participant uses AI to check or validate a tentative clinical plan already being considered.",
+"inclusion_criteria": ["Validate what I'm thinking", "Check plan before discussing with others"],
+"exclusion_criteria": ["AI making independent decisions", "Summarizing evidence only"],
+"example_segment_ids": ["S2"]
+},
+{
+"code": "ai_as_second_check",
+"definition": "AI is positioned as a confirming or supportive second look rather than a primary authority.",
+"inclusion_criteria": ["Validation role", "Supportive check before acting"],
+"exclusion_criteria": ["AI making final decisions", "Formatting comments"],
+"example_segment_ids": ["S2"]
+},
+{
+"code": "prefers_strength_of_evidence_ordering",
+"definition": "Participant values references being organized from stronger to weaker evidence.",
+"inclusion_criteria": ["Order by strength of evidence", "Strongest to weakest references"],
+"exclusion_criteria": ["General desire for citations without ranking", "Comments on visuals only"],
+"example_segment_ids": ["S3", "S6", "S9"]
+},
+{
+"code": "wants_evidence_quality_visible",
+"definition": "Participant wants not just references, but the quality or strength of those references made explicit.",
+"inclusion_criteria": ["Quality of evidence", "Actual strength of reference"],
+"exclusion_criteria": ["Reference access barriers only", "Preference for concision alone"],
+"example_segment_ids": ["S3", "S10"]
+},
+{
+"code": "baseline_hesitancy_about_sources",
+"definition": "Participant expresses unease about where AI-generated claims come from and how trustworthy the underlying sourcing is.",
+"inclusion_criteria": ["Wondering where it's coming from", "Hesitancy around evidence origin"],
+"exclusion_criteria": ["Purely aesthetic criticism", "Time constraints without trust language"],
+"example_segment_ids": ["S3", "S4"]
+},
+{
+"code": "source_traceability_is_buried",
+"definition": "Source support exists but is difficult to locate or inspect within the output.",
+"inclusion_criteria": ["Buried in there", "Hard to dig into source support"],
+"exclusion_criteria": ["Access/paywall issue only", "Need for more concise tables"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "concern_about_overreading_single_sentences",
+"definition": "Participant worries AI may base claims on isolated lines rather than the overall findings of a source.",
+"inclusion_criteria": ["One or two sentences", "Not the overall findings"],
+"exclusion_criteria": ["General source skepticism without this mechanism", "Formatting complaints"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "wants_more_nuance_in_assessment",
+"definition": "Participant wants summary assessments to capture nuance, caveats, or competing considerations.",
+"inclusion_criteria": ["Nuances", "Other things to consider", "Conflicting evidence"],
+"exclusion_criteria": ["Need for shorter output alone", "Preference for stronger wording only"],
+"example_segment_ids": ["S5", "S8"]
+},
+{
+"code": "busy_table_hurts_readability",
+"definition": "Dense or crowded table formatting makes the report harder to read, even when the content is useful.",
+"inclusion_criteria": ["Table was really busy", "Columns are weird", "Hard to read"],
+"exclusion_criteria": ["Too much overall length without table criticism", "General dislike of a report"],
+"example_segment_ids": ["S5"]
+},
+{
+"code": "good_content_hidden_by_bad_formatting",
+"definition": "A report contains helpful substance, but the participant nearly rejects it because the presentation is poor.",
+"inclusion_criteria": ["Initially hated it, later liked it", "Needed time to see what it was doing"],
+"exclusion_criteria": ["Consistently liked report", "Pure formatting criticism without eventual value"],
+"example_segment_ids": ["S5"]
+},
+{
+"code": "prefers_concise_structure",
+"definition": "Participant favors report organization that is brief, clear, and easy to scan.",
+"inclusion_criteria": ["Very concise", "Structure was the best", "Length was the best"],
+"exclusion_criteria": ["Need for evidence ranking alone", "General trust comments"],
+"example_segment_ids": ["S6", "S9"]
+},
+{
+"code": "prefers_blue_verbiage",
+"definition": "Participant likes the wording style or tone of one report more than others.",
+"inclusion_criteria": ["Verbiage in the blue one", "The way that it spoke"],
+"exclusion_criteria": ["Comments on structure or references only", "Comments about nuance without wording preference"],
+"example_segment_ids": ["S6", "S9"]
+},
+{
+"code": "too_long_reduces_use",
+"definition": "Excessive report length makes the participant less likely to read or use the output.",
+"inclusion_criteria": ["Way too long", "Wouldn't have time", "Don't want to read it at all"],
+"exclusion_criteria": ["Busy table only", "Need for follow-up prompts without length complaint"],
+"example_segment_ids": ["S7", "S10"]
+},
+{
+"code": "extra_unprompted_content_is_filler",
+"definition": "Participant dislikes content that goes beyond the question asked and sees it as unnecessary filler.",
+"inclusion_criteria": ["Weren't prompted", "How I would respond to the patient", "Unnecessary filler"],
+"exclusion_criteria": ["Nuance or conditional guidance that matches the question", "Desired elaboration"],
+"example_segment_ids": ["S7"]
+},
+{
+"code": "length_reduces_confidence_in_summary",
+"definition": "When a report is too long to verify fully, the participant trusts the summary less.",
+"inclusion_criteria": ["Wouldn't feel confident in just reading the summary", "Can't look through everything"],
+"exclusion_criteria": ["General source skepticism unrelated to report length", "Aesthetic complaints"],
+"example_segment_ids": ["S7"]
+},
+{
+"code": "wants_nuance_flagged_up_front",
+"definition": "Participant wants the report to state early whether the answer is clear or nuanced.",
+"inclusion_criteria": ["Know at the beginning", "This is nuanced or this is a clear answer"],
+"exclusion_criteria": ["Nuance mentioned later only", "Desire for longer explanation without upfront labeling"],
+"example_segment_ids": ["S8"]
+},
+{
+"code": "confusing_labels_mislead_readers",
+"definition": "Labels or headers can create the wrong impression if they do not match the recommendation logic.",
+"inclusion_criteria": ["Labeling was confusing", "Recommendation header could be misread"],
+"exclusion_criteria": ["General wording preference", "Dense tables"],
+"example_segment_ids": ["S8"]
+},
+{
+"code": "clear_topline_improves_confidence",
+"definition": "Participant feels more confident when the report clearly signals certainty or uncertainty at the outset.",
+"inclusion_criteria": ["Gives more confidence", "Top line at the top"],
+"exclusion_criteria": ["General summary preference without trust effect", "Need for citations only"],
+"example_segment_ids": ["S8"]
+},
+{
+"code": "overall_summary_is_must_have",
+"definition": "A concise overall summary at the beginning is considered essential content.",
+"inclusion_criteria": ["Overall summary statement at the beginning", "Very important"],
+"exclusion_criteria": ["General report concision", "Evidence tables alone"],
+"example_segment_ids": ["S10"]
+},
+{
+"code": "prefers_one_to_two_pages",
+"definition": "Participant gives an approximate acceptable length target for a report.",
+"inclusion_criteria": ["One to two pages", "Two is probably"],
+"exclusion_criteria": ["General dislike of long reports without a target", "Table-length comments"],
+"example_segment_ids": ["S10"]
+},
+{
+"code": "follow_up_query_model_preferred",
+"definition": "Participant prefers a shorter initial answer with the option to ask follow-up questions rather than receiving everything at once.",
+"inclusion_criteria": ["You can then follow up", "Giving all of it at once is too much"],
+"exclusion_criteria": ["General preference for concision without interactive element", "Desire for exhaustive first answer"],
+"example_segment_ids": ["S10"]
+},
+{
+"code": "prioritizes_efficiency_for_non_patient_tasks",
+"definition": "Participant sees AI's most valuable role as making non-face-to-face or burdensome tasks faster.",
+"inclusion_criteria": ["More efficient", "Outside of face-to-face interaction", "Speeding up time"],
+"exclusion_criteria": ["AI making major decisions", "Formatting preferences"],
+"example_segment_ids": ["S11", "S13"]
+},
+{
+"code": "hesitancy_about_ai_making_decisions",
+"definition": "Participant expresses reluctance toward AI taking over clinical decision-making itself.",
+"inclusion_criteria": ["Make decisions for you", "Should not be used to make major medical decisions"],
+"exclusion_criteria": ["AI as support for evidence gathering", "Simple plan validation"],
+"example_segment_ids": ["S11", "S12"]
+},
+{
+"code": "prefers_ai_as_utility_not_replacement",
+"definition": "Participant prefers AI as a time-saving utility that supports clinicians rather than replacing their judgment or role.",
+"inclusion_criteria": ["Utility", "Not do my job for me", "Make your time more efficient"],
+"exclusion_criteria": ["Standalone trust complaint", "Aesthetic report design comments"],
+"example_segment_ids": ["S11"]
+},
+{
+"code": "uses_ai_to_summarize_reports_for_decisions",
+"definition": "Participant values AI summarization as an input to later clinician decision-making.",
+"inclusion_criteria": ["Summarizing reports so that you can make a clinical decision"],
+"exclusion_criteria": ["AI making the decision directly", "Interpretation of one excerpt only"],
+"example_segment_ids": ["S12"]
+},
+{
+"code": "example_of_quick_adoption_when_time_saved",
+"definition": "Participant describes rapid AI adoption when the tool clearly saves time on a tedious task.",
+"inclusion_criteria": ["Quickly adopted", "Speed that process up", "Feels more wasted"],
+"exclusion_criteria": ["Hypothetical future use", "General efficiency hopes without example"],
+"example_segment_ids": ["S13"]
+},
+{
+"code": "ai_accepted_when_easily_checked",
+"definition": "Participant is more comfortable with AI when its output can be reviewed or checked in practice.",
+"inclusion_criteria": ["You're checking it", "Can double-check"],
+"exclusion_criteria": ["Trust in evidence citations only", "Pure efficiency comments without reviewability"],
+"example_segment_ids": ["S13"]
+}
+],
+"themes": [
+{
+"theme_id": "T1",
+"theme_name": "Evidence needs to be interpretable, ranked, and easy to verify",
+"theme_definition": "The participant repeatedly returns to the problem of evidence trust. They like references ordered by strength of evidence and want the quality of evidence made visible, but they are uneasy when sources are buried, inaccessible, or appear to be summarized from isolated sentences rather than overall findings.",
+"supporting_segments": ["S3", "S4", "S5", "S10"],
+"representative_quotes": [
+{
+"segment_id": "S3",
+"quote": "I really enjoyed that it organized the references by strength of evidence."
+},
+{
+"segment_id": "S4",
+"quote": "it can really be buried in there"
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Repeated across several segments with both explicit praise and explicit concerns about evidence sourcing and strength."
+},
+{
+"theme_id": "T2",
+"theme_name": "Useful reports are concise, scannable, and upfront about certainty",
+"theme_definition": "The participant wants an overall summary at the top, concise structure, and early signaling of whether the answer is clear or nuanced. Long reports, visually busy tables, and confusing labels interfere with use because they make the report hard to scan in real clinical workflow.",
+"supporting_segments": ["S5", "S6", "S7", "S8", "S9", "S10"],
+"representative_quotes": [
+{
+"segment_id": "S10",
+"quote": "overall summary statement at the beginning is, like, Very important"
+},
+{
+"segment_id": "S8",
+"quote": "I'd rather just, like, know at the beginning, like, this is nuanced, or this is a clear answer."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Strongly supported by repeated statements about length, structure, tables, labels, and summary placement."
+},
+{
+"theme_id": "T3",
+"theme_name": "AI is most acceptable as support and efficiency help, not as the decision-maker",
+"theme_definition": "The participant sees AI as helpful for report interpretation, side-effect questions, validating a tentative plan, and summarizing information for later clinician judgment. They are more hesitant when AI is framed as making decisions itself, and they think acceptance will be higher when AI reduces burdensome non-patient-facing work.",
+"supporting_segments": ["S2", "S11", "S12", "S13"],
+"representative_quotes": [
+{
+"segment_id": "S11",
+"quote": "it's more so better to have as, like, a utility to make your time more efficient"
+},
+{
+"segment_id": "S12",
+"quote": "I don't think it should be used to make, like. major medical decisions"
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "This boundary appears in both current-use descriptions and direct reflections on the role AI should play."
+},
+{
+"theme_id": "T4",
+"theme_name": "The ideal output would combine the best elements of different reports",
+"theme_definition": "Rather than endorsing one report wholesale, the participant imagines a hybrid design: the concise structure of the yellow report, the wording of the blue report, and the evidence ordering of the pink report. This suggests the participant is distinguishing carefully between content, phrasing, and evidence presentation as separable design choices.",
+"supporting_segments": ["S6", "S9"],
+"representative_quotes": [
+{
+"segment_id": "S9",
+"quote": "the structure of the… yellow report... the blue one... the order of references in the [SYSTEM] one"
+}
+],
+"overall_valence": "positive",
+"confidence": "medium",
+"confidence_basis": "Explicitly stated, but concentrated in a smaller number of segments."
+}
+],
+"likes": [
+{
+"like_id": "L1",
+"statement": "The participant liked references being organized by strength of evidence.",
+"supporting_segments": ["S3", "S6", "S9"],
+"representative_quote": "I really enjoyed that it organized the references by strength of evidence"
+},
+{
+"like_id": "L2",
+"statement": "The participant liked a concise overall structure that was easy to follow.",
+"supporting_segments": ["S6", "S9", "S10"],
+"representative_quote": "I thought the structure itself was, the best, and the length was the best."
+},
+{
+"like_id": "L3",
+"statement": "The participant liked wording that conveyed nuance well.",
+"supporting_segments": ["S6", "S8", "S9"],
+"representative_quote": "the verbiage in the blue one the best"
+},
+{
+"like_id": "L4",
+"statement": "The participant liked having nuance or certainty stated near the top of the report.",
+"supporting_segments": ["S8", "S10"],
+"representative_quote": "I'd rather just, like, know at the beginning, like, this is nuanced, or this is a clear answer."
+},
+{
+"like_id": "L5",
+"statement": "The participant saw value in optional conditional guidance when clearly labeled.",
+"supporting_segments": ["S8"],
+"representative_quote": "I did like that it gave… like, if you are going to"
+},
+{
+"like_id": "L6",
+"statement": "The participant liked visual data support, though not as a must-have.",
+"supporting_segments": ["S10"],
+"representative_quote": "I did like how the blue one showed some images"
+}
+],
+"dislikes": [
+{
+"dislike_id": "D1",
+"statement": "The participant disliked reports that were too long for real clinical use.",
+"supporting_segments": ["S7", "S10"],
+"representative_quote": "The red one was my least favorite. I thought it was way too long."
+},
+{
+"dislike_id": "D2",
+"statement": "The participant disliked busy tables that made useful content hard to read.",
+"supporting_segments": ["S5"],
+"representative_quote": "I just thought that the table was really busy"
+},
+{
+"dislike_id": "D3",
+"statement": "The participant disliked unprompted content that felt like filler.",
+"supporting_segments": ["S7"],
+"representative_quote": "I thought it was, like, unnecessary filler"
+},
+{
+"dislike_id": "D4",
+"statement": "The participant disliked confusing labels that could make recommendations seem clearer than they were.",
+"supporting_segments": ["S8"],
+"representative_quote": "I just thought that the labeling was confusing."
+},
+{
+"dislike_id": "D5",
+"statement": "The participant disliked definitive answers that did not adequately surface nuance.",
+"supporting_segments": ["S8"],
+"representative_quote": "The yellow one gave very definitive answers without, like. Recognizing some of the nuances"
+},
+{
+"dislike_id": "D6",
+"statement": "The participant disliked source support that was hard to trace or inspect.",
+"supporting_segments": ["S4"],
+"representative_quote": "it can really be buried in there"
+}
+],
+"requirements": [
+{
+"req_id": "R1",
+"type": "must_have",
+"requirement": "Include a brief overall summary statement at the beginning of the report that states the bottom line and whether the answer is clear or nuanced.",
+"supporting_segments": ["S8", "S10"],
+"risk_if_ignored": "The participant may feel less confident in the report and have to search through the document to understand how certain the answer is."
+},
+{
+"req_id": "R2",
+"type": "must_have",
+"requirement": "Show the supporting evidence and explicitly indicate the quality or strength of that evidence.",
+"supporting_segments": ["S3", "S10"],
+"risk_if_ignored": "The participant's baseline hesitancy about AI outputs will remain unresolved."
+},
+{
+"req_id": "R3",
+"type": "must_have",
+"requirement": "Keep the initial report concise, ideally around one to two pages, with the option for follow-up rather than front-loading all detail.",
+"supporting_segments": ["S7", "S10"],
+"risk_if_ignored": "The participant may choose not to read the report at all in real workflow."
+},
+{
+"req_id": "R4",
+"type": "avoid",
+"requirement": "Avoid adding unprompted sections or extra content that is not directly responsive to the user's question.",
+"supporting_segments": ["S7"],
+"risk_if_ignored": "The report will feel padded and less usable under time pressure."
+},
+{
+"req_id": "R5",
+"type": "must_have",
+"requirement": "Organize references from strongest to weakest evidence in a format that is easy to scan.",
+"supporting_segments": ["S3", "S5", "S6", "S9"],
+"risk_if_ignored": "The participant may struggle to judge whether the evidence base is convincing."
+},
+{
+"req_id": "R6",
+"type": "avoid",
+"requirement": "Avoid visually busy tables and confusing headers that can obscure the intended meaning of the recommendation.",
+"supporting_segments": ["S5", "S8"],
+"risk_if_ignored": "The participant may initially reject the report or misread what it is recommending."
+},
+{
+"req_id": "R7",
+"type": "nice_to_have",
+"requirement": "Include visual data support when it adds value, but do not treat it as essential content.",
+"supporting_segments": ["S10"],
+"risk_if_ignored": "The report may lose a helpful supporting feature, though the participant did not describe it as necessary."
+},
+{
+"req_id": "R8",
+"type": "must_have",
+"requirement": "Position AI outputs as evidence support and workflow assistance rather than as a substitute for major clinical decision-making.",
+"supporting_segments": ["S11", "S12"],
+"risk_if_ignored": "The participant expects greater hesitation and lower acceptance if the tool appears to replace clinician judgment."
+}
+],
+"workflow_integration": {
+"current_workarounds": [
+"Uses open evidence for one-off or unclear clinical questions.",
+"Pastes difficult report excerpts into open evidence for interpretation.",
+"Uses AI to validate a tentative plan before further discussion.",
+"Uses follow-up prompts rather than expecting the first answer to contain everything."
+],
+"intended_use_cases": [
+"Medication side-effect questions.",
+"Assessing whether symptoms could be treatment-related.",
+"Interpreting dense technical report language.",
+"Summarizing reports to support later clinical decisions.",
+"Speeding up contouring or similar time-consuming technical tasks."
+],
+"constraints": [
+"Limited time to read long outputs.",
+"Need to understand how strong the evidence is.",
+"Need for nuance to be clear early in the report.",
+"Reduced confidence when source support is hard to inspect.",
+"Hesitancy when AI appears to make decisions rather than support them."
+],
+"output_format_preferences": [
+"Overall summary at the beginning.",
+"Clear statement of whether the answer is nuanced or straightforward.",
+"Concise structure, around one to two pages.",
+"References ordered by strength of evidence.",
+"Cleaner, less busy tables.",
+"Clear labeling for conditional recommendations.",
+"Language style similar to the blue report."
+]
+},
+"trust_and_safety": {
+"trust_drivers": [
+"References organized by strength of evidence.",
+"Visible indication of evidence quality.",
+"Top-line statement that clearly signals nuance or certainty.",
+"Outputs that are concise enough to review.",
+"AI uses that support but do not replace clinician judgment.",
+"Tasks where the AI output can be checked."
+],
+"trust_erosions": [
+"Not knowing where information is coming from.",
+"Source support being buried in the report.",
+"Concern that statements may rely on one or two sentences rather than overall findings.",
+"Excessively long reports that cannot be fully reviewed.",
+"Confusing labeling around recommendations.",
+"Definitive answers that do not acknowledge nuance."
+],
+"verification_behaviors": [
+"Digging into where the tool is pulling information from.",
+"Comparing the summary against the supporting evidence when time allows.",
+"Using AI to validate an existing thought rather than relying on it alone.",
+"Checking AI-assisted technical work in practice."
+],
+"medico_legal_or_policy_concerns": []
+},
+"quantified_mentions": {
+"top_codes_by_count": [
+{
+"code": "prefers_strength_of_evidence_ordering",
+"count": 3
+},
+{
+"code": "prioritizes_efficiency_for_non_patient_tasks",
+"count": 2
+},
+{
+"code": "too_long_reduces_use",
+"count": 2
+},
+{
+"code": "wants_evidence_quality_visible",
+"count": 2
+},
+{
+"code": "wants_nuance_flagged_up_front",
+"count": 1
+}
+],
+"notes": "Counts are approximate and based on segmented participant speech in the transcript. Some adjacent ideas could reasonably be double-coded differently because the transcript is conversational and includes filler speech."
+},
+"analytic_memos": {
+"summary": "The participant already uses AI in clinical workflow, but mainly for bounded support tasks rather than autonomous decision-making. They use it for unclear questions, medication side effects, interpreting dense report language, and validating their own thinking. Across the sample reports, the participant most values concise structure, an upfront summary, and explicit communication of nuance. Evidence presentation is central to their trust: they want references ordered by strength and want the quality of evidence made visible. At the same time, they are wary when sourcing is hard to trace or when the tool appears to overinterpret isolated sentences. Long reports are especially problematic because they reduce both usability and confidence, especially when the participant cannot review the underlying support. Overall, the participant favors AI as a utility that saves time and brings evidence forward, not as an agent that makes major clinical decisions on the clinician's behalf.",
+"tensions_or_tradeoffs": [
+"The participant wants nuance, but still wants the report to be concise and quickly scannable.",
+"They value conditional guidance, but only when it is labeled clearly enough to avoid misreading.",
+"They appreciate rich evidence display, but busy formatting can hide the value of that content.",
+"They see a role for AI in decision support, but resist AI being framed as the actual decision-maker."
+],
+"open_questions_for_next_interview": [
+"What exact table or citation layout would make evidence strength easiest to scan during workflow?",
+"How should a report visually distinguish a recommendation from conditional guidance such as dosing if chosen?",
+"What kinds of follow-up questions would the participant most often want after a concise initial summary?",
+"What level of source detail is sufficient for trust without making the report too long?",
+"Which supportive tasks feel appropriately delegated to AI versus too close to core clinical judgment?"
+]
+}
+}

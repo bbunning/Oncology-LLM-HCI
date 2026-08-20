@@ -1,0 +1,657 @@
+{
+"transcript_id": "TX001",
+"interview_context": {
+"participant_role": "oncologist",
+"setting_or_workflow_context": "Clinical decision-making lookups during oncology care, including between-patient review of evidence and guidelines.",
+"tools_mentioned_by_participant": ["Google", "ChatGPT", "NCCN", "PubMed", "European Association"]
+},
+"segments": [
+{
+"segment_id": "S1",
+"timestamp_start": "00:00:36.740",
+"timestamp_end": "00:00:48.670",
+"speaker": "participant",
+"verbatim_excerpt": "No. No. I did say I was using, like, if I... if I need to Google something, like, I do know that that first part is AI.",
+"codes": ["minimal_current_ai_use", "google_as_existing_lookup_workaround"],
+"valence": "neutral",
+"object_of_evaluation": "current workflow fit",
+"rationale": "The participant says they are not currently using the named clinical AI tools, but does note use of Google with AI-generated content. This supports a code about limited current adoption and an existing workaround."
+},
+{
+"segment_id": "S2",
+"timestamp_start": "00:01:03.100",
+"timestamp_end": "00:02:09.219",
+"speaker": "participant",
+"verbatim_excerpt": "there's one... that kind of read, like, ChatGBT, like, it was, like, very conversational... I'd probably be, like, less inclined to use that... what I valued... it will put in parentheses, like, where it's sourced from... and there's, like, a direct link.",
+"codes": ["dislikes_conversational_tone", "prefers_inline_source_links", "citation_based_trust"],
+"valence": "mixed",
+"object_of_evaluation": "tone and citations",
+"rationale": "The participant explicitly rejects a conversational style associated with ChatGPT and contrasts it with source-linked output. The excerpt grounds both the dislike of tone and preference for direct linked sourcing."
+},
+{
+"segment_id": "S3",
+"timestamp_start": "00:02:45.899",
+"timestamp_end": "00:03:17.900",
+"speaker": "participant",
+"verbatim_excerpt": "the one that has, like, a paragraph summary was okay... it definitely felt like it was feeding you an answer... I liked the way that it... there was one that actually had, like, the citations in it... it wasn't, like, a number, it was, like, NCCN was a citation.",
+"codes": ["summary_can_be_useful", "report_feels_leading", "prefers_labeled_citations"],
+"valence": "mixed",
+"object_of_evaluation": "summary framing and evidence display",
+"rationale": "The participant accepts the idea of a summary but criticizes the report for steering toward an answer. They also positively distinguish labeled citations from numeric references."
+},
+{
+"segment_id": "S4",
+"timestamp_start": "00:03:38.970",
+"timestamp_end": "00:04:40.609",
+"speaker": "participant",
+"verbatim_excerpt": "I would consider using it if they had direct links to whatever guideline they were referring to... it had a chart of the evidence... it said the second one... meta-analysis, but... it's actually expert opinions... not a really high level of evidence.",
+"codes": ["would_use_if_linked_to_guidelines", "likes_evidence_table", "misclassification_of_evidence", "accuracy_required_for_trust"],
+"valence": "mixed",
+"object_of_evaluation": "guideline links and evidence ranking accuracy",
+"rationale": "The participant gives a concrete adoption condition, praises the evidence chart format, and identifies a specific accuracy failure in evidence-level labeling. This excerpt directly links usefulness to trustworthy classification."
+},
+{
+"segment_id": "S5",
+"timestamp_start": "00:04:48.890",
+"timestamp_end": "00:05:22.809",
+"speaker": "participant",
+"verbatim_excerpt": "I liked that style, that was probably my favorite style. I was just very concerned about, like, if I was reading this too quickly, like, I would have missed that... I liked having the information in a chart, and it had, like, hyperlinks.",
+"codes": ["favorite_is_chart_with_hyperlinks", "busy_clinic_may_miss_errors", "speed_reading_risk"],
+"valence": "mixed",
+"object_of_evaluation": "chart layout and safety under time pressure",
+"rationale": "The participant clearly states this style was their favorite while also noting a realistic risk of missing errors when reading quickly. That combination supports both a positive usability code and a time-pressure safety code."
+},
+{
+"segment_id": "S6",
+"timestamp_start": "00:06:05.930",
+"timestamp_end": "00:08:21.439",
+"speaker": "participant",
+"verbatim_excerpt": "the ChatGBT-style one... it was, like, too conversational... I probably wouldn't want to be reading that between patients... I liked the style of the blue report... But... it wasn't as nuanced... the first couple of sentences were, like, this is what you should do.",
+"codes": ["between_patients_requires_efficiency", "dislikes_conversational_tone", "likes_summary_plus_citations", "report_feels_leading", "nuance_lost_in_assertive_summary"],
+"valence": "mixed",
+"object_of_evaluation": "workflow fit, tone, and decision framing",
+"rationale": "This excerpt ties formatting preferences to actual clinic workflow and shows a tension between concise summaries and overly directive language. The participant values efficient, cited summaries but not when they overstate certainty."
+},
+{
+"segment_id": "S7",
+"timestamp_start": "00:08:39.590",
+"timestamp_end": "00:09:25.789",
+"speaker": "participant",
+"verbatim_excerpt": "I like the chart of evidence in the pink report... the bold, especially if you're busy, is helpful, but I do recognize that it's a little dangerous... if you're not too careful... in a busy clinic... and chat, you know, and, like, AI can be wrong.",
+"codes": ["likes_evidence_table", "bolding_supports_scannability", "bolding_can_mislead", "busy_clinic_may_miss_errors"],
+"valence": "mixed",
+"object_of_evaluation": "visual emphasis and safety",
+"rationale": "The participant explicitly values scannability aids like bolding while warning that those same cues can misdirect users when AI is wrong. This is direct evidence of a usability-safety tradeoff."
+},
+{
+"segment_id": "S8",
+"timestamp_start": "00:10:01.349",
+"timestamp_end": "00:10:56.129",
+"speaker": "participant",
+"verbatim_excerpt": "I liked the column that said if this was, like, a guideline, meta-analysis, or phase whatever study... it would need to be, like, accurate... after I saw that, I kind of, like, disregarded the whole report... I always have to double check if the citation... is correct or made up.",
+"codes": ["likes_evidence_level_labels", "accuracy_required_for_trust", "single_error_breaks_trust", "verifies_citations_manually", "concern_about_fake_citations"],
+"valence": "mixed",
+"object_of_evaluation": "evidence labeling and trust",
+"rationale": "The participant values explicit evidence-type columns but says one evident error caused them to disregard the report. They also describe a routine of manually checking citations because AI may fabricate them."
+},
+{
+"segment_id": "S9",
+"timestamp_start": "00:11:20.880",
+"timestamp_end": "00:12:17.080",
+"speaker": "participant",
+"verbatim_excerpt": "I do appreciate... a summary of the information... I did like in the blue report how it started with, like, a paragraph summary... I wish it was presented more... it just felt like it was too much spinning... the perfect report would be... that first paragraph summary... with less spin.",
+"codes": ["summary_can_be_useful", "wants_less_spin", "prefers_objective_framing"],
+"valence": "mixed",
+"object_of_evaluation": "summary tone and framing",
+"rationale": "The participant clearly wants a summary but not one that sounds interpretive or promotional. The phrase 'less spin' grounds the desire for more neutral presentation."
+},
+{
+"segment_id": "S10",
+"timestamp_start": "00:12:17.160",
+"timestamp_end": "00:12:33.300",
+"speaker": "participant",
+"verbatim_excerpt": "And then, like, a table with links to... or, like, a table that kind of organizes the different evidence. And then citations with... that label, like, okay, this is from NCCN, and here's a link to go to NCCN.",
+"codes": ["likes_evidence_table", "prefers_direct_guideline_links", "prefers_labeled_citations", "organized_evidence_display"],
+"valence": "positive",
+"object_of_evaluation": "ideal output format",
+"rationale": "This is a concise description of the participant's preferred report structure. It emphasizes organized evidence tables, labeled citations, and direct links to the guideline source."
+},
+{
+"segment_id": "S11",
+"timestamp_start": "00:12:34.750",
+"timestamp_end": "00:12:41.339",
+"speaker": "participant",
+"verbatim_excerpt": "And I think at most, like, 2 pages. Like, there was one that was like, oh my god.",
+"codes": ["prefers_short_reports", "rejects_overly_long_output"],
+"valence": "negative",
+"object_of_evaluation": "length",
+"rationale": "The participant sets a concrete upper bound on acceptable report length and reacts negatively to a longer report. This directly supports codes about brevity and overload."
+},
+{
+"segment_id": "S12",
+"timestamp_start": "00:13:20.460",
+"timestamp_end": "00:14:00.100",
+"speaker": "participant",
+"verbatim_excerpt": "when it can list up the... point out to the different clinical characteristics of your patient and be like, because of this individual characteristics of your patient, this evidence points to this.",
+"codes": ["wants_patient_specific_mapping", "values_clinical_characteristics_table"],
+"valence": "positive",
+"object_of_evaluation": "patient-evidence matching",
+"rationale": "The participant endorses a format that explicitly maps patient characteristics to the evidence. This is framed as a useful report element rather than a concern."
+},
+{
+"segment_id": "S13",
+"timestamp_start": "00:14:33.999",
+"timestamp_end": "00:14:56.050",
+"speaker": "participant",
+"verbatim_excerpt": "you could make a case either way, so, like, when it helps you, you know, collect evidence to make a case either way, that's... that's helpful. But not when it's like, you should do this... succinctly, though, not, like... ChatGBT.",
+"codes": ["supports_bidirectional_case_building", "avoid_prescriptive_recommendations", "prefers_succinctness"],
+"valence": "mixed",
+"object_of_evaluation": "decision support role",
+"rationale": "The participant wants the tool to assemble evidence for competing options, especially when decisions are not clear-cut. They reject the tool taking the final decision-making role and again stress brevity."
+}
+],
+"codebook": [
+{
+"code": "minimal_current_ai_use",
+"definition": "Participant is not actively using the named AI clinical decision-support tools in current practice. The code captures limited present-day integration rather than general attitudes.",
+"inclusion_criteria": ["States they do not currently use the named tools", "Indicates no routine use in clinical duties"],
+"exclusion_criteria": ["Comments on desired future use", "General opinions about AI quality"],
+"example_segment_ids": ["S1"]
+},
+{
+"code": "google_as_existing_lookup_workaround",
+"definition": "Participant uses Google or a similar existing search workflow as a practical substitute for formal AI reports. This reflects current information-seeking behavior.",
+"inclusion_criteria": ["Mentions Googling something", "Describes existing search workflow as the current approach"],
+"exclusion_criteria": ["Mentions PubMed only as a comparison", "Mentions AI reports without current use"],
+"example_segment_ids": ["S1"]
+},
+{
+"code": "dislikes_conversational_tone",
+"definition": "Participant rejects a chatty or conversational report style because it feels inappropriate for clinical use. The concern is about tone, not only content accuracy.",
+"inclusion_criteria": ["Calls a report conversational", "Associates the style with ChatGPT in a negative way"],
+"exclusion_criteria": ["Critiques report length without mentioning tone", "Critiques evidence quality only"],
+"example_segment_ids": ["S2", "S6"]
+},
+{
+"code": "prefers_inline_source_links",
+"definition": "Participant values reports that show sources directly in the text with clickable links. The emphasis is on immediate access to the underlying material.",
+"inclusion_criteria": ["Mentions parentheses with sources", "Mentions direct links to papers or guidelines"],
+"exclusion_criteria": ["General mention of citations without linkability", "General trust statements without source access"],
+"example_segment_ids": ["S2", "S4"]
+},
+{
+"code": "citation_based_trust",
+"definition": "Trust is increased when the report makes source attribution visible and inspectable. This code captures trust built through citation presence and transparency.",
+"inclusion_criteria": ["Says citations or source labels are valued", "Links trust to being able to see the source"],
+"exclusion_criteria": ["Trust comments based only on tone", "Trust comments based only on brevity"],
+"example_segment_ids": ["S2", "S3"]
+},
+{
+"code": "summary_can_be_useful",
+"definition": "Participant sees value in a short opening summary that synthesizes information. The summary is useful when it remains restrained and factual.",
+"inclusion_criteria": ["Says summary was okay or appreciated", "Describes liking a paragraph summary"],
+"exclusion_criteria": ["Rejects summary because of spin", "Comments only on tables"],
+"example_segment_ids": ["S3", "S9"]
+},
+{
+"code": "report_feels_leading",
+"definition": "Participant perceives the report as steering them toward a specific answer rather than neutrally presenting evidence. This includes feeling 'fed an answer.'",
+"inclusion_criteria": ["Says report was feeding an answer", "Describes the report as leading"],
+"exclusion_criteria": ["Neutral description of recommendation", "Comments about missing citations only"],
+"example_segment_ids": ["S3", "S6"]
+},
+{
+"code": "prefers_labeled_citations",
+"definition": "Participant prefers citations that name the source type or organization rather than abstract numbering. Labels help the participant quickly recognize what kind of authority is being cited.",
+"inclusion_criteria": ["Mentions NCCN as the citation label", "Prefers named citation labels"],
+"exclusion_criteria": ["Mentions links without labels", "Comments on evidence ranking without citation style"],
+"example_segment_ids": ["S3", "S10"]
+},
+{
+"code": "would_use_if_linked_to_guidelines",
+"definition": "Participant sets direct guideline linking as a condition for considering tool use. This is a concrete adoption threshold.",
+"inclusion_criteria": ["Says they would consider using it if guideline links were present", "Ties use to direct links to referred guidelines"],
+"exclusion_criteria": ["General praise for citations", "General statement about trust"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "likes_evidence_table",
+"definition": "Participant favors a structured chart or table that organizes the evidence. The appeal is visual organization and rapid access to evidence hierarchy.",
+"inclusion_criteria": ["Praises chart of evidence", "Describes table as favorite style"],
+"exclusion_criteria": ["Mentions summary paragraph only", "Mentions patient characteristics without evidence display"],
+"example_segment_ids": ["S4", "S5", "S7", "S10"]
+},
+{
+"code": "misclassification_of_evidence",
+"definition": "Participant notices a mismatch between how a study is labeled and what it actually is. This code captures incorrect evidence taxonomy in the report.",
+"inclusion_criteria": ["Meta-analysis label contradicted by description", "States a supposedly high-level source was actually lower-level evidence"],
+"exclusion_criteria": ["General citation errors without evidence-level mismatch", "Comments about spin"],
+"example_segment_ids": ["S4", "S8"]
+},
+{
+"code": "accuracy_required_for_trust",
+"definition": "Participant requires factual accuracy in citations, labels, and evidence categorization before trusting the report. Accuracy is treated as foundational rather than optional.",
+"inclusion_criteria": ["Says it would need to be accurate", "Links report trustworthiness to correctness"],
+"exclusion_criteria": ["General mention of usefulness", "Comments about tone alone"],
+"example_segment_ids": ["S4", "S8"]
+},
+{
+"code": "busy_clinic_may_miss_errors",
+"definition": "Participant worries that time pressure in clinic makes it easy to overlook report errors. This code captures safety concerns under realistic workflow conditions.",
+"inclusion_criteria": ["Mentions reading too quickly", "Mentions busy clinic as making mistakes more likely"],
+"exclusion_criteria": ["General comments on risk without time pressure", "General dislike of AI"],
+"example_segment_ids": ["S5", "S7"]
+},
+{
+"code": "between_patients_requires_efficiency",
+"definition": "Participant evaluates the report against the brief time available between patients. The report must therefore be fast to read and act on.",
+"inclusion_criteria": ["Mentions reading between patients", "Frames preference in relation to clinic pace"],
+"exclusion_criteria": ["General desire for short reports without workflow context", "Home or research use cases"],
+"example_segment_ids": ["S6"]
+},
+{
+"code": "likes_summary_plus_citations",
+"definition": "Participant likes a combined format: a paragraph summary followed by cited references. This code captures preference for concise synthesis that remains traceable.",
+"inclusion_criteria": ["Likes blue report style with summary and clickable citation", "Mentions both summary and source access positively"],
+"exclusion_criteria": ["Likes summary alone", "Likes citations alone"],
+"example_segment_ids": ["S6", "S9"]
+},
+{
+"code": "nuance_lost_in_assertive_summary",
+"definition": "Participant feels a concise report flattened uncertainty or made the evidence seem more settled than it was. The concern is overstatement, not brevity itself.",
+"inclusion_criteria": ["Says the report was not as nuanced", "Says the evidence was made to seem more cut and dry"],
+"exclusion_criteria": ["General dislike of summary", "General concern about fake citations"],
+"example_segment_ids": ["S6"]
+},
+{
+"code": "bolding_supports_scannability",
+"definition": "Participant finds bolding useful for fast reading when busy. The code captures the positive role of visual emphasis in scanning.",
+"inclusion_criteria": ["Says bold is helpful", "Links bolding to busy readers"],
+"exclusion_criteria": ["Comments on charts without bolding", "Bolding as misleading only"],
+"example_segment_ids": ["S7"]
+},
+{
+"code": "bolding_can_mislead",
+"definition": "Participant worries that bolded text may overemphasize a possibly incorrect answer. This is a risk created by visual prominence.",
+"inclusion_criteria": ["Says bolding is dangerous", "Says bolded text pushes the right answer"],
+"exclusion_criteria": ["General concern about AI being wrong without mention of bolding", "Comments on tables only"],
+"example_segment_ids": ["S7"]
+},
+{
+"code": "likes_evidence_level_labels",
+"definition": "Participant values columns that identify whether evidence is a guideline, meta-analysis, or phase study. This labeling helps them interpret source strength quickly.",
+"inclusion_criteria": ["Praises the guideline/meta-analysis/phase columns", "Mentions this column as helpful"],
+"exclusion_criteria": ["General praise for citations", "Comments on hyperlinks only"],
+"example_segment_ids": ["S8"]
+},
+{
+"code": "single_error_breaks_trust",
+"definition": "A single obvious mistake causes the participant to dismiss the report or lose trust in it. Trust is fragile and easily disrupted.",
+"inclusion_criteria": ["Says they disregarded the whole report after an error", "States one mistake breaks trust"],
+"exclusion_criteria": ["General trust concerns without a triggering event", "Routine verification without explicit trust collapse"],
+"example_segment_ids": ["S8"]
+},
+{
+"code": "verifies_citations_manually",
+"definition": "Participant describes checking citations themselves rather than relying on the report. This includes clicking through and validating whether sources are real.",
+"inclusion_criteria": ["Says they always have to double check", "Describes going directly to source links"],
+"exclusion_criteria": ["General desire for links without mention of checking", "General trust statements"],
+"example_segment_ids": ["S8"]
+},
+{
+"code": "concern_about_fake_citations",
+"definition": "Participant explicitly mentions AI making up citations or hallucinating references. This is a specific trust and safety concern.",
+"inclusion_criteria": ["Mentions fake citations", "Mentions hallucination in relation to citations"],
+"exclusion_criteria": ["Misclassification of evidence type without fake citation concern", "General AI skepticism"],
+"example_segment_ids": ["S8"]
+},
+{
+"code": "wants_less_spin",
+"definition": "Participant wants the report phrased with less rhetorical push and less implied persuasion. The concern is tone and framing rather than mere length.",
+"inclusion_criteria": ["Uses the word spin", "Says they want less clinical decision-making by the AI"],
+"exclusion_criteria": ["General dislike of conversational style", "General accuracy concerns"],
+"example_segment_ids": ["S9"]
+},
+{
+"code": "prefers_objective_framing",
+"definition": "Participant wants the report to present evidence as information rather than as a directive. This favors neutral framing over recommendation language.",
+"inclusion_criteria": ["Says summary should be less like a recommendation", "Wants information presented without steering"],
+"exclusion_criteria": ["Bidirectional case-building only", "Comments on charts only"],
+"example_segment_ids": ["S9", "S13"]
+},
+{
+"code": "prefers_short_reports",
+"definition": "Participant prefers reports that are brief, with a clear upper bound on acceptable length. Brevity is linked to practical usability.",
+"inclusion_criteria": ["Specifies maximum of about two pages", "States a strong preference for concise output"],
+"exclusion_criteria": ["General workflow comments without length", "Dislike of conversational style only"],
+"example_segment_ids": ["S11", "S13"]
+},
+{
+"code": "rejects_overly_long_output",
+"definition": "Participant reacts negatively to excessively long reports. This code captures overload rather than general brevity preference.",
+"inclusion_criteria": ["Says one report was too long", "Contrasts desired brevity with multi-page output"],
+"exclusion_criteria": ["Says summary is useful", "Mentions busy clinic without discussing length"],
+"example_segment_ids": ["S11"]
+},
+{
+"code": "wants_patient_specific_mapping",
+"definition": "Participant wants the report to connect patient characteristics to the evidence being presented. The goal is applicability, not generic literature review.",
+"inclusion_criteria": ["Mentions individual characteristics of the patient", "Says evidence should point to implications for this patient"],
+"exclusion_criteria": ["General evidence table comments", "General recommendation language"],
+"example_segment_ids": ["S12"]
+},
+{
+"code": "values_clinical_characteristics_table",
+"definition": "Participant likes having a structured display that lists patient features relevant to interpreting evidence. This is a desired report component.",
+"inclusion_criteria": ["Requests a report element that points out clinical characteristics", "Mentions a helpful chart that breaks down patient factors"],
+"exclusion_criteria": ["General patient-specificity without format preference", "Comments only on evidence level"],
+"example_segment_ids": ["S12"]
+},
+{
+"code": "supports_bidirectional_case_building",
+"definition": "Participant values a tool that assembles evidence for more than one reasonable path. This is especially useful when decisions can go either way.",
+"inclusion_criteria": ["Says you could make a case either way", "Says the tool should help collect evidence to support either case"],
+"exclusion_criteria": ["Wants a single recommendation", "General desire for objectivity without mention of alternatives"],
+"example_segment_ids": ["S13"]
+},
+{
+"code": "avoid_prescriptive_recommendations",
+"definition": "Participant does not want the AI to tell them what to do. The preferred role is evidence support rather than directive clinical decision-making.",
+"inclusion_criteria": ["Says not when it's like, you should do this", "Rejects clinical decision-making on the part of AI"],
+"exclusion_criteria": ["General concern about spin", "Comments about tone without decision role"],
+"example_segment_ids": ["S9", "S13"]
+},
+{
+"code": "prefers_succinctness",
+"definition": "Participant wants the report to be concise even when it includes multiple useful elements. Succinctness is framed as a quality separate from simple short length.",
+"inclusion_criteria": ["Says succinctly", "Contrasts preferred format with long ChatGPT-like output"],
+"exclusion_criteria": ["Only mentions two-page limit", "Only mentions summary usefulness"],
+"example_segment_ids": ["S13"]
+}
+],
+"themes": [
+{
+"theme_id": "T1",
+"theme_name": "Show me the evidence, not a chatty answer",
+"theme_definition": "The participant repeatedly distinguishes useful decision support from a conversational, ChatGPT-like style. They want concise synthesis and organized evidence, but they do not want the report to sound like it is flattering them or telling them what to do. The preferred role of the tool is to surface evidence and sources, not to perform the final clinical judgment.",
+"supporting_segments": ["S2", "S3", "S6", "S9", "S13"],
+"representative_quotes": [
+{
+"segment_id": "S6",
+"quote": "the ChatGBT-style one... it was, like, too conversational... I probably wouldn't want to be reading that between patients."
+},
+{
+"segment_id": "S13",
+"quote": "when it helps you... collect evidence to make a case either way, that's... helpful. But not when it's like, you should do this."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Repeated across several segments with consistent wording about conversational tone, spin, and the undesired prescriptive role of AI."
+},
+{
+"theme_id": "T2",
+"theme_name": "Trust depends on accurate, clickable sourcing",
+"theme_definition": "The participant's trust is strongly tied to visible sourcing, direct links, and correct evidence labeling. They want named citations, guideline links, and clear evidence categories. At the same time, they describe trust as fragile: one obvious mislabel or suspected fabricated citation can undermine the whole report.",
+"supporting_segments": ["S2", "S4", "S8", "S10"],
+"representative_quotes": [
+{
+"segment_id": "S4",
+"quote": "I would consider using it if they had direct links to whatever guideline they were referring to."
+},
+{
+"segment_id": "S8",
+"quote": "after I saw that, I kind of, like, disregarded the whole report."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Repeated and specific statements about direct links, labeled citations, fake citations, and loss of trust after one error."
+},
+{
+"theme_id": "T3",
+"theme_name": "Structured tables work, but only if they stay accurate and neutral",
+"theme_definition": "The participant favors evidence tables, columns for evidence level, and organized displays of the literature. These formats are easier to scan and fit better with their workflow. But those same structures become risky if labels are wrong, if bolding overstates a conclusion, or if the table is used to smuggle in an overly directive interpretation.",
+"supporting_segments": ["S4", "S5", "S7", "S8", "S10"],
+"representative_quotes": [
+{
+"segment_id": "S5",
+"quote": "I liked having the information in a chart, and it had, like, hyperlinks."
+},
+{
+"segment_id": "S7",
+"quote": "the bold, especially if you're busy, is helpful, but I do recognize that it's a little dangerous."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Multiple detailed comments on charts, hyperlinks, evidence columns, and the visual risks of bolding."
+},
+{
+"theme_id": "T4",
+"theme_name": "Useful in clinic means short, scannable, and patient-specific",
+"theme_definition": "The participant evaluates the reports against real clinic conditions, especially reading between patients. They want brief outputs, ideally no more than about two pages, with a summary up front and evidence organized for rapid review. They also want the report to connect evidence to the patient's characteristics, especially in cases where the evidence could support more than one reasonable approach.",
+"supporting_segments": ["S5", "S6", "S11", "S12", "S13"],
+"representative_quotes": [
+{
+"segment_id": "S11",
+"quote": "And I think at most, like, 2 pages."
+},
+{
+"segment_id": "S12",
+"quote": "because of this individual characteristics of your patient, this evidence points to this."
+}
+],
+"overall_valence": "positive",
+"confidence": "medium",
+"confidence_basis": "The workflow-fit idea appears across several segments, though the patient-specific mapping component is raised less often than sourcing and trust."
+}
+],
+"likes": [
+{
+"like_id": "L1",
+"statement": "The participant liked reports that included direct links to the underlying paper or guideline.",
+"supporting_segments": ["S2", "S4", "S8", "S10"],
+"representative_quote": "there's, like, a direct link to, like, whatever paper it is"
+},
+{
+"like_id": "L2",
+"statement": "The participant liked an evidence chart or table that organized studies and evidence levels.",
+"supporting_segments": ["S4", "S5", "S7", "S8", "S10"],
+"representative_quote": "I like the chart of evidence in the pink report."
+},
+{
+"like_id": "L3",
+"statement": "The participant liked a brief opening paragraph summary when it was not overly spin-heavy.",
+"supporting_segments": ["S3", "S6", "S9"],
+"representative_quote": "I did like in the blue report how it started with, like, a paragraph summary."
+},
+{
+"like_id": "L4",
+"statement": "The participant liked explicit labels for evidence type, such as guideline, meta-analysis, or phase study.",
+"supporting_segments": ["S8"],
+"representative_quote": "I liked the column that said if this was, like, a guideline, meta-analysis, or phase whatever study"
+},
+{
+"like_id": "L5",
+"statement": "The participant liked having patient characteristics explicitly tied to how the evidence applies.",
+"supporting_segments": ["S12", "S13"],
+"representative_quote": "because of this individual characteristics of your patient, this evidence points to this."
+}
+],
+"dislikes": [
+{
+"dislike_id": "D1",
+"statement": "The participant disliked a ChatGPT-like conversational tone.",
+"supporting_segments": ["S2", "S6"],
+"representative_quote": "it was, like, too conversational"
+},
+{
+"dislike_id": "D2",
+"statement": "The participant disliked reports that felt like they were feeding or spinning an answer.",
+"supporting_segments": ["S3", "S6", "S9", "S13"],
+"representative_quote": "it definitely felt like it was feeding you an answer"
+},
+{
+"dislike_id": "D3",
+"statement": "The participant disliked inaccurate evidence labeling, especially when lower-level evidence was presented as higher-level evidence.",
+"supporting_segments": ["S4", "S8"],
+"representative_quote": "calling it a meta-analysis when it's, like, not a meta-analysis"
+},
+{
+"dislike_id": "D4",
+"statement": "The participant disliked overly long reports that would be hard to use in clinic.",
+"supporting_segments": ["S11", "S13"],
+"representative_quote": "And I think at most, like, 2 pages."
+},
+{
+"dislike_id": "D5",
+"statement": "The participant disliked bolding when it overemphasized a possibly incorrect clinical direction.",
+"supporting_segments": ["S7"],
+"representative_quote": "I do recognize that it's a little dangerous"
+}
+],
+"requirements": [
+{
+"req_id": "R1",
+"type": "must_have",
+"requirement": "The report must include direct, clickable links to the guideline or citation it references.",
+"supporting_segments": ["S2", "S4", "S8", "S10"],
+"risk_if_ignored": "The participant would be less likely to use the report and would not trust its claims enough for clinical lookup support."
+},
+{
+"req_id": "R2",
+"type": "must_have",
+"requirement": "Evidence labels such as guideline, meta-analysis, and phase study must be accurate.",
+"supporting_segments": ["S4", "S8"],
+"risk_if_ignored": "A single visible misclassification may cause the user to disregard the entire report."
+},
+{
+"req_id": "R3",
+"type": "must_have",
+"requirement": "The report should present evidence neutrally and avoid directive wording that implies the AI is making the clinical decision.",
+"supporting_segments": ["S3", "S6", "S9", "S13"],
+"risk_if_ignored": "The user may perceive the report as biased, overreaching, or unsafe to rely on."
+},
+{
+"req_id": "R4",
+"type": "must_have",
+"requirement": "The output should include a concise summary followed by an organized evidence table.",
+"supporting_segments": ["S6", "S9", "S10"],
+"risk_if_ignored": "The report may become either too hard to scan quickly or too shallow to be useful."
+},
+{
+"req_id": "R5",
+"type": "must_have",
+"requirement": "The report should stay brief, ideally no longer than about two pages.",
+"supporting_segments": ["S11", "S13"],
+"risk_if_ignored": "The participant may not read it during clinical workflow or may abandon it as too burdensome."
+},
+{
+"req_id": "R6",
+"type": "nice_to_have",
+"requirement": "The report should include a structured mapping of patient characteristics to the evidence.",
+"supporting_segments": ["S12", "S13"],
+"risk_if_ignored": "The report may feel less applicable to an individual patient when the decision is not clear-cut."
+},
+{
+"req_id": "R7",
+"type": "avoid",
+"requirement": "Avoid a conversational, ChatGPT-like style and avoid excessive text.",
+"supporting_segments": ["S2", "S6", "S11", "S13"],
+"risk_if_ignored": "The participant may see the report as inefficient, less professional, and harder to use between patients."
+}
+],
+"workflow_integration": {
+"current_workarounds": [
+"Googling questions and using the AI-generated first part of Google results.",
+"Going directly to NCCN after spotting an error in the report.",
+"Double-checking whether cited references are real or made up.",
+"Using PubMed-like searches as a comparison point for finding resources."
+],
+"intended_use_cases": [
+"Rapid evidence lookup between patients.",
+"Reviewing guideline-linked summaries for clinical decision-making support.",
+"Collecting evidence to support one of multiple reasonable treatment paths.",
+"Checking how evidence applies to a patient's specific clinical characteristics."
+],
+"constraints": [
+"Very limited time in clinic and between patients.",
+"Risk of overtrusting bolded or leading language when busy.",
+"Need to verify citations because AI can hallucinate.",
+"Low tolerance for inaccuracies in evidence labeling.",
+"Need for brevity and quick scannability."
+],
+"output_format_preferences": [
+"Short opening paragraph summary.",
+"Evidence table or chart with organized studies.",
+"Clickable, labeled citations and direct guideline links.",
+"Columns identifying evidence level such as guideline, meta-analysis, or phase study.",
+"Optional patient-characteristics section linking case features to the evidence.",
+"Maximum length of about two pages."
+]
+},
+"trust_and_safety": {
+"trust_drivers": [
+"Direct links to the original paper or guideline.",
+"Named citations such as NCCN rather than abstract numbering.",
+"Accurate evidence-level labeling.",
+"Organized evidence tables with hyperlinks.",
+"Neutral presentation of evidence without excessive spin."
+],
+"trust_erosions": [
+"Conversational or ChatGPT-like tone.",
+"Directive language that appears to tell the clinician what to do.",
+"Evidence misclassification, such as calling something a meta-analysis when it is not.",
+"Possibility of fake or hallucinated citations.",
+"Bolding that may overemphasize an incorrect conclusion."
+],
+"verification_behaviors": [
+"Clicks directly to the linked source.",
+"Checks whether the cited article or guideline is real and correctly represented.",
+"May disregard the report and go straight to the guideline source if an error is detected."
+],
+"medico_legal_or_policy_concerns": []
+},
+"quantified_mentions": {
+"top_codes_by_count": [
+{
+"code": "likes_evidence_table",
+"count": 5
+},
+{
+"code": "accuracy_required_for_trust",
+"count": 3
+},
+{
+"code": "report_feels_leading",
+"count": 3
+},
+{
+"code": "prefers_labeled_citations",
+"count": 3
+},
+{
+"code": "prefers_short_reports",
+"count": 2
+}
+],
+"notes": "Counts are approximate and based on meaningful segments rather than every clause. Some segments contain overlapping ideas, especially around trust, citation checking, and directive framing."
+},
+"analytic_memos": {
+"summary": "This participant wants AI reports to function as efficient evidence-navigation tools rather than as conversational advisors. They are open to using such a tool, but only if it provides direct links to the underlying guideline or citation and labels evidence accurately. Their strongest positive reactions were to evidence tables, hyperlinking, and named citation labels that make source credibility easy to inspect. Their strongest negative reactions were to conversational tone, excessive length, and summaries that felt like they were steering a clinical choice. Trust appears highly fragile for this participant: one visible evidence-labeling error was enough to make them discount the whole report. They also describe a routine of manually checking citations because they believe AI can hallucinate references. In workflow terms, they want something brief enough to read between patients, with a short neutral summary up front and structured evidence beneath it. They also see value in a report that maps patient-specific characteristics to the evidence, especially when the case could reasonably go in more than one direction.",
+"tensions_or_tradeoffs": [
+"The participant likes bolding because it helps scanning, but also sees bolding as dangerous because it can overemphasize a wrong answer.",
+"They appreciate a summary paragraph, but only if it is neutral and does not spin the evidence toward a recommendation.",
+"They like evidence tables and ranking, but only if the labels are accurate enough to trust.",
+"They want patient-specific interpretation, but not AI overreach into prescriptive clinical decision-making."
+],
+"open_questions_for_next_interview": [
+"What exact wording would make a summary feel neutral rather than like it is feeding you an answer?",
+"What minimum evidence-table fields are necessary for you to trust and use the report in clinic?",
+"How would you want uncertainty presented when the evidence genuinely supports more than one reasonable option?",
+"Would you prefer the tool to highlight only guidelines first, with lower-level evidence hidden unless expanded?",
+"How much patient-specific interpretation is useful before it starts to feel like inappropriate AI decision-making?"
+]
+}
+}

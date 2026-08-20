@@ -1,0 +1,663 @@
+{
+"transcript_id": "TX001",
+"interview_context": {
+"participant_role": "attending",
+"setting_or_workflow_context": "Oncology clinical care, trainee supervision, preparation for patient visits, progress-note writing, and literature review for presentations.",
+"tools_mentioned_by_participant": ["NCCN", "Open Evidence", "PubMed", "ASCO", "ChatGPT"]
+},
+"segments": [
+{
+"segment_id": "S1",
+"timestamp_start": "00:00:04.630",
+"timestamp_end": "00:00:16.160",
+"speaker": "participant",
+"verbatim_excerpt": "the pink report was pretty messy. If it was available and for free. I would not use it. And if they were saying, I'm gonna pay you so you use it, I wouldn't join a program even to be paid.",
+"codes": ["report_feels_messy", "strong_rejection_of_tool"],
+"valence": "negative",
+"object_of_evaluation": "layout and overall usability",
+"rationale": "The participant explicitly describes one report as messy and says they would not use it even if free or paid to do so. This grounds both a usability problem and a strong rejection response."
+},
+{
+"segment_id": "S2",
+"timestamp_start": "00:00:16.160",
+"timestamp_end": "00:00:31.380",
+"speaker": "participant",
+"verbatim_excerpt": "This one, though, that yellow was much easier. And maybe because we are used to see small text. So I will say it was moderately helpful.",
+"codes": ["shorter_report_easier", "moderately_helpful_output"],
+"valence": "positive",
+"object_of_evaluation": "readability and workflow fit",
+"rationale": "The participant contrasts the yellow report with the messy one and says it was easier and moderately helpful. The excerpt supports a preference for a more readable, efficient format."
+},
+{
+"segment_id": "S3",
+"timestamp_start": "00:00:43.540",
+"timestamp_end": "00:01:20.779",
+"speaker": "participant",
+"verbatim_excerpt": "It was very clear. go back and see your citations, but again, you have ASCO, JACO, NCCN, Yeah, these are, like, the ones that we want to publish and go after and read, so… they did a good job with that.",
+"codes": ["good_citation_quality", "clarity_of_output", "trusted_sources_matter"],
+"valence": "positive",
+"object_of_evaluation": "citations and source selection",
+"rationale": "The participant says the report was clear and praises the cited sources as the ones clinicians want to read. This supports trust tied to recognizable, high-value citations."
+},
+{
+"segment_id": "S4",
+"timestamp_start": "00:01:40.220",
+"timestamp_end": "00:02:31.550",
+"speaker": "participant",
+"verbatim_excerpt": "what I liked that was, again, short sentences, to the point. And also, I like that they compared the regiments. ... the summary of evidence, because actually, I may worry about a patient only about their pulmonary complications. And it's hard to go to a text and find it, but here you have it right there.",
+"codes": ["short_sentences_to_the_point", "helpful_regimen_comparison", "evidence_summary_surfaces_key_clinical_issue"],
+"valence": "positive",
+"object_of_evaluation": "summary structure and clinical retrieval",
+"rationale": "The participant values concise sentences, direct comparison of options, and a summary that surfaces a clinically relevant issue without searching through long text. These are concrete design preferences."
+},
+{
+"segment_id": "S5",
+"timestamp_start": "00:03:23.570",
+"timestamp_end": "00:04:38.590",
+"speaker": "participant",
+"verbatim_excerpt": "This is too wordy. So, again, if I have only 60 seconds… I won't be able to go through these... But if I wanted to read about a patient, you know, the day before and get ready in the clinic. That is great, because it has a lot of information.",
+"codes": ["too_wordy_for_clinic", "time_pressure_sixty_seconds", "long_report_useful_for_preparation"],
+"valence": "mixed",
+"object_of_evaluation": "length and intended use",
+"rationale": "The participant rejects the report for real-time use because it is too wordy under clinic time pressure, but also says it could work for pre-visit preparation. This is a clear use-case tradeoff."
+},
+{
+"segment_id": "S6",
+"timestamp_start": "00:04:24.260",
+"timestamp_end": "00:05:00.359",
+"speaker": "participant",
+"verbatim_excerpt": "Exactly, and when I see my colleagues and trainees do the open evidence, for example. They are not just trying to read the whole literature, trying to get a quick answer, so the yellow has that. So, I will say moderately helpful, not because it was not helpful, but because it was, again, too much to… to follow.",
+"codes": ["quick_answer_orientation", "trainees_seek_speed", "too_much_to_follow"],
+"valence": "mixed",
+"object_of_evaluation": "workflow fit and target users",
+"rationale": "The participant explains that colleagues and trainees want quick answers, making short formats more practical. At the same time, the report is still judged too much to follow, showing mixed value."
+},
+{
+"segment_id": "S7",
+"timestamp_start": "00:06:14.680",
+"timestamp_end": "00:07:37.350",
+"speaker": "participant",
+"verbatim_excerpt": "the question is for what… what for are you using your AI? Again, this is like as if you're reading a manuscript. ... I would say moderately, moderately clear, just because it was, again, too much. Citations were fine.",
+"codes": ["intent_of_use_matters", "manuscript_like_output", "good_citations_but_overlong"],
+"valence": "mixed",
+"object_of_evaluation": "report purpose and format",
+"rationale": "The participant explicitly frames usefulness as dependent on intended purpose and describes the report as manuscript-like. Although citations are acceptable, excess detail reduces clarity."
+},
+{
+"segment_id": "S8",
+"timestamp_start": "00:09:03.120",
+"timestamp_end": "00:09:34.780",
+"speaker": "participant",
+"verbatim_excerpt": "Yeah, I usually tell them, read the NCCN. And in fact, in my progress note, I take pieces of the NCCN and I put them in the note. Because… things change all the time.",
+"codes": ["nccn_as_primary_source", "guidelines_change_frequently", "guidelines_used_in_documentation"],
+"valence": "neutral",
+"object_of_evaluation": "guideline content and source hierarchy",
+"rationale": "The participant centers NCCN as the primary source and notes active reuse in documentation because recommendations change. This signals that current guideline fidelity is essential."
+},
+{
+"segment_id": "S9",
+"timestamp_start": "00:11:03.910",
+"timestamp_end": "00:12:04.519",
+"speaker": "participant",
+"verbatim_excerpt": "The literature, then, will be the explanation of how we came up with that table. ... then you can click and get your citation. ... And that's why we have Level 1 evidence, level 2 evidence, because some is expert opinion.",
+"codes": ["guideline_plus_explanation_model", "click_through_to_citations", "evidence_level_should_be_shown"],
+"valence": "positive",
+"object_of_evaluation": "evidence display and drill-down design",
+"rationale": "The participant describes an ideal structure: guideline-level guidance up front, deeper literature available on demand, and explicit evidence levels. The excerpt is directly about design requirements."
+},
+{
+"segment_id": "S10",
+"timestamp_start": "00:12:28.470",
+"timestamp_end": "00:13:00.700",
+"speaker": "participant",
+"verbatim_excerpt": "at the end of the day, that's why we actually meet, and we don't just use AI to make the tables. ... That is the input or output that you're gonna give to your general oncologist. needs to go broader, too. The decision can be also applicable to practice.",
+"codes": ["ai_not_sufficient_for_final_decision", "human_deliberation_still_needed", "practice_applicability_matters"],
+"valence": "neutral",
+"object_of_evaluation": "decision support boundaries",
+"rationale": "The participant explains that group deliberation still matters and AI cannot replace that process. The output must also be broad enough to work in actual practice."
+},
+{
+"segment_id": "S11",
+"timestamp_start": "00:14:10.830",
+"timestamp_end": "00:15:12.459",
+"speaker": "participant",
+"verbatim_excerpt": "I would say to make the right medical decision, so we have our experience. ... My mentee, who just graduated. inevitably doesn't have that. So I want to make sure she uses a source, or the source is going to be using to be the one that is the most, most accurate. most up-to-date.",
+"codes": ["trainees_need_reliable_source", "accuracy_and_recency_are_critical", "experience_gap_matters"],
+"valence": "neutral",
+"object_of_evaluation": "target users and source quality",
+"rationale": "The participant contrasts senior experience with a new graduate's needs and emphasizes that the source used by trainees must be highly accurate and current. The concern is explicitly tied to decision-making."
+},
+{
+"segment_id": "S12",
+"timestamp_start": "00:16:36.460",
+"timestamp_end": "00:17:09.440",
+"speaker": "participant",
+"verbatim_excerpt": "there are, like, papers every hour. ... personally, I don't have the time to go into PubMed every day to read what is new in my small world of bladder cancer. So, if I have a tool that tells me the best 10 papers from this month. are these, then that can help me study in a more organized way.",
+"codes": ["information_overload", "temporal_literature_digest_needed", "organized_study_support"],
+"valence": "positive",
+"object_of_evaluation": "literature monitoring and summarization",
+"rationale": "The participant identifies the pace of new papers as a problem and proposes a concrete solution: a time-bounded ranking of top papers. This is a clear desired use case."
+},
+{
+"segment_id": "S13",
+"timestamp_start": "00:19:02.580",
+"timestamp_end": "00:19:46.679",
+"speaker": "participant",
+"verbatim_excerpt": "based on me doing this comparison of the three different tools. And realizing how wrong they could be, or how misleading they could be. Actually made me not want to use them. Because I don't, trust them.",
+"codes": ["misleading_output_erodes_trust", "comparison_revealed_errors", "avoid_using_untrusted_tools"],
+"valence": "negative",
+"object_of_evaluation": "trust and accuracy",
+"rationale": "The participant directly says that seeing how wrong or misleading the tools could be made them not want to use them. This is a strong trust erosion statement."
+},
+{
+"segment_id": "S14",
+"timestamp_start": "00:20:32.679",
+"timestamp_end": "00:20:36.799",
+"speaker": "participant",
+"verbatim_excerpt": "the way even the site looks makes you feel it's like a New England Journal of Medicine, with the red colors and the style, so it's convincing by just looking at the… not reading it, looking at it, you feel like I'm on the right…",
+"codes": ["visual_design_can_overconvince", "authority_signaling_by_style"],
+"valence": "negative",
+"object_of_evaluation": "UI and visual trust cues",
+"rationale": "The participant says the look and style alone make the site feel authoritative and convincing. This indicates that presentation can shape trust even before content is evaluated."
+},
+{
+"segment_id": "S15",
+"timestamp_start": "00:21:31.190",
+"timestamp_end": "00:22:33.090",
+"speaker": "participant",
+"verbatim_excerpt": "maybe that's what I didn't like, that their interpretation. was not accurate. ... If someone that is still green and fresh, they will like, because the machine tells you what to do. ... if you have your experience and you see the interpretation, you may say, this is not right.",
+"codes": ["interpretation_not_accurate", "summary_vs_interpretation_difference", "junior_users_may_overtrust"],
+"valence": "negative",
+"object_of_evaluation": "interpretation and user risk",
+"rationale": "The participant identifies inaccurate interpretation as the key problem and warns that less experienced users may accept it because it sounds directive. This supports both accuracy and overreliance concerns."
+},
+{
+"segment_id": "S16",
+"timestamp_start": "00:23:50.720",
+"timestamp_end": "00:24:49.789",
+"speaker": "participant",
+"verbatim_excerpt": "I want them to pull the literature of everything that has happened. The past 3 months or 6 months, and have the summary. ... And then they can have a second output in the detailed detailed response? ... if they want to have interpretation, it just has to have, like, a notification that ... use your own judgment.",
+"codes": ["recent_literature_summary_request", "two_tier_output_preference", "interpretation_needs_warning_label"],
+"valence": "positive",
+"object_of_evaluation": "feature requests and safeguards",
+"rationale": "The participant offers concrete product improvements: a recent-literature digest, a short output plus detailed second view, and a warning that interpretation should not replace clinician judgment."
+}
+],
+"codebook": [
+{
+"code": "report_feels_messy",
+"definition": "The participant describes a report as disorganized or unpleasant to work through. The emphasis is on how the presentation feels rather than on factual content alone.",
+"inclusion_criteria": ["Describes a report as messy", "Signals poor organization or poor presentation"],
+"exclusion_criteria": ["General statements about being long without calling it messy", "Concerns about inaccurate interpretation"],
+"example_segment_ids": ["S1"]
+},
+{
+"code": "strong_rejection_of_tool",
+"definition": "The participant says they would not use a tool or report, including under favorable conditions. This reflects a firm adoption barrier.",
+"inclusion_criteria": ["Would not use it even if free", "Would not join even if paid"],
+"exclusion_criteria": ["Mild criticism without clear refusal", "Conditional use for specific scenarios"],
+"example_segment_ids": ["S1", "S13"]
+},
+{
+"code": "shorter_report_easier",
+"definition": "The participant finds shorter or more compact outputs easier to read and more usable. This stays close to the participant's emphasis on ease.",
+"inclusion_criteria": ["Says a shorter report was easier", "Contrasts easier reading with longer alternatives"],
+"exclusion_criteria": ["Praise for sources only", "Comments on interpretation accuracy"],
+"example_segment_ids": ["S2", "S6"]
+},
+{
+"code": "good_citation_quality",
+"definition": "The participant positively evaluates the quality or relevance of citations. Trust is partly grounded in recognized sources.",
+"inclusion_criteria": ["Says citations were good or fine", "Mentions named sources as desirable"],
+"exclusion_criteria": ["General trust statements without source discussion", "Requests to click for citations"],
+"example_segment_ids": ["S3", "S7"]
+},
+{
+"code": "short_sentences_to_the_point",
+"definition": "The participant values concise writing that gets directly to the answer. The focus is sentence-level brevity and directness.",
+"inclusion_criteria": ["Short sentences", "To the point"],
+"exclusion_criteria": ["General preference for short reports without mention of phrasing", "Praise for summaries without concision"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "helpful_regimen_comparison",
+"definition": "The participant values when the report compares options directly rather than requiring manual cross-reading. The comparison itself is useful.",
+"inclusion_criteria": ["Liked that regimens were compared", "Direct side-by-side comparison helps"],
+"exclusion_criteria": ["General evidence summary without comparison", "Guideline discussion"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "evidence_summary_surfaces_key_clinical_issue",
+"definition": "The participant values summaries that make a specific clinical concern easy to find. This reduces the need to dig through long text.",
+"inclusion_criteria": ["Can find pulmonary complications quickly", "Key issue is right there"],
+"exclusion_criteria": ["Generic summary praise", "Citation quality alone"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "too_wordy_for_clinic",
+"definition": "The participant says the output is too long or dense for real-time clinic use. The problem is practical, not merely aesthetic.",
+"inclusion_criteria": ["Too wordy", "Too much to follow", "Cannot read in clinic time"],
+"exclusion_criteria": ["Long but useful for pre-reading", "Messy layout without wordiness"],
+"example_segment_ids": ["S5", "S6", "S7"]
+},
+{
+"code": "time_pressure_sixty_seconds",
+"definition": "The participant explicitly frames usability around very limited time during care. The tool must support rapid review.",
+"inclusion_criteria": ["Only 60 seconds", "Need quick answer"],
+"exclusion_criteria": ["General busyness without time marker", "Preparation the day before"],
+"example_segment_ids": ["S5"]
+},
+{
+"code": "long_report_useful_for_preparation",
+"definition": "The participant sees longer reports as potentially useful when preparing ahead of clinic rather than in the room. Timing changes value.",
+"inclusion_criteria": ["Useful the day before clinic", "Helpful for in-depth reading"],
+"exclusion_criteria": ["Immediate clinic use", "Short summary preference"],
+"example_segment_ids": ["S5"]
+},
+{
+"code": "intent_of_use_matters",
+"definition": "The participant says usefulness depends on what the AI is being used for. Report design should follow purpose.",
+"inclusion_criteria": ["Question is what you are using your AI for", "Use-case dependent judgments"],
+"exclusion_criteria": ["General feature requests without tying them to purpose", "Trust comments alone"],
+"example_segment_ids": ["S7"]
+},
+{
+"code": "nccn_as_primary_source",
+"definition": "The participant treats NCCN as the baseline source to read and use. It functions as the anchor for decision support.",
+"inclusion_criteria": ["Usually tell them read the NCCN", "Uses NCCN in notes"],
+"exclusion_criteria": ["Other general references", "Mentions of evidence levels without NCCN priority"],
+"example_segment_ids": ["S8"]
+},
+{
+"code": "guidelines_change_frequently",
+"definition": "The participant emphasizes that guidance changes often, requiring constant updating. Currency is therefore critical.",
+"inclusion_criteria": ["Things change all the time", "Different follow-up tables over time"],
+"exclusion_criteria": ["General recency concerns about papers", "Accuracy concerns without temporal change"],
+"example_segment_ids": ["S8"]
+},
+{
+"code": "evidence_level_should_be_shown",
+"definition": "The participant wants the level of evidence made explicit, not just the recommendation. This helps interpret strength and basis.",
+"inclusion_criteria": ["Level 1 evidence, level 2 evidence", "Some is expert opinion"],
+"exclusion_criteria": ["Citations without evidence hierarchy", "General trust in sources"],
+"example_segment_ids": ["S9"]
+},
+{
+"code": "ai_not_sufficient_for_final_decision",
+"definition": "The participant sets limits on AI by saying human discussion and judgment remain necessary. AI can support but not finalize complex decisions.",
+"inclusion_criteria": ["We actually meet", "We don't just use AI to make the tables"],
+"exclusion_criteria": ["Warnings for trainees only", "Interpretation errors alone"],
+"example_segment_ids": ["S10"]
+},
+{
+"code": "accuracy_and_recency_are_critical",
+"definition": "The participant insists that the source used for decisions must be both accurate and current. This is especially important for newer clinicians.",
+"inclusion_criteria": ["Most accurate", "Most up-to-date"],
+"exclusion_criteria": ["General praise for citations", "Temporal literature digests for convenience only"],
+"example_segment_ids": ["S11"]
+},
+{
+"code": "temporal_literature_digest_needed",
+"definition": "The participant wants a time-bounded summary of recent papers rather than an undifferentiated literature search. Time filtering is central to utility.",
+"inclusion_criteria": ["Best 10 papers from this month", "Past 3 months or 6 months"],
+"exclusion_criteria": ["General desire for citations", "Static guideline discussion"],
+"example_segment_ids": ["S12", "S16"]
+},
+{
+"code": "misleading_output_erodes_trust",
+"definition": "The participant loses trust because the tools can be wrong or misleading. This is a direct barrier to use.",
+"inclusion_criteria": ["Wrong", "Misleading", "Made me not want to use them", "I don't trust them"],
+"exclusion_criteria": ["Mild skepticism without refusal", "Visual design concerns alone"],
+"example_segment_ids": ["S13", "S15"]
+},
+{
+"code": "visual_design_can_overconvince",
+"definition": "The participant notes that style and branding can make a system seem more trustworthy than its content warrants. Appearance itself shapes confidence.",
+"inclusion_criteria": ["Convincing by just looking at it", "Journal-like style or colors"],
+"exclusion_criteria": ["Citations improving trust", "Interpretation accuracy concerns"],
+"example_segment_ids": ["S14"]
+},
+{
+"code": "interpretation_not_accurate",
+"definition": "The participant distinguishes acceptable source retrieval or summarization from inaccurate interpretation. The problem lies in what the model concludes or recommends.",
+"inclusion_criteria": ["Interpretation was not accurate", "Machine tells you what to do"],
+"exclusion_criteria": ["Summaries of endpoints", "General citation quality"],
+"example_segment_ids": ["S15"]
+},
+{
+"code": "junior_users_may_overtrust",
+"definition": "The participant worries that less experienced clinicians may accept AI guidance too readily because it sounds authoritative. The risk is greater for users without enough background knowledge.",
+"inclusion_criteria": ["Green and fresh users will like it", "Senior users may notice it is wrong"],
+"exclusion_criteria": ["General trainee use without trust concern", "De-skilling remarks by interviewer only"],
+"example_segment_ids": ["S15"]
+},
+{
+"code": "two_tier_output_preference",
+"definition": "The participant wants both a short summary and a separate detailed version. Layered detail would better match different tasks and time constraints.",
+"inclusion_criteria": ["Second output in the detailed detailed response", "Short report plus longer one"],
+"exclusion_criteria": ["Long report useful in preparation without explicit two-tier request", "Click-through citations only"],
+"example_segment_ids": ["S16"]
+},
+{
+"code": "interpretation_needs_warning_label",
+"definition": "If interpretation is included, the participant wants a clear label or caution telling users to apply their own judgment. This is a safeguard request.",
+"inclusion_criteria": ["Use your own judgment", "Notification attached to interpretation"],
+"exclusion_criteria": ["General mistrust without specific safeguard", "Human meetings still needed"],
+"example_segment_ids": ["S16"]
+}
+],
+"themes": [
+{
+"theme_id": "T1",
+"theme_name": "Short, quick-answer reports fit clinic better",
+"theme_definition": "The participant repeatedly prefers outputs that are short, direct, and easy to scan. In clinic, the main constraint is time, so manuscript-like or wordy reports become hard to use even when they contain good information. Longer reports may still be useful for preparation outside the visit.",
+"supporting_segments": ["S2", "S4", "S5", "S6", "S7", "S16"],
+"representative_quotes": [
+{
+"segment_id": "S5",
+"quote": "This is too wordy. So, again, if I have only 60 seconds… I won't be able to go through these."
+},
+{
+"segment_id": "S4",
+"quote": "short sentences, to the point"
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Repeated across many segments with concrete contrasts between short and long reports."
+},
+{
+"theme_id": "T2",
+"theme_name": "Good citations help, but the interpretation is the weak point",
+"theme_definition": "The participant often credits the tools for pulling recognizable, useful citations and for surfacing literature efficiently. But they draw a strong line between retrieving or summarizing evidence and interpreting it correctly. Inaccurate interpretation is a major reason for distrust.",
+"supporting_segments": ["S3", "S7", "S9", "S13", "S15"],
+"representative_quotes": [
+{
+"segment_id": "S3",
+"quote": "they did a good job with that"
+},
+{
+"segment_id": "S15",
+"quote": "their interpretation. was not accurate."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "The participant explicitly praises sources while separately criticizing interpretation in multiple places."
+},
+{
+"theme_id": "T3",
+"theme_name": "Guideline-first, with clickable evidence underneath",
+"theme_definition": "The participant wants decision support anchored in current guidelines, especially NCCN, because those are the sources they already rely on in practice. They also want the literature to explain how a recommendation was formed, including evidence levels and clickable citations for deeper review.",
+"supporting_segments": ["S8", "S9", "S10", "S11"],
+"representative_quotes": [
+{
+"segment_id": "S8",
+"quote": "I usually tell them, read the NCCN."
+},
+{
+"segment_id": "S9",
+"quote": "then you can click and get your citation."
+}
+],
+"overall_valence": "positive",
+"confidence": "high",
+"confidence_basis": "Supported by repeated statements about NCCN, evidence levels, and how literature should sit beneath the recommendation."
+},
+{
+"theme_id": "T4",
+"theme_name": "These tools may be most useful for staying current",
+"theme_definition": "A promising use case for the participant is not just answering one vignette question, but helping filter and organize recent literature. They describe difficulty keeping up with new papers and want a time-bounded digest of the most important recent studies, especially for focused disease areas and presentations.",
+"supporting_segments": ["S12", "S16"],
+"representative_quotes": [
+{
+"segment_id": "S12",
+"quote": "if I have a tool that tells me the best 10 papers from this month"
+},
+{
+"segment_id": "S16",
+"quote": "The past 3 months or 6 months, and have the summary."
+}
+],
+"overall_valence": "positive",
+"confidence": "medium",
+"confidence_basis": "Clearly articulated with concrete examples, though concentrated in a smaller number of segments."
+},
+{
+"theme_id": "T5",
+"theme_name": "Less experienced users may be more vulnerable to overtrust",
+"theme_definition": "The participant thinks early users or trainees may rely on AI more readily because it gives direct-sounding answers and they have less experience to detect mistakes. Senior clinicians may be better positioned to notice when interpretation is wrong. This creates a risk gradient by user experience.",
+"supporting_segments": ["S11", "S13", "S15"],
+"representative_quotes": [
+{
+"segment_id": "S15",
+"quote": "If someone that is still green and fresh, they will like, because the machine tells you what to do."
+}
+],
+"overall_valence": "negative",
+"confidence": "high",
+"confidence_basis": "The participant explicitly links experience level to ability to detect errors and to risk of overtrust."
+}
+],
+"likes": [
+{
+"like_id": "L1",
+"statement": "The participant liked shorter reports that were easier to read quickly.",
+"supporting_segments": ["S2", "S4"],
+"representative_quote": "that yellow was much easier."
+},
+{
+"like_id": "L2",
+"statement": "The participant liked concise, direct phrasing.",
+"supporting_segments": ["S4"],
+"representative_quote": "short sentences, to the point."
+},
+{
+"like_id": "L3",
+"statement": "The participant liked side-by-side comparison of regimens or options.",
+"supporting_segments": ["S4"],
+"representative_quote": "I like that they compared the regiments."
+},
+{
+"like_id": "L4",
+"statement": "The participant liked summaries that surfaced clinically relevant evidence without searching through long text.",
+"supporting_segments": ["S4"],
+"representative_quote": "here you have it right there."
+},
+{
+"like_id": "L5",
+"statement": "The participant liked recognizable citations from trusted oncology sources.",
+"supporting_segments": ["S3", "S7"],
+"representative_quote": "they did a good job with that."
+},
+{
+"like_id": "L6",
+"statement": "The participant liked the idea of using AI to identify the most important recent papers.",
+"supporting_segments": ["S12", "S16"],
+"representative_quote": "the best 10 papers from this month"
+}
+],
+"dislikes": [
+{
+"dislike_id": "D1",
+"statement": "The participant disliked reports that felt messy and hard to use.",
+"supporting_segments": ["S1"],
+"representative_quote": "the pink report was pretty messy."
+},
+{
+"dislike_id": "D2",
+"statement": "The participant disliked outputs that were too wordy for clinic-time decision support.",
+"supporting_segments": ["S5", "S6", "S7"],
+"representative_quote": "This is too wordy."
+},
+{
+"dislike_id": "D3",
+"statement": "The participant disliked inaccurate or misleading interpretation of the literature.",
+"supporting_segments": ["S13", "S15"],
+"representative_quote": "their interpretation. was not accurate."
+},
+{
+"dislike_id": "D4",
+"statement": "The participant disliked that polished visual style could make a tool seem more trustworthy than it deserved.",
+"supporting_segments": ["S14"],
+"representative_quote": "it's convincing by just looking at the…"
+}
+],
+"requirements": [
+{
+"req_id": "R1",
+"type": "must_have",
+"requirement": "The system must provide a short, clinic-usable summary that can be read rapidly under severe time pressure.",
+"supporting_segments": ["S4", "S5", "S6"],
+"risk_if_ignored": "Clinicians may reject the tool during real patient care because the output is too slow to use."
+},
+{
+"req_id": "R2",
+"type": "must_have",
+"requirement": "The system must anchor recommendations in current guideline content and make the evidence level explicit.",
+"supporting_segments": ["S8", "S9", "S11"],
+"risk_if_ignored": "Users may not trust the output or may act on guidance without knowing how strong the supporting evidence is."
+},
+{
+"req_id": "R3",
+"type": "must_have",
+"requirement": "The system must clearly separate evidence summarization from interpretation or recommendation.",
+"supporting_segments": ["S9", "S15", "S16"],
+"risk_if_ignored": "Less experienced users may mistake model interpretation for settled clinical guidance."
+},
+{
+"req_id": "R4",
+"type": "nice_to_have",
+"requirement": "The system should offer a layered design with a brief summary first and a second detailed output for deeper reading.",
+"supporting_segments": ["S5", "S16"],
+"risk_if_ignored": "The tool will fit either deep preparation or quick review, but not both."
+},
+{
+"req_id": "R5",
+"type": "nice_to_have",
+"requirement": "The system should support recent-literature digests, such as the best papers from the past month, quarter, or six months.",
+"supporting_segments": ["S12", "S16"],
+"risk_if_ignored": "Clinicians may continue to struggle with information overload and miss new trials or developments."
+},
+{
+"req_id": "R6",
+"type": "avoid",
+"requirement": "The system should avoid authoritative-looking presentation that overstates trustworthiness when the interpretation may still be flawed.",
+"supporting_segments": ["S14", "S15"],
+"risk_if_ignored": "Users may overtrust the output based on style rather than verified correctness."
+}
+],
+"workflow_integration": {
+"current_workarounds": [
+"Reading NCCN directly.",
+"Copying pieces of NCCN into progress notes.",
+"Going to PubMed to look for new papers.",
+"Reading more detailed material the day before clinic rather than in real time.",
+"Using personal experience and colleague discussion to validate decisions."
+],
+"intended_use_cases": [
+"Quick answers in clinic.",
+"Pre-visit review of a patient the day before clinic.",
+"Supporting trainees or newer clinicians with accurate, current sources.",
+"Finding the most important recent papers in a focused disease area.",
+"Preparing Grand Rounds or PowerPoint presentations.",
+"Reviewing literature underlying guideline tables or recommendations."
+],
+"constraints": [
+"Very limited time during clinic visits.",
+"Too much information to read in long outputs.",
+"Rapidly changing guidelines.",
+"High stakes of making the wrong medical decision.",
+"Need for accuracy and recency.",
+"Need to distinguish evidence summary from interpretation."
+],
+"output_format_preferences": [
+"Short sentences.",
+"To-the-point summaries.",
+"Direct comparison of options or regimens.",
+"Summary of evidence that surfaces specific issues quickly.",
+"Clickable citations for deeper reading.",
+"Short first view with optional detailed second view.",
+"Visible indication of evidence level."
+]
+},
+"trust_and_safety": {
+"trust_drivers": [
+"Citations from recognizable oncology sources such as NCCN and ASCO.",
+"Clear, concise presentation.",
+"Ability to click through to supporting citations.",
+"Explicit indication of evidence level.",
+"Accurate and up-to-date source material."
+],
+"trust_erosions": [
+"Wrong or misleading outputs.",
+"Inaccurate interpretation of the literature.",
+"Overly long or manuscript-like responses that obscure key points.",
+"Visual style that looks authoritative and therefore becomes convincing before content is checked."
+],
+"verification_behaviors": [
+"Reading NCCN directly.",
+"Using citations to go back and inspect sources.",
+"Comparing outputs against existing clinical knowledge.",
+"Using personal judgment rather than taking AI recommendations at face value."
+],
+"medico_legal_or_policy_concerns": [
+"Concern that less experienced clinicians may rely on incorrect interpretation.",
+"Concern about responsibility for mistakes in real patient care.",
+"Need for reminders to use clinician judgment rather than follow AI interpretation automatically."
+]
+},
+"quantified_mentions": {
+"top_codes_by_count": [
+{
+"code": "too_wordy_for_clinic",
+"count": 4
+},
+{
+"code": "good_citation_quality",
+"count": 3
+},
+{
+"code": "misleading_output_erodes_trust",
+"count": 3
+},
+{
+"code": "accuracy_and_recency_are_critical",
+"count": 2
+},
+{
+"code": "temporal_literature_digest_needed",
+"count": 2
+},
+{
+"code": "interpretation_not_accurate",
+"count": 2
+},
+{
+"code": "nccn_as_primary_source",
+"count": 2
+},
+{
+"code": "two_tier_output_preference",
+"count": 1
+}
+],
+"notes": "Counts are approximate because the transcript is conversational, some turns are fragmented across subtitles, and several excerpts express more than one closely related idea."
+},
+"analytic_memos": {
+"summary": "This participant evaluates AI literature-review reports primarily through the lens of real clinical workflow. They strongly prefer short, direct outputs that help answer a question quickly, and they repeatedly reject reports that feel too wordy or manuscript-like for clinic use. They trust recognizable citations and want guideline-centered outputs, especially when recommendations can change over time. A central distinction for them is between summarizing evidence and interpreting it: pulling papers and summarizing endpoints may be useful, but interpretation is where the current tools lose credibility. They see a meaningful risk that junior users may overtrust the machine because it sounds decisive, while more experienced clinicians may be more likely to spot errors. They also identify a promising alternative use case: curated recent-literature digests that help clinicians stay current in a focused disease area. Their ideal product would provide a short first-layer summary, optional detailed drill-down, explicit evidence levels, and a visible reminder that interpretation should not replace clinical judgment.",
+"tensions_or_tradeoffs": [
+"Short reports fit clinic flow, but longer reports may still be useful for pre-visit preparation.",
+"Citations and source retrieval can be strong even when interpretation is weak.",
+"Authoritative visual design may increase usability and trust, but it can also make flawed outputs feel more credible.",
+"Trainees may benefit more from easy access to evidence, yet they may also be more vulnerable to overtrusting incorrect interpretation."
+],
+"open_questions_for_next_interview": [
+"When clinicians say they want a short output, what exact fields must appear in that first screen to be usable in clinic?",
+"How should evidence levels be displayed so they are easy to understand without cluttering the report?",
+"What kinds of interpretation, if any, do clinicians consider acceptable from AI versus better left entirely to the user?",
+"Would a monthly or quarterly recent-literature digest be more useful than case-specific reports for staying current?",
+"What safeguards would make junior users less likely to overtrust polished but incorrect AI outputs?"
+]
+}
+}

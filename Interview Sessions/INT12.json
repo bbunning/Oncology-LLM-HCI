@@ -1,0 +1,636 @@
+{
+"transcript_id": "TX001",
+"interview_context": {
+"participant_role": "unknown",
+"setting_or_workflow_context": "clinical decision support and literature review use in busy oncology-related clinical workflows",
+"tools_mentioned_by_participant": ["Open Evidence", "chat"]
+},
+"segments": [
+{
+"segment_id": "S1",
+"timestamp_start": "00:00:24.610",
+"timestamp_end": "00:00:52.390",
+"speaker": "participant",
+"verbatim_excerpt": "I thought they were all pretty good. I think a lot of it is just gonna come down to individual preference. The one that was the most different to me was the pink report. It's definitely a very different format... It's a little harder to synthesize the evidence when it's presented that way.",
+"codes": ["individual_preference_matters", "hard_to_synthesize_evidence", "different_format_stands_out"],
+"valence": "mixed",
+"object_of_evaluation": "evidence presentation format",
+"rationale": "The participant says all reports were generally good but identifies the pink report's format as harder to synthesize. This supports both overall openness and a specific criticism of evidence presentation."
+},
+{
+"segment_id": "S2",
+"timestamp_start": "00:00:55.950",
+"timestamp_end": "00:01:20.930",
+"speaker": "participant",
+"verbatim_excerpt": "I think I said red was my favorite. It was very practical. I think it seemed like it was a very logical thought process... actionable, and then it also had some good summary statements at the end, like a bottom line statement, which I liked.",
+"codes": ["prefers_practical_output", "values_logical_reasoning", "wants_bottom_line_summary", "clinically_actionable_output"],
+"valence": "positive",
+"object_of_evaluation": "summary structure and clinical usefulness",
+"rationale": "The participant explicitly favors the red report because it feels practical, logical, actionable, and ends with a bottom-line statement. These are direct positive judgments about structure and usefulness."
+},
+{
+"segment_id": "S3",
+"timestamp_start": "00:01:32.690",
+"timestamp_end": "00:02:33.910",
+"speaker": "participant",
+"verbatim_excerpt": "I picked the red one, too, as probably, like, my favorite... the optimal one for me would be giving me a direct answer. Then providing... the main strongest data evidence... Then you can give me, like, a small summary table... to show me the different studies, because then I can reference it myself.",
+"codes": ["wants_direct_answer_first", "wants_strongest_evidence_summarized", "wants_small_reference_table", "self_service_reference_checking"],
+"valence": "positive",
+"object_of_evaluation": "answer structure and evidence display",
+"rationale": "The participant describes an ideal sequence: direct answer, strongest evidence in words, then a small study table for reference. This excerpt clearly specifies preferred report design."
+},
+{
+"segment_id": "S4",
+"timestamp_start": "00:03:00.640",
+"timestamp_end": "00:03:27.970",
+"speaker": "participant",
+"verbatim_excerpt": "The best part about that is that... people are gonna be skeptical... you obviously will have to confirm, but by them giving you the papers and the data like that, it kind of guides you towards answering that and makes my job easier than to, like, go to PubMed and just type keywords... So it kind of streamlines it, which is good.",
+"codes": ["skepticism_requires_verification", "references_support_trust", "streamlines_pubmed_search", "workflow_efficiency"],
+"valence": "mixed",
+"object_of_evaluation": "trust and verification workflow",
+"rationale": "The participant is positive about efficiency gains but also states that AI outputs still need confirmation. The excerpt grounds both trust-building and residual skepticism in the presence of papers and data."
+},
+{
+"segment_id": "S5",
+"timestamp_start": "00:03:56.960",
+"timestamp_end": "00:04:12.260",
+"speaker": "participant",
+"verbatim_excerpt": "Synthesizing and kind of creating a clear recommendation, like a one-paragraph kind of... almost, if you read nothing else, like, that, is very nice to have. If you're in a busy clinical setting, it's nice to have that one paragraph summary.",
+"codes": ["wants_one_paragraph_summary", "busy_clinical_setting_constraint", "clear_recommendation_needed"],
+"valence": "positive",
+"object_of_evaluation": "length and summary format",
+"rationale": "The participant links a one-paragraph recommendation to time pressure in clinical work. This directly supports the importance of concise summaries in busy settings."
+},
+{
+"segment_id": "S6",
+"timestamp_start": "00:04:37.230",
+"timestamp_end": "00:04:59.159",
+"speaker": "participant",
+"verbatim_excerpt": "I use Open Evidence quite a bit... Sometimes I'll say, like, what are the key treatment paradigms for something like this, or what are some things that I am not considering? What additional workup do we need to do? Try to identify gaps in my own knowledge or other pieces of data that we need.",
+"codes": ["uses_ai_to_find_knowledge_gaps", "uses_ai_for_workup_questions", "uses_open_evidence_in_clinical_work", "decision_support_use_case"],
+"valence": "positive",
+"object_of_evaluation": "current tool use and intended use cases",
+"rationale": "The participant describes concrete current use cases for Open Evidence, especially identifying missing considerations and workup needs. This is direct evidence of real workflow integration."
+},
+{
+"segment_id": "S7",
+"timestamp_start": "00:05:00.810",
+"timestamp_end": "00:05:32.930",
+"speaker": "participant",
+"verbatim_excerpt": "Same. I'll use open evidence to see, like, what trials or things could support. More for, like, common stuff, sometimes I'll even just use chat... if I just don't have any idea, you know, I'll use it that way. But open evidence more for... clinical... direction.",
+"codes": ["uses_open_evidence_for_trial_support", "uses_chat_for_basic_orientation", "different_tools_for_different_tasks", "clinical_direction_use_case"],
+"valence": "positive",
+"object_of_evaluation": "tool selection by task",
+"rationale": "The participant distinguishes between using chat for quick basic understanding and Open Evidence for clinically oriented support. This shows differentiated tool use depending on need."
+},
+{
+"segment_id": "S8",
+"timestamp_start": "00:06:14.090",
+"timestamp_end": "00:06:51.149",
+"speaker": "participant",
+"verbatim_excerpt": "Sometimes I'll say, if I'm trying to figure out a diagnosis... what are some less obvious signs, just to kind of make sure I'm really covering my bases and thinking in an unbiased way as possible... I know, like, sometimes AIs can kind of... lead you down a path, and then you... it's like, yeah, you're totally right. You're absolutely right, and I don't want to fall into that trap.",
+"codes": ["uses_ai_to_expand_differential", "wants_unbiased_thinking", "concern_about_ai_leading_user", "concern_about_overagreement"],
+"valence": "mixed",
+"object_of_evaluation": "diagnostic support and bias risk",
+"rationale": "The participant values AI for surfacing less obvious signs but worries it can push the user down a path and overagree. The excerpt contains both a use case and an explicit trust concern."
+},
+{
+"segment_id": "S9",
+"timestamp_start": "00:07:23.010",
+"timestamp_end": "00:07:39.040",
+"speaker": "participant",
+"verbatim_excerpt": "Even for... stuff, you know, like, if they're greater than 70 years old... you could even omit radiation treatment... So if you don't put the age in, for example, then... it'll be like, oh yeah, for this disease, like, you would treat, but then if... you put the age and all the other characteristics... it knows, like, a more full picture.",
+"codes": ["patient_specific_context_matters", "missing_inputs_change_recommendations", "needs_full_picture_for_accuracy"],
+"valence": "mixed",
+"object_of_evaluation": "clinical context sensitivity",
+"rationale": "The participant explains that recommendations depend on details such as age and other characteristics. This supports the need for full patient context and highlights risk when inputs are incomplete."
+},
+{
+"segment_id": "S10",
+"timestamp_start": "00:08:06.020",
+"timestamp_end": "00:08:49.140",
+"speaker": "participant",
+"verbatim_excerpt": "I think overall, fine. I think there was a couple... where they kept asking a bunch of... put in, like, a bunch of questions, and then more data, more data... then you're gonna just get confused. I think, like, kind of having a streamlined idea... if there's two routes to take... branch it and give evidence for both, then the practitioner can kind of decide.",
+"codes": ["too_many_questions_create_confusion", "prefers_streamlined_output", "wants_branching_options", "clinician_judgment_remains_final"],
+"valence": "mixed",
+"object_of_evaluation": "length, cognitive load, and decision structure",
+"rationale": "The participant criticizes reports that keep adding questions and data because they become confusing. At the same time, they propose a preferred structure that branches options and leaves the final decision to the clinician."
+},
+{
+"segment_id": "S11",
+"timestamp_start": "00:08:58.950",
+"timestamp_end": "00:09:12.580",
+"speaker": "participant",
+"verbatim_excerpt": "Some of them seem to talk a lot, and put a whole paragraph at the end, how, oh, this is a nuanced decision, this is shared decision making... We know it's always shared decision-making, and so I think that's a part that could probably be trimmed a little bit.",
+"codes": ["dislikes_redundant_shared_decision_language", "prefers_trimming_boilerplate", "avoids_unnecessary_length"],
+"valence": "negative",
+"object_of_evaluation": "boilerplate language and length",
+"rationale": "The participant explicitly says this repeated shared decision-making language is unnecessary and could be trimmed. This is a clear negative assessment of boilerplate content."
+},
+{
+"segment_id": "S12",
+"timestamp_start": "00:09:37.540",
+"timestamp_end": "00:10:19.860",
+"speaker": "participant",
+"verbatim_excerpt": "The pink one was very nice for summarizing... key takeaways for the studies, and also the way it ranked them, kind of by level of evidence, I think is a nice feature... but... the answer in the beginning, it wasn't... a clear answer... it was like a hot... Yeah... But, like, the other one was, like, super concise, but... the data was... harder to digest.",
+"codes": ["likes_evidence_ranking", "likes_key_takeaway_summaries", "needs_clear_answer_up_front", "hard_to_digest_data_display", "wants_combination_of_best_features"],
+"valence": "mixed",
+"object_of_evaluation": "evidence ranking, answer clarity, and digestibility",
+"rationale": "The participant praises ranked evidence and key takeaways but criticizes unclear opening answers and hard-to-digest data displays elsewhere. The excerpt explicitly compares strengths and weaknesses across reports."
+},
+{
+"segment_id": "S13",
+"timestamp_start": "00:11:17.630",
+"timestamp_end": "00:11:36.489",
+"speaker": "participant",
+"verbatim_excerpt": "I would definitely want to have the ability to customize the report, even toggle on different features. Like, sometimes I just want... a one-paragraph summary. Other times, I'm more willing to dive into the details and kind of say, let me look at all the studies, the whole body of evidence.",
+"codes": ["wants_customizable_report", "wants_feature_toggles", "context_dependent_depth", "summary_vs_full_evidence_modes"],
+"valence": "positive",
+"object_of_evaluation": "customization and UI flexibility",
+"rationale": "The participant explicitly asks for report customization and feature toggles, with different depth depending on urgency. This is direct evidence for adaptable output preferences."
+},
+{
+"segment_id": "S14",
+"timestamp_start": "00:12:15.700",
+"timestamp_end": "00:12:36.719",
+"speaker": "participant",
+"verbatim_excerpt": "I'd say keep it clinically relevant, keep it clinically actionable. It's such a hard balance to find about, like, providing enough data and evidence, but not getting so in the weeds that we lose the big picture. But I think overall they did a pretty good job of keeping it relevant.",
+"codes": ["keep_it_clinically_relevant", "clinically_actionable_output", "balance_detail_and_big_picture"],
+"valence": "positive",
+"object_of_evaluation": "overall design goal",
+"rationale": "The participant summarizes the core design priority as clinical relevance and actionability, while acknowledging tension between sufficient evidence and too much detail. This is a concise statement of product requirements."
+},
+{
+"segment_id": "S15",
+"timestamp_start": "00:12:52.440",
+"timestamp_end": "00:13:22.870",
+"speaker": "participant",
+"verbatim_excerpt": "I think it would be a nice feature, too, to have some sort of... if they're able to link in some images or something, like, even for a study, if there's just, like, one picture with, like, the breakdown just of, like, the trial, like, arms and, like, the result... that could be helpful. I haven't really... seen chat or any of these models really kind of have a good quality graphic.",
+"codes": ["wants_study_graphics", "visual_summary_could_help", "current_graphics_quality_is_weak"],
+"valence": "mixed",
+"object_of_evaluation": "visuals and study presentation",
+"rationale": "The participant proposes images or pictorial study summaries as a helpful feature, but notes current model-generated graphics are not good quality. This combines a desired feature with a current limitation."
+}
+],
+"codebook": [
+{
+"code": "individual_preference_matters",
+"definition": "The participant frames differences between reports as partly depending on personal preference rather than one universally best format.",
+"inclusion_criteria": ["Mentions that choice depends on individual preference", "Notes multiple reports can be good in different ways"],
+"exclusion_criteria": ["Statements that clearly endorse one design requirement without noting preference", "General praise without comparison"],
+"example_segment_ids": ["S1"]
+},
+{
+"code": "hard_to_synthesize_evidence",
+"definition": "The participant says a format makes the evidence harder to pull together into a coherent understanding.",
+"inclusion_criteria": ["Uses language about synthesis being difficult", "Critiques evidence presentation as harder to digest"],
+"exclusion_criteria": ["Complaints about report length alone", "General negativity without reference to evidence synthesis"],
+"example_segment_ids": ["S1", "S12"]
+},
+{
+"code": "prefers_practical_output",
+"definition": "The participant values reports that feel practical for real clinical use rather than abstract or verbose.",
+"inclusion_criteria": ["Calls a report practical", "Links report value to usefulness in work"],
+"exclusion_criteria": ["Generic positive language without practical framing", "Discussion of visuals only"],
+"example_segment_ids": ["S2"]
+},
+{
+"code": "clinically_actionable_output",
+"definition": "The participant wants the report to support actual clinical action or a concrete next step.",
+"inclusion_criteria": ["Uses words like actionable or clinically actionable", "Connects report to what care should happen next"],
+"exclusion_criteria": ["Purely educational or background explanations", "Formatting preferences without action relevance"],
+"example_segment_ids": ["S2", "S14"]
+},
+{
+"code": "wants_bottom_line_summary",
+"definition": "The participant values a concise bottom-line or take-home statement that can be read quickly.",
+"inclusion_criteria": ["Mentions bottom line", "Requests one-paragraph or if-you-read-nothing-else summary"],
+"exclusion_criteria": ["Requests long evidence tables", "Mentions general concision without a summary statement"],
+"example_segment_ids": ["S2", "S5"]
+},
+{
+"code": "wants_direct_answer_first",
+"definition": "The participant wants the report to begin with a clear recommendation or answer before supporting detail.",
+"inclusion_criteria": ["Asks for a direct answer right off the bat", "Criticizes reports for not being clear at the start"],
+"exclusion_criteria": ["General interest in summaries without order preference", "Requests balanced options only"],
+"example_segment_ids": ["S3", "S12"]
+},
+{
+"code": "wants_strongest_evidence_summarized",
+"definition": "The participant wants the main or strongest supporting evidence distilled in prose.",
+"inclusion_criteria": ["Mentions strongest data or evidence", "Wants top trial findings summarized in words"],
+"exclusion_criteria": ["Requests raw references only", "Requests graphics without evidence summary"],
+"example_segment_ids": ["S3"]
+},
+{
+"code": "wants_small_reference_table",
+"definition": "The participant wants a compact table of studies that can be quickly reviewed or revisited.",
+"inclusion_criteria": ["Mentions small summary table", "Wants to see different studies in a compact display"],
+"exclusion_criteria": ["Requests large detailed evidence matrices", "General statements about wanting references"],
+"example_segment_ids": ["S3"]
+},
+{
+"code": "skepticism_requires_verification",
+"definition": "The participant expects AI outputs to be checked rather than accepted at face value.",
+"inclusion_criteria": ["Says people will be skeptical", "Says outputs must be confirmed"],
+"exclusion_criteria": ["General trust concerns without checking behavior", "Positive comments about efficiency only"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "references_support_trust",
+"definition": "The participant sees linked papers or data as making the output more trustworthy or usable.",
+"inclusion_criteria": ["Says papers and data guide the answer", "Links references to easier confirmation"],
+"exclusion_criteria": ["General desire for citations without trust meaning", "Purely aesthetic praise of tables"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "workflow_efficiency",
+"definition": "The participant values AI because it saves time or reduces manual searching work.",
+"inclusion_criteria": ["Says it streamlines work", "Compares it favorably with manual PubMed searching"],
+"exclusion_criteria": ["General statements about accuracy", "Discussion of visualization features"],
+"example_segment_ids": ["S4"]
+},
+{
+"code": "uses_ai_to_find_knowledge_gaps",
+"definition": "The participant uses AI to surface things they may be missing or not considering.",
+"inclusion_criteria": ["Asks what am I not considering", "Uses AI to identify gaps in knowledge"],
+"exclusion_criteria": ["Uses AI only for confirming known facts", "Uses AI only for references"],
+"example_segment_ids": ["S6"]
+},
+{
+"code": "different_tools_for_different_tasks",
+"definition": "The participant chooses one tool for clinical direction and another for basic orientation or quick background.",
+"inclusion_criteria": ["Contrasts Open Evidence with chat", "Assigns different use cases to different tools"],
+"exclusion_criteria": ["Mentions only one tool", "General tool praise without task differentiation"],
+"example_segment_ids": ["S7"]
+},
+{
+"code": "concern_about_overagreement",
+"definition": "The participant worries AI may affirm a line of thinking too readily and reinforce a mistaken path.",
+"inclusion_criteria": ["Describes AI saying you're totally right", "Mentions not wanting to fall into that trap"],
+"exclusion_criteria": ["General bias concerns without overagreement", "Concerns about missing data only"],
+"example_segment_ids": ["S8"]
+},
+{
+"code": "patient_specific_context_matters",
+"definition": "The participant emphasizes that recommendations depend on specific patient details and can change when those details change.",
+"inclusion_criteria": ["Mentions age or other characteristics altering treatment", "Says full picture matters"],
+"exclusion_criteria": ["General calls for evidence", "Discussion of report layout only"],
+"example_segment_ids": ["S9"]
+},
+{
+"code": "too_many_questions_create_confusion",
+"definition": "The participant finds reports less useful when they keep adding questions or extra data that increase cognitive load.",
+"inclusion_criteria": ["Mentions a bunch of questions", "Says more data leads to confusion"],
+"exclusion_criteria": ["General dislike of long reports without confusion", "Simple request for shorter text"],
+"example_segment_ids": ["S10"]
+},
+{
+"code": "wants_branching_options",
+"definition": "The participant wants the report to lay out more than one reasonable route with evidence for each.",
+"inclusion_criteria": ["Suggests observe versus surgery style branching", "Wants evidence for both paths"],
+"exclusion_criteria": ["Requests one definitive answer only", "General requests for comprehensive detail"],
+"example_segment_ids": ["S10"]
+},
+{
+"code": "dislikes_redundant_shared_decision_language",
+"definition": "The participant sees repeated reminders about nuance or shared decision-making as unnecessary filler.",
+"inclusion_criteria": ["Says shared decision-making language could be trimmed", "Treats it as already understood"],
+"exclusion_criteria": ["Broader requests to shorten reports", "Ethical concerns about shared decision-making itself"],
+"example_segment_ids": ["S11"]
+},
+{
+"code": "likes_evidence_ranking",
+"definition": "The participant values reports that rank studies or evidence by strength or level.",
+"inclusion_criteria": ["Mentions ranking by level of evidence", "Praises ordered references"],
+"exclusion_criteria": ["General interest in tables without ranking", "Requests images only"],
+"example_segment_ids": ["S12"]
+},
+{
+"code": "wants_customizable_report",
+"definition": "The participant wants report format and depth to be adjustable rather than fixed.",
+"inclusion_criteria": ["Mentions customization", "Requests toggles or different modes"],
+"exclusion_criteria": ["Simple preference for one format", "General praise of concise reports"],
+"example_segment_ids": ["S13"]
+},
+{
+"code": "balance_detail_and_big_picture",
+"definition": "The participant describes a tension between enough evidence and getting lost in the weeds.",
+"inclusion_criteria": ["Mentions balancing enough data with big picture", "Notes this as a hard design balance"],
+"exclusion_criteria": ["Pure requests for shorter length", "Pure requests for more evidence"],
+"example_segment_ids": ["S14"]
+},
+{
+"code": "wants_study_graphics",
+"definition": "The participant wants visual study summaries such as trial breakdowns or result images embedded in the report.",
+"inclusion_criteria": ["Requests images or pictorial breakdowns", "Mentions graphic summaries of trials"],
+"exclusion_criteria": ["General references to tables", "Mentions visuals unrelated to studies"],
+"example_segment_ids": ["S15"]
+}
+],
+"themes": [
+{
+"theme_id": "T1",
+"theme_name": "Lead with the answer, then show the evidence",
+"theme_definition": "Across the interview, participants consistently wanted the report to open with a clear, actionable answer or one-paragraph bottom line. Supporting evidence should follow in a compact, easy-to-review format rather than being mixed into a vague or overly long opening.",
+"supporting_segments": ["S2", "S3", "S5", "S12"],
+"representative_quotes": [
+{
+"segment_id": "S3",
+"quote": "The optimal one for me would be giving me a direct answer."
+},
+{
+"segment_id": "S5",
+"quote": "If you're in a busy clinical setting, it's nice to have that one paragraph summary."
+}
+],
+"overall_valence": "positive",
+"confidence": "high",
+"confidence_basis": "Repeated by both participants in multiple segments with consistent wording about direct answers, bottom lines, and one-paragraph summaries."
+},
+{
+"theme_id": "T2",
+"theme_name": "Evidence should be easy to verify, not hard to digest",
+"theme_definition": "Participants wanted reports to include papers, data, and ranked studies so they could verify claims quickly. At the same time, they did not want evidence displayed in a way that made synthesis harder or buried the main point in dense formatting.",
+"supporting_segments": ["S1", "S3", "S4", "S12"],
+"representative_quotes": [
+{
+"segment_id": "S4",
+"quote": "You obviously will have to confirm, but by them giving you the papers and the data like that, it kind of guides you."
+},
+{
+"segment_id": "S12",
+"quote": "The way it ranked them, kind of by level of evidence, I think is a nice feature."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "The same tension appears several times: references and ranking help, but some evidence displays are harder to synthesize or digest."
+},
+{
+"theme_id": "T3",
+"theme_name": "Useful as a support tool, not a replacement for judgment",
+"theme_definition": "Participants described using AI to identify gaps, surface less obvious considerations, and streamline literature retrieval. They also emphasized that clinicians still need to verify outputs, supply the full patient picture, and use their own judgment when more than one path is reasonable.",
+"supporting_segments": ["S4", "S6", "S8", "S9", "S10"],
+"representative_quotes": [
+{
+"segment_id": "S8",
+"quote": "I don't want to fall into that trap."
+},
+{
+"segment_id": "S10",
+"quote": "AI... should be used anyways, like, it's just kind of a tool to help give you the data."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "Both the benefits and limits of AI as decision support were discussed explicitly across multiple segments."
+},
+{
+"theme_id": "T4",
+"theme_name": "One size will not fit every clinical moment",
+"theme_definition": "Participants wanted the ability to change report depth depending on context. In a hurry, they wanted a short summary; when reviewing more deeply, they wanted access to the full body of evidence and possibly additional features like visuals.",
+"supporting_segments": ["S5", "S13", "S15"],
+"representative_quotes": [
+{
+"segment_id": "S13",
+"quote": "Sometimes I just want... a one-paragraph summary. Other times, I'm more willing to dive into the details."
+}
+],
+"overall_valence": "positive",
+"confidence": "medium",
+"confidence_basis": "Customization was stated clearly, though mainly in a smaller number of segments."
+},
+{
+"theme_id": "T5",
+"theme_name": "Trim the filler and show only what helps decisions",
+"theme_definition": "Participants pushed back on report content that felt repetitive, confusing, or too far in the weeds. They preferred streamlined reports that focus on decision-relevant options and avoid boilerplate statements clinicians already take for granted.",
+"supporting_segments": ["S10", "S11", "S14"],
+"representative_quotes": [
+{
+"segment_id": "S11",
+"quote": "We know it's always shared decision-making... that could probably be trimmed a little bit."
+},
+{
+"segment_id": "S14",
+"quote": "Providing enough data and evidence, but not getting so in the weeds that we lose the big picture."
+}
+],
+"overall_valence": "mixed",
+"confidence": "high",
+"confidence_basis": "This theme is expressed directly in several places through complaints about confusion, boilerplate, and losing the big picture."
+}
+],
+"likes": [
+{
+"like_id": "L1",
+"statement": "Practical, logical, actionable reports with a bottom-line summary.",
+"supporting_segments": ["S2", "S5"],
+"representative_quote": "It was very practical... actionable."
+},
+{
+"like_id": "L2",
+"statement": "A direct answer first, followed by strongest supporting evidence.",
+"supporting_segments": ["S3", "S12"],
+"representative_quote": "The optimal one for me would be giving me a direct answer."
+},
+{
+"like_id": "L3",
+"statement": "Compact tables and ranked studies that make evidence easy to reference.",
+"supporting_segments": ["S3", "S12"],
+"representative_quote": "The way it ranked them, kind of by level of evidence, I think is a nice feature."
+},
+{
+"like_id": "L4",
+"statement": "AI tools that help identify knowledge gaps, workup needs, and supporting trials.",
+"supporting_segments": ["S6", "S7", "S8"],
+"representative_quote": "What are some things that I am not considering?"
+},
+{
+"like_id": "L5",
+"statement": "The possibility of visual study summaries such as trial diagrams or pictorial result breakdowns.",
+"supporting_segments": ["S15"],
+"representative_quote": "That could be helpful."
+}
+],
+"dislikes": [
+{
+"dislike_id": "D1",
+"statement": "Evidence displays that are harder to synthesize or digest.",
+"supporting_segments": ["S1", "S12"],
+"representative_quote": "It's a little harder to synthesize the evidence when it's presented that way."
+},
+{
+"dislike_id": "D2",
+"statement": "Openings that feel vague or like word salad instead of giving a clear answer.",
+"supporting_segments": ["S12"],
+"representative_quote": "It wasn't... a clear answer."
+},
+{
+"dislike_id": "D3",
+"statement": "Reports that keep adding questions and data until they become confusing.",
+"supporting_segments": ["S10"],
+"representative_quote": "Then you're gonna just get confused."
+},
+{
+"dislike_id": "D4",
+"statement": "Redundant boilerplate about nuance or shared decision-making.",
+"supporting_segments": ["S11"],
+"representative_quote": "That could probably be trimmed a little bit."
+},
+{
+"dislike_id": "D5",
+"statement": "AI outputs that can lead the user down a path or overconfirm their thinking.",
+"supporting_segments": ["S8"],
+"representative_quote": "I don't want to fall into that trap."
+}
+],
+"requirements": [
+{
+"req_id": "R1",
+"type": "must_have",
+"requirement": "Begin the report with a clear, clinically actionable answer or one-paragraph bottom line before supporting detail.",
+"supporting_segments": ["S2", "S3", "S5", "S12"],
+"risk_if_ignored": "Clinicians may find the report too vague or slow to use in time-pressured settings."
+},
+{
+"req_id": "R2",
+"type": "must_have",
+"requirement": "Include the strongest supporting studies and papers in a compact, easy-to-reference format.",
+"supporting_segments": ["S3", "S4", "S12"],
+"risk_if_ignored": "Users may trust the output less and have to repeat the literature search manually."
+},
+{
+"req_id": "R3",
+"type": "avoid",
+"requirement": "Avoid piling on extra questions, excess data, or boilerplate text that does not change the clinical decision.",
+"supporting_segments": ["S10", "S11", "S14"],
+"risk_if_ignored": "The report may create confusion, add cognitive load, and bury the big picture."
+},
+{
+"req_id": "R4",
+"type": "must_have",
+"requirement": "Allow clinicians to customize depth, including a quick-summary mode and a full-evidence mode.",
+"supporting_segments": ["S5", "S13"],
+"risk_if_ignored": "A fixed format will fit some contexts poorly and reduce adoption across different workflow moments."
+},
+{
+"req_id": "R5",
+"type": "nice_to_have",
+"requirement": "Offer visual study summaries such as trial-arm or result graphics when available and high quality.",
+"supporting_segments": ["S15"],
+"risk_if_ignored": "Users may miss a potentially faster way to grasp study structure and outcomes."
+},
+{
+"req_id": "R6",
+"type": "must_have",
+"requirement": "Present options in a branched format when more than one reasonable management path exists, with evidence for each path.",
+"supporting_segments": ["S10"],
+"risk_if_ignored": "The system may appear overly simplistic or push users toward a single path when judgment is still required."
+}
+],
+"workflow_integration": {
+"current_workarounds": [
+"Manual PubMed keyword searching to confirm or retrieve supporting papers.",
+"Using Open Evidence to identify treatment paradigms, gaps in knowledge, and additional workup.",
+"Using chat for quick background understanding when the clinician does not know a concept at all."
+],
+"intended_use_cases": [
+"Rapid support for clinical questions with a direct answer plus supporting evidence.",
+"Checking what may have been missed in diagnosis or workup.",
+"Reviewing treatment paradigms and supporting trials.",
+"Accessing a quick one-paragraph summary in busy clinical settings.",
+"Diving into the full body of evidence when more time is available."
+],
+"constraints": [
+"Busy clinical environments favor short, high-yield summaries.",
+"Too much extra questioning or detail can create confusion.",
+"Trust depends on being able to verify claims with papers and data.",
+"Recommendations can change if key patient details are missing.",
+"Clinicians still want to apply their own judgment rather than follow the tool blindly."
+],
+"output_format_preferences": [
+"Direct answer at the top.",
+"One-paragraph bottom line.",
+"Short prose summary of strongest evidence.",
+"Small summary table of studies.",
+"Evidence ranked by level of evidence.",
+"Optional visuals or pictorial study summaries.",
+"Customizable report depth with toggled features."
+]
+},
+"trust_and_safety": {
+"trust_drivers": [
+"Providing papers and data alongside the recommendation.",
+"Showing strongest evidence clearly.",
+"Ranking references by level of evidence.",
+"Keeping output clinically relevant and actionable."
+],
+"trust_erosions": [
+"AI giving vague, wordy openings instead of clear answers.",
+"Formats that make evidence harder to synthesize or digest.",
+"AI leading the clinician down a path or overagreeing.",
+"Missing patient details that can materially change recommendations."
+],
+"verification_behaviors": [
+"Confirming the AI answer rather than accepting it directly.",
+"Using linked papers and tables to reference the underlying studies.",
+"Comparing the AI output against patient-specific characteristics before deciding."
+],
+"medico_legal_or_policy_concerns": []
+},
+"quantified_mentions": {
+"top_codes_by_count": [
+{
+"code": "clinically_actionable_output",
+"count": 3
+},
+{
+"code": "wants_bottom_line_summary",
+"count": 2
+},
+{
+"code": "wants_direct_answer_first",
+"count": 2
+},
+{
+"code": "references_support_trust",
+"count": 2
+},
+{
+"code": "workflow_efficiency",
+"count": 2
+},
+{
+"code": "hard_to_synthesize_evidence",
+"count": 2
+},
+{
+"code": "likes_evidence_ranking",
+"count": 2
+},
+{
+"code": "balance_detail_and_big_picture",
+"count": 2
+}
+],
+"notes": "Counts are approximate because the transcript includes two participants and some ideas recur in overlapping ways across adjacent segments. Counts reflect coded segment frequency, not exact utterance totals."
+},
+"analytic_memos": {
+"summary": "The participant perspective is broadly favorable toward AI literature-review reports, but only when the outputs stay tightly connected to clinical decision-making. The clearest preference is for a report that starts with a direct answer or one-paragraph bottom line, then shows the strongest evidence and a compact table of studies. Evidence access is important not only for information value but also because it supports verification and reduces the burden of manual literature searching. Participants described current real-world use of tools to identify missing considerations, support workup and treatment thinking, and orient themselves quickly to unfamiliar topics. At the same time, they were explicit that AI should remain a support tool rather than replace clinical judgment, especially because missing patient details or overagreeable outputs can mislead. They disliked formats that were harder to synthesize, vague openings, excessive questioning, and repetitive shared decision-making boilerplate. They also wanted flexibility, with the option to switch between a quick summary and deeper evidence review, and showed interest in study visuals if those could be presented well.",
+"tensions_or_tradeoffs": [
+"Need enough evidence to justify the recommendation without overwhelming the user.",
+"Value of ranked evidence tables versus the risk that evidence presentation becomes hard to digest.",
+"Desire for a clear answer versus the reality that some cases have more than one reasonable path.",
+"Usefulness of AI for expanding thinking versus concern that AI may overconfirm an incorrect path.",
+"Need for standardized report quality versus desire for customizable depth and features."
+],
+"open_questions_for_next_interview": [
+"When a report gives more than one reasonable management path, what exact format would make those branches easiest to compare?",
+"What is the minimum set of patient-specific inputs needed before the participant would trust the report enough to use it in a real decision workflow?",
+"How much evidence is enough in the default view before the report starts to feel cluttered?",
+"What kinds of visuals would actually improve speed or trust, and which would feel distracting or low value?",
+"What specific wording makes an opening answer feel clear and clinically actionable rather than vague or overly hedged?"
+]
+}
+}
